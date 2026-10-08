@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-08",
+  "working_paper_sha256": "aede34fb5d16a905f478ece1e58e4f8173de67f9f57a45a2246b433c152da2af",
+  "manuscript_sha256": "c91c840859bf94ff1efd1d2e5aa184be80599a5172458127bf9a6072c1a9e0ac",
+  "preamble_sha256": "771acdeced114717f32a21a89384e9750e43196ded3f355f6b2232fced468508",
+  "pages": 13,
+  "visual_review": {
+    "reviewed_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "status": "passed",
+    "checks": [
+      "legibility",
+      "tables and captions",
+      "figure axes and bands",
+      "page boundaries",
+      "bibliography and links"
+    ]
+  },
+  "reporting_tests": {
+    "passed": 55,
+    "original_private_specific_tests_deselected": 7
+  },
+  "ruff": "passed",
+  "format": "passed",
+  "mypy_new_builder": "passed",
+  "input_checks": {
+    "frozen_inputs_verified": 243,
+    "bibliography_entries": 10,
+    "new_empirical_runs": 0,
+    "accepted_reports_unchanged": true,
+    "pages": 13
+  },
+  "new_empirical_runs": 0,
+  "accepted_reports_unchanged": true,
+  "publication_or_push": false
+}

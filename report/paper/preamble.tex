@@ -1,0 +1,31 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=21mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{lmroman10-regular.otf}[BoldFont=lmroman10-bold.otf,ItalicFont=lmroman10-italic.otf,BoldItalicFont=lmroman10-bolditalic.otf]
+\usepackage{amsmath,amssymb,booktabs,tabularx,array,graphicx,caption,fancyhdr,xcolor}
+\usepackage[authoryear,round]{natbib}
+\usepackage[unicode,colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}
+\usepackage{xurl,microtype}
+\DeclareMathSizes{10}{10}{7}{7}
+\setlength{\parindent}{0pt}\setlength{\parskip}{4pt}
+\setlength{\emergencystretch}{3em}
+\renewcommand{\arraystretch}{1.08}
+\captionsetup{font=footnotesize,labelfont=bf}
+\setcounter{topnumber}{4}\renewcommand{\topfraction}{.95}\renewcommand{\textfraction}{.06}\renewcommand{\floatpagefraction}{.75}
+\setlength{\textfloatsep}{10pt}\setlength{\intextsep}{10pt}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Hakan Zeki Gülmez}\fancyhead[R]{\small SBA 7(a) lending | Working paper}\fancyfoot[C]{\thepage}\setlength{\headheight}{13pt}
+\definecolor{blue}{HTML}{0072B2}
+\newcommand{\losslabel}{EAD = GrossApproval; full-disbursement proxy, CCF = 100\%. LGD is the gross charge-off proxy on the same approval denominator. SBA/lender amounts use assumption-based pro-rata guarantee allocation.}
+\newcommand{\scenario}{Scenario projections on the fixed 2006 portfolio; not out-of-sample validation.}
+\newcommand{\tbl}[2]{\begin{table}[htbp]\centering\input{generated/#1.tex}\caption{#2}\end{table}}
+\newcommand{\datafile}[1]{\href{https://github.com/hakangulmez/credit-risk-sba}{\nolinkurl{#1}}}
+\input{generated/numbers.tex}
+
+\hypersetup{pdftitle={Local economic conditions and public-lender loss sharing in SBA 7(a) lending},pdfauthor={Hakan Zeki Gülmez},pdfsubject={Working paper: temporal calibration and conditional loss-sharing scenarios}}
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@fpsep}{14pt}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
+
+\newcommand{\inlinetbl}[2]{\par\medskip\noindent\begin{minipage}{\linewidth}\centering\input{generated/#1.tex}\captionof{table}{#2}\end{minipage}\par\medskip}

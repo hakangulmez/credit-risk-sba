@@ -20,6 +20,7 @@ sys.path.insert(0, str(ROOT))
 from reporting import checks
 from reporting.registry import OUT
 from scripts.notebook_policy import NOTEBOOK, validate_notebook
+from scripts.working_paper import check as check_paper
 
 
 def digest(path: Path) -> str:
@@ -51,7 +52,12 @@ def validate() -> dict:
     claim_check = checks.verify_claims(ROOT, registry)
     table_check = checks.rendered_check(ROOT)
     page_check = checks.pages(ROOT)
-    for name in ["README.md", "report/g5/policy_note.tex", "report/g5/technical_report.tex"]:
+    for name in [
+        "README.md",
+        "report/g5/policy_note.tex",
+        "report/g5/technical_report.tex",
+        "report/paper/working_paper.tex",
+    ]:
         bad = checks.unsupported_claims((ROOT / name).read_text())
         if bad:
             raise ValueError(f"Unsupported affirmative claims in {name}: {bad}")
@@ -89,6 +95,7 @@ def validate() -> dict:
         "rendered": table_check,
         "pages": page_check,
         "notebook": validate_notebook(ROOT / NOTEBOOK),
+        "working_paper": check_paper(ROOT),
         "credential_pattern_scan": "passed",
         "private_data_or_models_distributed": False,
         "new_empirical_runs": 0,

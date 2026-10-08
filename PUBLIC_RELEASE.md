@@ -20,6 +20,8 @@ The README now introduces the accepted study directly; its previous source/desig
 
 ## Reproduce presentation from frozen aggregates
 
+The separate [working paper](report/working_paper.pdf) expands the economic motivation, literature and discussion using the same frozen estimates. Its [scope and reproduction notes](docs/WORKING_PAPER_2026-10-08.md) distinguish editorial additions from empirical evidence. `make paper` compiles offline under ignored `data/working-paper-build/`; `make paper-check` verifies its fixed inputs and page limit. The accepted policy and technical report PDFs are unchanged. The notebook-stage distribution manifest and its README/Makefile are retained under `docs/releases/`.
+
 Use Python 3.11 and `uv sync --frozen --python 3.11`. Then run:
 
 ```sh
@@ -27,7 +29,7 @@ make report-check REPORT_PYTHON=.venv/bin/python
 make report-test REPORT_PYTHON=.venv/bin/python
 ```
 
-`report-check` verifies the release-file hashes, 4,578 registered claim cells including five permitted derived claims, saved table provenance, report page counts, current affirmative-claim checks and notebook read-only scope/execution outputs. It requires Poppler's `pdfinfo`. It does not claim to verify undistributed private files.
+`report-check` verifies the release-file hashes, 4,578 registered claim cells including five permitted derived claims, saved table provenance, report page counts, current affirmative-claim checks, notebook read-only scope/execution outputs and working-paper input hashes. It requires Poppler's `pdfinfo`. It does not claim to verify undistributed private files.
 
 `report-test` selects the portable, non-fitting G5 reporting regression checks and notebook scope regression checks. Seven original tests are intentionally excluded because they require private preservation inventories, undistributed correction archives or CV/social drafts, the original Makefile, or a machine-specific cached TeX installation. The original 50-test G5 result remains historical evidence, not the public-subset count. Synthetic research tests are supplied as source and are not invoked by these reporting commands.
 

@@ -1,7 +1,7 @@
 {
   "release_date": "2026-10-08",
-  "revision": "working-paper",
-  "previous_public_commit": "3c7486869268eb05fe7fc8ec038b66e71ee56d53",
+  "revision": "executed-results-notebook",
+  "previous_public_commit": "d4b169163e91c38c886ad92068e37766957ce3ea",
   "previous_release": "v2026.10.08",
   "public_repository": "https://github.com/hakangulmez/credit-risk-sba",
   "source_commit": "40c7c5ec9e3386dcf1ebfafcb5335da0e4e6b179",
@@ -52,19 +52,19 @@
       "source_bytes_identical": true
     },
     "Makefile": {
-      "sha256": "45711828c446fc544c1993ded11a69955325ce8f773c88453153e1b64bf735b1",
-      "bytes": 924,
+      "sha256": "ab8966220571262fdc70712265db432296faf412d171dfc853ee368a169a974a",
+      "bytes": 760,
       "source_sha256": "02f7794ba301d2cb111e68138e365d3d5cb6955962f6992d68ca0ab50d1a6f4b",
       "source_bytes_identical": false
     },
     "PUBLIC_RELEASE.md": {
-      "sha256": "feab22867ec8b59b7d59c3590d0ca1dcfa521695883a109b4d988ae66c971762",
-      "bytes": 6580,
+      "sha256": "d7f99255b87c55ae83204f2f5c0af4b407d4bbd1674ae2ee4489622aa9ead771",
+      "bytes": 5981,
       "role": "public release metadata, notebook or tooling"
     },
     "README.md": {
-      "sha256": "73ecc71ad00745428d99bd63e90d718884ffd22745839467d6d0d93c82559359",
-      "bytes": 7144,
+      "sha256": "9c408bbd048cddde958a667083a798a9d579883a951889f5490a8c56b69fa3a0",
+      "bytes": 6567,
       "source_sha256": "fa24ff5d95b7cb780f1544006c65450de877e5439259111ee3c0472299bad8e7",
       "source_bytes_identical": false
     },
@@ -1593,8 +1593,8 @@
       "role": "public release metadata, notebook or tooling"
     },
     "scripts/public_release.py": {
-      "sha256": "cad75797a521b54fe4ec3a948fdb625376b36312cb93e06c3fb0958eb3056e6f",
-      "bytes": 5754,
+      "sha256": "c4fdde9981f0afe17df30be92fc85b4b081c7cae28ec3ad343a0766df19951a3",
+      "bytes": 5582,
       "role": "public release metadata, notebook or tooling"
     },
     "src/credit_risk_sba/__init__.py": {
@@ -1811,73 +1811,7 @@
       "bytes": 246074,
       "source_sha256": "08e07df3869614a97177431572aeec58e4166504eebddadcb159b75f0771f2b3",
       "source_bytes_identical": false
-    },
-    "docs/WORKING_PAPER_2026-10-08.md": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "2da7e441900beeb4c800ac2ea9c2244b12c9f4db2eea4f7431eed723fb4e18e8",
-      "bytes": 5320
-    },
-    "docs/WORKING_PAPER_COMPLETION_2026-10-08.md": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "ec94ab63074cfa03fda610bdac8d53b9272c46468c0509b514d057c765a5ee7e",
-      "bytes": 2766
-    },
-    "docs/releases/notebook_snapshot_2026-10-08_manifest.json": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "3451bf6c7cb77b7eb90841f8d2647c3485496985207c18988ee2a0347f7c27e4",
-      "bytes": 87525
-    },
-    "docs/releases/pre-paper-2026-10-08/Makefile": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "ab8966220571262fdc70712265db432296faf412d171dfc853ee368a169a974a",
-      "bytes": 760
-    },
-    "docs/releases/pre-paper-2026-10-08/README.md": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "9c408bbd048cddde958a667083a798a9d579883a951889f5490a8c56b69fa3a0",
-      "bytes": 6567
-    },
-    "report/paper/preamble.tex": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "771acdeced114717f32a21a89384e9750e43196ded3f355f6b2232fced468508",
-      "bytes": 2121
-    },
-    "report/paper/provenance.json": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "abd75ea3fd141b64f13bc664d1c57b6eb6f68046657d6d7f8447b54bbe59ca1c",
-      "bytes": 30945
-    },
-    "report/paper/references_verified.json": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "a6917e756d78181b654843a58052d7bdf646fa39ae42fcfe5746bdeb3fcdc0d5",
-      "bytes": 2836
-    },
-    "report/paper/validation.json": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "54d84987ea117fc96df8d8b7f5b4f9abdd78c10a5b89c20d775e418020c566ef",
-      "bytes": 1121
-    },
-    "report/paper/working_paper.tex": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "c91c840859bf94ff1efd1d2e5aa184be80599a5172458127bf9a6072c1a9e0ac",
-      "bytes": 39329
-    },
-    "report/working_paper.pdf": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "aede34fb5d16a905f478ece1e58e4f8173de67f9f57a45a2246b433c152da2af",
-      "bytes": 136799
-    },
-    "scripts/working_paper.py": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "7b78d6f6ff39a49cc1b8c06f62645af597c0b8612de21548ecb2d4387c42c9d5",
-      "bytes": 4439
-    },
-    "tests/test_working_paper.py": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "ddde76968dca51c00055e23076f57b7334a4dab0682e814690a1cdd506971abe",
-      "bytes": 2264
     }
   },
-  "self_hash_omitted": true,
-  "prior_revision_manifest": "docs/releases/notebook_snapshot_2026-10-08_manifest.json"
+  "self_hash_omitted": true
 }

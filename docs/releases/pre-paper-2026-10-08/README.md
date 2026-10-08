@@ -43,16 +43,12 @@ make notebook-check REPORT_PYTHON=.venv/bin/python
 
 ## Read and reproduce
 
-[Working paper](report/working_paper.pdf) · [Two-page policy note](report/policy_note.pdf) · [Technical report](report/technical_report.pdf) · [Claims/provenance](CLAIMS.md)
-
-The working paper develops the economic motivation, related literature and interpretation of the reviewed results. It uses the same frozen estimates as the technical report, with no new fitting or specification search. [Manuscript, references and reproduction](docs/WORKING_PAPER_2026-10-08.md) document its scope; the accepted policy note and technical report are retained unchanged.
+[Two-page policy note](report/policy_note.pdf) · [Technical report](report/technical_report.pdf) · [Claims/provenance](CLAIMS.md)
 
 ```sh
 make report        # rebuild in an isolated directory; no fitting
 make report-test   # reporting tests; no fitting
 make report-check  # public-file hashes, claims and report checks
-make paper        # rebuild the working paper in an isolated directory; no fitting
-make paper-check  # check manuscript inputs and interpretation
 ```
 
 Python 3.11 and the locked environment in `uv.lock` are required. Use `uv sync --frozen --python 3.11`, then `make report-check REPORT_PYTHON=.venv/bin/python` and `make report-test REPORT_PYTHON=.venv/bin/python`. PDF rebuilding additionally requires Poppler (`pdfinfo`) and Tectonic with cached TeX packages; set `TECTONIC` to its executable. Rebuilds are offline and write only under ignored `data/public-report-rebuild/`. No raw loans, private predictions or fitted models are needed. [Public release and reproduction](PUBLIC_RELEASE.md) explains the exported snapshot and validation scope; the original [G5 build notes](docs/G5_REPRODUCTION.md) remain dated evidence.

@@ -1,0 +1,79 @@
+{
+  "verified_date": "2026-10-08",
+  "verification_scope": "Publisher/author abstracts and bibliographic metadata; no empirical source refresh. Existing references retain the accepted source audit.",
+  "existing_reference_audit": "results/g5-2026-10-08/references_verified.json",
+  "new_references": [
+    {
+      "key": "bachas2021",
+      "authors": [
+        "Natalie Bachas",
+        "Olivia Kim",
+        "Constantine Yannelis"
+      ],
+      "year": 2021,
+      "title": "Loan guarantees and credit supply",
+      "journal": "Journal of Financial Economics",
+      "volume": "139",
+      "issue": "3",
+      "pages": "872–894",
+      "doi": "10.1016/j.jfineco.2020.08.008",
+      "checked_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0304405X20302361",
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3367958"
+      ],
+      "support": "Guarantee-schedule notches identify credit-supply responses, unlike the current allocation accounting. No external numerical result used."
+    },
+    {
+      "key": "vancalster2019",
+      "authors": [
+        "Ben Van Calster",
+        "David J. McLernon",
+        "Maarten van Smeden",
+        "Laure Wynants",
+        "Ewout W. Steyerberg"
+      ],
+      "year": 2019,
+      "title": "Calibration: the Achilles heel of predictive analytics",
+      "journal": "BMC Medicine",
+      "volume": "17",
+      "article": "230",
+      "doi": "10.1186/s12916-019-1466-7",
+      "checked_urls": [
+        "https://link.springer.com/article/10.1186/s12916-019-1466-7"
+      ],
+      "support": "Discrimination differs from calibration; aggregate agreement does not establish group accuracy. Clinical setting is explicit."
+    },
+    {
+      "key": "puhr2017",
+      "authors": [
+        "Rainer Puhr",
+        "Georg Heinze",
+        "Mariana Nold",
+        "Lara Lusa",
+        "Angelika Geroldinger"
+      ],
+      "year": 2017,
+      "title": "Firth's logistic regression with rare events: accurate effect estimates and predictions?",
+      "journal": "Statistics in Medicine",
+      "volume": "36",
+      "issue": "14",
+      "pages": "2302–2317",
+      "doi": "10.1002/sim.7273",
+      "checked_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/sim.7273"
+      ],
+      "support": "Coefficient bias reduction does not imply unbiased probability predictions. Does not identify the cause of this study's cohort errors."
+    },
+    {
+      "key": "bcbs2018",
+      "author": "Basel Committee on Banking Supervision",
+      "year": 2018,
+      "title": "Stress testing principles",
+      "publisher": "Bank for International Settlements",
+      "checked_urls": [
+        "https://www.bis.org/bcbs/publ/d450.htm"
+      ],
+      "support": "Clear objectives, methodology and documentation. Conceptual context only, no compliance claim."
+    }
+  ]
+}
