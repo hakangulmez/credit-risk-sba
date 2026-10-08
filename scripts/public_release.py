@@ -19,6 +19,7 @@ sys.path.insert(0, str(ROOT))
 
 from reporting import checks
 from reporting.registry import OUT
+from scripts.notebook_policy import NOTEBOOK, validate_notebook
 
 
 def digest(path: Path) -> str:
@@ -36,9 +37,13 @@ def validate() -> dict:
         if digest(path) != item["sha256"]:
             raise ValueError(f"Public release hash mismatch: {name}")
         parts = Path(name).parts
-        if parts[0] in {"data", "models", ".venv", "notebooks", "versions"}:
+        if parts[0] in {"data", "models", ".venv", "versions"}:
             raise ValueError(f"Undistributed directory included: {name}")
-        if path.suffix in {".joblib", ".pkl", ".pickle", ".parquet", ".ipynb"}:
+        if parts[0] == "notebooks" and name != NOTEBOOK:
+            raise ValueError(f"Notebook not on the public allowlist: {name}")
+        if path.suffix in {".joblib", ".pkl", ".pickle", ".parquet"} or (
+            path.suffix == ".ipynb" and name != NOTEBOOK
+        ):
             raise ValueError(f"Private artifact included: {name}")
         if path.name.startswith(".env"):
             raise ValueError(f"Credential file included: {name}")
@@ -83,6 +88,7 @@ def validate() -> dict:
         "claims": claim_check,
         "rendered": table_check,
         "pages": page_check,
+        "notebook": validate_notebook(ROOT / NOTEBOOK),
         "credential_pattern_scan": "passed",
         "private_data_or_models_distributed": False,
         "new_empirical_runs": 0,

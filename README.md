@@ -12,15 +12,34 @@ How do recorded charge-off risk and assumption-based loss sharing vary across co
 
 ## Method
 
-We estimate Term-free Firth logistic scorecards for recorded charge-off within 36 months of first disbursement. Layer 1 reconstructs approval descriptors from a snapshot; Layer 2 adds future realized or stipulated state unemployment and house-price paths and is a conditional exercise. ElasticNet/LightGBM benchmark tuning occurred on 2003H1 in G2, and the selected settings and boosting rounds were inherited unchanged by G2-bis; benchmark calibration uses separate cohorts. Training-state multiplier refits and fitted-model conditional evaluation bands measure different uncertainty components.
+We estimate Term-free Firth logistic scorecards for recorded charge-off within 36 months of first disbursement. Layer 1 reconstructs approval descriptors from a snapshot; Layer 2 adds future realized or stipulated state unemployment and house-price paths and is a conditional exercise. ElasticNet/LightGBM benchmark settings were selected on 2003H1 and then held fixed; benchmark calibration uses separate cohorts. Training-state multiplier refits and fitted-model conditional evaluation bands measure different uncertainty components.
 
 ## Data and chronology
 
 Official SBA 7(a) FOIA, snapshot 30 June 2026, plus direct BLS LAUS and FHFA all-transactions state HPI. No FRED observations; see [DATA.md](DATA.md) for source terms and frozen hashes. This product uses FHFA data but is neither endorsed nor certified by FHFA.
 
-Layer 1: fit 1991–2002; tune 2003H1 in G2; calibrate benchmarks 2003H2; evaluate 2007–2009 and 2011–2013. Layer 2: fit 1991–2009; calibrate LightGBM on 2010; check 2013–2014. **Retrospective conditional validation using realized macro paths.** Calibration labels extend to end-2013; the 2013 cohort was seen previously. The fixed 2006 scenario portfolio enters Layer 2 estimation.
+Layer 1: fit 1991–2002; tune 2003H1; calibrate benchmarks 2003H2; evaluate 2007–2009 and 2011–2013. Layer 2: fit 1991–2009; calibrate LightGBM on 2010; check 2013–2014. **Retrospective conditional validation using realized macro paths.** Calibration labels extend to end-2013; the 2013 cohort was seen previously. The fixed 2006 scenario portfolio enters Layer 2 estimation.
 
-The G2-bis protocol was frozen after the G2 results had been seen and before any G2-bis model was estimated. Deviations are logged in DECISIONS.md.
+The current Firth specification was fixed after the initial ordinary-logit failures and calibration results had been inspected, and before the Firth fits were estimated. This is a post-results design amendment. [Method history](docs/METHOD_HISTORY.md) and [dated decisions](DECISIONS.md) preserve the chronology.
+
+## Explore the complete results
+
+[**Open the research walkthrough notebook**](notebooks/research_walkthrough.ipynb)
+
+The notebook runs from top to bottom using published aggregate files. It follows source selection, sample construction, model design, temporal validation, calibration, macro associations, stress PD/loss allocation, sensitivity analyses and diagnostics. Tables and figures are already rendered for reading on GitHub. A result catalogue gives access to every saved CSV, with named variables for the full coefficient, subgroup and diagnostic tables.
+
+No raw loan downloads or model fits are needed. The private re-estimation guide is disabled by default and explains the additional frozen inputs and separate workspace required.
+
+```sh
+uv sync --frozen --group notebook --python 3.11
+uv run --group notebook jupyter lab notebooks/research_walkthrough.ipynb
+```
+
+For a non-interactive execution check:
+
+```sh
+make notebook-check REPORT_PYTHON=.venv/bin/python
+```
 
 ## Read and reproduce
 
@@ -34,10 +53,6 @@ make report-check  # public-file hashes, claims and report checks
 
 Python 3.11 and the locked environment in `uv.lock` are required. Use `uv sync --frozen --python 3.11`, then `make report-check REPORT_PYTHON=.venv/bin/python` and `make report-test REPORT_PYTHON=.venv/bin/python`. PDF rebuilding additionally requires Poppler (`pdfinfo`) and Tectonic with cached TeX packages; set `TECTONIC` to its executable. Rebuilds are offline and write only under ignored `data/public-report-rebuild/`. No raw loans, private predictions or fitted models are needed. [Public release and reproduction](PUBLIC_RELEASE.md) explains the exported snapshot and validation scope; the original [G5 build notes](docs/G5_REPRODUCTION.md) remain dated evidence.
 
-## What changed from v1
-
-The resolved-loans extract was replaced by official FOIA status coverage because selection on final loan outcome cannot be repaired with an age filter. The analysis defines complete calendar-month charge-off windows, uses separate temporal roles, excludes reported Term from primary specifications and distinguishes prediction from future-path conditioning. Failed ordinary logit fits led to an explicitly post-results protocol amendment and Firth estimation. These are joint changes in source, estimand and design; legacy and current metrics are not like-for-like performance comparisons. The original Git history, `v1-original` tag, superseded reports and full local research archive are retained outside this public snapshot. Dated G2 and G2-bis aggregate results and protocol versions are included here.
-
 ## Limitations and future work
 
 - Administrative charge-off and mature EXEMPT classification do not measure delinquency or verify performance; the sample excludes rejected applicants.
@@ -46,8 +61,8 @@ The resolved-loans extract was replaced by official FOIA status coverage because
 - EAD = GrossApproval; full-disbursement proxy, CCF = 100%. LGD is the gross charge-off proxy on the same approval denominator. SBA/lender amounts use assumption-based pro-rata guarantee allocation. Recoveries, amortization, actual payouts and loss-assumption uncertainty are absent; CCF 100% does not make the combined EL necessarily conservative.
 - Independent-state/successful-draw conditioning and univariate support checks leave broader dependence and joint path plausibility unresolved. Future rolling-origin recalibration, block Shapley accounting, competing risks or separately authorized policy design require new protocols; none is executed here.
 
-## Release and source rights
+## Sources and reproducibility
 
-Public snapshot: 8 October 2026, based on accepted local research/reporting commit `40c7c5ec9e3386dcf1ebfafcb5335da0e4e6b179`. Publication was authorized after G5 review. This repository includes research code, frozen aggregate results and the accepted reports; it excludes borrower-level data, fitted models, private predictions, legacy scorecard assets and CV/social drafts. The original local archive remains authoritative for full history. Dated gate documents retain their historical execution restrictions. Layers 3–4 remain future work. Source rights and required attribution are in DATA.md; no source datasets are redistributed. See [release manifest](PUBLIC_RELEASE_MANIFEST.json).
+The reports and saved estimates form the reviewed 8 October 2026 research snapshot. This repository distributes research code, fixed specifications, aggregate results and a results walkthrough. Borrower-level data, fitted models, private predictions and credentials are excluded. Report and notebook commands reproduce presentation from frozen aggregates; full empirical re-estimation requires the separately retained input vintages and model checkpoints. [Reproduction scope](PUBLIC_RELEASE.md), [source rights](DATA.md) and the [file manifest](PUBLIC_RELEASE_MANIFEST.json) give the details.
 
 Hakan Zeki Gülmez · M.Sc. Management & Technology (Economics & Econometrics), Technical University of Munich · [GitHub](https://github.com/hakangulmez) · [LinkedIn](https://www.linkedin.com/in/hakan-zeki-g%C3%BClmez-088700180/)

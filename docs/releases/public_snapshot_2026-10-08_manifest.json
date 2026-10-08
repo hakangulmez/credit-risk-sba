@@ -1,11 +1,9 @@
 {
   "release_date": "2026-10-08",
-  "revision": "executed-results-notebook",
-  "previous_public_commit": "d4b169163e91c38c886ad92068e37766957ce3ea",
-  "previous_release": "v2026.10.08",
   "public_repository": "https://github.com/hakangulmez/credit-risk-sba",
   "source_commit": "40c7c5ec9e3386dcf1ebfafcb5335da0e4e6b179",
   "empirical_release": "8f7343584d55a14f8cae47c3e9fded3ed56503d4",
+  "fresh_git_history": true,
   "source_repository_retained_locally": true,
   "private_data_distributed": false,
   "model_artifacts_distributed": false,
@@ -14,7 +12,7 @@
     ".github/workflows/public-checks.yml": {
       "sha256": "650134afe92eb7e64869d7166a8150b7d8dc59e8092034e7caa73ef7566454a5",
       "bytes": 485,
-      "role": "public release metadata, notebook or tooling"
+      "role": "public release tooling or metadata"
     },
     ".gitignore": {
       "sha256": "c03d5d2361dfbc02ac4a3b733e50ab6366fbb62111ee688c559710d984903624",
@@ -31,7 +29,7 @@
     "CITATION.cff": {
       "sha256": "1637aaf19d00d0a1633f772345ec455502c087b37152470cb1249cf74308cea6",
       "bytes": 667,
-      "role": "public release metadata, notebook or tooling"
+      "role": "public release tooling or metadata"
     },
     "CLAIMS.md": {
       "sha256": "6714658d5fa465cbc1f7c5942eb9b725a557a14961ef2cc412f82f0798d649a7",
@@ -52,19 +50,19 @@
       "source_bytes_identical": true
     },
     "Makefile": {
-      "sha256": "ab8966220571262fdc70712265db432296faf412d171dfc853ee368a169a974a",
-      "bytes": 760,
+      "sha256": "ec3aa64ca57aa35afe4e930363eddb504301fe552b3e6b5328b39b6226afa1e5",
+      "bytes": 653,
       "source_sha256": "02f7794ba301d2cb111e68138e365d3d5cb6955962f6992d68ca0ab50d1a6f4b",
       "source_bytes_identical": false
     },
     "PUBLIC_RELEASE.md": {
-      "sha256": "d7f99255b87c55ae83204f2f5c0af4b407d4bbd1674ae2ee4489622aa9ead771",
-      "bytes": 5981,
-      "role": "public release metadata, notebook or tooling"
+      "sha256": "0eb2f0546c09825acc9ab9919261d45a71a780cb9ee38caac2891b3ca15a8ec6",
+      "bytes": 4251,
+      "role": "public release tooling or metadata"
     },
     "README.md": {
-      "sha256": "9c408bbd048cddde958a667083a798a9d579883a951889f5490a8c56b69fa3a0",
-      "bytes": 6567,
+      "sha256": "ff3d4ce14dfa983028d9d8fe2398dd2438d2b94596ff6a8a198067029718663e",
+      "bytes": 6422,
       "source_sha256": "fa24ff5d95b7cb780f1544006c65450de877e5439259111ee3c0472299bad8e7",
       "source_bytes_identical": false
     },
@@ -134,11 +132,6 @@
       "source_sha256": "cd06d39933a6ebed5e919b0a869f45ae38961c6689bbca61a55c139e28de2d50",
       "source_bytes_identical": true
     },
-    "docs/METHOD_HISTORY.md": {
-      "sha256": "011db2576ca6d14ca7db86638c0a650cabf6626796ad892fb63ba993dd1a0da2",
-      "bytes": 1643,
-      "role": "public release metadata, notebook or tooling"
-    },
     "docs/PROTOCOL.md": {
       "sha256": "dd647321a9b22dce4740b75ba680a7ba3f2d8991bf898c48985056446396a265",
       "bytes": 11279,
@@ -186,11 +179,6 @@
       "bytes": 8734,
       "source_sha256": "c315af75108658061c3b7174693aab94cf61fc713e073a542b8ea4b0cad36a65",
       "source_bytes_identical": true
-    },
-    "docs/releases/public_snapshot_2026-10-08_manifest.json": {
-      "sha256": "46caf8f5c8ea1f233a341d31c689880dcbbc58aac49605414f3179d2c1592779",
-      "bytes": 85855,
-      "role": "public release metadata, notebook or tooling"
     },
     "docs/versions/DATA_G1_2026-10-08.md": {
       "sha256": "7ca13eb4acd192c8338d7eba27ea3836cc1d63810c65bd870645d206a8e3719e",
@@ -246,16 +234,11 @@
       "source_sha256": "c8e07750d919d371d22393fbd18e65a9ce1cc3566a8e710367284f20b11617ac",
       "source_bytes_identical": true
     },
-    "notebooks/research_walkthrough.ipynb": {
-      "sha256": "6972f07d1fce2145571d990acdde49f6a87f850f9da85c1cdc550815382589ff",
-      "bytes": 1152735,
-      "role": "public release metadata, notebook or tooling"
-    },
     "pyproject.toml": {
-      "sha256": "97d8f22f1b81297ec51cbe2c1e1cb4723ab3cb40d0a275f5f1dcbc5921bfa268",
-      "bytes": 1177,
+      "sha256": "900c70ef3d6bd44cfd61fc7cdcceccb845a91d0ce0075f1ee77c766fa11d19d6",
+      "bytes": 1040,
       "source_sha256": "900c70ef3d6bd44cfd61fc7cdcceccb845a91d0ce0075f1ee77c766fa11d19d6",
-      "source_bytes_identical": false
+      "source_bytes_identical": true
     },
     "report/g5/generated/bins_1.tex": {
       "sha256": "67a81344714369c3c6579c230587a97b4e968366bbea095f7d8619b0e275738f",
@@ -1559,16 +1542,6 @@
       "source_sha256": "28719aea38dfecd4a052c1e39fe8c9a44ccdae92d8177eace5c1a3f68722614e",
       "source_bytes_identical": true
     },
-    "scripts/build_notebook.py": {
-      "sha256": "322bfe6a48b2e70092f694b3ed2afd0b503668d93e9eb87df45eb60b71a6fbe4",
-      "bytes": 31302,
-      "role": "public release metadata, notebook or tooling"
-    },
-    "scripts/execute_notebook.py": {
-      "sha256": "f1212148d6476701d5d43c0506b16d863b193f8e80dc48b6d192beaac22bee06",
-      "bytes": 2784,
-      "role": "public release metadata, notebook or tooling"
-    },
     "scripts/g2_bis/software_checks.py": {
       "sha256": "e38002b043614682366d3deb374bb1de5c486dacebe49f36cde7b9f4aff442fa",
       "bytes": 2521,
@@ -1587,15 +1560,10 @@
       "source_sha256": "794875a6e75e6049300f4ad68f5181b7ebeb7c3e9d51ee185a3a2408d2b6add4",
       "source_bytes_identical": true
     },
-    "scripts/notebook_policy.py": {
-      "sha256": "b53706c38995d70b74161ae5c9fa477c2e29dbb828a055540c4d1f1e0167d36a",
-      "bytes": 3853,
-      "role": "public release metadata, notebook or tooling"
-    },
     "scripts/public_release.py": {
-      "sha256": "c4fdde9981f0afe17df30be92fc85b4b081c7cae28ec3ad343a0766df19951a3",
-      "bytes": 5582,
-      "role": "public release metadata, notebook or tooling"
+      "sha256": "ab851adad81160fab988a67978967460115d4a9dfb9999b8f9f108452de00bb6",
+      "bytes": 5278,
+      "role": "public release tooling or metadata"
     },
     "src/credit_risk_sba/__init__.py": {
       "sha256": "291010d9a97407fc6bd01721f88edf56355b248d1cd9ff707ddb2d916f881533",
@@ -1801,16 +1769,11 @@
       "source_sha256": "e6683f322e4c65c3efae77193b4c986ba609405543e46f6ab1733d10bc610214",
       "source_bytes_identical": true
     },
-    "tests/test_public_notebook.py": {
-      "sha256": "c1b2e742754de936075560e59a8a4cdfa5d3121402f9e415eaefb629c48ca211",
-      "bytes": 2068,
-      "role": "public release metadata, notebook or tooling"
-    },
     "uv.lock": {
-      "sha256": "e8ec959f5b110f8c48f66a81481ea82ad2afba76d3937dd3127d0aadc402a53a",
-      "bytes": 246074,
+      "sha256": "08e07df3869614a97177431572aeec58e4166504eebddadcb159b75f0771f2b3",
+      "bytes": 148315,
       "source_sha256": "08e07df3869614a97177431572aeec58e4166504eebddadcb159b75f0771f2b3",
-      "source_bytes_identical": false
+      "source_bytes_identical": true
     }
   },
   "self_hash_omitted": true
