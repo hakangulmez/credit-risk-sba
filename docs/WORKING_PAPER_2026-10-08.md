@@ -50,3 +50,8 @@ The manuscript may be circulated as a working paper with its stated limitations.
 ## Subsequent technical-report presentation correction — 9 October 2026
 
 The statement above about byte-identical reports describes the working-paper basis on 8 October. The technical report's current presentation was edited on 9 October to remove obsolete repository/draft wording and the teaching-extract comparison. The original technical PDF and sources remain byte-identical under `docs/releases/technical-report-before-editorial-2026-10-09/`. `report/paper/provenance.json` points to those archived inputs so the working paper's original basis remains fixed. Its manuscript, PDF, tables, numerical inputs and estimates are unchanged.
+
+
+## Local editorial revision — 9 October 2026
+
+Current report sources use plain stage names and the disclosed post-results chronology. The added calibration paragraphs reuse saved cells and intervals from calibration_deciles.csv, recorded in CLAIMS.md and report/editorial/calibration_prose_claims.json. The original input ledger is unchanged; authorized replaced presentation inputs are verified in the dated pre-editorial archive. No estimates, bins or statistical tests were recomputed. The current working-paper limit is 14 pages. Publication and Drive delivery of this revision await approval.

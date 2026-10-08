@@ -19,7 +19,7 @@ import numpy as np
 
 from .registry import BASE, LOSS, OUT, ROOT, SCENARIO, Registry, digest, rows
 
-HISTORY = "The G2-bis protocol was frozen after the G2 results had been seen and before any G2-bis model was estimated. Deviations are logged in DECISIONS.md."
+HISTORY = "The final estimation protocol was frozen after first-round results had been seen and before any final-round model was estimated. Deviations are logged in DECISIONS.md."
 COLORS = {
     "blue": "#0072B2",
     "orange": "#E69F00",
@@ -601,7 +601,7 @@ def graphics(r: Registry) -> None:
         "Layer 1 descriptors are reconstructed from a snapshot; feature vintages remain unverified. "
         + SCENARIO
         + ".\n"
-        + LOSS
+        + "Assumption-based loss proxies; see the technical report, Section 6."
         + "\nRaw Firth calibration error can affect levels, differences and ratios. Bands exclude LGD/path/vintage uncertainty."
     )
     fig.text(0.04, 0.02, "\n".join(textwrap.wrap(caption, 150)), fontsize=8, va="bottom")

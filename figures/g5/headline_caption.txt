@@ -1,3 +1,3 @@
 Layer 1 descriptors are reconstructed from a snapshot; feature vintages remain unverified. Scenario projections on the fixed 2006 portfolio; not out-of-sample validation.
-EAD = GrossApproval; full-disbursement proxy, CCF = 100%. LGD is the gross charge-off proxy on the same approval denominator. SBA/lender amounts use assumption-based pro-rata guarantee allocation.
+Assumption-based loss proxies; see the technical report, Section 6.
 Raw Firth calibration error can affect levels, differences and ratios. Bands exclude LGD/path/vintage uncertainty.

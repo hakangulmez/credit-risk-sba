@@ -1,0 +1,518 @@
+{
+  "date": "2026-10-09",
+  "registry_path": "results/g5-2026-10-08/claims_registry.json",
+  "registry_unchanged": true,
+  "new_estimates": false,
+  "records": [
+    {
+      "macro": "CrisisGroupOnePred",
+      "id": "N9044d0d913ef84",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer1",
+        "model": "firth_raw",
+        "cohort": "crisis_2007_2009",
+        "bin": "1"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "0.70"
+    },
+    {
+      "macro": "CrisisGroupOneRecorded",
+      "id": "N1d1baf054f7f2f",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer1",
+        "model": "firth_raw",
+        "cohort": "crisis_2007_2009",
+        "bin": "1"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "5.22"
+    },
+    {
+      "macro": "CrisisGroupNinePred",
+      "id": "Nfece26f5c2f5d2",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer1",
+        "model": "firth_raw",
+        "cohort": "crisis_2007_2009",
+        "bin": "9"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "6.02"
+    },
+    {
+      "macro": "CrisisGroupNineRecorded",
+      "id": "Naacd5357c61b4b",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer1",
+        "model": "firth_raw",
+        "cohort": "crisis_2007_2009",
+        "bin": "9"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "16.72"
+    },
+    {
+      "macro": "CrisisGroupTenPred",
+      "id": "N5c4e9b68430987",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer1",
+        "model": "firth_raw",
+        "cohort": "crisis_2007_2009",
+        "bin": "10"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "13.16"
+    },
+    {
+      "macro": "CrisisGroupTenRecorded",
+      "id": "Nf23b0857a0e39d",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer1",
+        "model": "firth_raw",
+        "cohort": "crisis_2007_2009",
+        "bin": "10"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "16.42"
+    },
+    {
+      "macro": "TreeGroupNinePred",
+      "id": "N7431e90143bb60",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "9"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "6.42"
+    },
+    {
+      "macro": "TreeGroupNineRecorded",
+      "id": "Nd9d972b86d8e80",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "9"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "3.49"
+    },
+    {
+      "macro": "TreeGroupTenPred",
+      "id": "N08df4340e58445",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "10"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "10.17"
+    },
+    {
+      "macro": "TreeGroupTenRecorded",
+      "id": "N972696014ba9f9",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "10"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "5.81"
+    },
+    {
+      "macro": "TreeGroupTenN",
+      "id": "Na0278d31b91525",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "10"
+      },
+      "column": "n",
+      "scale": 1,
+      "digits": 0,
+      "integer": true,
+      "display": "155"
+    },
+    {
+      "macro": "TreeGroupTenLower",
+      "id": "Nb99cd58f8c10b7",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "10"
+      },
+      "column": "lower",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "2.41"
+    },
+    {
+      "macro": "TreeGroupTenUpper",
+      "id": "Nd736db9631b846",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "10"
+      },
+      "column": "upper",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "11.87"
+    },
+    {
+      "macro": "CrisisDiagnosticSlope",
+      "id": "N3e3a57a63c1964",
+      "source_path": "results/g2-bis-2026-10-08/evaluation_metrics.csv",
+      "source_sha256": "771258c239ab6adc03dd9fae30c30e9669bed414b8080528fb83e40bea86d733",
+      "selector": {
+        "variant": "layer1",
+        "model": "firth_raw",
+        "cohort": "crisis_2007_2009",
+        "metric": "calibration_slope"
+      },
+      "column": "value",
+      "scale": 1,
+      "digits": 3,
+      "integer": false,
+      "display": "0.314"
+    },
+    {
+      "id": "Nbcae5418525e00",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "1"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "0.30",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "Nfbe07b09f73e3b",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "1"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "0.32",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "N351bbaa8968226",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "2"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "0.69",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "N0019ee78003e00",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "2"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "0.80",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "Nf703e92f50a562",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "3"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "1.04",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "N453d01fe6ec6cc",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "3"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "1.08",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "N3f743ada3fc552",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "4"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "1.44",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "Ncf1daa760bb949",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "4"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "1.52",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "N5b9914e8b969cc",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "5"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "1.92",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "Nf3ee788c0b9dd8",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "5"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "1.94",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "N7b32efe9a25e8d",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "6"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "2.52",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "N1dafe83bdf0c60",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "6"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "2.42",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "Ne41d35496a0926",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "7"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "3.30",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "Nf2948c9dd6c88e",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "7"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "3.28",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "N603ea7ffafa2ad",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "8"
+      },
+      "column": "predicted_pd",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "4.39",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    },
+    {
+      "id": "N138eac49305df0",
+      "source_path": "results/g2-bis-2026-10-08/calibration_deciles.csv",
+      "source_sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "selector": {
+        "variant": "layer2",
+        "model": "lightgbm_calibrated",
+        "cohort": "post_amendment_validation_2013_2014",
+        "bin": "8"
+      },
+      "column": "recorded_rate",
+      "scale": 100,
+      "digits": 2,
+      "integer": false,
+      "display": "4.30",
+      "interpretation": "Descriptive groups 1\u20138; no difference test or equivalence threshold."
+    }
+  ]
+}

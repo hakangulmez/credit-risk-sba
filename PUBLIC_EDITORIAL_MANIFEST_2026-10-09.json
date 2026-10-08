@@ -1,0 +1,1798 @@
+{
+  "date": "2026-10-09",
+  "revision": "status-stage-calibration-prose-editorial",
+  "previous_public_commit": "57f2b2cfc8038aadfa1cdde988336587548b8e55",
+  "previous_distribution_manifest_retained": "PUBLIC_RELEASE_MANIFEST.json",
+  "public_repository": "https://github.com/hakangulmez/credit-risk-sba",
+  "empirical_release": "8f7343584d55a14f8cae47c3e9fded3ed56503d4",
+  "approval_status": "local_only_awaiting_push_and_drive_approval",
+  "new_empirical_runs": 0,
+  "private_data_distributed": false,
+  "files": {
+    ".github/workflows/public-checks.yml": {
+      "sha256": "650134afe92eb7e64869d7166a8150b7d8dc59e8092034e7caa73ef7566454a5",
+      "bytes": 485,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    ".gitignore": {
+      "sha256": "c03d5d2361dfbc02ac4a3b733e50ab6366fbb62111ee688c559710d984903624",
+      "bytes": 168,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    ".python-version": {
+      "sha256": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93",
+      "bytes": 5,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "CITATION.cff": {
+      "sha256": "1637aaf19d00d0a1633f772345ec455502c087b37152470cb1249cf74308cea6",
+      "bytes": 667,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "CLAIMS.md": {
+      "sha256": "ae4b19a1e1d196b04bfafd4ef667cfaf20258049ae786bc94aed9078b1281ae4",
+      "bytes": 14966,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "DATA.md": {
+      "sha256": "575d4e1167fe4ad0453310b36a9c00506f8be3fb1f5caea2a1531b2549f35682",
+      "bytes": 16244,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "DECISIONS.md": {
+      "sha256": "8d947523d8d23033202dae8b56fe3272000fce70980923e4cd44ffc09c9ad1ee",
+      "bytes": 21621,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "Makefile": {
+      "sha256": "511a7d0648ca6580d264af63b0c423dd2c529f52de70ef5cf96e016435c7b27c",
+      "bytes": 948,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "PUBLIC_RELEASE.md": {
+      "sha256": "2796c98c22757b8c2b2974a2f60ddaf80fe26c3e06005caa0d2fb232cd1f1aa6",
+      "bytes": 8820,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "PUBLIC_RELEASE_MANIFEST.json": {
+      "sha256": "7478285403c299102c259ed19001c9a86db13f11df86e32df7a39e23175aae61",
+      "bytes": 92492,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "README.md": {
+      "sha256": "88eb2d42ce1c78df236215819b3053fd432a919f2c7ac11d4633d98c64145ee4",
+      "bytes": 7301,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "config/g2.yaml": {
+      "sha256": "02ca2a74afe61d75a9419d48386c913e668754b9860f8b4677584431b879305e",
+      "bytes": 947,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "config/g2_bis_2026-10-08.yaml": {
+      "sha256": "b1f2bec74490c63a05151a44fc1ee1d1310e0cb5b9d7f358c3e83fe2c8604b59",
+      "bytes": 6012,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/DATA_SOURCE_CHECK.md": {
+      "sha256": "e9c8019ba47863d7632a4689a8138cb9bc57fc4596b463063cf32d1b2affbe28",
+      "bytes": 7472,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/EDITORIAL_REPORT_2026-10-09.md": {
+      "sha256": "30825d49f0e6cc56ca77f4a76d5aa551c2abc769629eac4595e725922b81f373",
+      "bytes": 35858,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/G1_REPORT_2026-10-08.md": {
+      "sha256": "3aea901db05c2f05f28617560d77372c91ac6a76d146f4e003392b7d5ff4b4c8",
+      "bytes": 4876,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/G2_BIS_EXECUTION_2026-10-08.md": {
+      "sha256": "bbba8b64202217572748e6bf3377b3239984d346f345c6c93e2ea86c8331547b",
+      "bytes": 7376,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/G2_BIS_REPORT_2026-10-08.md": {
+      "sha256": "a59175101d5b690d0cf5467952866e68f8fbd6af462e22be6316ed958e577077",
+      "bytes": 46833,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/G2_FROZEN_HASHES_2026-10-08.json": {
+      "sha256": "3475b314754a369b577b6a978753d376b9e329f2b9a0a9725b641d4cc0c28482",
+      "bytes": 26959,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/G2_REPORT_2026-10-08.md": {
+      "sha256": "880758ef3fc2f3d6e98855fe25f261e641d1ae16060e4f6eb537181d4f16e7f4",
+      "bytes": 10959,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/G5_REPORT_2026-10-08.md": {
+      "sha256": "92784e8a456ce0f75745a8fccf17aeed28e40bf23e3f8de86af1cb9ce6156538",
+      "bytes": 10793,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/G5_REPRODUCTION.md": {
+      "sha256": "d9ab83e8a61d00213f6d7f90365bf9cc6080dffb1e41841a25cf66b9dcf79768",
+      "bytes": 5066,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/MACRO_SERIES.md": {
+      "sha256": "cd06d39933a6ebed5e919b0a869f45ae38961c6689bbca61a55c139e28de2d50",
+      "bytes": 4166,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/METHOD_HISTORY.md": {
+      "sha256": "011db2576ca6d14ca7db86638c0a650cabf6626796ad892fb63ba993dd1a0da2",
+      "bytes": 1643,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/PROTOCOL.md": {
+      "sha256": "dd647321a9b22dce4740b75ba680a7ba3f2d8991bf898c48985056446396a265",
+      "bytes": 11279,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/PROTOCOL_v2_2026-10-08.md": {
+      "sha256": "b5cf5144734dc8cfe14cf6fc128cb0ac28823c5d727bba8c5855c7f6387549a4",
+      "bytes": 9058,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/TECHNICAL_REPORT_EDITORIAL_2026-10-09.md": {
+      "sha256": "f9f9513dcef8ee81310a5dd593b7a50c4372625b3678b73145a93bb804967b48",
+      "bytes": 1691,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/V1_ISSUES.md": {
+      "sha256": "6eebba2a426a751bce656507c19f9c436d9d517b41c5214193f6d309c5b1adeb",
+      "bytes": 2855,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/WORKING_PAPER_2026-10-08.md": {
+      "sha256": "8f9118fa1bfb1176e59430d3081f9c2a6efa5cf24ea249c3a736e5f216f687e4",
+      "bytes": 6565,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/WORKING_PAPER_COMPLETION_2026-10-08.md": {
+      "sha256": "ec94ab63074cfa03fda610bdac8d53b9272c46468c0509b514d057c765a5ee7e",
+      "bytes": 2766,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/g1_foia_manifest_2026-06-30.json": {
+      "sha256": "3140d1045c04f2ee1fe037a1082a274cd62703ef6d1304d3c36b5c740d85a9a0",
+      "bytes": 8611,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/g1_source_audit.py": {
+      "sha256": "3d6f0e883ea9400cbf682cc82c7548f6824a4360f9c0c93118fc93fc4da3de1a",
+      "bytes": 5852,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/g1_source_evidence_a1.json": {
+      "sha256": "0c16b00eec9634384c89748400418717e029edb64aac6bcc369540de7998d40d",
+      "bytes": 56750,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/g2_macro_manifest.json": {
+      "sha256": "27d9f60227724f70ce628b770f347bcd2af5f89cb3835d42d62743f9075dcd34",
+      "bytes": 8476,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/gate1_review_evidence.json": {
+      "sha256": "c315af75108658061c3b7174693aab94cf61fc713e073a542b8ea4b0cad36a65",
+      "bytes": 8734,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/notebook_snapshot_2026-10-08_manifest.json": {
+      "sha256": "3451bf6c7cb77b7eb90841f8d2647c3485496985207c18988ee2a0347f7c27e4",
+      "bytes": 87525,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/ARCHIVE_MANIFEST.json": {
+      "sha256": "0f9735c2c9269d991e76fad602c86b8436c1c56b5e715646fce1bde65277adfd",
+      "bytes": 56903,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/CITATION.cff": {
+      "sha256": "1637aaf19d00d0a1633f772345ec455502c087b37152470cb1249cf74308cea6",
+      "bytes": 667,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/CLAIMS.md": {
+      "sha256": "6714658d5fa465cbc1f7c5942eb9b725a557a14961ef2cc412f82f0798d649a7",
+      "bytes": 11551,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/DECISIONS.md": {
+      "sha256": "7647efba69e74fcac4d90cea9d056a2b0ee06706de2ddbc67b08f14f29e3773b",
+      "bytes": 20531,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/Makefile": {
+      "sha256": "45711828c446fc544c1993ded11a69955325ce8f773c88453153e1b64bf735b1",
+      "bytes": 924,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/PUBLIC_RELEASE.md": {
+      "sha256": "27d907d82c64ab447f87f681b47f8a81d37dcacaea34de2044da2f46943f4f68",
+      "bytes": 7806,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/README.md": {
+      "sha256": "73ecc71ad00745428d99bd63e90d718884ffd22745839467d6d0d93c82559359",
+      "bytes": 7144,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/docs/WORKING_PAPER_2026-10-08.md": {
+      "sha256": "ee3fd23ced2f3d03bb29f8720d01905506912a8609876548f361ae1114c5da1e",
+      "bytes": 5963,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/figures/g5/headline.pdf": {
+      "sha256": "ca4d0169ac451b71b15c0761c40152cc8b91596554efc76fbc2c4c132bdd6d65",
+      "bytes": 25448,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/figures/g5/headline.png": {
+      "sha256": "472d63f4e6286864f43c0db59e54f6b99e0f42e4f5cfca9a090231e54e3042e4",
+      "bytes": 268853,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/figures/g5/headline_caption.txt": {
+      "sha256": "c8e07750d919d371d22393fbd18e65a9ce1cc3566a8e710367284f20b11617ac",
+      "bytes": 483,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/notebooks/research_walkthrough.ipynb": {
+      "sha256": "6972f07d1fce2145571d990acdde49f6a87f850f9da85c1cdc550815382589ff",
+      "bytes": 1152735,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/report/g5/policy_note.tex": {
+      "sha256": "5cf2493ad2610e83f712537b1bc385a11ba5945e2f3296fd5abec1f0dffad3b3",
+      "bytes": 5554,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/report/g5/preamble.tex": {
+      "sha256": "7092612ece93b9f41100f73ff9092e5873b2653bb09358bcb5adf17972b82aa5",
+      "bytes": 1611,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/report/g5/technical_report.tex": {
+      "sha256": "008b8797035fbce5cc8b536146620cbe9efce0b6a0100585870a24dcf3170d6f",
+      "bytes": 25485,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/report/paper/preamble.tex": {
+      "sha256": "771acdeced114717f32a21a89384e9750e43196ded3f355f6b2232fced468508",
+      "bytes": 2121,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/report/paper/working_paper.tex": {
+      "sha256": "c91c840859bf94ff1efd1d2e5aa184be80599a5172458127bf9a6072c1a9e0ac",
+      "bytes": 39329,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/report/policy_note.pdf": {
+      "sha256": "742d9377b6e4bed14188d9b67f58b0189d866a98e445c24435c42b3cba9c162f",
+      "bytes": 49642,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/report/technical_report.pdf": {
+      "sha256": "09900699969dca2a636d32f10f0d556e782beebb4afde238c168a15e2d012695",
+      "bytes": 117712,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/report/working_paper.pdf": {
+      "sha256": "aede34fb5d16a905f478ece1e58e4f8173de67f9f57a45a2246b433c152da2af",
+      "bytes": 136799,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/reporting/checks.py": {
+      "sha256": "f343fca7ca2823ce0346e922552cac4e054756a13bcc61426e6633b83e8dbaea",
+      "bytes": 10538,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/reporting/g5.py": {
+      "sha256": "6eb53a0c1e92e9d3d45000c2f1dbeff7738deaefa9f82a16419946985f84be15",
+      "bytes": 36427,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/scripts/public_release.py": {
+      "sha256": "cad75797a521b54fe4ec3a948fdb625376b36312cb93e06c3fb0958eb3056e6f",
+      "bytes": 5754,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/scripts/working_paper.py": {
+      "sha256": "7d3777d5a6a0b0c6258649a0e36559ca5ad187b54b3caa69510da33410f31428",
+      "bytes": 4442,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/tests/test_g5_reporting.py": {
+      "sha256": "0035af02ee10ca5fe1a2189b11356a25920ef677865051f34445179f86081b79",
+      "bytes": 11355,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-editorial-2026-10-09/tests/test_working_paper.py": {
+      "sha256": "e31b356afd0db6bd68e64cebe87263c66b99fe25b023a98a238745e549e4d296",
+      "bytes": 2331,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-paper-2026-10-08/Makefile": {
+      "sha256": "ab8966220571262fdc70712265db432296faf412d171dfc853ee368a169a974a",
+      "bytes": 760,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/pre-paper-2026-10-08/README.md": {
+      "sha256": "9c408bbd048cddde958a667083a798a9d579883a951889f5490a8c56b69fa3a0",
+      "bytes": 6567,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/public_snapshot_2026-10-08_manifest.json": {
+      "sha256": "46caf8f5c8ea1f233a341d31c689880dcbbc58aac49605414f3179d2c1592779",
+      "bytes": 85855,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/technical-report-before-editorial-2026-10-09/ARCHIVE_MANIFEST.json": {
+      "sha256": "9842164bee4718713c7abfed2dcf415ffabf25bd5923e7737ed56201fb75c31a",
+      "bytes": 1252,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/technical-report-before-editorial-2026-10-09/PUBLIC_RELEASE_MANIFEST.json": {
+      "sha256": "5c4cc531501894f414689ca6c5869fe981dbc32633367df724681826f52ad1ca",
+      "bytes": 90725,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/technical-report-before-editorial-2026-10-09/report/g5/preamble.tex": {
+      "sha256": "5d59a143bea3128487287ace7b4412613a1d61e96097d30ee94ca7b52649d178",
+      "bytes": 1614,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/technical-report-before-editorial-2026-10-09/report/g5/technical_report.tex": {
+      "sha256": "6725d18c1aaf369f41c424aeb6abaa3e4bd82db543fcd02e010822151e6cfa40",
+      "bytes": 25950,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/releases/technical-report-before-editorial-2026-10-09/report/technical_report.pdf": {
+      "sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+      "bytes": 119626,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/versions/DATA_G1_2026-10-08.md": {
+      "sha256": "7ca13eb4acd192c8338d7eba27ea3836cc1d63810c65bd870645d206a8e3719e",
+      "bytes": 13878,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/versions/DECISIONS_G2_2026-10-08.md": {
+      "sha256": "0a3c8480da2c28d02c05fc276c6d61b95a9491db7ae80fc49b5e8b13cf148a5f",
+      "bytes": 10168,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "docs/versions/PROTOCOL_v1_2026-10-08.md": {
+      "sha256": "dd647321a9b22dce4740b75ba680a7ba3f2d8991bf898c48985056446396a265",
+      "bytes": 11279,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "figures/g5/calibration_caption.txt": {
+      "sha256": "18a08db11c3099aff60b3e56e36f59379cec7c27a0a90f93a5f27277bcd2dff7",
+      "bytes": 267,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "figures/g5/calibration_groups.pdf": {
+      "sha256": "c6827c89556bb298a5c40ca829ef0843567770edf9d15f9f868289ca35a0f87e",
+      "bytes": 30582,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "figures/g5/calibration_groups.png": {
+      "sha256": "10676d808ff4dae414346847109e0db9bee7a8a64987e5c6fe5c37124ea5050e",
+      "bytes": 301665,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "figures/g5/headline.pdf": {
+      "sha256": "98925f3a64d16223a85f79e42bca5aacf049a8e63776a852d9a02932fea86b95",
+      "bytes": 24706,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "figures/g5/headline.png": {
+      "sha256": "cd40db0548bf03fdc13c3841fc0c4806d3bd18a5d45a54ddd8f80e5707954ec4",
+      "bytes": 243444,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "figures/g5/headline_caption.txt": {
+      "sha256": "1c4e95bd803bc2f129cbbc2db8094c41b7109f442dee8c4348ea569bebf7903d",
+      "bytes": 354,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "notebooks/research_walkthrough.ipynb": {
+      "sha256": "1dc15bb92135ac472bda9449ce2b962ee2730d04e4d25b34fa80f2a7def979d3",
+      "bytes": 1152748,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "pyproject.toml": {
+      "sha256": "97d8f22f1b81297ec51cbe2c1e1cb4723ab3cb40d0a275f5f1dcbc5921bfa268",
+      "bytes": 1177,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/editorial/calibration_prose_claims.json": {
+      "sha256": "5da97a731845cf06142a559a761fddd870027a90718dcef4c36ea37302aab410",
+      "bytes": 17176,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/editorial/literature_verification.json": {
+      "sha256": "b3a35529b0d3ce13d96f6828cbffddeb7062bd7996c966fa384f68df8f24bbdf",
+      "bytes": 755,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/editorial/verification.json": {
+      "sha256": "ec5e84289cd0027530f27733ab8c915917850888460bfc9c1ebb6132bc317175",
+      "bytes": 799,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/editorial/visual_qa.json": {
+      "sha256": "32a637a52984833693ff10ed752a36d676db7f91f8ab09628bcd9d9570bc85a0",
+      "bytes": 12939,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/editorial/wording_replacements.json": {
+      "sha256": "b40cedeba160011d95592f200adf5ff66532e4eaebd66374a06a6b75c0364ab0",
+      "bytes": 43742,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/bins_1.tex": {
+      "sha256": "67a81344714369c3c6579c230587a97b4e968366bbea095f7d8619b0e275738f",
+      "bytes": 785,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/bins_2.tex": {
+      "sha256": "bff2c13b135730ac2da8071fd3b17bb1152f9cbf84eb8881e4b5ce7e6a15b667",
+      "bytes": 762,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/bins_3.tex": {
+      "sha256": "7b9eff48239aace0997ab4b7c666bf1f153bb84baf5fdedcb4aecbd5a5ca053e",
+      "bytes": 760,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/bins_4.tex": {
+      "sha256": "e6bdc66f617b5dec839458e0cbbdd92ad2759b69688942ecd1dfbab38d1e5465",
+      "bytes": 762,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/bootstrap.tex": {
+      "sha256": "1325ea7ded23df03cf2351cf65caee02abd711e49891ccf52a193edbe0a26eb8",
+      "bytes": 439,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/calibration.tex": {
+      "sha256": "d14ab152049de730d42e105302f94e490230299872a4d712e47e380c05351a18",
+      "bytes": 1365,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/coefficients.tex": {
+      "sha256": "0edb00a3ea5e7ad9d0894bc2de12251734b508072d43f7cc87de7d64969f7a76",
+      "bytes": 924,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/convergence.tex": {
+      "sha256": "666361f08184b49ff19f5ce08bc46758b9592cc78abcddc74f2dc03430f95c95",
+      "bytes": 756,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/editorial_numbers.tex": {
+      "sha256": "f600ac4ceab9e8aa8c3796ae591939f3be2dcd286bbae0dc39d01228d2ca8d63",
+      "bytes": 563,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/macro.tex": {
+      "sha256": "f86b50d07b0e60581c5334b1044ac470b81cf19740a1b6ab9fd9f5e51c753bf1",
+      "bytes": 286,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/numbers.tex": {
+      "sha256": "4610b496159a1d8f9ae4b858234e589842940789b127ced26cd5872e5bebd1c9",
+      "bytes": 771,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/performance.tex": {
+      "sha256": "85d0d66c6369474dfc367a756fccec41e026c6d7affcb91d02683b4392415525",
+      "bytes": 1414,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/rank.tex": {
+      "sha256": "ac13ab2a7500793ee84e64ce258e98aa0106e6d00ec9247b6ba2df1e786a79d3",
+      "bytes": 340,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/rate_missingness.tex": {
+      "sha256": "00acded325600213a8249a11867a481c7be85205ef5e41d2c923937019936197",
+      "bytes": 269,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/samples.tex": {
+      "sha256": "23569d97b5a528b335cab5a79fef3e3b8b290bdb111b9e5cbc371bb3c38761e8",
+      "bytes": 752,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/sensitivities.tex": {
+      "sha256": "e84bfcdbb6004dcfca4b9944decd0ba350c3527196d0d474cba6b15300cc2c43",
+      "bytes": 698,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/stress.tex": {
+      "sha256": "68bf19bd35304b20b54829a958f7cad9f7190b83226690dcba0b6093fe3463aa",
+      "bytes": 1044,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/support.tex": {
+      "sha256": "dcfe9d6027b27aec7f33da2b8e222761bea3289bc71053671316db565b3764b9",
+      "bytes": 379,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/term.tex": {
+      "sha256": "105c2448f03b58352f9f880bb651d88e62e1d9a70b4832f24e2fded1a2834b07",
+      "bytes": 310,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/generated/waterfall.tex": {
+      "sha256": "87fa9055d8a396d0c822b976c710bff06cb0a2c60313a0fd1a507edc719f70e3",
+      "bytes": 545,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/policy_note.tex": {
+      "sha256": "0131c1b2eddc73964b2d90c117d6922ae1ca5753e45afb266aeba2145c9377b0",
+      "bytes": 5921,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/preamble.tex": {
+      "sha256": "9bc774a7ea1eb3ea921c7d5bfba15e380544bdd98340a698cdb03a83626f41fc",
+      "bytes": 1651,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/g5/technical_report.tex": {
+      "sha256": "cceaf71cd84769b0e1c75eca368621140f4bd951d550ad8c0c636332a8e78dff",
+      "bytes": 27030,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/paper/preamble.tex": {
+      "sha256": "3caad0739f1946e0499b21ca3f3cce4efbda5ac3a4d9af43c63475cc55f3b2ad",
+      "bytes": 2161,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/paper/provenance.json": {
+      "sha256": "f218be5535e42636919c8b035b48d9f2b0c6536404e24183f5d5096e356b5acf",
+      "bytes": 31376,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/paper/references_verified.json": {
+      "sha256": "a6917e756d78181b654843a58052d7bdf646fa39ae42fcfe5746bdeb3fcdc0d5",
+      "bytes": 2836,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/paper/validation.json": {
+      "sha256": "54d84987ea117fc96df8d8b7f5b4f9abdd78c10a5b89c20d775e418020c566ef",
+      "bytes": 1121,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/paper/working_paper.tex": {
+      "sha256": "03810af0abb41b0907e79220ae29cd9a071185beb8f4be74424c45f38ba3168f",
+      "bytes": 40873,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/policy_note.pdf": {
+      "sha256": "5a0d84c8177b40eb766942cc13efc5a6e469554006d6a2d93e7ff885f2b4af48",
+      "bytes": 49110,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/technical_report.pdf": {
+      "sha256": "c80fefa1c7b0fc8d00f53b62405581d829944dd68e0df53d7018f9cf2ba86748",
+      "bytes": 118722,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "report/working_paper.pdf": {
+      "sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
+      "bytes": 137640,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "reporting/__init__.py": {
+      "sha256": "66a985cfb383d31353f3fac9f93f3e646dc7dd05b1b488edfec93a97526efe4c",
+      "bytes": 74,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "reporting/checks.py": {
+      "sha256": "ef1a85c89a45609cbdfd6b3e42ea87d11d984a434031dc2d845edec19fabdc73",
+      "bytes": 10634,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "reporting/create_claims.py": {
+      "sha256": "9170d0e7d7e251c493707b391ca8de5c073c81c8554e846c85b1ff9241e55410",
+      "bytes": 14853,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "reporting/editorial.py": {
+      "sha256": "10ed415507aa77ada91d8d8df11cb094b075a67005dfea819156e3877d992c3f",
+      "bytes": 15013,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "reporting/g5.py": {
+      "sha256": "0cffe417a968e209b128e9b197f5240d401bae17010a73f69f4ef1e006542109",
+      "bytes": 36512,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "reporting/registry.py": {
+      "sha256": "04c12e2cda7ce2bc14cf417f6e0eb9a4004259966c84b565b62065491b3e0c19",
+      "bytes": 18730,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/INDEX.md": {
+      "sha256": "7ce3e62a012ef670fbf2255b026fbf493a8a0791e00c931bad4bca70c6790ad8",
+      "bytes": 4372,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/calibration_bins.csv": {
+      "sha256": "070498e102347c7bc34f34ed4b45397e7a4b4628d34979a5c10188bbd9d1a64f",
+      "bytes": 48074,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/cohort_status_counts.csv": {
+      "sha256": "42db980ae9d350705170bf5bed94e9e79628caa5d6ef5d15d7c4c452a70315c0",
+      "bytes": 3506,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/conditional_sensitivities.json": {
+      "sha256": "1cdf4c539594dd1fd992473f8653ee4a1a8b783082fe63f96b0889d90a163c13",
+      "bytes": 477,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/evaluation_metrics.csv": {
+      "sha256": "61729ed6d0a9f208f1dfd8cac694473b04846e46d393b296d435b4b4d639dbde",
+      "bytes": 24253,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/exclusion_flags_overlapping.csv": {
+      "sha256": "aa21c3abf3884d6eaeb1da647a5d2f97ff6c449d998fe09a1ee076c0d49cafb7",
+      "bytes": 1993,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/execution_summary.json": {
+      "sha256": "7189bdbbe38f00582b700290fc33455f097363c3add467d84c502c47a94ec7ff",
+      "bytes": 575,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/figure_verification.json": {
+      "sha256": "cd8426ae0913ec6bcf816e57527a9be5334854efc38617c9bcd9f0d742527c19",
+      "bytes": 1942,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/figures/layer1_crisis_calibration.pdf": {
+      "sha256": "9c1ec39190af6197b7f87b92e20fa53fb665fab45fddb8b4a623230b09ee2bdb",
+      "bytes": 31995,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/figures/layer1_crisis_calibration.png": {
+      "sha256": "4e78f5bf737aa46657c8236c7493fa13c4e27376f4a050367d239798c8a4867d",
+      "bytes": 238198,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/figures/layer1_crisis_metrics.pdf": {
+      "sha256": "22349b4bb2a2acceb003a5cfbf2243e31b4edfad2ad39a7637d22a8b2ff7ddae",
+      "bytes": 19894,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/figures/layer1_crisis_metrics.png": {
+      "sha256": "95688a83dfcb576a9cf72257f6601ead8938d4044e3c9ac7eea43c88f4282ea0",
+      "bytes": 144080,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/figures/layer2_conditional_calibration.pdf": {
+      "sha256": "58da516e2f9d767b5520c9da2bf4e5f919d9a05df89304c2e4ef26f3d0c172ea",
+      "bytes": 24231,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/figures/layer2_conditional_calibration.png": {
+      "sha256": "d44427eeb132ffdec5e94b5b4152c55cb4da7e368ab7a707e8493c4181fc9e8a",
+      "bytes": 246843,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/figures/secondary_scenario_loss_split.pdf": {
+      "sha256": "8163976f6e4b4393b967b8220b155e63ad7995827f745692a6e768ad50f8895d",
+      "bytes": 21433,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/figures/secondary_scenario_loss_split.png": {
+      "sha256": "b0bdf9fd6134b0a7d4cc0b8aacfac33d5e614177f1a8c25d7ecd80b306707c21",
+      "bytes": 139427,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/fit_status.csv": {
+      "sha256": "0b971e191f236479f775cbfee134530b2ea43ebf949e249798855c80eaa74a20",
+      "bytes": 1334,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/fitting_runtime.json": {
+      "sha256": "42c56e570a23d01fb8ce026c48077600b2f99bb584f10b3f98202e265c38d255",
+      "bytes": 173,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/fitting_runtime_initial_controller.json": {
+      "sha256": "b96554269f5827dfa66f539d05899a5d5fbf3469f1e3ed92798eb3acf9600d46",
+      "bytes": 173,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/frozen_split_counts.csv": {
+      "sha256": "f98fbfc27dba63bbae6ad49d30586540264cc757e3590d9c073e0a35fdf6bd34",
+      "bytes": 496,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/layer2_coefficients.csv": {
+      "sha256": "9c43cc4eb4797458137f7b1586a64adb6fb4473b71507d4a411d3001ddcb244e",
+      "bytes": 75,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/lgd_capped.csv": {
+      "sha256": "46da4a89efbcecc0301f240facf8bb8eada71612bff48dc43166d8053c393ebe",
+      "bytes": 2552,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/lgd_downturn.csv": {
+      "sha256": "00eae0c300ac6a0e06125119bc8c9a27ad38848c8096884a8403c2fde16a04a3",
+      "bytes": 2647,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/lgd_primary.csv": {
+      "sha256": "b838bb33014e80a2c4a0149935a1d0e24a43a9430e7d99d60bbee64e9100ea9e",
+      "bytes": 2564,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/loss_population.csv": {
+      "sha256": "5f8545d46d76e507f10863240a0bf8c331b5d5af378aa034126870a3a14a68c2",
+      "bytes": 313,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/macro_associations.csv": {
+      "sha256": "bfb3e8748cae59b75744cf187a9b2f7cf27142faf9bc81020f8bc2eb130ce471",
+      "bytes": 96,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/macro_match_waterfall.csv": {
+      "sha256": "ad8c6985119eaaa68ccd1117a693d178e90ce3235173dfc5abc42acce522f4a1",
+      "bytes": 204,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/paired_term_differences.csv": {
+      "sha256": "185bced7ba139032891751e621352357f9dc72346c0300462de6ad679217c216",
+      "bytes": 7617,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/pilot_runtime.json": {
+      "sha256": "06ac178e4c7f4c551caec166d6ec1288fa9666b34ec9c42a333cbe93f807bf29",
+      "bytes": 693,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/population_stability.csv": {
+      "sha256": "3c61203311959f7e57e6fd9e8165303f1a392e3998c1615beaa6f56cbd0f3cc6",
+      "bytes": 2153,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/portfolio_allocation_70pct.csv": {
+      "sha256": "1b192586fb5f9bd0ec6c4e3d4c9fb21305f1d28cb1c39b01654d77f3afed50fb",
+      "bytes": 5657,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/predictor_missingness.csv": {
+      "sha256": "4bfdb42d377cb1f75b83a958664498ff02e72737c54b86bac8c17bb60e772648",
+      "bytes": 1327,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/preservation_check.json": {
+      "sha256": "a9823b0d82cf2376e9e870d62d5a0564a2bb90ff38fc77bb5d86ccf2fbbe03c6",
+      "bytes": 1770,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/production_integrity_checks.csv": {
+      "sha256": "efa9b6eef9f2f746f3bf522fcf966711814754cc9231666131719b9e2ed86e04",
+      "bytes": 335,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/release_manifest.json": {
+      "sha256": "a763aef1e00e228628d7676d5c9b5e29c20ab1151d6d978716b934762b8beab3",
+      "bytes": 14586,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/row_identity_qa.csv": {
+      "sha256": "912dfa7ba9c52e4f2854dc4c457b9a9aaeee0b95eedb2443d9a087ef6cfc52af",
+      "bytes": 210,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/sample_waterfall.csv": {
+      "sha256": "d80e00536d4bdb2865ff4d4baf388f4785238ae58a7191418ea66c7a44ed3738",
+      "bytes": 309,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/sample_waterfall_by_file.csv": {
+      "sha256": "c2c507199491287915f20f431abdd8a0588ee25947a668eef059083742c5ba36",
+      "bytes": 2478,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/scenario_macro_inputs.csv": {
+      "sha256": "de366b6ac2c7fde026a058b1f0b535c49e0562119ec835d6cddd6a7398de7aa1",
+      "bytes": 7541,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/scenario_support_layer2.csv": {
+      "sha256": "4b1b633ee6813457909df85f75d4433bcfcca243780f1d3984b516d3f49982a1",
+      "bytes": 41359,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/scenario_support_layer2_peak.csv": {
+      "sha256": "cf9c504ae63892cf5d19b8f02ad805e9c3e5090c6022ab0f1c8cbd471c98c1c7",
+      "bytes": 42757,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/scenario_support_layer2_term.csv": {
+      "sha256": "4f26338e671aec6b3a2eb9f9d9507f2a28c18a7947b679f05897407022c8ed37",
+      "bytes": 43399,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/scenario_support_summary.csv": {
+      "sha256": "1f5fa34809a04498e25fc9196802561d7f97fd6456ac2e4ad309cf6d9753e47d",
+      "bytes": 2276,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/separation_witnesses.csv": {
+      "sha256": "26abe1962c25f963f960c4110d47a334e512d26825613b8365b62d4b9d91a2ee",
+      "bytes": 1616,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/state_validation.csv": {
+      "sha256": "b98198ac90428d04d11c4d9a6ade65003958e5f08d8a8042b06b36c2eb2afa65",
+      "bytes": 104825,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/stress_lightgbm_secondary.csv": {
+      "sha256": "2817b098ca41bfb43d9e5c866d733e5b10996cc0472039ea9509e3252712e0f0",
+      "bytes": 108285,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/stress_results.csv": {
+      "sha256": "8f3f1206947c975776905814b7c6e93e875c25331a402bbf39f035e2680ab2d2",
+      "bytes": 167,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/stress_status.csv": {
+      "sha256": "e1e5bf0aa0a6602d388624f1337419f43b9a42098a3486f4daa8ef2efefb2909",
+      "bytes": 260,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer1_crisis.csv": {
+      "sha256": "3ce615792dd1b65ded9a3dbf3f03613db93a453214ace3ace1cf91fb523e8271",
+      "bytes": 570,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer1_oot.csv": {
+      "sha256": "79bd0e8cb237629435e4deaa71ff44e3c05e2730288565a66d0736ed8d119bd9",
+      "bytes": 535,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer1_reference.csv": {
+      "sha256": "e96169b774b65224bebf480d66bf63edacffe516e4772d7a84c57cfde0e1e45c",
+      "bytes": 588,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer1_term_crisis.csv": {
+      "sha256": "2e2a12774eb9ef83c1ae88444a0b0b7d2283d12bf15897a34bfeaa40345ac62c",
+      "bytes": 675,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer1_term_oot.csv": {
+      "sha256": "6ad1da5a8ac67f97bcb23f5b2ab6cd9bdc6be1591710949783605a968dc21cf4",
+      "bytes": 637,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer1_term_reference.csv": {
+      "sha256": "320679935473e224c4b3b87370fe3c7b7060c481ecbdb1771f8261662d39ca02",
+      "bytes": 695,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer2_crisis.csv": {
+      "sha256": "60704ff7ef873a97f69b34b09732154678644c8b2951fd5feb0b8749d816f8b9",
+      "bytes": 748,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer2_oot.csv": {
+      "sha256": "639ef6a90af58c472391877bef86d9679b0cae21a49cf95f34a2ac12a9a413a5",
+      "bytes": 691,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer2_peak_crisis.csv": {
+      "sha256": "9972a10a518516f6e4b783e52d3fc9a69a091e2499eee5f7ff8d302107cda999",
+      "bytes": 838,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer2_peak_oot.csv": {
+      "sha256": "de321612adac9e91265af3e066aa39f871dc2f0fa19f01092544f5610da50247",
+      "bytes": 778,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer2_peak_reference.csv": {
+      "sha256": "920391dc78d17a04c0be41af2ef4a8ff5707174f39fbd7cb73a60742284d8a56",
+      "bytes": 860,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer2_reference.csv": {
+      "sha256": "e759658bda6082dbe1ef9f2d537455a3de7a90b0ecf7e8ff97b8a154ed1bc3c7",
+      "bytes": 770,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer2_term_crisis.csv": {
+      "sha256": "c3a97b712b112990a42863608e9e169e9a4ffe77906597db01d3614d2c9c99bf",
+      "bytes": 878,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer2_term_oot.csv": {
+      "sha256": "5243b6a66e8d7cad336342b81c20d3e32bff0cb3344e2bf1dc20cc79bebd0319",
+      "bytes": 818,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/support_layer2_term_reference.csv": {
+      "sha256": "0fdf0b8030d87d92d926615bfda8d34cdb187fc194ef28d54c727eca8e24702c",
+      "bytes": 902,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/term_elasticnet_runtime.json": {
+      "sha256": "c623f693d5427c49a06f5a2e7b3a97e7533083b7183343e9c5fc902a5c701d54",
+      "bytes": 62,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/test_verification.json": {
+      "sha256": "9992a0efcbe9d110f157927929dfd719a00a4060069e7727874cab131b05b5ac",
+      "bytes": 465,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/treeshap.csv": {
+      "sha256": "97f8a4f5aa4ba25bb71e2a3d66c0414f71fe2ac8dbbdb835c1d4bc84a1254d8b",
+      "bytes": 5693,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/tuning_layer1_elasticnet.csv": {
+      "sha256": "69ed3ab9e2da3e9767492e8e184466234d22827b7993e0f36900b8fc91b2e0a2",
+      "bytes": 3344,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/tuning_layer1_lightgbm.csv": {
+      "sha256": "a1c7664e390b0142c6fe19348b96b01d757acc113e087256ba007c1f516bbc7d",
+      "bytes": 11370,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/tuning_layer1_term_elasticnet.csv": {
+      "sha256": "a72da0e40e64778a4389717aff7dc391f2789d1e88c375dea77f885ca2622779",
+      "bytes": 3324,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/tuning_layer1_term_lightgbm.csv": {
+      "sha256": "a16483467a570881a6308e448a1761201ef322b7e3f8119d008545d2f263a37b",
+      "bytes": 11504,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/tuning_layer2_lightgbm.csv": {
+      "sha256": "cf590fb2469b211ba0811b8d2528b64d566d902d676e3009367e3a62db7416d5",
+      "bytes": 11357,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-2026-10-08/tuning_layer2_term_lightgbm.csv": {
+      "sha256": "a5a5015c863766a82cdbd2bdd9f33f3f531809f0b5ab1a706caa761734da3bbe",
+      "bytes": 11470,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/benchmark_runtime.json": {
+      "sha256": "7451af7dcfe1010898921f75bbb1d5f91b7e29f859ef7f139ab81d83d5ed24f2",
+      "bytes": 382,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/benchmark_status.json": {
+      "sha256": "b0abfb0e7ea7e1ad57407bcb24d17c9b87dc42922b078b7385d364f448879c40",
+      "bytes": 7725,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/benchmark_stress_point.csv": {
+      "sha256": "ba1c7061cfba8dfa09f76f3e4f30262a84833d5d1eb027d7564acf96457fbce3",
+      "bytes": 1172230,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/bootstrap_attempts.csv": {
+      "sha256": "2a40cd9d49187f3a1f4a63dba8591ff8ab86a4ee7d4c0529081cb2d456c75aeb",
+      "bytes": 376252,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/bootstrap_runtime.json": {
+      "sha256": "f5190c45976002e44048d1cb4fd6afe0d8a0ffa4ef4c977a2467674f205b5665",
+      "bytes": 1435,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/bootstrap_summary.json": {
+      "sha256": "b160236d263046bb97b872e5c01739a449cea461ceba462e7eaebea4db9ae50b",
+      "bytes": 933,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/calibration_deciles.csv": {
+      "sha256": "bcc23a4a724e9f2401a79cd08cc3549d3819b85403c9f18aa042c17194d97c60",
+      "bytes": 187163,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/calibration_means.csv": {
+      "sha256": "788f18f40c854600b19976e873155623414470c0a366cf1dd7ffd1e10000a705",
+      "bytes": 16927,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/cohort_counts.csv": {
+      "sha256": "6e99587481eb48574b59af85fb3373528306e66b7b7507b6e40ef149fcfc52a7",
+      "bytes": 1127,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/design_rank_checks.csv": {
+      "sha256": "6c9173ecf7108e74b904677a505cdf1830334e40fb4e1efd0487c529f015c2ef",
+      "bytes": 1740,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/evaluation_metrics.csv": {
+      "sha256": "771258c239ab6adc03dd9fae30c30e9669bed414b8080528fb83e40bea86d733",
+      "bytes": 96162,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/figures/firth_cohort_calibration.png": {
+      "sha256": "207d536a90cfe72cf882c6c50817d7c9e890223c0f2cb084b33e6787dfa436ae",
+      "bytes": 105546,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/figures/primary_stress_intervals.png": {
+      "sha256": "111fbbb1f74b84a20f15f8817309e9753ca8710cb5fd43f67c723c5f9dd8505c",
+      "bytes": 65051,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/final_sample_waterfall.csv": {
+      "sha256": "4fec4d66c78c1220f4d6630c2362779dbf0854a7dea1871c3626873176b83763",
+      "bytes": 1875,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/final_sample_waterfall_complete.csv": {
+      "sha256": "e94d34acbcced0ab84900a42ea4dbd4392c86741f0061b5ce0ac2d86f65e0611",
+      "bytes": 2076,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/firth_average_associations.csv": {
+      "sha256": "8573a2bee8fe0b22dc867b3f538af5cfd119caaa97ff4772f5609caaf7636f16",
+      "bytes": 242267,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/firth_coefficients.csv": {
+      "sha256": "788465ae967b314ddcd602baeff394b0a5356d6028e1f104a3fd67820dd88e14",
+      "bytes": 239908,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/firth_implementation_validation.json": {
+      "sha256": "e77b7c5a1ab8ac306d4e770083a1aaae1c0b60aa942a093fea2981ff017e268c",
+      "bytes": 1481,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/firth_macro_associations.csv": {
+      "sha256": "ae9ccbbba6acd97aeb2c89c18fe37fc87eb2fc895b9bec2dc128265a4a7362f5",
+      "bytes": 69633,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/firth_stress.csv": {
+      "sha256": "54f28ed6192afa06396c6c2515fdda9843eac5df4d82b3b63756a1f4173de96f",
+      "bytes": 1889875,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/fit_status.csv": {
+      "sha256": "397028bff6cb7e17c1e55f9ee439c324b120ee39d45b5ce89940cc1d4fb4ca36",
+      "bytes": 3637,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/g2_to_g2_bis_headlines.csv": {
+      "sha256": "79790084b899c65e017bb31ed762db3c79fc67518fe4c7833694e990413db540",
+      "bytes": 2616,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/initial_interest_rate_missingness.csv": {
+      "sha256": "d0d9f69a092be6287eaff65da5cad794cb3ac8ccac6e3f22a6bebf2591ba4967",
+      "bytes": 264,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer1_original_to_pooled_levels.csv": {
+      "sha256": "ebd6056a82f43f2c2d37b74529595c7c45211624eb9e1e2f15f6cbf1c3ed33c9",
+      "bytes": 7290,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer1_pooled_level_counts.csv": {
+      "sha256": "ceeb28903c1e81d681f25e00258a7e47dfe7edd8bffcd94d7ce28ee96cbf00cd",
+      "bytes": 3258,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer1_preprocessing.json": {
+      "sha256": "ed942340afcc58ebe638a92282fabfb27f9de56cb5f2e9d5d6fe6a9b654271d1",
+      "bytes": 9504,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer1_term_original_to_pooled_levels.csv": {
+      "sha256": "ebd6056a82f43f2c2d37b74529595c7c45211624eb9e1e2f15f6cbf1c3ed33c9",
+      "bytes": 7290,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer1_term_pooled_level_counts.csv": {
+      "sha256": "ceeb28903c1e81d681f25e00258a7e47dfe7edd8bffcd94d7ce28ee96cbf00cd",
+      "bytes": 3258,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer1_term_preprocessing.json": {
+      "sha256": "fbf3f320e09b636a8854bb7b073327049dd414ed817bea1fcf0de398d95c521c",
+      "bytes": 9684,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer2_original_to_pooled_levels.csv": {
+      "sha256": "e1b4adbe7a1c8f218dcb9aa04d96d0b66aca970cc38f151c6238c5bfac0c38d9",
+      "bytes": 15541,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer2_peak_original_to_pooled_levels.csv": {
+      "sha256": "e1b4adbe7a1c8f218dcb9aa04d96d0b66aca970cc38f151c6238c5bfac0c38d9",
+      "bytes": 15541,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer2_peak_pooled_level_counts.csv": {
+      "sha256": "dd1867cda4827b3321c5e35097d4f280a9e2a83688b630d396096060cec06b98",
+      "bytes": 10771,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer2_peak_preprocessing.json": {
+      "sha256": "ec3b1fca5c0cb062d70c09cd43d292aeda7896f1a295bddc26d229ec9d98ea00",
+      "bytes": 11490,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer2_pooled_level_counts.csv": {
+      "sha256": "dd1867cda4827b3321c5e35097d4f280a9e2a83688b630d396096060cec06b98",
+      "bytes": 10771,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer2_preprocessing.json": {
+      "sha256": "5ee1bd4dd47b6dad4eb331a393ba7eabcce11b69225e360f2ceae1773ceb7f6d",
+      "bytes": 11446,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer2_term_original_to_pooled_levels.csv": {
+      "sha256": "e1b4adbe7a1c8f218dcb9aa04d96d0b66aca970cc38f151c6238c5bfac0c38d9",
+      "bytes": 15541,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer2_term_pooled_level_counts.csv": {
+      "sha256": "dd1867cda4827b3321c5e35097d4f280a9e2a83688b630d396096060cec06b98",
+      "bytes": 10771,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/layer2_term_preprocessing.json": {
+      "sha256": "2015e8352e8305b34b6f3afb362666d1f694d2dbb5e286d1c21fd003fbf734e8",
+      "bytes": 11625,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/lgd_capped.csv": {
+      "sha256": "c38175ee13102119ef6e4f844531961fe3cce5b0e8999518021bdc55890d8694",
+      "bytes": 4996,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/lgd_downturn.csv": {
+      "sha256": "efc16a229104c546360f7f460bd50c7cc70bbb50d08bb7da201b45e505590dcc",
+      "bytes": 5091,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/lgd_primary.csv": {
+      "sha256": "84e3eba5b03d97fba5c3643ab2ab63c0f984e2755a2cb6c4e09e3b027cdb7400",
+      "bytes": 5008,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/loss_population.csv": {
+      "sha256": "41358fda3ffd1173a64c05615f9e016263003bba98539e50381c1bd420479a53",
+      "bytes": 315,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/output_manifest.json": {
+      "sha256": "9c159a77f43e786e956b14143a3baa8d9f8b10aa137293116407311fe5814f5d",
+      "bytes": 25990,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/paired_term_differences.csv": {
+      "sha256": "0695f1f3c8f8063d3bdbe08ae15ea8b37688a95eacd96f5b3c8fd77cf9b384f5",
+      "bytes": 12878,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/pilot_runtime.json": {
+      "sha256": "bd2876a64488d2dc5be043b3fc40718a8dcdddc1f16fdd49906d6e0223662c2e",
+      "bytes": 1511,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/population_stability.csv": {
+      "sha256": "d709d0b4fa96be7f66bab8da596c44489b5b19e14e641600a8b5be06ff4e2100",
+      "bytes": 17322,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/portfolio_allocation_70pct.csv": {
+      "sha256": "c3970869ff095a93397d6ec8131e040e3933e00de8bac182b1e9e136c6b0c0bb",
+      "bytes": 15767,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/post_pooling_separation_witnesses.csv": {
+      "sha256": "ddd3e3692f87326e6cb4e4aa21fdbc4cb5529dd5e55f08ec7f5236351794c555",
+      "bytes": 302,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/preprocessing_application_counts.csv": {
+      "sha256": "7ef3e8e743b82e8ff51c4d7d672cff9414866602f02b5839970bf4644d93173d",
+      "bytes": 48675,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/preservation_checks.csv": {
+      "sha256": "e348e5580a076b1c27c0fa0da70318816ffbecb1a499de28cd227d09a968db03",
+      "bytes": 44076,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/private_run_lineage.json": {
+      "sha256": "715f7743caa480f138dafa05fe7c6d473030c4a3a5dbdd583d7d51dc2c2335c0",
+      "bytes": 541821,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/runtime_environment.json": {
+      "sha256": "358ac15923bb2e8fa7d088b7fec636da9b4f3981222ac1d9ac18cced6a9308dd",
+      "bytes": 205,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/scenario_paths.csv": {
+      "sha256": "34d78f3c0888aacd2527c2a5448051756adbbe9d7606b22f3fe6a3f84d2c0dd3",
+      "bytes": 18638,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/scenario_support_by_feature.csv": {
+      "sha256": "9929fce877f67d03ffc6f37459560ec0353c05acb548b7e27bb8285eafcad3d2",
+      "bytes": 46979,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/scenario_support_summary.csv": {
+      "sha256": "740cc7ee20b1dd4c65a4e57ee15acc4ad3520576001ca6960fb0371d9c41cd76",
+      "bytes": 6139,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/scheduled_state_multipliers.csv": {
+      "sha256": "15d1d50d78c84323f57fcbe5d7c0fd3390e914fde04018f115fa997cd923fad4",
+      "bytes": 194933,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/software_checks.json": {
+      "sha256": "d671f1604c1877203f941c708f0f1bcfbf423a7ead5b3e6e9ba5ac9189e7a8e7",
+      "bytes": 4206,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/source_manifest.json": {
+      "sha256": "19d9454f805e6c7873c16f146033bb8c853c657b1653f98c00ba9e4f616f5fb2",
+      "bytes": 3964,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/source_population_waterfall.csv": {
+      "sha256": "d80e00536d4bdb2865ff4d4baf388f4785238ae58a7191418ea66c7a44ed3738",
+      "bytes": 309,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/state_validation.csv": {
+      "sha256": "f1842304e4e90eb9fc14c12b639323ae4133f27d9620a5de6fe5852bdf858008",
+      "bytes": 256630,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/statistical_completion_checks.json": {
+      "sha256": "1bd626879a4d24610344d20504a10b292d661c075b353ce7c6a1bd88d2841ade",
+      "bytes": 1605,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/term_audit_evidence.json": {
+      "sha256": "459cd600c1e66ffeba6ef14bc9db17deb5bb229e4398e00ab876775ebf878c2d",
+      "bytes": 1465,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/term_audit_status_counts.csv": {
+      "sha256": "295ed71092f418b02d17c910e56affaf001a788db5d374228484bcf7d36fda38",
+      "bytes": 135,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/term_audit_summary.csv": {
+      "sha256": "eaedf107d1a7938465c914cb9a7463f686506f2a3d92716b861bd55619e8c5ab",
+      "bytes": 57394,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/treeshap.csv": {
+      "sha256": "e8559f78308ba9e6dc2fed2178d21761a4922d89da08fe985ee68faded5d6265",
+      "bytes": 13289,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g2-bis-2026-10-08/unpenalized_valid_coefficients.csv": {
+      "sha256": "d21f70936d9a62a6f79c3457a131de652d6def7e18749a5f53537734779e2f01",
+      "bytes": 90,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/bins_1.csv": {
+      "sha256": "721b44c15177082b9f3467887d8ae70dc047ccc14cc3516f7b7b5d26763fb4fc",
+      "bytes": 543,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/bins_1_provenance.json": {
+      "sha256": "172984b6d876fb24ce9e646c58e2c202ec8861a854f0cc4d2509e14956aefb46",
+      "bytes": 1625,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/bins_2.csv": {
+      "sha256": "e3eb2b11e616702e6781605a162d3147072f1cfaf1a4c84b0c938517a6b171d5",
+      "bytes": 520,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/bins_2_provenance.json": {
+      "sha256": "5d870db1bcd390d7a6003eef269273b07e922c497fc4f1455ebc80c780fe0da8",
+      "bytes": 1625,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/bins_3.csv": {
+      "sha256": "6ae699a73d8795a82c9ce268e0ec387e757395030ba58ea35237eb1758f51021",
+      "bytes": 514,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/bins_3_provenance.json": {
+      "sha256": "292cd3742b392bb188d615ac2644015d9b1854bb7c8adee381a24a5822b47d14",
+      "bytes": 1625,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/bins_4.csv": {
+      "sha256": "a23be3fd21c8994dfa4e29f04641217bab253338b29dd44145f14848b0a63a4d",
+      "bytes": 518,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/bins_4_provenance.json": {
+      "sha256": "ea945b929fdb4a34c8d5593796b0a1f9acc79b9489810e2781572a2be18c23fb",
+      "bytes": 1625,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/bootstrap.csv": {
+      "sha256": "7c16e68053656a00fdb793de04fa5b866de1afc5f9c889d54df0ced6d4b1a6de",
+      "bytes": 237,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/bootstrap_provenance.json": {
+      "sha256": "e654547d8a157ea286ef40e5431772898238b8bc0373339979e95c8a30712c99",
+      "bytes": 690,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/calibration.csv": {
+      "sha256": "b5cd4b6b6d8856494748727505f9bd40844dc769f3f1dc56d5d9b0a626873af0",
+      "bytes": 1126,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/calibration_provenance.json": {
+      "sha256": "f3f948508bb4c66bb8259bbbb44c04a07bd05f083aabebc74ae524821962c411",
+      "bytes": 1741,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/claims_registry.json": {
+      "sha256": "96b8a60299d886c5e8dcb87ee87c8919c12e252736bc4fec0b9f3a684a3048a0",
+      "bytes": 8512459,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/coefficients.csv": {
+      "sha256": "eeb2321214f749f617a0dae13b98b8fcb236b420fc7dcccf733c6e4279007573",
+      "bytes": 728,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/coefficients_provenance.json": {
+      "sha256": "426857e7424b8ff5447070304a168dcda80ccc9e797039f6099ce05872efe98b",
+      "bytes": 860,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/convergence.csv": {
+      "sha256": "b02358f31a286add04efbc36fe3d520a74444edcc43867d669d32b75103d94e1",
+      "bytes": 542,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/convergence_provenance.json": {
+      "sha256": "e3596b75142ed71806b12685c991380f72988d0062fa374811b73142e109f258",
+      "bytes": 875,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/correction_2026-10-08.json": {
+      "sha256": "2cc6d62d52a98b5352fdedb8301a755fb146ee00ba772acafd8c15ee65e7d06e",
+      "bytes": 25290,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/display_values.json": {
+      "sha256": "c6f9d3ac5bfc1b3ec78118e7cf831413f738fef85df56549c7e649547b5f3a11",
+      "bytes": 2335,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/macro.csv": {
+      "sha256": "0a0c818e94c9fcc31721149719e7bac10e9b40a506dba46216f0c9b0ed79ac47",
+      "bytes": 144,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/macro_provenance.json": {
+      "sha256": "3793868350e9c989dc918314c45c2096787440d44ea160f94fee401bbcb9f1d0",
+      "bytes": 249,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/method_constants.json": {
+      "sha256": "129878f114479a7dde7edfaad97dbf3ebe9a6dd6fb963a4084b319014032f1cc",
+      "bytes": 610,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/output_manifest.json": {
+      "sha256": "521d512043e385c7e46aff4a2a286a234e8857a85064f9ea7d3deadf452bec37",
+      "bytes": 20582,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/performance.csv": {
+      "sha256": "a41990bbaf0898cb139555d12991f8c08b5d77d55bd785d4303ec7d88628888b",
+      "bytes": 1231,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/performance_provenance.json": {
+      "sha256": "9aed2ec2a2cdfbb4dab9ab751f9dea101f8bee7195c19a68ddd0a6fe28c41c72",
+      "bytes": 1416,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/preservation_inventory.json": {
+      "sha256": "3eb4fcae97a70cfe62c5375fb8c6cfc90a00d035d37a6317b146ba9608eac1b2",
+      "bytes": 185768,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/private_free_rehearsal.json": {
+      "sha256": "0e1f78157821f569789ed4ea9fc35905e97529d5e3103743b6ab99f0340a5e1a",
+      "bytes": 1568,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/rank.csv": {
+      "sha256": "2a1a2446e09c5197400659331e49f503d2ba46a775a6093633bfe832a83c7c6d",
+      "bytes": 151,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/rank_provenance.json": {
+      "sha256": "293cfe0fae5f6f11bf4a86a8fe005e3672bf29f5145c0c95b738aaf33a088d56",
+      "bytes": 640,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/rate_missingness.csv": {
+      "sha256": "66828252c5e11d8a1b373893f509be8ee4014dec74f038763077018605c1f1a4",
+      "bytes": 117,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/rate_missingness_provenance.json": {
+      "sha256": "7680f10dbfdb836e8a33cb9ea9301b194eaa09b958ce77d3bd942b67a110ad67",
+      "bytes": 349,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/references_verified.json": {
+      "sha256": "cfb85a6a096aa3770407cb4983bef8f1dc9fcc326fa1c1bfc8629530734f0225",
+      "bytes": 859,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/rendered_claims.json": {
+      "sha256": "cc23d8376ce264542ea120905b297feb62ae632ab0aa110290f031df9c795351",
+      "bytes": 81663,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/reporting_coverage.json": {
+      "sha256": "8ee8fb1e4ece8aa0270e46f9799429c8f2a9aaa72d2cdf009a19394b3d32591d",
+      "bytes": 26638,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/samples.csv": {
+      "sha256": "a81e726f36b2dab882beaf0cdabf384471ac74356a3df99b00c66a2372502ea4",
+      "bytes": 566,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/samples_provenance.json": {
+      "sha256": "3ad6b44b13a07874e95d0f90b6b5273ea2e4b007a523d4a6d39827f450a3297a",
+      "bytes": 1131,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/sensitivities.csv": {
+      "sha256": "14d961276c4dd675746fb20bad6877e6589fd47be4b215557a1be64328b49211",
+      "bytes": 3078,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/sensitivities_provenance.json": {
+      "sha256": "09f9667d066d7169d852291a0ad79489ef03d25991b5eb9136be84a9e229c3d1",
+      "bytes": 758,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/snippet_provenance.json": {
+      "sha256": "3b0cbbd3b4151cea3aba57ff74830651432fa9bdd215a728c837ee9d4ce1f693",
+      "bytes": 2721,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/stress.csv": {
+      "sha256": "56ef70b374aa6b30cf54aa54aebfa8cff5970417ed7e87a5fac25cf0cc4d2f29",
+      "bytes": 4725,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/stress_provenance.json": {
+      "sha256": "4ac0991948360727fa5cbe484505881393292c5dba467f342ba747a36cdb9d65",
+      "bytes": 1583,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/support.csv": {
+      "sha256": "e4032d2cd75a4cb3a8812383438b730bafdf9bd33a91c5465fdbbf0e70e57099",
+      "bytes": 542,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/support_provenance.json": {
+      "sha256": "6b05d4025011222c8ea96a76b740ba8295d600efb39970453c280b43453c0ce5",
+      "bytes": 583,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/term.csv": {
+      "sha256": "cd1348146c960cf12b28c76c2dd706b957a47be62315ae8f3a33d7d009dd2cb9",
+      "bytes": 148,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/term_provenance.json": {
+      "sha256": "ba2dae438f00358f423e4b62b4c5d78567ccb4d0e330bb7de69180f47388c681",
+      "bytes": 449,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/validation_checks.json": {
+      "sha256": "775fe79d9cf9cef8ab2b0509504f60b5687e575a8682f4d818ac1e15083b9352",
+      "bytes": 566,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/validation_summary.json": {
+      "sha256": "c1cbc49e1360eb56dd7006ba99472ee6f87b4c02e34d78db7d4f6f686906218b",
+      "bytes": 1233,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/visual_checks.json": {
+      "sha256": "8ed930b84d3550dce86a63372f0f2e8d3e67657ee7257b16210835f4c91001e9",
+      "bytes": 5182,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/waterfall.csv": {
+      "sha256": "ffff7d41bdeccf3b55ff4cc615783f60571f06c73688572e4772800dc3625cb8",
+      "bytes": 372,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "results/g5-2026-10-08/waterfall_provenance.json": {
+      "sha256": "28719aea38dfecd4a052c1e39fe8c9a44ccdae92d8177eace5c1a3f68722614e",
+      "bytes": 803,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "scripts/build_notebook.py": {
+      "sha256": "322bfe6a48b2e70092f694b3ed2afd0b503668d93e9eb87df45eb60b71a6fbe4",
+      "bytes": 31302,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "scripts/execute_notebook.py": {
+      "sha256": "f1212148d6476701d5d43c0506b16d863b193f8e80dc48b6d192beaac22bee06",
+      "bytes": 2784,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "scripts/g2_bis/software_checks.py": {
+      "sha256": "e38002b043614682366d3deb374bb1de5c486dacebe49f36cde7b9f4aff442fa",
+      "bytes": 2521,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "scripts/g2_bis/validate_firth.py": {
+      "sha256": "3c0c24271e302b231f9a35ce4ceedf637b270ab5571d304f10a20758f2e1f6ea",
+      "bytes": 2332,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "scripts/g2_bis/validate_results.py": {
+      "sha256": "794875a6e75e6049300f4ad68f5181b7ebeb7c3e9d51ee185a3a2408d2b6add4",
+      "bytes": 5102,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "scripts/notebook_policy.py": {
+      "sha256": "b53706c38995d70b74161ae5c9fa477c2e29dbb828a055540c4d1f1e0167d36a",
+      "bytes": 3853,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "scripts/public_release.py": {
+      "sha256": "0657c779364794646bc55368192e67bc5852877d114ce09f635b0412443a9afc",
+      "bytes": 4606,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "scripts/working_paper.py": {
+      "sha256": "ac0653b46bc731c0f0cdcb3a1fae82e3cab874a1526ac4f4afd8e8e5a0da5045",
+      "bytes": 4440,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/__init__.py": {
+      "sha256": "291010d9a97407fc6bd01721f88edf56355b248d1cd9ff707ddb2d916f881533",
+      "bytes": 44,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/bis_analysis.py": {
+      "sha256": "598bcc118d1f060066c80dcfdc5397b7d622ec6d988aaf9ce3ca0bd56ea1f47a",
+      "bytes": 11388,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/bis_benchmarks.py": {
+      "sha256": "92e144c12cd1b2793c0cf19e79f5b9c1c77516f157a0564b92254b22cb08d2da",
+      "bytes": 14381,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/bis_data.py": {
+      "sha256": "de564b57c2e81b514d85aa17014eccfb4262f1fd93eb9e618e61db3d6eeac0d1",
+      "bytes": 11090,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/bis_design.py": {
+      "sha256": "0e32ecfdca3d05e683d21aca4b61400234571901ec558f1eda7405f194dace4c",
+      "bytes": 6112,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/bis_diagnostics.py": {
+      "sha256": "11156fa8a33df18e4706a5be1fb9791e5dd1458cfd224ca74dba49e0c46e80ff",
+      "bytes": 9862,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/bis_finalize.py": {
+      "sha256": "f9c3bada9f40a0e5b3706166092c3c63b583022b109a90293f22c5c971979aa2",
+      "bytes": 12153,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/bis_firth.py": {
+      "sha256": "ffa8dc5d5b0d8cc3dad4be8858f26f635d042491b0fe62c9ddf61a89df597260",
+      "bytes": 6485,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/bis_reporting.py": {
+      "sha256": "283c89a76480daa5c5707ff4ba68b125783991473d73c468dc2cc9064a7448f4",
+      "bytes": 38694,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/bis_runner.py": {
+      "sha256": "fe6b95e9a7d32b098f2e1a4e76a1187fb9952f2fa42255123874e88d51a9cbfd",
+      "bytes": 12923,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/bis_term.py": {
+      "sha256": "0ec2f1e296812cc52db89c9f2a5413d6ed7276e07fb44c8fe8c9940621c1ec54",
+      "bytes": 6832,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/cli.py": {
+      "sha256": "972379e336aa08d94d2abb4403a97f6597dd26ba955226f8d2ea9c88e407f0c7",
+      "bytes": 1530,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/data.py": {
+      "sha256": "4ee58103127cc7e44128bcd9342833c6a583a96354c994c17310c14be105e520",
+      "bytes": 9273,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/evaluation.py": {
+      "sha256": "e045a4f0126c762eea69df1f3398dd2a905be9dc9dc10356a1846f772f026afe",
+      "bytes": 9156,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/features.py": {
+      "sha256": "58f2c99b25befd6d0dc021d156e73ff2a772d0cc4788777536b82e9b0b79c703",
+      "bytes": 3968,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/fitting.py": {
+      "sha256": "f3bebe15e846370e2d84addaf4894cf415e605ff2dc0d74a350279d73fe433bc",
+      "bytes": 7437,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/io.py": {
+      "sha256": "8fdf5cbf2c4f6c24629c3d721a2e733bf7597c9571bb999d8b8b0effd3cc7891",
+      "bytes": 970,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/losses.py": {
+      "sha256": "261f8c0d473ceb480ec95e069403ad9975e33a80d7ce005ef1f4d87b571efd71",
+      "bytes": 3308,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/macro.py": {
+      "sha256": "1dd81e3753ba8b7c579dc4dd44b113c827ad17f1aef6ada8302e61bd244effa5",
+      "bytes": 8702,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/metrics.py": {
+      "sha256": "58e32fdeb500315de54a5c4d50bc93523bd36cea6fa7e35e589676c74b09c703",
+      "bytes": 6264,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/models.py": {
+      "sha256": "5836c998cf762aae4e21a7892de104cfaa9eaa04222cd68dc82d07ab0553277d",
+      "bytes": 8211,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/plots.py": {
+      "sha256": "eddcc9588a234779b213fe5e53a28d44e09ee9a3ff20569ec62c706fa9c1f988",
+      "bytes": 6380,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/reporting.py": {
+      "sha256": "588776b63d42a97996d6081babce5b1a315d5c5a11ee3e84c0e881d0f8b08c9c",
+      "bytes": 16879,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "src/credit_risk_sba/stress.py": {
+      "sha256": "15c5ebed1d34f1e729164abc3f7453bee6a34519abf87844ffa5a24c28387699",
+      "bytes": 16013,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_acquisition.py": {
+      "sha256": "268908d257835c29ec4042e700ced66f0da3262bc47c9a3bd78ab2e66d0140c3",
+      "bytes": 3791,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_bis_analysis.py": {
+      "sha256": "d549167da07b789d22a8d29fa935de01d7331ea6e693b6a2002aac58ee59fd3e",
+      "bytes": 9110,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_bis_design.py": {
+      "sha256": "cec94b0677bee7a9d9cdd008bdc85611145687b5c155a3b069c52ccf0dacc059",
+      "bytes": 2355,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_bis_firth.py": {
+      "sha256": "ab680221b1569c1f1086985f239a0ce15adc7296c2333bf161d84085deffb3c0",
+      "bytes": 4810,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_bis_pipeline.py": {
+      "sha256": "1f99fbd1c96617d0a5dc0e6cc0d22fec4f09fc27c182a72a0e5af49bd5e67287",
+      "bytes": 7847,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_bis_sources.py": {
+      "sha256": "3d1e463a90e392677d079cf672c7659cfa13cfbf65c97decfc2e3274de8ed09a",
+      "bytes": 5006,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_core.py": {
+      "sha256": "af433e4aab54072727811b59380f47178e5fc724f462c3ec0db954b27461b54f",
+      "bytes": 13839,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_download.py": {
+      "sha256": "d668a1803371da40c096dff140010ee09235216f0e4c9a88af3297cc11926ce3",
+      "bytes": 1541,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_editorial.py": {
+      "sha256": "357d60975515c60283f8e9f3dfe88e3972fe6678e72ff6142e4acf74540b5229",
+      "bytes": 4317,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_g5_reporting.py": {
+      "sha256": "6210f6fd987ba3adb685203426720934505309e5ce938c539899e97ab936eb87",
+      "bytes": 11454,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_pipeline.py": {
+      "sha256": "e6683f322e4c65c3efae77193b4c986ba609405543e46f6ab1733d10bc610214",
+      "bytes": 6115,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_public_notebook.py": {
+      "sha256": "c1b2e742754de936075560e59a8a4cdfa5d3121402f9e415eaefb629c48ca211",
+      "bytes": 2068,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "tests/test_working_paper.py": {
+      "sha256": "c1184ce85729b413f7b0f8e413417cc05e6a3ac0d19caaf712606d03054acd20",
+      "bytes": 2370,
+      "role": "current editorial snapshot or preserved public evidence"
+    },
+    "uv.lock": {
+      "sha256": "e8ec959f5b110f8c48f66a81481ea82ad2afba76d3937dd3127d0aadc402a53a",
+      "bytes": 246074,
+      "role": "current editorial snapshot or preserved public evidence"
+    }
+  }
+}

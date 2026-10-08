@@ -158,7 +158,9 @@ def test_negation_and_future_discussion_pass(text):
 
 def test_research_pipeline_not_in_report_build():
     commands = (ROOT / "Makefile").read_text().split("report:\n", 1)[1].split("report-test:", 1)[0]
-    assert "reporting.g5" in commands and "sba-g2" not in commands
+    assert (
+        "reporting.editorial" in commands or "public_release.py" in commands
+    ) and "sba-g2" not in commands
     tree = ast.parse((ROOT / "reporting/g5.py").read_text())
     assert not any(
         isinstance(n, ast.Attribute) and n.attr in {"fit", "predict", "predict_proba"}
@@ -253,7 +255,10 @@ def test_lookup_empty_and_unknown_claim(registry):
 def test_check_entrypoint(monkeypatch):
     checks.main()
     assert (
-        json.loads((ROOT / OUT / "validation_checks.json").read_text())["new_empirical_runs"] == 0
+        json.loads((ROOT / "report/editorial/validation_checks.json").read_text())[
+            "new_empirical_runs"
+        ]
+        == 0
     )
 
 

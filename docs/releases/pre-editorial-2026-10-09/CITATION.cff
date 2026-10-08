@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the technical report when using this study."
+title: "Local economic conditions and public–lender loss sharing in SBA 7(a) lending"
+version: "2026.10.08"
+authors:
+  - family-names: "Gülmez"
+    given-names: "Hakan Zeki"
+date-released: "2026-10-08"
+url: "https://github.com/hakangulmez/credit-risk-sba"
+preferred-citation:
+  type: report
+  title: "Local economic conditions and public–lender loss sharing in SBA 7(a) lending"
+  authors:
+    - family-names: "Gülmez"
+      given-names: "Hakan Zeki"
+  date-released: "2026-10-08"
+  url: "https://github.com/hakangulmez/credit-risk-sba/blob/main/report/technical_report.pdf"

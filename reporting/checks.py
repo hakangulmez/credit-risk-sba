@@ -12,7 +12,7 @@ from typing import Any
 
 import yaml
 
-from .registry import LOSS, OUT, ROOT, SCENARIO, Registry, digest, rows, scalar
+from .registry import OUT, ROOT, SCENARIO, Registry, digest, rows, scalar
 
 
 def verify_claims(root: Path, payload: dict[str, Any]) -> dict[str, int]:
@@ -167,6 +167,7 @@ def scope_check(root: Path = ROOT) -> dict[str, int]:
         "yaml",
         "registry",
         "checks",
+        "editorial",
     }
     for name in ["g5.py", "registry.py", "checks.py", "create_claims.py"]:
         tree = ast.parse((root / "reporting" / name).read_text())
@@ -191,7 +192,10 @@ def scope_check(root: Path = ROOT) -> dict[str, int]:
         caption = re.search(r"\\tbl\{" + name + r"\}\{([^\n]+)", source)
         assert caption and r"\scenario" in caption[1]
         assert "Retrospective conditional validation" not in caption[1]
-    assert LOSS in (root / "figures/g5/headline_caption.txt").read_text()
+    assert (
+        "Assumption-based loss proxies; see"
+        in (root / "figures/g5/headline_caption.txt").read_text()
+    )
     surfaces = [
         root / "README.md",
         root / "CV_BULLET_DRAFT.md",
@@ -266,7 +270,9 @@ def main() -> None:
         "pages": pages(root),
         "new_empirical_runs": 0,
     }
-    (root / OUT / "validation_checks.json").write_text(json.dumps(result, indent=2) + "\n")
+    (root / "report/editorial/validation_checks.json").write_text(
+        json.dumps(result, indent=2) + "\n"
+    )
     print(json.dumps(result, indent=2))
 
 

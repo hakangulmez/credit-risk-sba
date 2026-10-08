@@ -75,3 +75,27 @@ Calibration error can change probability levels, differences and ratios. No deri
 The registry also covers samples/waterfall, benchmark AP/Brier and calibration intervals, all four saved calibration-group displays, convergence/failed fits, sensitivities/support, coefficients and Term audit counts. Dates, section/page numbers and source identifiers are metadata, distinguished from estimates.
 
 Prohibited stronger interpretations: strong transported model; calibration solved; causal macro/guarantee effects; measured tail risk; actual public spending or guarantee payments; joint support or path plausibility established; real-time macro forecast; IFRS 9/CECL implementation. Negated qualifications and discussion-only future methods are permitted.
+
+
+## Editorial calibration-group prose — 9 October 2026
+
+The following displays reuse existing cell IDs from the unchanged registry above. Each selector identifies a single saved CSV row; source hashes, selectors, columns and display conversions are repeated in [the editorial prose map](report/editorial/calibration_prose_claims.json). No intervals, bins or tests were recomputed.
+
+| Prose macro | Display | Units | Existing cell ID | Unique source selector / column |
+|---|---|---|---|---|
+| CrisisGroupOnePred | 0.70 | percent (%) | `N9044d0d913ef84` | `{"bin": "1", "cohort": "crisis_2007_2009", "model": "firth_raw", "variant": "layer1"}` / `predicted_pd` |
+| CrisisGroupOneRecorded | 5.22 | percent (%) | `N1d1baf054f7f2f` | `{"bin": "1", "cohort": "crisis_2007_2009", "model": "firth_raw", "variant": "layer1"}` / `recorded_rate` |
+| CrisisGroupNinePred | 6.02 | percent (%) | `Nfece26f5c2f5d2` | `{"bin": "9", "cohort": "crisis_2007_2009", "model": "firth_raw", "variant": "layer1"}` / `predicted_pd` |
+| CrisisGroupNineRecorded | 16.72 | percent (%) | `Naacd5357c61b4b` | `{"bin": "9", "cohort": "crisis_2007_2009", "model": "firth_raw", "variant": "layer1"}` / `recorded_rate` |
+| CrisisGroupTenPred | 13.16 | percent (%) | `N5c4e9b68430987` | `{"bin": "10", "cohort": "crisis_2007_2009", "model": "firth_raw", "variant": "layer1"}` / `predicted_pd` |
+| CrisisGroupTenRecorded | 16.42 | percent (%) | `Nf23b0857a0e39d` | `{"bin": "10", "cohort": "crisis_2007_2009", "model": "firth_raw", "variant": "layer1"}` / `recorded_rate` |
+| TreeGroupNinePred | 6.42 | percent (%) | `N7431e90143bb60` | `{"bin": "9", "cohort": "post_amendment_validation_2013_2014", "model": "lightgbm_calibrated", "variant": "layer2"}` / `predicted_pd` |
+| TreeGroupNineRecorded | 3.49 | percent (%) | `Nd9d972b86d8e80` | `{"bin": "9", "cohort": "post_amendment_validation_2013_2014", "model": "lightgbm_calibrated", "variant": "layer2"}` / `recorded_rate` |
+| TreeGroupTenPred | 10.17 | percent (%) | `N08df4340e58445` | `{"bin": "10", "cohort": "post_amendment_validation_2013_2014", "model": "lightgbm_calibrated", "variant": "layer2"}` / `predicted_pd` |
+| TreeGroupTenRecorded | 5.81 | percent (%) | `N972696014ba9f9` | `{"bin": "10", "cohort": "post_amendment_validation_2013_2014", "model": "lightgbm_calibrated", "variant": "layer2"}` / `recorded_rate` |
+| TreeGroupTenN | 155 | count | `Na0278d31b91525` | `{"bin": "10", "cohort": "post_amendment_validation_2013_2014", "model": "lightgbm_calibrated", "variant": "layer2"}` / `n` |
+| TreeGroupTenLower | 2.41 | percent (%) | `Nb99cd58f8c10b7` | `{"bin": "10", "cohort": "post_amendment_validation_2013_2014", "model": "lightgbm_calibrated", "variant": "layer2"}` / `lower` |
+| TreeGroupTenUpper | 11.87 | percent (%) | `Nd736db9631b846` | `{"bin": "10", "cohort": "post_amendment_validation_2013_2014", "model": "lightgbm_calibrated", "variant": "layer2"}` / `upper` |
+| CrisisDiagnosticSlope | 0.314 | unitless | `N3e3a57a63c1964` | `{"cohort": "crisis_2007_2009", "metric": "calibration_slope", "model": "firth_raw", "variant": "layer1"}` / `value` |
+
+The groups 1–8 statement also links all sixteen stored predicted/recorded-rate cells in the editorial prose map. It is a descriptive comparison, not an equivalence claim. The crisis top-group pattern is read alongside the saved diagnostic slope; no mechanism or statistical test for group differences is asserted.

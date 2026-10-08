@@ -20,7 +20,7 @@ Official SBA 7(a) FOIA, snapshot 30 June 2026, plus direct BLS LAUS and FHFA all
 
 Layer 1: fit 1991–2002; tune 2003H1; calibrate benchmarks 2003H2; evaluate 2007–2009 and 2011–2013. Layer 2: fit 1991–2009; calibrate LightGBM on 2010; check 2013–2014. **Retrospective conditional validation using realized macro paths.** Calibration labels extend to end-2013; the 2013 cohort was seen previously. The fixed 2006 scenario portfolio enters Layer 2 estimation.
 
-The current Firth specification was fixed after the initial ordinary-logit failures and calibration results had been inspected, and before the Firth fits were estimated. This is a post-results design amendment. [Method history](docs/METHOD_HISTORY.md) and [dated decisions](DECISIONS.md) preserve the chronology.
+The final estimation protocol was frozen after first-round results had been seen and before any final-round model was estimated. Deviations are logged in DECISIONS.md. This is a post-results design amendment. [Method history](docs/METHOD_HISTORY.md) and [dated decisions](DECISIONS.md) preserve the chronology.
 
 ## Explore the complete results
 
@@ -45,7 +45,7 @@ make notebook-check REPORT_PYTHON=.venv/bin/python
 
 [Working paper](report/working_paper.pdf) · [Two-page policy note](report/policy_note.pdf) · [Technical report](report/technical_report.pdf) · [Claims/provenance](CLAIMS.md)
 
-The working paper develops the economic motivation, related literature and interpretation of the reviewed results. It uses the same frozen estimates as the technical report, with no new fitting or specification search. [Manuscript, references and reproduction](docs/WORKING_PAPER_2026-10-08.md) document its scope; the accepted policy note and technical report are retained unchanged.
+The working paper develops the economic motivation, related literature and interpretation of the reviewed results. It uses the same frozen estimates as the technical report, with no new fitting or specification search. [Manuscript, references and reproduction](docs/WORKING_PAPER_2026-10-08.md) document its scope; the current policy note and technical report use the same estimates with the editorial corrections described in the local delivery notes.
 
 ```sh
 make report        # rebuild in an isolated directory; no fitting
@@ -55,7 +55,7 @@ make paper        # rebuild the working paper in an isolated directory; no fitti
 make paper-check  # check manuscript inputs and interpretation
 ```
 
-Python 3.11 and the locked environment in `uv.lock` are required. Use `uv sync --frozen --python 3.11`, then `make report-check REPORT_PYTHON=.venv/bin/python` and `make report-test REPORT_PYTHON=.venv/bin/python`. PDF rebuilding additionally requires Poppler (`pdfinfo`) and Tectonic with cached TeX packages; set `TECTONIC` to its executable. Rebuilds are offline and write only under ignored `data/public-report-rebuild/`. No raw loans, private predictions or fitted models are needed. [Public release and reproduction](PUBLIC_RELEASE.md) explains the exported snapshot and validation scope; the original [G5 build notes](docs/G5_REPRODUCTION.md) remain dated evidence.
+Python 3.11 and the locked environment in `uv.lock` are required. Use `uv sync --frozen --python 3.11`, then `make report-check REPORT_PYTHON=.venv/bin/python` and `make report-test REPORT_PYTHON=.venv/bin/python`. PDF rebuilding additionally requires Poppler (`pdfinfo`) and Tectonic with cached TeX packages; set `TECTONIC` to its executable. Rebuilds are offline and write only under ignored `data/editorial-2026-10-09/`. No raw loans, private predictions or fitted models are needed. [Public release and reproduction](PUBLIC_RELEASE.md) explains the exported snapshot and validation scope; [Report build notes](docs/G5_REPRODUCTION.md) remain dated evidence.
 
 ## Limitations and future work
 
@@ -63,10 +63,10 @@ Python 3.11 and the locked environment in `uv.lock` are required. Use `uv sync -
 - Descriptor/Term vintages remain unverified, rates are largely missing, and revised macro data are not historical information sets.
 - Calibration fails across cohorts; average agreement in calibrated Layer 2 LightGBM does not establish group calibration. Post-results amendments and reused/calendar-overlapping cohorts limit confirmatory claims.
 - EAD = GrossApproval; full-disbursement proxy, CCF = 100%. LGD is the gross charge-off proxy on the same approval denominator. SBA/lender amounts use assumption-based pro-rata guarantee allocation. Recoveries, amortization, actual payouts and loss-assumption uncertainty are absent; CCF 100% does not make the combined EL necessarily conservative.
-- Independent-state/successful-draw conditioning and univariate support checks leave broader dependence and joint path plausibility unresolved. Future rolling-origin recalibration, block Shapley accounting, competing risks or separately authorized policy design require new protocols; none is executed here.
+- Intervals assume independent states and use only the refits that converged (198 of 199 for the primary scenario model); univariate support checks leave broader dependence and joint path plausibility unresolved. Future rolling-origin recalibration, block Shapley accounting, competing risks or separately authorized policy design require new protocols; none is executed here.
 
 ## Sources and reproducibility
 
-The reports and saved estimates form the reviewed 8 October 2026 research snapshot. This repository distributes research code, fixed specifications, aggregate results and a results walkthrough. Borrower-level data, fitted models, private predictions and credentials are excluded. Report and notebook commands reproduce presentation from frozen aggregates; full empirical re-estimation requires the separately retained input vintages and model checkpoints. [Reproduction scope](PUBLIC_RELEASE.md), [source rights](DATA.md) and the [file manifest](PUBLIC_RELEASE_MANIFEST.json) give the details.
+The reports present the saved results of the final estimation round dated 8 October 2026. This repository distributes research code, fixed specifications, aggregate results and a results walkthrough. Borrower-level data, fitted models, private predictions and credentials are excluded. Report and notebook commands reproduce presentation from frozen aggregates; full empirical re-estimation requires the separately retained input vintages and model checkpoints. [Reproduction scope](PUBLIC_RELEASE.md), [source rights](DATA.md) and the [current editorial manifest](PUBLIC_EDITORIAL_MANIFEST_2026-10-09.json) give the details.
 
 Hakan Zeki Gülmez · M.Sc. Management & Technology (Economics & Econometrics), Technical University of Munich · [GitHub](https://github.com/hakangulmez) · [LinkedIn](https://www.linkedin.com/in/hakan-zeki-g%C3%BClmez-088700180/)

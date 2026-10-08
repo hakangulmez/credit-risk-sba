@@ -6,18 +6,14 @@ import argparse
 import ast
 import hashlib
 import json
-import os
 import re
-import shutil
-import subprocess
 import sys
-import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from reporting import checks
+from reporting import checks, editorial
 from reporting.registry import OUT
 from scripts.notebook_policy import NOTEBOOK, validate_notebook
 from scripts.working_paper import check as check_paper
@@ -32,7 +28,10 @@ def digest(path: Path) -> str:
 
 
 def validate() -> dict:
-    manifest = json.loads((ROOT / "PUBLIC_RELEASE_MANIFEST.json").read_text())
+    manifest_path = ROOT / "PUBLIC_EDITORIAL_MANIFEST_2026-10-09.json"
+    if not manifest_path.exists():
+        manifest_path = ROOT / "PUBLIC_RELEASE_MANIFEST.json"
+    manifest = json.loads(manifest_path.read_text())
     for name, item in manifest["files"].items():
         path = ROOT / name
         if digest(path) != item["sha256"]:
@@ -43,7 +42,7 @@ def validate() -> dict:
         if parts[0] == "notebooks" and name != NOTEBOOK:
             raise ValueError(f"Notebook not on the public allowlist: {name}")
         if path.suffix in {".joblib", ".pkl", ".pickle", ".parquet"} or (
-            path.suffix == ".ipynb" and name != NOTEBOOK
+            path.suffix == ".ipynb" and name not in {NOTEBOOK, str(editorial.ARCHIVE / NOTEBOOK)}
         ):
             raise ValueError(f"Private artifact included: {name}")
         if path.name.startswith(".env"):
@@ -96,6 +95,7 @@ def validate() -> dict:
         "pages": page_check,
         "notebook": validate_notebook(ROOT / NOTEBOOK),
         "working_paper": check_paper(ROOT),
+        "editorial": editorial.check(ROOT),
         "credential_pattern_scan": "passed",
         "private_data_or_models_distributed": False,
         "new_empirical_runs": 0,
@@ -106,33 +106,8 @@ def validate() -> dict:
 
 def build() -> None:
     validate()
-    payload = json.loads((ROOT / OUT / "claims_registry.json").read_text())
-    inputs = {c["source_path"] for c in payload["claims"].values() if "source_path" in c}
-    inputs.add(str(OUT / "claims_registry.json"))
-    output = ROOT / "data/public-report-rebuild"
-    output.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix="isolated-", dir=output) as temporary:
-        stage = Path(temporary)
-        for name in sorted(inputs):
-            target = stage / name
-            target.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copyfile(ROOT / name, target)
-        shutil.copytree(ROOT / "report/g5", stage / "report/g5")
-        if (stage / "models").exists() or (stage / "data").exists():
-            raise ValueError("Private inputs present before report rebuild")
-        subprocess.run(
-            [sys.executable, "-m", "reporting.g5", "--root", str(stage)],
-            cwd=ROOT,
-            env=os.environ.copy(),
-            check=True,
-        )
-        checks.pages(stage)
-        checks.rendered_check(stage)
-        for name in ["policy_note.pdf", "technical_report.pdf"]:
-            shutil.copyfile(stage / "report" / name, output / name)
-        for directory in ["report/g5/generated", "figures/g5"]:
-            shutil.copytree(stage / directory, output / directory, dirs_exist_ok=True)
-    print(f"Results-only rebuild saved under {output}; accepted release files unchanged.")
+    output = editorial.build(ROOT)
+    print(f"Editorial rebuild saved under {output}; distributed files unchanged.")
 
 
 if __name__ == "__main__":

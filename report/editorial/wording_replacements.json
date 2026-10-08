@@ -1,0 +1,448 @@
+{
+  "date": "2026-10-09",
+  "mapping": {
+    "G1": "data and protocol stage",
+    "G2": "first estimation round",
+    "G2-bis": "final estimation round",
+    "G5": "reporting stage",
+    "accepted research run / reviewed research snapshot": "saved results of the final estimation round (context-appropriate wording)",
+    "accepted technical report": "technical report",
+    "October 2026 • Local review draft": "October 2026 · Working paper",
+    "External release requires separate approval.": "deleted from policy note",
+    "local drafts only": "deleted from policy note",
+    "successful-draw conditioning": "intervals use only the refits that converged (198 of 199 for the primary scenario model)",
+    "hybrid-path plausibility": "whether mixed baseline/adverse paths are economically plausible"
+  },
+  "exceptions": "Historical reports and path/link targets retain original names. This record contains old phrases intentionally for auditing. G1 was not present in the baseline reader surfaces.",
+  "line_level_records": [
+    {
+      "path": "README.md",
+      "old_lines": [
+        48,
+        48
+      ],
+      "new_lines": [
+        48,
+        48
+      ],
+      "old": "The working paper develops the economic motivation, related literature and interpretation of the reviewed results. It uses the same frozen estimates as the technical report, with no new fitting or specification search. [Manuscript, references and reproduction](docs/WORKING_PAPER_2026-10-08.md) document its scope; the accepted policy note and technical report are retained unchanged.",
+      "new": "The working paper develops the economic motivation, related literature and interpretation of the reviewed results. It uses the same frozen estimates as the technical report, with no new fitting or specification search. [Manuscript, references and reproduction](docs/WORKING_PAPER_2026-10-08.md) document its scope; the current policy note and technical report use the same estimates with the editorial corrections described in the local delivery notes."
+    },
+    {
+      "path": "README.md",
+      "old_lines": [
+        58,
+        58
+      ],
+      "new_lines": [
+        58,
+        58
+      ],
+      "old": "Python 3.11 and the locked environment in `uv.lock` are required. Use `uv sync --frozen --python 3.11`, then `make report-check REPORT_PYTHON=.venv/bin/python` and `make report-test REPORT_PYTHON=.venv/bin/python`. PDF rebuilding additionally requires Poppler (`pdfinfo`) and Tectonic with cached TeX packages; set `TECTONIC` to its executable. Rebuilds are offline and write only under ignored `data/public-report-rebuild/`. No raw loans, private predictions or fitted models are needed. [Public release and reproduction](PUBLIC_RELEASE.md) explains the exported snapshot and validation scope; the original [G5 build notes](docs/G5_REPRODUCTION.md) remain dated evidence.",
+      "new": "Python 3.11 and the locked environment in `uv.lock` are required. Use `uv sync --frozen --python 3.11`, then `make report-check REPORT_PYTHON=.venv/bin/python` and `make report-test REPORT_PYTHON=.venv/bin/python`. PDF rebuilding additionally requires Poppler (`pdfinfo`) and Tectonic with cached TeX packages; set `TECTONIC` to its executable. Rebuilds are offline and write only under ignored `data/editorial-2026-10-09/`. No raw loans, private predictions or fitted models are needed. [Public release and reproduction](PUBLIC_RELEASE.md) explains the exported snapshot and validation scope; [Report build notes](docs/G5_REPRODUCTION.md) remain dated evidence."
+    },
+    {
+      "path": "README.md",
+      "old_lines": [
+        66,
+        66
+      ],
+      "new_lines": [
+        66,
+        66
+      ],
+      "old": "- Independent-state/successful-draw conditioning and univariate support checks leave broader dependence and joint path plausibility unresolved. Future rolling-origin recalibration, block Shapley accounting, competing risks or separately authorized policy design require new protocols; none is executed here.",
+      "new": "- Intervals assume independent states and use only the refits that converged (198 of 199 for the primary scenario model); univariate support checks leave broader dependence and joint path plausibility unresolved. Future rolling-origin recalibration, block Shapley accounting, competing risks or separately authorized policy design require new protocols; none is executed here."
+    },
+    {
+      "path": "PUBLIC_RELEASE.md",
+      "old_lines": [
+        3,
+        3
+      ],
+      "new_lines": [
+        3,
+        3
+      ],
+      "old": "This repository publishes **Local economic conditions and public–lender loss sharing in SBA 7(a) lending**, Layers 1–2, after completed G5 review. The accepted local source commit is `40c7c5ec9e3386dcf1ebfafcb5335da0e4e6b179`; the empirical release is `8f7343584d55a14f8cae47c3e9fded3ed56503d4`. These hashes identify the preserved local history, not commits in this fresh public repository.",
+      "new": "This repository publishes **Local economic conditions and public–lender loss sharing in SBA 7(a) lending**, Layers 1–2, after completed reporting review. The accepted local source commit is `40c7c5ec9e3386dcf1ebfafcb5335da0e4e6b179`; the empirical release is `8f7343584d55a14f8cae47c3e9fded3ed56503d4`. These hashes identify the preserved local history, not commits in this fresh public repository."
+    },
+    {
+      "path": "PUBLIC_RELEASE.md",
+      "old_lines": [
+        7,
+        7
+      ],
+      "new_lines": [
+        7,
+        7
+      ],
+      "old": "The snapshot contains current research and reporting source code, fixed configs, protocols and their dated versions, aggregate G2/G2-bis/G5 results, accepted report PDFs, G5 figures and the executed research walkthrough notebook. Research numbers and frozen source files are copied byte-for-byte. The current technical report includes the dated editorial correction described below; the earlier PDF is retained. The public README, Makefile, ignore rules and this publication wrapper document the new distribution scope. `PUBLIC_RELEASE_MANIFEST.json` records every distributed file, its hash and its relationship to the original source snapshot.",
+      "new": "The snapshot contains current research and reporting source code, fixed configs, protocols and their dated versions, aggregate results from the first and final estimation rounds and reporting stage, current report PDFs and figures and the executed research walkthrough notebook. Research numbers and frozen source files are copied byte-for-byte. The current reports include the dated editorial corrections described below; earlier sources and PDFs are retained. The public README, Makefile, ignore rules and this publication wrapper document the new distribution scope. `PUBLIC_RELEASE_MANIFEST.json` retains the previous published distribution ledger. `PUBLIC_EDITORIAL_MANIFEST_2026-10-09.json` records the current local editorial snapshot separately."
+    },
+    {
+      "path": "PUBLIC_RELEASE.md",
+      "old_lines": [
+        23,
+        23
+      ],
+      "new_lines": [
+        23,
+        23
+      ],
+      "old": "The separate [working paper](report/working_paper.pdf) expands the economic motivation, literature and discussion using the same frozen estimates. Its [scope and reproduction notes](docs/WORKING_PAPER_2026-10-08.md) distinguish editorial additions from empirical evidence. `make paper` compiles offline under ignored `data/working-paper-build/`; `make paper-check` verifies its fixed inputs and page limit. The accepted policy PDF is unchanged. The original technical PDF is retained; its current presentation includes the editorial correction below. The notebook-stage distribution manifest and its README/Makefile are retained under `docs/releases/`.",
+      "new": "The separate [working paper](report/working_paper.pdf) expands the economic motivation, literature and discussion using the same frozen estimates. Its [scope and reproduction notes](docs/WORKING_PAPER_2026-10-08.md) distinguish editorial additions from empirical evidence. `make paper` compiles offline under ignored `data/working-paper-build/`; `make paper-check` verifies its fixed inputs and page limit. The original policy, technical and working-paper PDFs are retained in the dated pre-editorial archive; current versions include the editorial corrections below. The notebook-stage distribution manifest and its README/Makefile are retained under `docs/releases/`."
+    },
+    {
+      "path": "PUBLIC_RELEASE.md",
+      "old_lines": [
+        34,
+        34
+      ],
+      "new_lines": [
+        34,
+        34
+      ],
+      "old": "`report-test` selects the portable, non-fitting G5 reporting regression checks and notebook scope regression checks. Seven original tests are intentionally excluded because they require private preservation inventories, undistributed correction archives or CV/social drafts, the original Makefile, or a machine-specific cached TeX installation. The original 50-test G5 result remains historical evidence, not the public-subset count. Synthetic research tests are supplied as source and are not invoked by these reporting commands.",
+      "new": "`report-test` selects the portable reporting and editorial regression checks that do not fit models and notebook scope regression checks. Seven original tests are intentionally excluded because they require private preservation inventories, undistributed correction archives or CV/social drafts, the original Makefile, or a machine-specific cached TeX installation. The original 50-test reporting result remains historical evidence, not the public-subset count. Synthetic research tests are supplied as source and are not invoked by these reporting commands."
+    },
+    {
+      "path": "PUBLIC_RELEASE.md",
+      "old_lines": [
+        42,
+        42
+      ],
+      "new_lines": [
+        42,
+        42
+      ],
+      "old": "The wrapper copies only hash-bound aggregate inputs and report sources into an isolated temporary directory, calls the unchanged results-only renderer, and places rebuilt artifacts under ignored `data/public-report-rebuild/`. It never imports the research package or replaces accepted published PDFs, README, source aggregates or registry. Compilation uses cached packages only. PDF creation metadata can change bytes without changing the reported research values. Build-specific draft prose generated by the renderer stays inside the temporary build.",
+      "new": "The wrapper checks the current distribution and archived originals, copies report sources and saved tables into isolated staging, and compiles with the editorial builder under ignored `data/editorial-2026-10-09/`. It never imports the research package, regenerates frozen reporting results or replaces distributed PDFs, README, source aggregates or registry. It produces no communication drafts. Compilation uses cached packages only; PDF creation metadata can change bytes without changing the reported research values."
+    },
+    {
+      "path": "report/g5/policy_note.tex",
+      "old_lines": [
+        6,
+        6
+      ],
+      "new_lines": [
+        6,
+        6
+      ],
+      "old": "\\small M.Sc. Management \\& Technology (Economics \\& Econometrics), Technical University of Munich\\par October 2026 • Local review draft",
+      "new": "\\small M.Sc. Management \\& Technology (Economics \\& Econometrics), Technical University of Munich\\par October 2026 · Working paper"
+    },
+    {
+      "path": "report/g5/policy_note.tex",
+      "old_lines": [
+        27,
+        27
+      ],
+      "new_lines": [
+        29,
+        29
+      ],
+      "old": "\\textbf{Chronology and inference.} Layer 1 estimates on 1991--2002. Benchmark settings selected on 2003H1 in G2 are inherited unchanged; benchmark calibration uses 2003H2. Layer 2 estimates on 1991--2009 and calibrates LightGBM only on 2010. Its check uses future realized macro paths, its calibration labels overlap the 2013 calendar, and the 2013 cohort was already inspected. The scenario portfolio is included in Layer 2 estimation. Stored fitted-model evaluation bands differ from training-state multiplier refit intervals, which hold preprocessing, portfolio, LGD and paths fixed; they exclude calibration-model, scenario-construction and source-vintage uncertainty.",
+      "new": "\\textbf{Chronology and inference.} Layer 1 estimates on 1991--2002. Benchmark settings selected on 2003H1 in the first estimation round are inherited unchanged; benchmark calibration uses 2003H2. Layer 2 estimates on 1991--2009 and calibrates LightGBM only on 2010. Its check uses future realized macro paths, its calibration labels overlap the 2013 calendar, and the 2013 cohort was already inspected. The scenario portfolio is included in Layer 2 estimation. Stored fitted-model evaluation bands differ from training-state multiplier refit intervals, which hold preprocessing, portfolio, LGD and paths fixed; they exclude calibration-model, scenario-construction and source-vintage uncertainty."
+    },
+    {
+      "path": "report/g5/policy_note.tex",
+      "old_lines": [
+        34,
+        34
+      ],
+      "new_lines": [
+        36,
+        36
+      ],
+      "old": "\\item Independent-state and successful-draw assumptions constrain intervals. State-specific adverse flags affect \\SupportShare\\% of loans; univariate checks do not establish joint support or path plausibility.",
+      "new": "\\item Intervals assume independent states and use only the refits that converged (198 of 199 for the primary scenario model). State-specific adverse flags affect \\SupportShare\\% of loans; univariate checks do not establish joint support or path plausibility."
+    },
+    {
+      "path": "report/g5/policy_note.tex",
+      "old_lines": [
+        37,
+        37
+      ],
+      "new_lines": [
+        39,
+        39
+      ],
+      "old": "\\small No new fitting, prediction, recalibration or empirical analysis was performed for this write-up. External release requires separate approval. Results and complete qualifications: technical report and CLAIMS.md; local drafts only.",
+      "new": "\\small No new fitting, prediction, recalibration or empirical analysis was performed for this write-up. Results and complete qualifications: technical report and CLAIMS.md."
+    },
+    {
+      "path": "report/g5/technical_report.tex",
+      "old_lines": [
+        19,
+        19
+      ],
+      "new_lines": [
+        19,
+        19
+      ],
+      "old": "\\textbf{Design history.} The G2-bis protocol was frozen after the G2 results had been seen and before any G2-bis model was estimated. Deviations are logged in DECISIONS.md. Ordinary-logit fits and calibration results had already been inspected. Training-frequency pooling, Firth estimation and the expanded Layer 2 chronology were then documented before any G2-bis refit. The amendment is not a confirmatory replication; joint changes cannot identify which isolated change improved or worsened performance. The present write-up uses saved aggregate outputs only.",
+      "new": "\\textbf{Design history.} The final estimation protocol was frozen after first-round results had been seen and before any final-round model was estimated. Deviations are logged in DECISIONS.md. Ordinary-logit fits and calibration results had already been inspected. Training-frequency pooling, Firth estimation and the expanded Layer 2 chronology were then documented before any final-round refit. The amendment is not a confirmatory replication; joint changes cannot identify which isolated change improved or worsened performance. The present write-up uses saved aggregate outputs only."
+    },
+    {
+      "path": "report/g5/technical_report.tex",
+      "old_lines": [
+        25,
+        25
+      ],
+      "new_lines": [
+        25,
+        25
+      ],
+      "old": "FHFA observations and previously retrieved BLS observations are unchanged. Only missing unemployment observations needed through the end of the later validation horizon were added in the accepted research run. This creates a mixed retrieval vintage of revised agency histories, not historical release information. Retrieval dates and source hashes are in the frozen source manifest. This product uses FHFA data but is neither endorsed nor certified by FHFA.",
+      "new": "FHFA observations and previously retrieved BLS observations are unchanged. Only missing unemployment observations needed through the end of the later validation horizon were added in the final estimation round. This creates a mixed retrieval vintage of revised agency histories, not historical release information. Retrieval dates and source hashes are in the frozen source manifest. This product uses FHFA data but is neither endorsed nor certified by FHFA."
+    },
+    {
+      "path": "report/g5/technical_report.tex",
+      "old_lines": [
+        43,
+        43
+      ],
+      "new_lines": [
+        43,
+        43
+      ],
+      "old": "Layer 1 estimates on 1991--2002, with G2 benchmark tuning on 2003H1 and benchmark calibration on 2003H2. ElasticNet and LightGBM hyperparameters and selected boosting rounds were inherited unchanged by G2-bis: no new search or early stopping occurred. The crisis test is 2007--2009; the additional cohort is 2011--2013. Calibration diagnostics for Firth do not modify its raw probabilities.",
+      "new": "Layer 1 estimates on 1991--2002, with benchmark tuning in the first estimation round on 2003H1 and benchmark calibration on 2003H2. ElasticNet and LightGBM hyperparameters and selected boosting rounds were inherited unchanged in the final estimation round: no new search or early stopping occurred. The crisis test is 2007--2009; the additional cohort is 2011--2013. Calibration diagnostics for Firth do not modify its raw probabilities."
+    },
+    {
+      "path": "report/g5/technical_report.tex",
+      "old_lines": [
+        45,
+        45
+      ],
+      "new_lines": [
+        45,
+        45
+      ],
+      "old": "Layer 2 estimates on 1991--2009. The LightGBM robustness uses the corresponding frozen Layer 1 G2 parameters/rounds, and its probability calibrator is fitted on 2010 only. Validation is 2013--2014: \\textbf{Retrospective conditional validation using realized macro paths.} Estimation labels mature by end-2012; calibration labels extend through end-2013 and overlap the calendar period of the 2013 validation cohort. That cohort was already included in G2 evaluation. This is post-amendment validation, not a previously untouched confirmatory test. No held-out result changes the specification or threshold.",
+      "new": "Layer 2 estimates on 1991--2009. The LightGBM robustness uses the corresponding frozen Layer 1 parameters/rounds from the first estimation round, and its probability calibrator is fitted on 2010 only. Validation is 2013--2014: \\textbf{Retrospective conditional validation using realized macro paths.} Estimation labels mature by end-2012; calibration labels extend through end-2013 and overlap the calendar period of the 2013 validation cohort. That cohort was already included in first estimation round evaluation. This is post-amendment validation, not a previously untouched confirmatory test. No held-out result changes the specification or threshold."
+    },
+    {
+      "path": "report/g5/technical_report.tex",
+      "old_lines": [
+        55,
+        55
+      ],
+      "new_lines": [
+        55,
+        55
+      ],
+      "old": "The accepted run converged for each Firth point fit. Layer 1 ordinary MLE has an outcome-pure pooled category even though numerical optimization reports success; Layer 2 reaches the fixed iteration limit, which alone does not prove separation. The with-Term ElasticNet benchmark also fails at its frozen limit. These failures remain visible; no alternative favourable specification replaces them. Complete fit diagnostics and implementation validation are linked in the appendix.",
+      "new": "The final estimation round converged for each Firth point fit. Layer 1 ordinary MLE has an outcome-pure pooled category even though numerical optimization reports success; Layer 2 reaches the fixed iteration limit, which alone does not prove separation. The with-Term ElasticNet benchmark also fails at its frozen limit. These failures remain visible; no alternative favourable specification replaces them. Complete fit diagnostics and implementation validation are linked in the appendix."
+    },
+    {
+      "path": "report/g5/technical_report.tex",
+      "old_lines": [
+        62,
+        62
+      ],
+      "new_lines": [
+        62,
+        62
+      ],
+      "old": "Firth training-refit inference instead uses positive state-weighted multiplier attempts. Each scheduled draw assigns independent Exponential(1) weights to states, copies them to their loans and normalizes within the estimation sample to its original loan count. Every state remains present; underlying weights are shared across specifications and paired scenarios. The weighted likelihood and Firth penalty are re-estimated in the accepted research run, not at reporting time. Linear percentile bounds use only successful fully defined draws and report their effective denominators. No failed attempt is redrawn.",
+      "new": "Firth training-refit inference instead uses positive state-weighted multiplier attempts. Each scheduled draw assigns independent Exponential(1) weights to states, copies them to their loans and normalizes within the estimation sample to its original loan count. Every state remains present; underlying weights are shared across specifications and paired scenarios. The weighted likelihood and Firth penalty are re-estimated in the final estimation round, not at reporting time. Linear percentile bounds use only successful fully defined draws and report their effective denominators. No failed attempt is redrawn."
+    },
+    {
+      "path": "report/g5/technical_report.tex",
+      "old_lines": [
+        72,
+        72
+      ],
+      "new_lines": [
+        72,
+        72
+      ],
+      "old": "Layer 1 crisis AUC is \\AucCrisis\\ and additional-cohort AUC \\AucLater. The ranking evidence is above chance but modest; it is not strong or stable transportability. Mean Firth risk is \\PdCrisis\\% against \\RateCrisis\\% recorded in the crisis and \\PdLater\\% against \\RateLater\\% later. Conditions, composition and programme or underwriting changes are possible explanations, not identified mechanisms. The earlier G2 later-cohort macro-tree calibration failure remains documented in its unchanged gate report; new chronology cannot erase it.",
+      "new": "Layer 1 crisis AUC is \\AucCrisis\\ and additional-cohort AUC \\AucLater. The ranking evidence is above chance but modest; it is not strong or stable transportability. Mean Firth risk is \\PdCrisis\\% against \\RateCrisis\\% recorded in the crisis and \\PdLater\\% against \\RateLater\\% later. Conditions, composition and programme or underwriting changes are possible explanations, not identified mechanisms. The macro-tree calibration failure in the first estimation round remains documented in the retained first-round report; the revised chronology does not remove that evidence."
+    },
+    {
+      "path": "report/g5/technical_report.tex",
+      "old_lines": [
+        108,
+        108
+      ],
+      "new_lines": [
+        112,
+        112
+      ],
+      "old": "The state-specific adverse flagged share is \\SupportShare\\%; global flags are zero. This can reflect broad pooled ranges even where state-specific values extrapolate. Neither univariate scope establishes joint support or hybrid-path plausibility. Complete feature-level flags are linked to the frozen support output.",
+      "new": "The state-specific adverse flagged share is \\SupportShare\\%; global flags are zero. This can reflect broad pooled ranges even where state-specific values extrapolate. Neither univariate check establishes joint support or shows whether mixed baseline/adverse paths are economically plausible. Complete feature-level flags are linked to the frozen support output."
+    },
+    {
+      "path": "report/g5/technical_report.tex",
+      "old_lines": [
+        113,
+        113
+      ],
+      "new_lines": [
+        117,
+        117
+      ],
+      "old": "Layer 2 sees future realized paths in cohort checks, with post-results amendments, a previously inspected cohort and calibration-calendar overlap. Raw Firth calibration fails, and average agreement for a calibrated tree cannot establish group calibration. Gross approval, full utilization and gross severity omit recovery/amortization information; pro-rata guarantees are assumed. Independent state clusters, successful-draw conditioning, fixed loss assumptions and univariate support checks limit interval interpretation.",
+      "new": "Layer 2 sees future realized paths in cohort checks, with post-results amendments, a previously inspected cohort and calibration-calendar overlap. Raw Firth calibration fails, and average agreement for a calibrated tree cannot establish group calibration. Gross approval, full utilization and gross severity omit recovery/amortization information; pro-rata guarantees are assumed. Intervals assume independent state clusters and use only the refits that converged (198 of 199 for the primary scenario model). Fixed loss assumptions and univariate support checks further limit their interpretation."
+    },
+    {
+      "path": "report/g5/technical_report.tex",
+      "old_lines": [
+        144,
+        144
+      ],
+      "new_lines": [
+        148,
+        148
+      ],
+      "old": "\\textbf{Complete audit links.} \\href{../results/g2-bis-2026-10-08/term_audit_summary.csv}{Term distributions}, \\href{../results/g2-bis-2026-10-08/term_audit_status_counts.csv}{status counts}, \\href{../results/g2-bis-2026-10-08/fit_status.csv}{fit diagnostics}, \\href{../results/g2-bis-2026-10-08/firth_coefficients.csv}{full coefficients}, and \\href{../results/g2-bis-2026-10-08/scenario_support_by_feature.csv}{feature support flags}.\\par\\textbf{Local evidence links.} Full aggregates: \\nolinkurl{results/g2-bis-2026-10-08/}. Audit: \\nolinkurl{term_audit_summary.csv}, \\nolinkurl{term_audit_status_counts.csv}, \\nolinkurl{term_audit_evidence.json}. Methods: \\nolinkurl{docs/PROTOCOL_v2_2026-10-08.md}, \\nolinkurl{config/g2_bis_2026-10-08.yaml}, \\nolinkurl{bootstrap_summary.json}, \\nolinkurl{fit_status.csv}, \\nolinkurl{firth_coefficients.csv}, \\nolinkurl{scenario_support_by_feature.csv}. Exact unique selectors/hashes and display conversions: \\nolinkurl{CLAIMS.md} and \\nolinkurl{results/g5-2026-10-08/claims_registry.json}. Saved values and bands are unchanged; a results-only build works without private loans/models/predictions. The historical full test run is retained evidence, distinct from new G5 reporting checks.",
+      "new": "\\textbf{Complete audit links.} \\href{../results/g2-bis-2026-10-08/term_audit_summary.csv}{Term distributions}, \\href{../results/g2-bis-2026-10-08/term_audit_status_counts.csv}{status counts}, \\href{../results/g2-bis-2026-10-08/fit_status.csv}{fit diagnostics}, \\href{../results/g2-bis-2026-10-08/firth_coefficients.csv}{full coefficients}, and \\href{../results/g2-bis-2026-10-08/scenario_support_by_feature.csv}{feature support flags}.\\par\\textbf{Local evidence links.} Full aggregates: \\nolinkurl{results/g2-bis-2026-10-08/}. Audit: \\nolinkurl{term_audit_summary.csv}, \\nolinkurl{term_audit_status_counts.csv}, \\nolinkurl{term_audit_evidence.json}. Methods: \\nolinkurl{docs/PROTOCOL_v2_2026-10-08.md}, \\nolinkurl{config/g2_bis_2026-10-08.yaml}, \\nolinkurl{bootstrap_summary.json}, \\nolinkurl{fit_status.csv}, \\nolinkurl{firth_coefficients.csv}, \\nolinkurl{scenario_support_by_feature.csv}. Exact unique selectors/hashes and display conversions: \\nolinkurl{CLAIMS.md} and \\nolinkurl{results/g5-2026-10-08/claims_registry.json}. Saved values and bands are unchanged; a results-only build works without private loans/models/predictions. The historical full test run is retained evidence, distinct from the current reporting checks."
+    },
+    {
+      "path": "report/paper/working_paper.tex",
+      "old_lines": [
+        13,
+        13
+      ],
+      "new_lines": [
+        13,
+        13
+      ],
+      "old": "\\noindent\\textbf{Research status:} Working paper based on the reviewed research snapshot. The empirical estimates and accepted technical report are retained unchanged.",
+      "new": "\\noindent\\textbf{Research status:} Working paper based on the saved results of the final estimation round. This presentation revision retains the empirical estimates."
+    },
+    {
+      "path": "report/paper/working_paper.tex",
+      "old_lines": [
+        26,
+        26
+      ],
+      "new_lines": [
+        26,
+        26
+      ],
+      "old": "\\textbf{Design history.} The G2-bis protocol was frozen after the G2 results had been seen and before any G2-bis model was estimated. Deviations are logged in DECISIONS.md. Ordinary-logit fits and calibration results had already been inspected. Training-frequency pooling, Firth estimation and the expanded Layer 2 chronology were then documented before any G2-bis refit. The amendment is not a confirmatory replication; joint changes cannot identify which isolated change improved or worsened performance. This manuscript uses saved aggregate outputs only and adds no empirical estimation or specification search.",
+      "new": "\\textbf{Design history.} The final estimation protocol was frozen after first-round results had been seen and before any final-round model was estimated. Deviations are logged in DECISIONS.md. Ordinary-logit fits and calibration results had already been inspected. Training-frequency pooling, Firth estimation and the expanded Layer 2 chronology were then documented before any final-round refit. The amendment is not a confirmatory replication; joint changes cannot identify which isolated change improved or worsened performance. This manuscript uses saved aggregate outputs only and adds no empirical estimation or specification search."
+    },
+    {
+      "path": "report/paper/working_paper.tex",
+      "old_lines": [
+        50,
+        50
+      ],
+      "new_lines": [
+        50,
+        50
+      ],
+      "old": "FHFA observations and previously retrieved BLS observations are unchanged. Only missing unemployment observations needed through the end of the later validation horizon were added in the accepted research run. This creates a mixed retrieval vintage of revised agency histories, not historical release information. Retrieval dates and source hashes are in the frozen source manifest. This product uses FHFA data but is neither endorsed nor certified by FHFA.",
+      "new": "FHFA observations and previously retrieved BLS observations are unchanged. Only missing unemployment observations needed through the end of the later validation horizon were added in the final estimation round. This creates a mixed retrieval vintage of revised agency histories, not historical release information. Retrieval dates and source hashes are in the frozen source manifest. This product uses FHFA data but is neither endorsed nor certified by FHFA."
+    },
+    {
+      "path": "report/paper/working_paper.tex",
+      "old_lines": [
+        68,
+        70
+      ],
+      "new_lines": [
+        68,
+        70
+      ],
+      "old": "Layer 1 estimates on 1991--2002, with G2 benchmark tuning on 2003H1 and benchmark calibration on 2003H2. ElasticNet and LightGBM hyperparameters and selected boosting rounds were inherited unchanged by G2-bis: no new search or early stopping occurred. The crisis test is 2007--2009; the additional cohort is 2011--2013. Calibration diagnostics for Firth do not modify its raw probabilities.\n\nLayer 2 estimates on 1991--2009. The LightGBM robustness uses the corresponding frozen Layer 1 G2 parameters/rounds, and its probability calibrator is fitted on 2010 only. Validation is 2013--2014: \\textbf{Retrospective conditional validation using realized macro paths.} Estimation labels mature by end-2012; calibration labels extend through end-2013 and overlap the calendar period of the 2013 validation cohort. That cohort was already included in G2 evaluation. This is post-amendment validation, not a previously untouched confirmatory test. No held-out result changes the specification or threshold.",
+      "new": "Layer 1 estimates on 1991--2002, with benchmark tuning in the first estimation round on 2003H1 and benchmark calibration on 2003H2. ElasticNet and LightGBM hyperparameters and selected boosting rounds were inherited unchanged in the final estimation round: no new search or early stopping occurred. The crisis test is 2007--2009; the additional cohort is 2011--2013. Calibration diagnostics for Firth do not modify its raw probabilities.\n\nLayer 2 estimates on 1991--2009. The LightGBM robustness uses the corresponding frozen Layer 1 parameters/rounds from the first estimation round, and its probability calibrator is fitted on 2010 only. Validation is 2013--2014: \\textbf{Retrospective conditional validation using realized macro paths.} Estimation labels mature by end-2012; calibration labels extend through end-2013 and overlap the calendar period of the 2013 validation cohort. That cohort was already included in first estimation round evaluation. This is post-amendment validation, not a previously untouched confirmatory test. No held-out result changes the specification or threshold."
+    },
+    {
+      "path": "report/paper/working_paper.tex",
+      "old_lines": [
+        80,
+        80
+      ],
+      "new_lines": [
+        80,
+        80
+      ],
+      "old": "The accepted run converged for each Firth point fit. Layer 1 ordinary MLE has an outcome-pure pooled category even though numerical optimization reports success; Layer 2 reaches the fixed iteration limit, which alone does not prove separation. The with-Term ElasticNet benchmark also fails at its frozen limit. These failures remain visible; no alternative favourable specification replaces them. Complete fit diagnostics and implementation validation are linked in the appendix.",
+      "new": "The final estimation round converged for each Firth point fit. Layer 1 ordinary MLE has an outcome-pure pooled category even though numerical optimization reports success; Layer 2 reaches the fixed iteration limit, which alone does not prove separation. The with-Term ElasticNet benchmark also fails at its frozen limit. These failures remain visible; no alternative favourable specification replaces them. Complete fit diagnostics and implementation validation are linked in the appendix."
+    },
+    {
+      "path": "report/paper/working_paper.tex",
+      "old_lines": [
+        92,
+        92
+      ],
+      "new_lines": [
+        92,
+        92
+      ],
+      "old": "Firth training-refit inference instead uses positive state-weighted multiplier attempts. Each scheduled draw assigns independent Exponential(1) weights to states, copies them to their loans and normalizes within the estimation sample to its original loan count. Every state remains present; underlying weights are shared across specifications and paired scenarios. The weighted likelihood and Firth penalty are re-estimated in the accepted research run, not at reporting time. Linear percentile bounds use only successful fully defined draws and report their effective denominators. No failed attempt is redrawn.",
+      "new": "Firth training-refit inference instead uses positive state-weighted multiplier attempts. Each scheduled draw assigns independent Exponential(1) weights to states, copies them to their loans and normalizes within the estimation sample to its original loan count. Every state remains present; underlying weights are shared across specifications and paired scenarios. The weighted likelihood and Firth penalty are re-estimated in the final estimation round, not at reporting time. Linear percentile bounds use only successful fully defined draws and report their effective denominators. No failed attempt is redrawn."
+    },
+    {
+      "path": "report/paper/working_paper.tex",
+      "old_lines": [
+        102,
+        102
+      ],
+      "new_lines": [
+        102,
+        102
+      ],
+      "old": "Layer 1 crisis AUC is \\AucCrisis\\ and additional-cohort AUC \\AucLater. The ranking evidence is above chance but modest; it is not strong or stable transportability. Mean Firth risk is \\PdCrisis\\% against \\RateCrisis\\% recorded in the crisis and \\PdLater\\% against \\RateLater\\% later. Conditions, composition and programme or underwriting changes are possible explanations, not identified mechanisms. The earlier G2 later-cohort macro-tree calibration failure remains documented in its unchanged gate report; new chronology cannot erase it.",
+      "new": "Layer 1 crisis AUC is \\AucCrisis\\ and additional-cohort AUC \\AucLater. The ranking evidence is above chance but modest; it is not strong or stable transportability. Mean Firth risk is \\PdCrisis\\% against \\RateCrisis\\% recorded in the crisis and \\PdLater\\% against \\RateLater\\% later. Conditions, composition and programme or underwriting changes are possible explanations, not identified mechanisms. The macro-tree calibration failure in the first estimation round remains documented in the retained first-round report; the revised chronology does not remove that evidence."
+    },
+    {
+      "path": "report/paper/working_paper.tex",
+      "old_lines": [
+        138,
+        138
+      ],
+      "new_lines": [
+        142,
+        142
+      ],
+      "old": "The state-specific adverse flagged share is \\SupportShare\\%; global flags are zero. This can reflect broad pooled ranges even where state-specific values extrapolate. Neither univariate scope establishes joint support or hybrid-path plausibility. Complete feature-level flags are linked to the frozen support output.",
+      "new": "The state-specific adverse flagged share is \\SupportShare\\%; global flags are zero. This can reflect broad pooled ranges even where state-specific values extrapolate. Neither univariate check establishes joint support or shows whether mixed baseline/adverse paths are economically plausible. Complete feature-level flags are linked to the frozen support output."
+    },
+    {
+      "path": "report/paper/working_paper.tex",
+      "old_lines": [
+        159,
+        159
+      ],
+      "new_lines": [
+        163,
+        163
+      ],
+      "old": "Layer 2 sees future realized paths in cohort checks, with post-results amendments, a previously inspected cohort and calibration-calendar overlap. Raw Firth calibration fails, and average agreement for a calibrated tree cannot establish group calibration. Gross approval, full utilization and gross severity omit recovery/amortization information; pro-rata guarantees are assumed. Independent state clusters, successful-draw conditioning, fixed loss assumptions and univariate support checks limit interval interpretation.",
+      "new": "Layer 2 sees future realized paths in cohort checks, with post-results amendments, a previously inspected cohort and calibration-calendar overlap. Raw Firth calibration fails, and average agreement for a calibrated tree cannot establish group calibration. Gross approval, full utilization and gross severity omit recovery/amortization information; pro-rata guarantees are assumed. Intervals assume independent state clusters and use only the refits that converged (198 of 199 for the primary scenario model). Fixed loss assumptions and univariate support checks further limit their interpretation."
+    },
+    {
+      "path": "report/paper/working_paper.tex",
+      "old_lines": [
+        195,
+        195
+      ],
+      "new_lines": [
+        199,
+        199
+      ],
+      "old": "\\textbf{Complete audit links.} \\href{https://github.com/hakangulmez/credit-risk-sba/blob/main/results/g2-bis-2026-10-08/term_audit_summary.csv}{Term distributions}, \\href{https://github.com/hakangulmez/credit-risk-sba/blob/main/results/g2-bis-2026-10-08/term_audit_status_counts.csv}{status counts}, \\href{https://github.com/hakangulmez/credit-risk-sba/blob/main/results/g2-bis-2026-10-08/fit_status.csv}{fit diagnostics}, \\href{https://github.com/hakangulmez/credit-risk-sba/blob/main/results/g2-bis-2026-10-08/firth_coefficients.csv}{full coefficients}, and \\href{https://github.com/hakangulmez/credit-risk-sba/blob/main/results/g2-bis-2026-10-08/scenario_support_by_feature.csv}{feature support flags}.\\par\\textbf{Local evidence links.} Full aggregates: \\nolinkurl{results/g2-bis-2026-10-08/}. Audit: \\nolinkurl{term_audit_summary.csv}, \\nolinkurl{term_audit_status_counts.csv}, \\nolinkurl{term_audit_evidence.json}. Methods: \\nolinkurl{docs/PROTOCOL_v2_2026-10-08.md}, \\nolinkurl{config/g2_bis_2026-10-08.yaml}, \\nolinkurl{bootstrap_summary.json}, \\nolinkurl{fit_status.csv}, \\nolinkurl{firth_coefficients.csv}, \\nolinkurl{scenario_support_by_feature.csv}. The public results notebook is available at \\url{https://github.com/hakangulmez/credit-risk-sba/blob/main/notebooks/research_walkthrough.ipynb}. Exact unique selectors/hashes and display conversions: \\nolinkurl{CLAIMS.md} and \\nolinkurl{results/g5-2026-10-08/claims_registry.json}. Saved values and bands are unchanged; a results-only build works without private loans/models/predictions. The historical full test run is retained evidence, distinct from new G5 reporting checks.",
+      "new": "\\textbf{Complete audit links.} \\href{https://github.com/hakangulmez/credit-risk-sba/blob/main/results/g2-bis-2026-10-08/term_audit_summary.csv}{Term distributions}, \\href{https://github.com/hakangulmez/credit-risk-sba/blob/main/results/g2-bis-2026-10-08/term_audit_status_counts.csv}{status counts}, \\href{https://github.com/hakangulmez/credit-risk-sba/blob/main/results/g2-bis-2026-10-08/fit_status.csv}{fit diagnostics}, \\href{https://github.com/hakangulmez/credit-risk-sba/blob/main/results/g2-bis-2026-10-08/firth_coefficients.csv}{full coefficients}, and \\href{https://github.com/hakangulmez/credit-risk-sba/blob/main/results/g2-bis-2026-10-08/scenario_support_by_feature.csv}{feature support flags}.\\par\\textbf{Local evidence links.} Full aggregates: \\nolinkurl{results/g2-bis-2026-10-08/}. Audit: \\nolinkurl{term_audit_summary.csv}, \\nolinkurl{term_audit_status_counts.csv}, \\nolinkurl{term_audit_evidence.json}. Methods: \\nolinkurl{docs/PROTOCOL_v2_2026-10-08.md}, \\nolinkurl{config/g2_bis_2026-10-08.yaml}, \\nolinkurl{bootstrap_summary.json}, \\nolinkurl{fit_status.csv}, \\nolinkurl{firth_coefficients.csv}, \\nolinkurl{scenario_support_by_feature.csv}. The public results notebook is available at \\url{https://github.com/hakangulmez/credit-risk-sba/blob/main/notebooks/research_walkthrough.ipynb}. Exact unique selectors/hashes and display conversions: \\nolinkurl{CLAIMS.md} and \\nolinkurl{results/g5-2026-10-08/claims_registry.json}. Saved values and bands are unchanged; a results-only build works without private loans/models/predictions. The historical full test run is retained evidence, distinct from the current reporting checks."
+    },
+    {
+      "path": "notebooks/research_walkthrough.ipynb",
+      "old_lines": [
+        8,
+        9
+      ],
+      "new_lines": [
+        8,
+        8
+      ],
+      "old": "This notebook follows the complete analytical pipeline and displays the accepted\nsaved results. **Run All works without raw borrower data, model objects, network",
+      "new": "This notebook follows the complete analytical pipeline and displays the saved results of the final estimation round. **Run All works without raw borrower data, model objects, network"
+    }
+  ]
+}

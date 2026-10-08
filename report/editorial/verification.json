@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-09",
+  "repository": "credit-risk-sba-public",
+  "reporting_tests": {
+    "passed": 74,
+    "deselected": 7,
+    "reason": "Excluded legacy full reporting renderer creates/rebinds reporting results and drafts; the public subset also excludes private-only preservation/draft/original-command tests."
+  },
+  "ruff_lint": "passed",
+  "ruff_format": "passed",
+  "mypy": "passed: 5 public reporting/build modules; shared research modules byte-identical",
+  "new_empirical_runs": 0,
+  "notebook_code_and_outputs": "unchanged",
+  "frozen_files": 249,
+  "archived_originals": 25,
+  "prior_private_preservation": "not distributed; checked in research checkout",
+  "page_counts": {
+    "policy_note": 2,
+    "technical_report": 10,
+    "working_paper": 13
+  },
+  "external_actions": []
+}

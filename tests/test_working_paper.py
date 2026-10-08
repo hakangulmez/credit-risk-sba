@@ -13,7 +13,7 @@ def test_accepted_evidence_and_manuscript_inputs_remain_unchanged():
     result = check()
     assert result["pages"] <= 15
     assert result["new_empirical_runs"] == 0
-    assert digest(ROOT / "report/policy_note.pdf") == (
+    assert digest(ROOT / "docs/releases/pre-editorial-2026-10-09/report/policy_note.pdf") == (
         "742d9377b6e4bed14188d9b67f58b0189d866a98e445c24435c42b3cba9c162f"
     )
     assert digest(

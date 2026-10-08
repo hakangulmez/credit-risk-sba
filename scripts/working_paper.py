@@ -11,6 +11,8 @@ import shutil
 import subprocess
 from pathlib import Path
 
+from reporting.editorial import original_input
+
 ROOT = Path(__file__).resolve().parents[1]
 PAPER = ROOT / "report/paper"
 
@@ -23,8 +25,7 @@ def check(root: Path = ROOT) -> dict:
     paper = root / "report/paper"
     provenance = json.loads((paper / "provenance.json").read_text())
     for name, expected in provenance["frozen_inputs"].items():
-        if digest(root / name) != expected:
-            raise ValueError(f"Working-paper input changed: {name}")
+        original_input(root, name, expected)
     source = (paper / "working_paper.tex").read_text()
     references = set(re.findall(r"\\bibitem\[[^\]]+\]\{([^}]+)\}", source))
     citations = set()
@@ -34,8 +35,8 @@ def check(root: Path = ROOT) -> dict:
         raise ValueError(f"Missing references: {sorted(citations - references)}")
     required = [
         "recorded charge-off within 36 months",
-        "after the G2 results had been seen",
-        "before any G2-bis model was estimated",
+        "after first-round results had been seen",
+        "before any final-round model was estimated",
         "retrospective",
         "not an intercept-only calibration-in-the-large",
         "Calibration error can alter",
@@ -58,7 +59,7 @@ def check(root: Path = ROOT) -> dict:
         "frozen_inputs_verified": len(provenance["frozen_inputs"]),
         "bibliography_entries": len(references),
         "new_empirical_runs": 0,
-        "working_paper_basis_unchanged": True,
+        "original_working_paper_basis_verified": True,
     }
     pdf = root / "report/working_paper.pdf"
     if pdf.exists():
@@ -67,7 +68,7 @@ def check(root: Path = ROOT) -> dict:
         if match is None:
             raise ValueError("Cannot read working-paper page count")
         pages = int(match.group(1))
-        if not 1 <= pages <= 15:
+        if not 1 <= pages <= 14:
             raise ValueError(f"Working-paper page limit exceeded: {pages}")
         result["pages"] = pages
     return result

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-09",
+  "policy": "Only fully publisher/DOI-verified additions permitted; neither added.",
+  "references": [
+    {
+      "proposed": "Bellotti and Crook (2009)",
+      "url": "https://www.tandfonline.com/doi/abs/10.1057/jors.2008.130",
+      "result": "Publisher-indexed metadata visible, but direct publisher access returned 403. Required complete direct verification not achieved; omitted."
+    },
+    {
+      "proposed": "Glennon and Nigro (2005)",
+      "url": "https://doi.org/10.1353/mcb.2005.0051",
+      "result": "DOI/publisher page could not be opened; publisher access blocked. Required complete verification not achieved; omitted."
+    }
+  ],
+  "loan_or_macro_acquisition": false,
+  "existing_references_unchanged": true
+}
