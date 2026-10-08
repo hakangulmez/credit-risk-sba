@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-09",
+  "basis_public_commit": "bc2c3d7fac433f55980cb0befc90bb26a6d278c2",
+  "scope": "Technical-report editorial correction only; frozen research results unchanged.",
+  "files": [
+    {
+      "original_path": "report/technical_report.pdf",
+      "archive_path": "docs/releases/technical-report-before-editorial-2026-10-09/report/technical_report.pdf",
+      "sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428"
+    },
+    {
+      "original_path": "report/g5/technical_report.tex",
+      "archive_path": "docs/releases/technical-report-before-editorial-2026-10-09/report/g5/technical_report.tex",
+      "sha256": "6725d18c1aaf369f41c424aeb6abaa3e4bd82db543fcd02e010822151e6cfa40"
+    },
+    {
+      "original_path": "report/g5/preamble.tex",
+      "archive_path": "docs/releases/technical-report-before-editorial-2026-10-09/report/g5/preamble.tex",
+      "sha256": "5d59a143bea3128487287ace7b4412613a1d61e96097d30ee94ca7b52649d178"
+    },
+    {
+      "original_path": "PUBLIC_RELEASE_MANIFEST.json",
+      "archive_path": "docs/releases/technical-report-before-editorial-2026-10-09/PUBLIC_RELEASE_MANIFEST.json",
+      "sha256": "5c4cc531501894f414689ca6c5869fe981dbc32633367df724681826f52ad1ca"
+    }
+  ]
+}

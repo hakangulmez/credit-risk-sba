@@ -31,10 +31,7 @@
     "report/g5/generated/support.tex": "dcfe9d6027b27aec7f33da2b8e222761bea3289bc71053671316db565b3764b9",
     "report/g5/generated/term.tex": "105c2448f03b58352f9f880bb651d88e62e1d9a70b4832f24e2fded1a2834b07",
     "report/g5/generated/waterfall.tex": "87fa9055d8a396d0c822b976c710bff06cb0a2c60313a0fd1a507edc719f70e3",
-    "report/g5/preamble.tex": "5d59a143bea3128487287ace7b4412613a1d61e96097d30ee94ca7b52649d178",
-    "report/g5/technical_report.tex": "6725d18c1aaf369f41c424aeb6abaa3e4bd82db543fcd02e010822151e6cfa40",
     "report/policy_note.pdf": "742d9377b6e4bed14188d9b67f58b0189d866a98e445c24435c42b3cba9c162f",
-    "report/technical_report.pdf": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
     "results/g2-2026-10-08/INDEX.md": "7ce3e62a012ef670fbf2255b026fbf493a8a0791e00c931bad4bca70c6790ad8",
     "results/g2-2026-10-08/calibration_bins.csv": "070498e102347c7bc34f34ed4b45397e7a4b4628d34979a5c10188bbd9d1a64f",
     "results/g2-2026-10-08/cohort_status_counts.csv": "42db980ae9d350705170bf5bed94e9e79628caa5d6ef5d15d7c4c452a70315c0",
@@ -246,7 +243,10 @@
     "src/credit_risk_sba/models.py": "5836c998cf762aae4e21a7892de104cfaa9eaa04222cd68dc82d07ab0553277d",
     "src/credit_risk_sba/plots.py": "eddcc9588a234779b213fe5e53a28d44e09ee9a3ff20569ec62c706fa9c1f988",
     "src/credit_risk_sba/reporting.py": "588776b63d42a97996d6081babce5b1a315d5c5a11ee3e84c0e881d0f8b08c9c",
-    "src/credit_risk_sba/stress.py": "15c5ebed1d34f1e729164abc3f7453bee6a34519abf87844ffa5a24c28387699"
+    "src/credit_risk_sba/stress.py": "15c5ebed1d34f1e729164abc3f7453bee6a34519abf87844ffa5a24c28387699",
+    "docs/releases/technical-report-before-editorial-2026-10-09/report/technical_report.pdf": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+    "docs/releases/technical-report-before-editorial-2026-10-09/report/g5/technical_report.tex": "6725d18c1aaf369f41c424aeb6abaa3e4bd82db543fcd02e010822151e6cfa40",
+    "docs/releases/technical-report-before-editorial-2026-10-09/report/g5/preamble.tex": "5d59a143bea3128487287ace7b4412613a1d61e96097d30ee94ca7b52649d178"
   },
   "label_replacements": {
     "macro_paper": {
@@ -323,5 +323,6 @@
       ]
     }
   },
-  "numeric_changes": 0
+  "numeric_changes": 0,
+  "editorial_archive_note": "The working paper remains unchanged. Its original technical-report basis is retained byte-for-byte in docs/releases/technical-report-before-editorial-2026-10-09; current report prose was corrected separately on 2026-10-09."
 }

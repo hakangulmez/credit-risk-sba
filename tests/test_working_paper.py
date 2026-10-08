@@ -16,9 +16,10 @@ def test_accepted_evidence_and_manuscript_inputs_remain_unchanged():
     assert digest(ROOT / "report/policy_note.pdf") == (
         "742d9377b6e4bed14188d9b67f58b0189d866a98e445c24435c42b3cba9c162f"
     )
-    assert digest(ROOT / "report/technical_report.pdf") == (
-        "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428"
-    )
+    assert digest(
+        ROOT
+        / "docs/releases/technical-report-before-editorial-2026-10-09/report/technical_report.pdf"
+    ) == ("bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428")
 
 
 def test_changed_research_input_is_rejected_before_rendering(tmp_path):

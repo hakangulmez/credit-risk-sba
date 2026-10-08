@@ -46,3 +46,7 @@ The build requires `pdfinfo` and Tectonic with cached TeX packages; set `TECTONI
 The input manifest fixes the complete public empirical aggregate directories, specifications, research code, notebook, protocols, claims registry, accepted report PDFs and reused presentation inputs. `make report-check` also verifies the current distribution manifest and original cell-level claims. `make report-test` includes the working-paper boundary checks.
 
 The manuscript may be circulated as a working paper with its stated limitations. Any additional empirical extension or journal-specific revision requires a separate scope; this writing round adds no fitting, predictions, tuning, recalibration or new data acquisition.
+
+## Subsequent technical-report presentation correction — 9 October 2026
+
+The statement above about byte-identical reports describes the working-paper basis on 8 October. The technical report's current presentation was edited on 9 October to remove obsolete repository/draft wording and the teaching-extract comparison. The original technical PDF and sources remain byte-identical under `docs/releases/technical-report-before-editorial-2026-10-09/`. `report/paper/provenance.json` points to those archived inputs so the working paper's original basis remains fixed. Its manuscript, PDF, tables, numerical inputs and estimates are unchanged.

@@ -1,7 +1,7 @@
 {
-  "release_date": "2026-10-09",
-  "revision": "technical-report-editorial",
-  "previous_public_commit": "bc2c3d7fac433f55980cb0befc90bb26a6d278c2",
+  "release_date": "2026-10-08",
+  "revision": "working-paper",
+  "previous_public_commit": "3c7486869268eb05fe7fc8ec038b66e71ee56d53",
   "previous_release": "v2026.10.08",
   "public_repository": "https://github.com/hakangulmez/credit-risk-sba",
   "source_commit": "40c7c5ec9e3386dcf1ebfafcb5335da0e4e6b179",
@@ -58,8 +58,8 @@
       "source_bytes_identical": false
     },
     "PUBLIC_RELEASE.md": {
-      "sha256": "27d907d82c64ab447f87f681b47f8a81d37dcacaea34de2044da2f46943f4f68",
-      "bytes": 7806,
+      "sha256": "feab22867ec8b59b7d59c3590d0ca1dcfa521695883a109b4d988ae66c971762",
+      "bytes": 6580,
       "role": "public release metadata, notebook or tooling"
     },
     "README.md": {
@@ -151,26 +151,11 @@
       "source_sha256": "b5cf5144734dc8cfe14cf6fc128cb0ac28823c5d727bba8c5855c7f6387549a4",
       "source_bytes_identical": true
     },
-    "docs/TECHNICAL_REPORT_EDITORIAL_2026-10-09.md": {
-      "role": "public release metadata or retained editorial archive",
-      "sha256": "f9f9513dcef8ee81310a5dd593b7a50c4372625b3678b73145a93bb804967b48",
-      "bytes": 1691
-    },
     "docs/V1_ISSUES.md": {
       "sha256": "6eebba2a426a751bce656507c19f9c436d9d517b41c5214193f6d309c5b1adeb",
       "bytes": 2855,
       "source_sha256": "6eebba2a426a751bce656507c19f9c436d9d517b41c5214193f6d309c5b1adeb",
       "source_bytes_identical": true
-    },
-    "docs/WORKING_PAPER_2026-10-08.md": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "ee3fd23ced2f3d03bb29f8720d01905506912a8609876548f361ae1114c5da1e",
-      "bytes": 5963
-    },
-    "docs/WORKING_PAPER_COMPLETION_2026-10-08.md": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "ec94ab63074cfa03fda610bdac8d53b9272c46468c0509b514d057c765a5ee7e",
-      "bytes": 2766
     },
     "docs/g1_foia_manifest_2026-06-30.json": {
       "sha256": "3140d1045c04f2ee1fe037a1082a274cd62703ef6d1304d3c36b5c740d85a9a0",
@@ -202,50 +187,10 @@
       "source_sha256": "c315af75108658061c3b7174693aab94cf61fc713e073a542b8ea4b0cad36a65",
       "source_bytes_identical": true
     },
-    "docs/releases/notebook_snapshot_2026-10-08_manifest.json": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "3451bf6c7cb77b7eb90841f8d2647c3485496985207c18988ee2a0347f7c27e4",
-      "bytes": 87525
-    },
-    "docs/releases/pre-paper-2026-10-08/Makefile": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "ab8966220571262fdc70712265db432296faf412d171dfc853ee368a169a974a",
-      "bytes": 760
-    },
-    "docs/releases/pre-paper-2026-10-08/README.md": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "9c408bbd048cddde958a667083a798a9d579883a951889f5490a8c56b69fa3a0",
-      "bytes": 6567
-    },
     "docs/releases/public_snapshot_2026-10-08_manifest.json": {
       "sha256": "46caf8f5c8ea1f233a341d31c689880dcbbc58aac49605414f3179d2c1592779",
       "bytes": 85855,
       "role": "public release metadata, notebook or tooling"
-    },
-    "docs/releases/technical-report-before-editorial-2026-10-09/ARCHIVE_MANIFEST.json": {
-      "role": "public release metadata or retained editorial archive",
-      "sha256": "9842164bee4718713c7abfed2dcf415ffabf25bd5923e7737ed56201fb75c31a",
-      "bytes": 1252
-    },
-    "docs/releases/technical-report-before-editorial-2026-10-09/PUBLIC_RELEASE_MANIFEST.json": {
-      "role": "public release metadata or retained editorial archive",
-      "sha256": "5c4cc531501894f414689ca6c5869fe981dbc32633367df724681826f52ad1ca",
-      "bytes": 90725
-    },
-    "docs/releases/technical-report-before-editorial-2026-10-09/report/g5/preamble.tex": {
-      "role": "public release metadata or retained editorial archive",
-      "sha256": "5d59a143bea3128487287ace7b4412613a1d61e96097d30ee94ca7b52649d178",
-      "bytes": 1614
-    },
-    "docs/releases/technical-report-before-editorial-2026-10-09/report/g5/technical_report.tex": {
-      "role": "public release metadata or retained editorial archive",
-      "sha256": "6725d18c1aaf369f41c424aeb6abaa3e4bd82db543fcd02e010822151e6cfa40",
-      "bytes": 25950
-    },
-    "docs/releases/technical-report-before-editorial-2026-10-09/report/technical_report.pdf": {
-      "role": "public release metadata or retained editorial archive",
-      "sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
-      "bytes": 119626
     },
     "docs/versions/DATA_G1_2026-10-08.md": {
       "sha256": "7ca13eb4acd192c8338d7eba27ea3836cc1d63810c65bd870645d206a8e3719e",
@@ -433,41 +378,16 @@
       "source_bytes_identical": true
     },
     "report/g5/preamble.tex": {
-      "sha256": "7092612ece93b9f41100f73ff9092e5873b2653bb09358bcb5adf17972b82aa5",
-      "bytes": 1611,
+      "sha256": "5d59a143bea3128487287ace7b4412613a1d61e96097d30ee94ca7b52649d178",
+      "bytes": 1614,
       "source_sha256": "5d59a143bea3128487287ace7b4412613a1d61e96097d30ee94ca7b52649d178",
-      "source_bytes_identical": false
+      "source_bytes_identical": true
     },
     "report/g5/technical_report.tex": {
-      "sha256": "008b8797035fbce5cc8b536146620cbe9efce0b6a0100585870a24dcf3170d6f",
-      "bytes": 25485,
+      "sha256": "6725d18c1aaf369f41c424aeb6abaa3e4bd82db543fcd02e010822151e6cfa40",
+      "bytes": 25950,
       "source_sha256": "6725d18c1aaf369f41c424aeb6abaa3e4bd82db543fcd02e010822151e6cfa40",
-      "source_bytes_identical": false
-    },
-    "report/paper/preamble.tex": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "771acdeced114717f32a21a89384e9750e43196ded3f355f6b2232fced468508",
-      "bytes": 2121
-    },
-    "report/paper/provenance.json": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "f218be5535e42636919c8b035b48d9f2b0c6536404e24183f5d5096e356b5acf",
-      "bytes": 31376
-    },
-    "report/paper/references_verified.json": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "a6917e756d78181b654843a58052d7bdf646fa39ae42fcfe5746bdeb3fcdc0d5",
-      "bytes": 2836
-    },
-    "report/paper/validation.json": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "54d84987ea117fc96df8d8b7f5b4f9abdd78c10a5b89c20d775e418020c566ef",
-      "bytes": 1121
-    },
-    "report/paper/working_paper.tex": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "c91c840859bf94ff1efd1d2e5aa184be80599a5172458127bf9a6072c1a9e0ac",
-      "bytes": 39329
+      "source_bytes_identical": true
     },
     "report/policy_note.pdf": {
       "sha256": "742d9377b6e4bed14188d9b67f58b0189d866a98e445c24435c42b3cba9c162f",
@@ -476,15 +396,10 @@
       "source_bytes_identical": true
     },
     "report/technical_report.pdf": {
-      "sha256": "09900699969dca2a636d32f10f0d556e782beebb4afde238c168a15e2d012695",
-      "bytes": 117712,
+      "sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+      "bytes": 119626,
       "source_sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
-      "source_bytes_identical": false
-    },
-    "report/working_paper.pdf": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "aede34fb5d16a905f478ece1e58e4f8173de67f9f57a45a2246b433c152da2af",
-      "bytes": 136799
+      "source_bytes_identical": true
     },
     "reporting/__init__.py": {
       "sha256": "66a985cfb383d31353f3fac9f93f3e646dc7dd05b1b488edfec93a97526efe4c",
@@ -1682,11 +1597,6 @@
       "bytes": 5754,
       "role": "public release metadata, notebook or tooling"
     },
-    "scripts/working_paper.py": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "7d3777d5a6a0b0c6258649a0e36559ca5ad187b54b3caa69510da33410f31428",
-      "bytes": 4442
-    },
     "src/credit_risk_sba/__init__.py": {
       "sha256": "291010d9a97407fc6bd01721f88edf56355b248d1cd9ff707ddb2d916f881533",
       "bytes": 44,
@@ -1896,19 +1806,78 @@
       "bytes": 2068,
       "role": "public release metadata, notebook or tooling"
     },
-    "tests/test_working_paper.py": {
-      "role": "working-paper manuscript, provenance, reproduction or dated archive",
-      "sha256": "e31b356afd0db6bd68e64cebe87263c66b99fe25b023a98a238745e549e4d296",
-      "bytes": 2331
-    },
     "uv.lock": {
       "sha256": "e8ec959f5b110f8c48f66a81481ea82ad2afba76d3937dd3127d0aadc402a53a",
       "bytes": 246074,
       "source_sha256": "08e07df3869614a97177431572aeec58e4166504eebddadcb159b75f0771f2b3",
       "source_bytes_identical": false
+    },
+    "docs/WORKING_PAPER_2026-10-08.md": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "2da7e441900beeb4c800ac2ea9c2244b12c9f4db2eea4f7431eed723fb4e18e8",
+      "bytes": 5320
+    },
+    "docs/WORKING_PAPER_COMPLETION_2026-10-08.md": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "ec94ab63074cfa03fda610bdac8d53b9272c46468c0509b514d057c765a5ee7e",
+      "bytes": 2766
+    },
+    "docs/releases/notebook_snapshot_2026-10-08_manifest.json": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "3451bf6c7cb77b7eb90841f8d2647c3485496985207c18988ee2a0347f7c27e4",
+      "bytes": 87525
+    },
+    "docs/releases/pre-paper-2026-10-08/Makefile": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "ab8966220571262fdc70712265db432296faf412d171dfc853ee368a169a974a",
+      "bytes": 760
+    },
+    "docs/releases/pre-paper-2026-10-08/README.md": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "9c408bbd048cddde958a667083a798a9d579883a951889f5490a8c56b69fa3a0",
+      "bytes": 6567
+    },
+    "report/paper/preamble.tex": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "771acdeced114717f32a21a89384e9750e43196ded3f355f6b2232fced468508",
+      "bytes": 2121
+    },
+    "report/paper/provenance.json": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "abd75ea3fd141b64f13bc664d1c57b6eb6f68046657d6d7f8447b54bbe59ca1c",
+      "bytes": 30945
+    },
+    "report/paper/references_verified.json": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "a6917e756d78181b654843a58052d7bdf646fa39ae42fcfe5746bdeb3fcdc0d5",
+      "bytes": 2836
+    },
+    "report/paper/validation.json": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "54d84987ea117fc96df8d8b7f5b4f9abdd78c10a5b89c20d775e418020c566ef",
+      "bytes": 1121
+    },
+    "report/paper/working_paper.tex": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "c91c840859bf94ff1efd1d2e5aa184be80599a5172458127bf9a6072c1a9e0ac",
+      "bytes": 39329
+    },
+    "report/working_paper.pdf": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "aede34fb5d16a905f478ece1e58e4f8173de67f9f57a45a2246b433c152da2af",
+      "bytes": 136799
+    },
+    "scripts/working_paper.py": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "7b78d6f6ff39a49cc1b8c06f62645af597c0b8612de21548ecb2d4387c42c9d5",
+      "bytes": 4439
+    },
+    "tests/test_working_paper.py": {
+      "role": "working-paper manuscript, provenance, reproduction or dated archive",
+      "sha256": "ddde76968dca51c00055e23076f57b7334a4dab0682e814690a1cdd506971abe",
+      "bytes": 2264
     }
   },
   "self_hash_omitted": true,
-  "prior_revision_manifest": "docs/releases/notebook_snapshot_2026-10-08_manifest.json",
-  "previous_distribution_manifest": "docs/releases/technical-report-before-editorial-2026-10-09/PUBLIC_RELEASE_MANIFEST.json"
+  "prior_revision_manifest": "docs/releases/notebook_snapshot_2026-10-08_manifest.json"
 }

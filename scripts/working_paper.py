@@ -58,7 +58,7 @@ def check(root: Path = ROOT) -> dict:
         "frozen_inputs_verified": len(provenance["frozen_inputs"]),
         "bibliography_entries": len(references),
         "new_empirical_runs": 0,
-        "accepted_reports_unchanged": True,
+        "working_paper_basis_unchanged": True,
     }
     pdf = root / "report/working_paper.pdf"
     if pdf.exists():
