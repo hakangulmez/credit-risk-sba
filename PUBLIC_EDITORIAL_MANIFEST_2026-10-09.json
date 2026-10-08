@@ -5,7 +5,7 @@
   "previous_distribution_manifest_retained": "PUBLIC_RELEASE_MANIFEST.json",
   "public_repository": "https://github.com/hakangulmez/credit-risk-sba",
   "empirical_release": "8f7343584d55a14f8cae47c3e9fded3ed56503d4",
-  "approval_status": "local_only_awaiting_push_and_drive_approval",
+  "approval_status": "publication_and_drive_upload_authorized_2026-10-09",
   "new_empirical_runs": 0,
   "private_data_distributed": false,
   "files": {
@@ -430,8 +430,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/editorial/visual_qa.json": {
-      "sha256": "32a637a52984833693ff10ed752a36d676db7f91f8ab09628bcd9d9570bc85a0",
-      "bytes": 12939,
+      "sha256": "0eb9a05039556c033608c0bbb95568465033fecfd12022d6d68e7f508d7c452a",
+      "bytes": 15913,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/editorial/wording_replacements.json": {
@@ -550,8 +550,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/g5/technical_report.tex": {
-      "sha256": "cceaf71cd84769b0e1c75eca368621140f4bd951d550ad8c0c636332a8e78dff",
-      "bytes": 27030,
+      "sha256": "479ab4b1f3336b2fb1864df6bef8fdf4bd6ff3df9326f32427481e7d91aa7ace",
+      "bytes": 27023,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/paper/preamble.tex": {
@@ -575,8 +575,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/paper/working_paper.tex": {
-      "sha256": "03810af0abb41b0907e79220ae29cd9a071185beb8f4be74424c45f38ba3168f",
-      "bytes": 40873,
+      "sha256": "7632695336ba98d7d1614f44c73064900878822a5d9de168d351606cd1a13a8a",
+      "bytes": 40866,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/policy_note.pdf": {
@@ -585,13 +585,13 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/technical_report.pdf": {
-      "sha256": "c80fefa1c7b0fc8d00f53b62405581d829944dd68e0df53d7018f9cf2ba86748",
-      "bytes": 118722,
+      "sha256": "cd225827408acc2ad4a412f2e6f707be68bb9fce6f31cc18a93f2b081248cf83",
+      "bytes": 118698,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/working_paper.pdf": {
-      "sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "bytes": 137640,
+      "sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "bytes": 137626,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "reporting/__init__.py": {
@@ -1794,5 +1794,6 @@
       "bytes": 246074,
       "role": "current editorial snapshot or preserved public evidence"
     }
-  }
+  },
+  "publication_grammar_fix": "already included in the first-round evaluation; no empirical change"
 }

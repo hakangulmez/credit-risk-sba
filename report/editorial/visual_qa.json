@@ -35,9 +35,9 @@
     {
       "document": "technical_report",
       "page": 1,
-      "pdf_sha256": "c80fefa1c7b0fc8d00f53b62405581d829944dd68e0df53d7018f9cf2ba86748",
-      "render_sha256": "711f2741a04c5a0912e1830ecee9d0dc9386c7f2d0afac02ea54e0d723066ce6",
-      "render_local_path": "data/editorial-qa/technical-01.png",
+      "pdf_sha256": "cd225827408acc2ad4a412f2e6f707be68bb9fce6f31cc18a93f2b081248cf83",
+      "render_sha256": "98eace1723a4ffb03e6dcacaac6af4a6fc86c957afea2f319adb098d71c6a961",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/technical_report-01.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -45,14 +45,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "technical_report",
       "page": 2,
-      "pdf_sha256": "c80fefa1c7b0fc8d00f53b62405581d829944dd68e0df53d7018f9cf2ba86748",
-      "render_sha256": "fe41d9d550e50933d992bb08f386406eeadeab349c0fc38b809ea02fdefe5718",
-      "render_local_path": "data/editorial-qa/technical-02.png",
+      "pdf_sha256": "cd225827408acc2ad4a412f2e6f707be68bb9fce6f31cc18a93f2b081248cf83",
+      "render_sha256": "2778baef6277a20c208d7991b9c5cbbf182d8cf4e354ee403552c3f8bdc7f1a0",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/technical_report-02.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -60,14 +61,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "technical_report",
       "page": 3,
-      "pdf_sha256": "c80fefa1c7b0fc8d00f53b62405581d829944dd68e0df53d7018f9cf2ba86748",
-      "render_sha256": "5f1e0c3bca7a01c0674587d7fdde48a8214668f0b3b2bd3d514237b514a0fd25",
-      "render_local_path": "data/editorial-qa/technical-03.png",
+      "pdf_sha256": "cd225827408acc2ad4a412f2e6f707be68bb9fce6f31cc18a93f2b081248cf83",
+      "render_sha256": "87b95e151a82cb6362397301db660a817afd4d98db69721db0e443606123e111",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/technical_report-03.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -75,14 +77,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "visually checked"
     },
     {
       "document": "technical_report",
       "page": 4,
-      "pdf_sha256": "c80fefa1c7b0fc8d00f53b62405581d829944dd68e0df53d7018f9cf2ba86748",
-      "render_sha256": "b8ad448be8d21019eaddf6e19f8e98bea23f9d96590e1cc30707900c1a9b67f1",
-      "render_local_path": "data/editorial-qa/technical-04.png",
+      "pdf_sha256": "cd225827408acc2ad4a412f2e6f707be68bb9fce6f31cc18a93f2b081248cf83",
+      "render_sha256": "93abd4607e109482391c710ee97c2993300623e3a16fac4f9d7d1f49d0afc084",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/technical_report-04.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -90,14 +93,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "technical_report",
       "page": 5,
-      "pdf_sha256": "c80fefa1c7b0fc8d00f53b62405581d829944dd68e0df53d7018f9cf2ba86748",
-      "render_sha256": "f1c2a3d85c3dad73ab1a5426d1d75c100128f6f2f627bcdea3d0133928cea074",
-      "render_local_path": "data/editorial-qa/technical-05.png",
+      "pdf_sha256": "cd225827408acc2ad4a412f2e6f707be68bb9fce6f31cc18a93f2b081248cf83",
+      "render_sha256": "89d4915e3238bb5d28431f67764de32bec0e245df6315bed4667258b39f79f0e",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/technical_report-05.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -105,14 +109,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "technical_report",
       "page": 6,
-      "pdf_sha256": "c80fefa1c7b0fc8d00f53b62405581d829944dd68e0df53d7018f9cf2ba86748",
-      "render_sha256": "5fee9e6877d6ffcc2cd03250a3be3db84356551e95111a66522f2c5de542f27a",
-      "render_local_path": "data/editorial-qa/technical-06.png",
+      "pdf_sha256": "cd225827408acc2ad4a412f2e6f707be68bb9fce6f31cc18a93f2b081248cf83",
+      "render_sha256": "1a302d20181a64fc573fbcaa5a95befe13d477a916772c0eab7a45cd11d48687",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/technical_report-06.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -120,14 +125,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "technical_report",
       "page": 7,
-      "pdf_sha256": "c80fefa1c7b0fc8d00f53b62405581d829944dd68e0df53d7018f9cf2ba86748",
-      "render_sha256": "8ae8111c7d358368e72dac0cd5c775463a000787f93336362b2549b1e4c88ed1",
-      "render_local_path": "data/editorial-qa/technical-07.png",
+      "pdf_sha256": "cd225827408acc2ad4a412f2e6f707be68bb9fce6f31cc18a93f2b081248cf83",
+      "render_sha256": "b4f720a9caba5a9abe4b6d1b0d74d6a7ebbbf0bac1a08191d7bdc2499d5109dd",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/technical_report-07.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -135,14 +141,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "technical_report",
       "page": 8,
-      "pdf_sha256": "c80fefa1c7b0fc8d00f53b62405581d829944dd68e0df53d7018f9cf2ba86748",
-      "render_sha256": "81520b9b330bedb45d913e50fa2fb15dd0d463b086e9a07facab6b071615a2b2",
-      "render_local_path": "data/editorial-qa/technical-08.png",
+      "pdf_sha256": "cd225827408acc2ad4a412f2e6f707be68bb9fce6f31cc18a93f2b081248cf83",
+      "render_sha256": "ed072254aae410ffbdcbc10fed3cf03d12828f3fbc5cb9688383b3bee2a99120",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/technical_report-08.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -150,14 +157,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "technical_report",
       "page": 9,
-      "pdf_sha256": "c80fefa1c7b0fc8d00f53b62405581d829944dd68e0df53d7018f9cf2ba86748",
-      "render_sha256": "7efda063c3cb9d719d6c56d21c6e4b7724c23e37e91694a2c62b2f20adf84a1e",
-      "render_local_path": "data/editorial-qa/technical-09.png",
+      "pdf_sha256": "cd225827408acc2ad4a412f2e6f707be68bb9fce6f31cc18a93f2b081248cf83",
+      "render_sha256": "a3e1149a111185c894b8cc56cbec84cd934ee90a154283a9996a9f474c204608",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/technical_report-09.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -165,14 +173,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "technical_report",
       "page": 10,
-      "pdf_sha256": "c80fefa1c7b0fc8d00f53b62405581d829944dd68e0df53d7018f9cf2ba86748",
-      "render_sha256": "623f42ebdc5b87ca047327651bdfc9e027f0f920ab57b828046ba47be01e7edc",
-      "render_local_path": "data/editorial-qa/technical-10.png",
+      "pdf_sha256": "cd225827408acc2ad4a412f2e6f707be68bb9fce6f31cc18a93f2b081248cf83",
+      "render_sha256": "ae77d496933a359f8f3c4a0803473fefc55cab5b5444a5a4ece0f8802f3804b6",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/technical_report-10.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -180,14 +189,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "working_paper",
       "page": 1,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "e7cd0bc4b1be1375a3dee3b82775681d4874f4c84e7dd0bc756a383d140522a7",
-      "render_local_path": "data/editorial-qa/paper-01.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "5bf3612bf57266c2ffc460ab2c6fe76bfad6e39cf02882fe720e283a3726d558",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-01.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -195,14 +205,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "working_paper",
       "page": 2,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "aff3a02992c1c5c72dcc35161b90b4696321375c3bef247f35ea713a07a81c7e",
-      "render_local_path": "data/editorial-qa/paper-02.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "6cee6be09609928c3bf5e865948395a18ca06a41ab9ed9cabbbc5fdc453e51bb",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-02.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -210,14 +221,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "working_paper",
       "page": 3,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "b3078a3fc853e54cda2b0e7de1d4d10f8d62c6f677649238b74c6a7b6efa2567",
-      "render_local_path": "data/editorial-qa/paper-03.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "e34908b239d3dac0c82b14f4d6e3eff40003352c94faa0d8e43e6f477fd7debd",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-03.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -225,14 +237,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "working_paper",
       "page": 4,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "75e831caed485bd07235a5b4e0a68aa5dabaadc82af52f821379dbeb428c9403",
-      "render_local_path": "data/editorial-qa/paper-04.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "7920bd7bc4de3ff71859e27eae291614a6e7835604a726b31a4a81c4769adaec",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-04.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -240,14 +253,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "visually checked"
     },
     {
       "document": "working_paper",
       "page": 5,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "d338edd77f75efd419b3612676aecbce596910ee5b84f1ec598ad59eb146ac3a",
-      "render_local_path": "data/editorial-qa/paper-05.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "b89ccea53dc6aad5924c45513af22cbc08c8f159eeec71c9a9969d9e938989f8",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-05.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -255,14 +269,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "working_paper",
       "page": 6,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "6f1efe8785a5019f1d533bf7c6afc69ffcd92a18fd7003bd6517346c75ba59a3",
-      "render_local_path": "data/editorial-qa/paper-06.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "5462bd1348a510cd0c6e3d7593989c4ad5ae1c673f72212475445d074953d516",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-06.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -270,14 +285,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "working_paper",
       "page": 7,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "ef9b86fefe855f7de906b16391aa7dfbd118e9877c5cda8b4980f2c47f208f92",
-      "render_local_path": "data/editorial-qa/paper-07.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "ba7114b2cfc090b3cec6007a55e5b2538e59c4261b9a590a2ed1c81b1ee69657",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-07.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -285,14 +301,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "working_paper",
       "page": 8,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "4ba53df84696bc8d48e55b1e58b7a913ed7cf681fc5a7edbdfe66f3b0599a343",
-      "render_local_path": "data/editorial-qa/paper-08.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "3675ea61764c3f8add800ab465db68dbef6d61e09331f508caf32ac46829ba9e",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-08.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -300,14 +317,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "working_paper",
       "page": 9,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "afe877f2f359499eab1230a829dab01c55ae3f96996db483dacb54589b10f0cf",
-      "render_local_path": "data/editorial-qa/paper-09.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "d172768101cbd940fce0333bb1352d1358ab195a5cd87b65d3baffd8854ca29e",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-09.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -315,14 +333,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "working_paper",
       "page": 10,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "ee2d4a8843a767d6497aac55acf0f421f542e216916045cceffe65cd326c96a8",
-      "render_local_path": "data/editorial-qa/paper-10.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "d40775f9c766a1777a97c722521998d3a2de5690aa66c4bdf38a29c5b6730155",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-10.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -330,14 +349,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "working_paper",
       "page": 11,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "d8f739957a84569e059906ee7706ff4f94f9db651e9888396c4ec978892d4df3",
-      "render_local_path": "data/editorial-qa/paper-11.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "1ce8982978763516b8acd45f357236f5eefc69cd4ac69a04128df812289e93e2",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-11.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -345,14 +365,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "working_paper",
       "page": 12,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "66362e678761057c423e63799f1a8c3b8afe9a35a30fd4a880d792500c31f31a",
-      "render_local_path": "data/editorial-qa/paper-12.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "e96b20f9b2b2a0eda37c001a00d6ede6ef1a4e3cfa9183d89df258512e62471a",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-12.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -360,14 +381,15 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     },
     {
       "document": "working_paper",
       "page": 13,
-      "pdf_sha256": "c33fd47be4480cb6d565eddba46266c0a9d719c420426ab1fa23792319cb0aa7",
-      "render_sha256": "1a6602b124a646ffb3cc3808f3d0676e2ccde2b709ea273a611df7df339b127d",
-      "render_local_path": "data/editorial-qa/paper-13.png",
+      "pdf_sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "render_sha256": "42198e87e98136d88840d08282523a368fa6d7c290b20409bd4ce445638735c1",
+      "render_local_path": ".deliveries/sba-editorial-publication-2026-10-09/qa/working_paper-13.png",
       "visual_check": "passed",
       "checked_for": [
         "clipped text",
@@ -375,7 +397,9 @@
         "unreadable captions",
         "layout/pagination",
         "required qualifications"
-      ]
+      ],
+      "publication_fix_check": "pixel-identical to prior visually checked page"
     }
-  ]
+  ],
+  "publication_fix": "2026-10-09: one grammar replacement only; two affected PDFs rebuilt. All numerals unchanged. Changed pages visually checked; other pages pixel-identical to the previously inspected versions."
 }
