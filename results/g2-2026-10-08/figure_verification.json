@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-08",
+  "figures": [
+    {
+      "pdf": "layer1_crisis_calibration.pdf",
+      "pages": 1,
+      "pdf_sha256": "9c1ec39190af6197b7f87b92e20fa53fb665fab45fddb8b4a623230b09ee2bdb",
+      "png_sha256": "4e78f5bf737aa46657c8236c7493fa13c4e27376f4a050367d239798c8a4867d",
+      "png_pixels": [
+        3334,
+        1444
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "rendered_pdf_visually_checked": true,
+      "clipping_or_overlap_found": false
+    },
+    {
+      "pdf": "layer1_crisis_metrics.pdf",
+      "pages": 1,
+      "pdf_sha256": "22349b4bb2a2acceb003a5cfbf2243e31b4edfad2ad39a7637d22a8b2ff7ddae",
+      "png_sha256": "95688a83dfcb576a9cf72257f6601ead8938d4044e3c9ac7eea43c88f4282ea0",
+      "png_pixels": [
+        3184,
+        1384
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "rendered_pdf_visually_checked": true,
+      "clipping_or_overlap_found": false
+    },
+    {
+      "pdf": "layer2_conditional_calibration.pdf",
+      "pages": 1,
+      "pdf_sha256": "58da516e2f9d767b5520c9da2bf4e5f919d9a05df89304c2e4ef26f3d0c172ea",
+      "png_sha256": "d44427eeb132ffdec5e94b5b4152c55cb4da7e368ab7a707e8493c4181fc9e8a",
+      "png_pixels": [
+        3184,
+        1414
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "rendered_pdf_visually_checked": true,
+      "clipping_or_overlap_found": false
+    },
+    {
+      "pdf": "secondary_scenario_loss_split.pdf",
+      "pages": 1,
+      "pdf_sha256": "8163976f6e4b4393b967b8220b155e63ad7995827f745692a6e768ad50f8895d",
+      "png_sha256": "b0bdf9fd6134b0a7d4cc0b8aacfac33d5e614177f1a8c25d7ecd80b306707c21",
+      "png_pixels": [
+        2434,
+        1534
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "rendered_pdf_visually_checked": true,
+      "clipping_or_overlap_found": false
+    }
+  ],
+  "all_rendered_pdf_pages_visually_checked": true
+}

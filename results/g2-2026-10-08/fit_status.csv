@@ -1,0 +1,12 @@
+variant,family,converged,separation_flag,optimizer_success,message,normalized_gradient,iterations,hessian_condition,n,k,clusters,seconds,categorical_quasi_separation_witness,trials,failed_trials
+layer1,logit,False,False,False,STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT,1.2429870683570372e-06,500.0,161946335.99999,405443,107.0,51.0,7.1784142079995945,True,,
+layer1_term,logit,False,False,False,STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT,7.095024306440058e-07,500.0,572382160.7152078,405443,108.0,51.0,7.037060041970108,True,,
+layer2,logit,False,False,False,STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT,1.0052424843805118e-06,500.0,214465756.69259912,405443,112.0,51.0,7.81740624998929,True,,
+layer2_term,logit,False,False,False,STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT,1.6652742089043762e-06,500.0,288221871.21973795,405443,113.0,51.0,8.142886916000862,True,,
+layer2_peak,logit,False,False,False,STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT,2.170926160436397e-06,500.0,208897597.78695497,405443,112.0,51.0,7.83753258298384,True,,
+layer1,elasticnet,True,,,,,,,405443,,,,,50.0,7.0
+layer1,lightgbm,True,,,,,,,405443,,,,,50.0,0.0
+layer1_term,elasticnet,True,,,,,,,405443,,,,,50.0,6.0
+layer1_term,lightgbm,True,,,,,,,405443,,,,,50.0,0.0
+layer2,lightgbm,True,,,,,,,405443,,,,,50.0,0.0
+layer2_term,lightgbm,True,,,,,,,405443,,,,,50.0,0.0

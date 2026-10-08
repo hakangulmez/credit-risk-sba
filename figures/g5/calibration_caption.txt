@@ -1,0 +1,1 @@
+Training-score decile cutoffs: original edges, counts and empty bins retained in the tables. Stored 95% state-cluster bands condition on fitted models (999 evaluation draws); no binomial intervals. Layer 2 uses future realized macro paths, not real-time information.

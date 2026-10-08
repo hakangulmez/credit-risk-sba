@@ -1,0 +1,18 @@
+{
+  "config_path": "config/g2_bis_2026-10-08.yaml",
+  "config_sha256": "b1f2bec74490c63a05151a44fc1ee1d1310e0cb5b9d7f358c3e83fe2c8604b59",
+  "protocol_path": "docs/PROTOCOL.md",
+  "protocol_sha256": "dd647321a9b22dce4740b75ba680a7ba3f2d8991bf898c48985056446396a265",
+  "constants": {
+    "horizon_months": 36,
+    "pool_cutoff": 0.001,
+    "seed": 20261008,
+    "attempts": 199,
+    "evaluation_draws": 999,
+    "max_iterations": 100,
+    "state_count": 51,
+    "lgd_min_cell": 50
+  },
+  "metadata_not_new_estimates": true,
+  "tuning_history": "2003H1 in G2; unchanged selected settings inherited by G2-bis"
+}

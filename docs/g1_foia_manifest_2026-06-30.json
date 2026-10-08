@@ -1,0 +1,327 @@
+{
+  "snapshot_date": "2026-06-30",
+  "access_date": "2026-10-08",
+  "chunk_bytes": 16777216,
+  "maximum_concurrent_requests": 2,
+  "files": [
+    {
+      "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY1991_FY1999_asof_260630.csv",
+      "bytes": 146416885,
+      "head_status": 200,
+      "range_status": 206,
+      "content_range": "bytes 0-65535/146416885",
+      "headers": [
+        "AsOfDate",
+        "Program",
+        "LocationID",
+        "BorrName",
+        "BorrStreet",
+        "BorrCity",
+        "BorrState",
+        "BorrZip",
+        "BankName",
+        "BankFDICNumber",
+        "BankNCUANumber",
+        "BankStreet",
+        "BankCity",
+        "BankState",
+        "BankZip",
+        "GrossApproval",
+        "SBAGuaranteedApproval",
+        "ApprovalDate",
+        "ApprovalFY",
+        "FirstDisbursementDate",
+        "ProcessingMethod",
+        "InitialInterestRate",
+        "FixedorVariableInterestInd",
+        "TermInMonths",
+        "NaicsCode",
+        "NaicsDescription",
+        "FranchiseCode",
+        "FranchiseName",
+        "ProjectCounty",
+        "ProjectState",
+        "SBADistrictOffice",
+        "CongressionalDistrict",
+        "BusinessType",
+        "BusinessAge",
+        "LoanStatus",
+        "PaidInFullDate",
+        "ChargeOffDate",
+        "GrossChargeOffAmount",
+        "RevolverStatus",
+        "JobsSupported",
+        "CollateralInd",
+        "SoldSecMrktInd"
+      ],
+      "sample_rows_read": 152,
+      "sample_statuses": [
+        "CANCLD",
+        "CHGOFF",
+        "EXEMPT",
+        "P I F"
+      ],
+      "sample_missing_first_disbursement_by_status": {
+        "CANCLD": {
+          "n": 18,
+          "missing": 18
+        },
+        "CHGOFF": {
+          "n": 14,
+          "missing": 0
+        },
+        "EXEMPT": {
+          "n": 3,
+          "missing": 0
+        },
+        "P I F": {
+          "n": 117,
+          "missing": 0
+        }
+      },
+      "http_last_modified": "Tue, 21 Jul 2026 17:28:36 GMT",
+      "etag": "\"8ba24f5-657225a575b78\"",
+      "sha256": "05040efc4a43224a02460d606ea744579a54b650bdb99663a833ed0b31936213",
+      "download_seconds_this_turn": 18.935,
+      "relative_raw_path": "data/raw/foia_2026-06-30/FOIA_7a_FY1991_FY1999_asof_260630.csv"
+    },
+    {
+      "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2000_FY2009_asof_260630.csv",
+      "bytes": 318425094,
+      "head_status": 200,
+      "range_status": 206,
+      "content_range": "bytes 0-65535/318425094",
+      "headers": [
+        "AsOfDate",
+        "Program",
+        "LocationID",
+        "BorrName",
+        "BorrStreet",
+        "BorrCity",
+        "BorrState",
+        "BorrZip",
+        "BankName",
+        "BankFDICNumber",
+        "BankNCUANumber",
+        "BankStreet",
+        "BankCity",
+        "BankState",
+        "BankZip",
+        "GrossApproval",
+        "SBAGuaranteedApproval",
+        "ApprovalDate",
+        "ApprovalFY",
+        "FirstDisbursementDate",
+        "ProcessingMethod",
+        "InitialInterestRate",
+        "FixedorVariableInterestInd",
+        "TermInMonths",
+        "NaicsCode",
+        "NaicsDescription",
+        "FranchiseCode",
+        "FranchiseName",
+        "ProjectCounty",
+        "ProjectState",
+        "SBADistrictOffice",
+        "CongressionalDistrict",
+        "BusinessType",
+        "BusinessAge",
+        "LoanStatus",
+        "PaidInFullDate",
+        "ChargeOffDate",
+        "GrossChargeOffAmount",
+        "RevolverStatus",
+        "JobsSupported",
+        "CollateralInd",
+        "SoldSecMrktInd"
+      ],
+      "sample_rows_read": 146,
+      "sample_statuses": [
+        "CANCLD",
+        "CHGOFF",
+        "P I F"
+      ],
+      "sample_missing_first_disbursement_by_status": {
+        "CANCLD": {
+          "n": 20,
+          "missing": 20
+        },
+        "CHGOFF": {
+          "n": 18,
+          "missing": 0
+        },
+        "P I F": {
+          "n": 108,
+          "missing": 0
+        }
+      },
+      "http_last_modified": "Tue, 21 Jul 2026 17:30:13 GMT",
+      "etag": "\"12fac806-65722601c8ba0\"",
+      "sha256": "66674e18a700fbba0378c25118c291ac2759784a550c643cab5747eced763d6a",
+      "download_seconds_this_turn": 49.732,
+      "relative_raw_path": "data/raw/foia_2026-06-30/FOIA_7a_FY2000_FY2009_asof_260630.csv"
+    },
+    {
+      "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2010_FY2019_asof_260630.csv",
+      "bytes": 255101999,
+      "head_status": 200,
+      "range_status": 206,
+      "content_range": "bytes 0-65535/255101999",
+      "headers": [
+        "AsOfDate",
+        "Program",
+        "LocationID",
+        "BorrName",
+        "BorrStreet",
+        "BorrCity",
+        "BorrState",
+        "BorrZip",
+        "BankName",
+        "BankFDICNumber",
+        "BankNCUANumber",
+        "BankStreet",
+        "BankCity",
+        "BankState",
+        "BankZip",
+        "GrossApproval",
+        "SBAGuaranteedApproval",
+        "ApprovalDate",
+        "ApprovalFY",
+        "FirstDisbursementDate",
+        "ProcessingMethod",
+        "InitialInterestRate",
+        "FixedorVariableInterestInd",
+        "TermInMonths",
+        "NaicsCode",
+        "NaicsDescription",
+        "FranchiseCode",
+        "FranchiseName",
+        "ProjectCounty",
+        "ProjectState",
+        "SBADistrictOffice",
+        "CongressionalDistrict",
+        "BusinessType",
+        "BusinessAge",
+        "LoanStatus",
+        "PaidInFullDate",
+        "ChargeOffDate",
+        "GrossChargeOffAmount",
+        "RevolverStatus",
+        "JobsSupported",
+        "CollateralInd",
+        "SoldSecMrktInd"
+      ],
+      "sample_rows_read": 138,
+      "sample_statuses": [
+        "CANCLD",
+        "CHGOFF",
+        "EXEMPT",
+        "P I F"
+      ],
+      "sample_missing_first_disbursement_by_status": {
+        "CANCLD": {
+          "n": 12,
+          "missing": 12
+        },
+        "CHGOFF": {
+          "n": 11,
+          "missing": 0
+        },
+        "EXEMPT": {
+          "n": 2,
+          "missing": 0
+        },
+        "P I F": {
+          "n": 113,
+          "missing": 0
+        }
+      },
+      "http_last_modified": "Tue, 21 Jul 2026 17:31:15 GMT",
+      "etag": "\"f348c2f-6572263cbef70\"",
+      "sha256": "01a3e2c7988a6f4052e53f218a309feb2ec2fe42887bebdc0fa94ac8b1024ade",
+      "download_seconds_this_turn": 16.043,
+      "relative_raw_path": "data/raw/foia_2026-06-30/FOIA_7a_FY2010_FY2019_asof_260630.csv"
+    },
+    {
+      "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2020_Present_asof_260630.csv",
+      "bytes": 181130871,
+      "head_status": 200,
+      "range_status": 206,
+      "content_range": "bytes 0-65535/181130871",
+      "headers": [
+        "AsOfDate",
+        "Program",
+        "LocationID",
+        "BorrName",
+        "BorrStreet",
+        "BorrCity",
+        "BorrState",
+        "BorrZip",
+        "BankName",
+        "BankFDICNumber",
+        "BankNCUANumber",
+        "BankStreet",
+        "BankCity",
+        "BankState",
+        "BankZip",
+        "GrossApproval",
+        "SBAGuaranteedApproval",
+        "ApprovalDate",
+        "ApprovalFY",
+        "FirstDisbursementDate",
+        "ProcessingMethod",
+        "InitialInterestRate",
+        "FixedorVariableInterestInd",
+        "TermInMonths",
+        "NaicsCode",
+        "NaicsDescription",
+        "FranchiseCode",
+        "FranchiseName",
+        "ProjectCounty",
+        "ProjectState",
+        "SBADistrictOffice",
+        "CongressionalDistrict",
+        "BusinessType",
+        "BusinessAge",
+        "LoanStatus",
+        "PaidInFullDate",
+        "ChargeOffDate",
+        "GrossChargeOffAmount",
+        "RevolverStatus",
+        "JobsSupported",
+        "CollateralInd",
+        "SoldSecMrktInd"
+      ],
+      "sample_rows_read": 139,
+      "sample_statuses": [
+        "CANCLD",
+        "CHGOFF",
+        "EXEMPT",
+        "P I F"
+      ],
+      "sample_missing_first_disbursement_by_status": {
+        "CANCLD": {
+          "n": 19,
+          "missing": 19
+        },
+        "CHGOFF": {
+          "n": 10,
+          "missing": 0
+        },
+        "EXEMPT": {
+          "n": 37,
+          "missing": 0
+        },
+        "P I F": {
+          "n": 73,
+          "missing": 0
+        }
+      },
+      "http_last_modified": "Tue, 21 Jul 2026 17:32:02 GMT",
+      "etag": "\"acbd677-65722669b3440\"",
+      "sha256": "6c1e9132b5141a19f82bdc8ccafb86c9a01662461cad41ddb36a3cf409d8a4fe",
+      "download_seconds_this_turn": 8.586,
+      "relative_raw_path": "data/raw/foia_2026-06-30/FOIA_7a_FY2020_Present_asof_260630.csv"
+    }
+  ]
+}

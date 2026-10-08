@@ -1,0 +1,909 @@
+{
+  "date": "2026-10-08",
+  "scope": "Two reporting corrections only; no empirical work",
+  "starting_commit": "abfbb240c6dc41012ac8e01425bfdfab02d45dfe",
+  "archive_manifest_path": "versions/pre-g5-correction-2026-10-08/ARCHIVE_MANIFEST.json",
+  "archive_manifest_sha256": "777b0c769544eb3e56e9f8a2f68944194837ef7e90ee7ec7b4c4abd0cafab45f",
+  "archived_files_verified": 92,
+  "registry_byte_identical": true,
+  "registry_sha256": "96b8a60299d886c5e8dcb87ee87c8919c12e252736bc4fec0b9f3a684a3048a0",
+  "raw_values_selectors_hashes_formulas_intervals_preserved": true,
+  "human_claim_displays": {
+    "auc_crisis": {
+      "id": "N9f03a9b8e4b9e7",
+      "formatted_value": "0.607 [0.587, 0.626]",
+      "unit": "AUC (unitless)",
+      "format": {
+        "id": "N9f03a9b8e4b9e7",
+        "scale": 1,
+        "digits": 3,
+        "interval": true,
+        "integer": false,
+        "display": "0.607 [0.587, 0.626]"
+      }
+    },
+    "pd_crisis": {
+      "id": "N8d9852d435f5a3",
+      "formatted_value": "5.73",
+      "unit": "percent (%)",
+      "format": {
+        "id": "N8d9852d435f5a3",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "5.73"
+      }
+    },
+    "rate_crisis": {
+      "id": "N5b982a8342fccf",
+      "formatted_value": "12.25",
+      "unit": "percent (%)",
+      "format": {
+        "id": "N5b982a8342fccf",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "12.25"
+      }
+    },
+    "auc_later": {
+      "id": "N6f79fba978c544",
+      "formatted_value": "0.666 [0.638, 0.691]",
+      "unit": "AUC (unitless)",
+      "format": {
+        "id": "N6f79fba978c544",
+        "scale": 1,
+        "digits": 3,
+        "interval": true,
+        "integer": false,
+        "display": "0.666 [0.638, 0.691]"
+      }
+    },
+    "pd_later": {
+      "id": "N49c537150442cb",
+      "formatted_value": "4.50",
+      "unit": "percent (%)",
+      "format": {
+        "id": "N49c537150442cb",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "4.50"
+      }
+    },
+    "rate_later": {
+      "id": "N22e2dd3c5958fe",
+      "formatted_value": "1.49",
+      "unit": "percent (%)",
+      "format": {
+        "id": "N22e2dd3c5958fe",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "1.49"
+      }
+    },
+    "pd_l2_firth": {
+      "id": "N244e456120043a",
+      "formatted_value": "2.80",
+      "unit": "percent (%)",
+      "format": {
+        "id": "N244e456120043a",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "2.80"
+      }
+    },
+    "rate_l2_firth": {
+      "id": "Nbc91e4ca98d236",
+      "formatted_value": "1.48",
+      "unit": "percent (%)",
+      "format": {
+        "id": "Nbc91e4ca98d236",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "1.48"
+      }
+    },
+    "firth_calibration_intercept": {
+      "id": "Nb06a7a1e59ab95",
+      "formatted_value": "-1.226 [-1.805, -0.772]",
+      "unit": "calibration_intercept (unitless)",
+      "format": {
+        "id": "Nb06a7a1e59ab95",
+        "scale": 1,
+        "digits": 3,
+        "interval": true,
+        "integer": false,
+        "display": "-1.226 [-1.805, -0.772]"
+      }
+    },
+    "firth_calibration_slope": {
+      "id": "N34f5519c69a13a",
+      "formatted_value": "0.830 [0.681, 0.945]",
+      "unit": "calibration_slope (unitless)",
+      "format": {
+        "id": "N34f5519c69a13a",
+        "scale": 1,
+        "digits": 3,
+        "interval": true,
+        "integer": false,
+        "display": "0.830 [0.681, 0.945]"
+      }
+    },
+    "pd_l2_tree": {
+      "id": "Ndc9a8338cfceaf",
+      "formatted_value": "1.51",
+      "unit": "percent (%)",
+      "format": {
+        "id": "Ndc9a8338cfceaf",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "1.51"
+      }
+    },
+    "rate_l2_tree": {
+      "id": "Ne70caeacd606a8",
+      "formatted_value": "1.48",
+      "unit": "percent (%)",
+      "format": {
+        "id": "Ne70caeacd606a8",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "1.48"
+      }
+    },
+    "tree_calibration_intercept": {
+      "id": "N9effc87e5151ba",
+      "formatted_value": "-0.431 [-0.835, -0.112]",
+      "unit": "calibration_intercept (unitless)",
+      "format": {
+        "id": "N9effc87e5151ba",
+        "scale": 1,
+        "digits": 3,
+        "interval": true,
+        "integer": false,
+        "display": "-0.431 [-0.835, -0.112]"
+      }
+    },
+    "tree_calibration_slope": {
+      "id": "Ne0b15147e6a4b0",
+      "formatted_value": "0.894 [0.812, 0.967]",
+      "unit": "calibration_slope (unitless)",
+      "format": {
+        "id": "Ne0b15147e6a4b0",
+        "scale": 1,
+        "digits": 3,
+        "interval": true,
+        "integer": false,
+        "display": "0.894 [0.812, 0.967]"
+      }
+    },
+    "endpoint": {
+      "id": "Nccf90c54643a4c",
+      "formatted_value": "0.535 [0.266, 0.772]",
+      "unit": "probability percentage points (pp)",
+      "format": {
+        "id": "Nccf90c54643a4c",
+        "scale": 1,
+        "digits": 3,
+        "interval": true,
+        "integer": false,
+        "display": "0.535 [0.266, 0.772]"
+      }
+    },
+    "peak": {
+      "id": "N56fcbc9a1e699b",
+      "formatted_value": "0.679 [0.439, 0.933]",
+      "unit": "probability percentage points (pp)",
+      "format": {
+        "id": "N56fcbc9a1e699b",
+        "scale": 1,
+        "digits": 3,
+        "interval": true,
+        "integer": false,
+        "display": "0.679 [0.439, 0.933]"
+      }
+    },
+    "baseline_pd": {
+      "id": "N8650138597f873",
+      "formatted_value": "5.16 [4.61, 5.79]",
+      "unit": "percent (%)",
+      "format": {
+        "id": "N8650138597f873",
+        "scale": 100,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "5.16 [4.61, 5.79]"
+      }
+    },
+    "baseline_expected_loss_usd": {
+      "id": "Ne2267a072204c1",
+      "formatted_value": "215.58 [194.85, 234.99]",
+      "unit": "USD millions",
+      "format": {
+        "id": "Ne2267a072204c1",
+        "scale": 1e-06,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "215.58 [194.85, 234.99]"
+      }
+    },
+    "baseline_sba_loss_usd": {
+      "id": "N57a02a19520504",
+      "formatted_value": "135.38 [123.96, 146.81]",
+      "unit": "USD millions",
+      "format": {
+        "id": "N57a02a19520504",
+        "scale": 1e-06,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "135.38 [123.96, 146.81]"
+      }
+    },
+    "baseline_lender_loss_usd": {
+      "id": "N88ef103fa3874d",
+      "formatted_value": "80.20 [70.79, 88.69]",
+      "unit": "USD millions",
+      "format": {
+        "id": "N88ef103fa3874d",
+        "scale": 1e-06,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "80.20 [70.79, 88.69]"
+      }
+    },
+    "baseline_loss_rate": {
+      "id": "Na71ec3da674c39",
+      "formatted_value": "1.67 [1.51, 1.83]",
+      "unit": "percent (%)",
+      "format": {
+        "id": "Na71ec3da674c39",
+        "scale": 100,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "1.67 [1.51, 1.83]"
+      }
+    },
+    "adverse_pd": {
+      "id": "Nb4b1aa9f09e220",
+      "formatted_value": "12.78 [12.46, 13.34]",
+      "unit": "percent (%)",
+      "format": {
+        "id": "Nb4b1aa9f09e220",
+        "scale": 100,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "12.78 [12.46, 13.34]"
+      }
+    },
+    "adverse_expected_loss_usd": {
+      "id": "Nde151c730b3a97",
+      "formatted_value": "572.87 [528.21, 620.28]",
+      "unit": "USD millions",
+      "format": {
+        "id": "Nde151c730b3a97",
+        "scale": 1e-06,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "572.87 [528.21, 620.28]"
+      }
+    },
+    "adverse_sba_loss_usd": {
+      "id": "N46cdc99b7dd6b9",
+      "formatted_value": "360.71 [328.19, 393.90]",
+      "unit": "USD millions",
+      "format": {
+        "id": "N46cdc99b7dd6b9",
+        "scale": 1e-06,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "360.71 [328.19, 393.90]"
+      }
+    },
+    "adverse_lender_loss_usd": {
+      "id": "N1bfe104484281e",
+      "formatted_value": "212.16 [199.49, 227.03]",
+      "unit": "USD millions",
+      "format": {
+        "id": "N1bfe104484281e",
+        "scale": 1e-06,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "212.16 [199.49, 227.03]"
+      }
+    },
+    "adverse_loss_rate": {
+      "id": "N7fe1102688963a",
+      "formatted_value": "4.45 [4.10, 4.82]",
+      "unit": "percent (%)",
+      "format": {
+        "id": "N7fe1102688963a",
+        "scale": 100,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "4.45 [4.10, 4.82]"
+      }
+    },
+    "adverse_minus_baseline_pd_change_pp": {
+      "id": "Nf7dd6ccc2d5232",
+      "formatted_value": "7.619 [6.772, 8.617]",
+      "unit": "probability percentage points (pp)",
+      "format": {
+        "id": "Nf7dd6ccc2d5232",
+        "scale": 1,
+        "digits": 3,
+        "interval": true,
+        "integer": false,
+        "display": "7.619 [6.772, 8.617]"
+      }
+    },
+    "adverse_minus_baseline_expected_loss_usd_change": {
+      "id": "N02244f98698985",
+      "formatted_value": "357.30 [304.86, 411.90]",
+      "unit": "USD millions",
+      "format": {
+        "id": "N02244f98698985",
+        "scale": 1e-06,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "357.30 [304.86, 411.90]"
+      }
+    },
+    "adverse_minus_baseline_sba_loss_usd_change": {
+      "id": "Nd4473b2ee7b4a4",
+      "formatted_value": "225.33 [189.40, 261.74]",
+      "unit": "USD millions",
+      "format": {
+        "id": "Nd4473b2ee7b4a4",
+        "scale": 1e-06,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "225.33 [189.40, 261.74]"
+      }
+    },
+    "adverse_minus_baseline_lender_loss_usd_change": {
+      "id": "N14ea5b5bec6e9f",
+      "formatted_value": "131.96 [114.46, 151.14]",
+      "unit": "USD millions",
+      "format": {
+        "id": "N14ea5b5bec6e9f",
+        "scale": 1e-06,
+        "digits": 2,
+        "interval": true,
+        "integer": false,
+        "display": "131.96 [114.46, 151.14]"
+      }
+    },
+    "el_ratio": {
+      "id": "el_ratio",
+      "formatted_value": "2.66",
+      "unit": "unitless",
+      "format": {
+        "id": "el_ratio",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "2.66"
+      }
+    },
+    "baseline_sba_share": {
+      "id": "baseline_sba_share",
+      "formatted_value": "62.80",
+      "unit": "percent (%)",
+      "format": {
+        "id": "baseline_sba_share",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "62.80"
+      }
+    },
+    "baseline_lender_share": {
+      "id": "baseline_lender_share",
+      "formatted_value": "37.20",
+      "unit": "percent (%)",
+      "format": {
+        "id": "baseline_lender_share",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "37.20"
+      }
+    },
+    "adverse_sba_share": {
+      "id": "adverse_sba_share",
+      "formatted_value": "62.97",
+      "unit": "percent (%)",
+      "format": {
+        "id": "adverse_sba_share",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "62.97"
+      }
+    },
+    "adverse_lender_share": {
+      "id": "adverse_lender_share",
+      "formatted_value": "37.03",
+      "unit": "percent (%)",
+      "format": {
+        "id": "adverse_lender_share",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "37.03"
+      }
+    },
+    "term_CHGOFF_n": {
+      "id": "N7a18024e7d5d1a",
+      "formatted_value": "217,195",
+      "unit": "count",
+      "format": {
+        "id": "N7a18024e7d5d1a",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "217,195"
+      }
+    },
+    "term_CHGOFF_valid_n": {
+      "id": "Na3c0f1b49cccac",
+      "formatted_value": "216,172",
+      "unit": "count",
+      "format": {
+        "id": "Na3c0f1b49cccac",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "216,172"
+      }
+    },
+    "term_CHGOFF_term_invalid_n": {
+      "id": "N4a018ff4ba8b36",
+      "formatted_value": "1,023",
+      "unit": "count",
+      "format": {
+        "id": "N4a018ff4ba8b36",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "1,023"
+      }
+    },
+    "term_CHGOFF_match_abs_le_3_share": {
+      "id": "Nd12a607c2ac701",
+      "formatted_value": "4.66",
+      "unit": "percent (%)",
+      "format": {
+        "id": "Nd12a607c2ac701",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "4.66"
+      }
+    },
+    "term_CHGOFF_charge_off_after_label_window_n": {
+      "id": "N97476df352cb5b",
+      "formatted_value": "151,175",
+      "unit": "count",
+      "format": {
+        "id": "N97476df352cb5b",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "151,175"
+      }
+    },
+    "term_PIF_n": {
+      "id": "N7151c27af58a1a",
+      "formatted_value": "1,151,100",
+      "unit": "count",
+      "format": {
+        "id": "N7151c27af58a1a",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "1,151,100"
+      }
+    },
+    "term_PIF_valid_n": {
+      "id": "N3f559c8036095e",
+      "formatted_value": "1,150,806",
+      "unit": "count",
+      "format": {
+        "id": "N3f559c8036095e",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "1,150,806"
+      }
+    },
+    "term_PIF_term_invalid_n": {
+      "id": "Nbbe08783ab11f5",
+      "formatted_value": "294",
+      "unit": "count",
+      "format": {
+        "id": "Nbbe08783ab11f5",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "294"
+      }
+    },
+    "term_PIF_match_abs_le_3_share": {
+      "id": "N7afcae84e5181e",
+      "formatted_value": "14.45",
+      "unit": "percent (%)",
+      "format": {
+        "id": "N7afcae84e5181e",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "14.45"
+      }
+    },
+    "term_PIF_charge_off_after_label_window_n": {
+      "id": "N8585d1295c8865",
+      "formatted_value": "0",
+      "unit": "count",
+      "format": {
+        "id": "N8585d1295c8865",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "0"
+      }
+    },
+    "support_state_specific_flagged_loan_n": {
+      "id": "Nee3aaec7d017e1",
+      "formatted_value": "990",
+      "unit": "count",
+      "format": {
+        "id": "Nee3aaec7d017e1",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "990"
+      }
+    },
+    "support_state_specific_flagged_fraction": {
+      "id": "Nffd0062d202f48",
+      "formatted_value": "1.11",
+      "unit": "percent (%)",
+      "format": {
+        "id": "Nffd0062d202f48",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "1.11"
+      }
+    },
+    "support_state_specific_flagged_approval_usd": {
+      "id": "Nc3fdeaa66e8192",
+      "formatted_value": "99.55",
+      "unit": "USD millions",
+      "format": {
+        "id": "Nc3fdeaa66e8192",
+        "scale": 1e-06,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "99.55"
+      }
+    },
+    "support_state_specific_n": {
+      "id": "N7b1e90de7a774d",
+      "formatted_value": "89,002",
+      "unit": "count",
+      "format": {
+        "id": "N7b1e90de7a774d",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "89,002"
+      }
+    },
+    "support_pooled_global_flagged_loan_n": {
+      "id": "N2be6949849b5f5",
+      "formatted_value": "0",
+      "unit": "count",
+      "format": {
+        "id": "N2be6949849b5f5",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "0"
+      }
+    },
+    "support_pooled_global_flagged_fraction": {
+      "id": "N3bd463d5ecfd07",
+      "formatted_value": "0.00",
+      "unit": "percent (%)",
+      "format": {
+        "id": "N3bd463d5ecfd07",
+        "scale": 100,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "0.00"
+      }
+    },
+    "support_pooled_global_flagged_approval_usd": {
+      "id": "N31b90e2af722ae",
+      "formatted_value": "0.00",
+      "unit": "USD millions",
+      "format": {
+        "id": "N31b90e2af722ae",
+        "scale": 1e-06,
+        "digits": 2,
+        "interval": false,
+        "integer": false,
+        "display": "0.00"
+      }
+    },
+    "support_pooled_global_n": {
+      "id": "N21055d4a669e33",
+      "formatted_value": "89,002",
+      "unit": "count",
+      "format": {
+        "id": "N21055d4a669e33",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "89,002"
+      }
+    },
+    "method_horizon_months": {
+      "id": "method_horizon_months",
+      "formatted_value": "36",
+      "unit": "calendar months",
+      "format": {
+        "id": "method_horizon_months",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "36"
+      }
+    },
+    "method_pool_cutoff": {
+      "id": "method_pool_cutoff",
+      "formatted_value": "0.001",
+      "unit": "fraction of training observations",
+      "format": {
+        "id": "method_pool_cutoff",
+        "scale": 1,
+        "digits": 3,
+        "interval": false,
+        "integer": false,
+        "display": "0.001"
+      }
+    },
+    "method_seed": {
+      "id": "method_seed",
+      "formatted_value": "20261008",
+      "unit": "integer seed",
+      "format": {
+        "id": "method_seed",
+        "scale": 1,
+        "digits": 0,
+        "interval": false,
+        "integer": false,
+        "display": "20261008"
+      }
+    },
+    "method_attempts": {
+      "id": "method_attempts",
+      "formatted_value": "199",
+      "unit": "attempted training-refit draws",
+      "format": {
+        "id": "method_attempts",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "199"
+      }
+    },
+    "method_evaluation_draws": {
+      "id": "method_evaluation_draws",
+      "formatted_value": "999",
+      "unit": "conditional evaluation draws",
+      "format": {
+        "id": "method_evaluation_draws",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "999"
+      }
+    },
+    "method_max_iterations": {
+      "id": "method_max_iterations",
+      "formatted_value": "100",
+      "unit": "iterations",
+      "format": {
+        "id": "method_max_iterations",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "100"
+      }
+    },
+    "method_state_count": {
+      "id": "method_state_count",
+      "formatted_value": "51",
+      "unit": "states",
+      "format": {
+        "id": "method_state_count",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "51"
+      }
+    },
+    "method_lgd_min_cell": {
+      "id": "method_lgd_min_cell",
+      "formatted_value": "50",
+      "unit": "valid charge-offs (count)",
+      "format": {
+        "id": "method_lgd_min_cell",
+        "scale": 1,
+        "digits": 2,
+        "interval": false,
+        "integer": true,
+        "display": "50"
+      }
+    }
+  },
+  "convergence_label_mapping": {
+    "source_variant": "layer2_peak",
+    "source_family": "Firth primary",
+    "display_family": "Firth peak sensitivity",
+    "source_hash": "397028bff6cb7e17c1e55f9ee439c324b120ee39d45b5ce89940cc1d4fb4ca36",
+    "specification_roles_unchanged": true
+  },
+  "tests": {
+    "passed": 50,
+    "runtime_seconds": 70.32,
+    "reporting_coverage_percent": 98.8620199146515,
+    "scope": "Reporting only, including private-data-free offline build; prior statistical coverage not rerun",
+    "log_sha256": "bed916a8caabfc3b4c9db8782dceae2c98503713ce1919cc7bf713ab8558893c",
+    "coverage_sha256": "409175840f2686eb5dcfc31192acd7d737284aabef634ad09b66e7d3edd233d0"
+  },
+  "lint": "passed",
+  "format": "passed",
+  "typing": "passed: 29 source files",
+  "page_counts": {
+    "policy_note": 2,
+    "technical_report": 10
+  },
+  "technical_page_checks": [
+    {
+      "page": 1,
+      "before_render_sha256": "f94df336a08fb8a1ae9e768efe1d6f046090fdd85c958ff1f07952a0304ad013",
+      "after_render_sha256": "f94df336a08fb8a1ae9e768efe1d6f046090fdd85c958ff1f07952a0304ad013",
+      "pixels_unchanged": true,
+      "visual_evidence": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "page": 2,
+      "before_render_sha256": "e7fb19894349947626d4eef5a9bf461f29e3ec13873b5c7ae33905a7e54d5db5",
+      "after_render_sha256": "e7fb19894349947626d4eef5a9bf461f29e3ec13873b5c7ae33905a7e54d5db5",
+      "pixels_unchanged": true,
+      "visual_evidence": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "page": 3,
+      "before_render_sha256": "baea4dafac518a4cb0d410a3deb8172424aaf9952fd4aa642bc52c5a54b39e18",
+      "after_render_sha256": "d463205ca32576a1ae9470ae1d240ef71e4c261eddaa4dab15c2e2e7340d4446",
+      "pixels_unchanged": false,
+      "visual_evidence": "new visual inspection of affected Table 4 page"
+    },
+    {
+      "page": 4,
+      "before_render_sha256": "e2122c996024e4b21afe709a6f847033a3b3629dae23b17a390ed3d3353203ff",
+      "after_render_sha256": "e2122c996024e4b21afe709a6f847033a3b3629dae23b17a390ed3d3353203ff",
+      "pixels_unchanged": true,
+      "visual_evidence": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "page": 5,
+      "before_render_sha256": "11a7d8771305bcd1af19a2f8ce60b7ce6c5b19c8c3fee102ff5fb844275200e3",
+      "after_render_sha256": "11a7d8771305bcd1af19a2f8ce60b7ce6c5b19c8c3fee102ff5fb844275200e3",
+      "pixels_unchanged": true,
+      "visual_evidence": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "page": 6,
+      "before_render_sha256": "8be1c473fd5dfc961063d7d80bfbe48ef9520f72a4855e38fccece17a3a95f47",
+      "after_render_sha256": "8be1c473fd5dfc961063d7d80bfbe48ef9520f72a4855e38fccece17a3a95f47",
+      "pixels_unchanged": true,
+      "visual_evidence": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "page": 7,
+      "before_render_sha256": "e3025ceb2b2da74e5e252e58facf4bb3fbb463897c985527d109b1612ded569b",
+      "after_render_sha256": "e3025ceb2b2da74e5e252e58facf4bb3fbb463897c985527d109b1612ded569b",
+      "pixels_unchanged": true,
+      "visual_evidence": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "page": 8,
+      "before_render_sha256": "dffeced3b69d3a101b422dd64682ad7569dedf9eaea538939cbc5e8d9e86891e",
+      "after_render_sha256": "dffeced3b69d3a101b422dd64682ad7569dedf9eaea538939cbc5e8d9e86891e",
+      "pixels_unchanged": true,
+      "visual_evidence": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "page": 9,
+      "before_render_sha256": "df74f405501d8e0c5aac216ebbc96e7464d3f91c7fe5f92f40af249f15c5dd1f",
+      "after_render_sha256": "df74f405501d8e0c5aac216ebbc96e7464d3f91c7fe5f92f40af249f15c5dd1f",
+      "pixels_unchanged": true,
+      "visual_evidence": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "page": 10,
+      "before_render_sha256": "623f42ebdc5b87ca047327651bdfc9e027f0f920ab57b828046ba47be01e7edc",
+      "after_render_sha256": "623f42ebdc5b87ca047327651bdfc9e027f0f920ab57b828046ba47be01e7edc",
+      "pixels_unchanged": true,
+      "visual_evidence": "pixel-identical to archived PDF; original G5 page inspection retained"
+    }
+  ],
+  "protected_hashes": {
+    "protected_tracked": 238,
+    "protected_private": 1170,
+    "archive_mappings": 21,
+    "authorized_surface_replacements": 2,
+    "append_only_decisions": 1
+  },
+  "original_gate_validation_retained": true,
+  "new_empirical_runs": 0
+}

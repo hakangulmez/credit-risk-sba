@@ -1,0 +1,115 @@
+{
+  "review_method": "Individual rendered page inspection using Poppler, plus standalone figure/LinkedIn image inspection",
+  "pages": [
+    {
+      "pdf": "report/policy_note.pdf",
+      "pdf_sha256": "742d9377b6e4bed14188d9b67f58b0189d866a98e445c24435c42b3cba9c162f",
+      "page": 1,
+      "render_sha256": "30ee0b4c576bdd4269f8f0c8a58246e80ff0026b6b1ec510d4f59bf6c0ef2e70",
+      "status": "visually inspected; no clipping; units/bands/qualifications readable"
+    },
+    {
+      "pdf": "report/policy_note.pdf",
+      "pdf_sha256": "742d9377b6e4bed14188d9b67f58b0189d866a98e445c24435c42b3cba9c162f",
+      "page": 2,
+      "render_sha256": "05e6ddce4fd204180d5d8b1ec1573c50e2178a8aa1f7416c2b286e8e062810e9",
+      "status": "visually inspected; no clipping; units/bands/qualifications readable"
+    },
+    {
+      "pdf": "report/technical_report.pdf",
+      "pdf_sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+      "page": 1,
+      "render_sha256": "f94df336a08fb8a1ae9e768efe1d6f046090fdd85c958ff1f07952a0304ad013",
+      "status": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "pdf": "report/technical_report.pdf",
+      "pdf_sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+      "page": 2,
+      "render_sha256": "e7fb19894349947626d4eef5a9bf461f29e3ec13873b5c7ae33905a7e54d5db5",
+      "status": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "pdf": "report/technical_report.pdf",
+      "pdf_sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+      "page": 3,
+      "render_sha256": "d463205ca32576a1ae9470ae1d240ef71e4c261eddaa4dab15c2e2e7340d4446",
+      "status": "new visual inspection of affected Table 4 page"
+    },
+    {
+      "pdf": "report/technical_report.pdf",
+      "pdf_sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+      "page": 4,
+      "render_sha256": "e2122c996024e4b21afe709a6f847033a3b3629dae23b17a390ed3d3353203ff",
+      "status": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "pdf": "report/technical_report.pdf",
+      "pdf_sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+      "page": 5,
+      "render_sha256": "11a7d8771305bcd1af19a2f8ce60b7ce6c5b19c8c3fee102ff5fb844275200e3",
+      "status": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "pdf": "report/technical_report.pdf",
+      "pdf_sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+      "page": 6,
+      "render_sha256": "8be1c473fd5dfc961063d7d80bfbe48ef9520f72a4855e38fccece17a3a95f47",
+      "status": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "pdf": "report/technical_report.pdf",
+      "pdf_sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+      "page": 7,
+      "render_sha256": "e3025ceb2b2da74e5e252e58facf4bb3fbb463897c985527d109b1612ded569b",
+      "status": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "pdf": "report/technical_report.pdf",
+      "pdf_sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+      "page": 8,
+      "render_sha256": "dffeced3b69d3a101b422dd64682ad7569dedf9eaea538939cbc5e8d9e86891e",
+      "status": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "pdf": "report/technical_report.pdf",
+      "pdf_sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+      "page": 9,
+      "render_sha256": "df74f405501d8e0c5aac216ebbc96e7464d3f91c7fe5f92f40af249f15c5dd1f",
+      "status": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "pdf": "report/technical_report.pdf",
+      "pdf_sha256": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+      "page": 10,
+      "render_sha256": "623f42ebdc5b87ca047327651bdfc9e027f0f920ab57b828046ba47be01e7edc",
+      "status": "pixel-identical to archived PDF; original G5 page inspection retained"
+    },
+    {
+      "pdf": "figures/g5/headline.pdf",
+      "pdf_sha256": "ca4d0169ac451b71b15c0761c40152cc8b91596554efc76fbc2c4c132bdd6d65",
+      "page": 1,
+      "render_sha256": "04a0485a1a94579120a16b3ab6b065c40187d1ac3bb50062cd5b69ee75c96b2d",
+      "status": "visually inspected; annotation overlap corrected in headline"
+    },
+    {
+      "pdf": "figures/g5/calibration_groups.pdf",
+      "pdf_sha256": "c6827c89556bb298a5c40ca829ef0843567770edf9d15f9f868289ca35a0f87e",
+      "page": 1,
+      "render_sha256": "d3df47e7dd2b74b1068aba3eca22b926b8a28954874abba274b80739336586b8",
+      "status": "visually inspected; annotation overlap corrected in headline"
+    }
+  ],
+  "linkedin_png_sha256": "41fef9b882274a5146d7880c7d1302634ab8812d904dc6a6a9733fb442f83491",
+  "linkedin_dimensions": [
+    1200,
+    1200
+  ],
+  "reporting_correction_2026_10_08": {
+    "affected_pages": [
+      3
+    ],
+    "all_other_technical_pages_pixel_identical": true,
+    "policy_note_unchanged": true
+  }
+}

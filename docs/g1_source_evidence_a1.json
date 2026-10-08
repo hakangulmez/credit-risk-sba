@@ -1,0 +1,2124 @@
+{
+  "review_date": "2026-10-08",
+  "scope": "G1 source coverage/schema/licence and protocol only; no fitting, score reproduction or policy-date outcome comparisons",
+  "spec_sha256": "303b2fe1b8ebf88a07709ca30b00254c26278b2d35e5811e81dae9faec6afdf6",
+  "baseline_tag": "v1-original",
+  "baseline_commit": "1a4e1aca4474778b43fdbfbbdccd8003eee4c70c",
+  "original_tracked_files_verified": 37,
+  "all_original_hashes_unchanged": true,
+  "official_dataset_url": "https://data.sba.gov/dataset/7a-504-foia",
+  "official_licence": "U.S. Government Works",
+  "source_inspection": {
+    "access_date": "2026-10-08",
+    "snapshot_date": "2026-06-30",
+    "files": [
+      {
+        "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY1991_FY2009_asof_260630.csv",
+        "bytes": 53616900,
+        "head_status": 200,
+        "range_status": 206,
+        "content_range": "bytes 0-65535/53616900",
+        "headers": [
+          "AsOfDate",
+          "Program",
+          "LocationID",
+          "BorrName",
+          "BorrStreet",
+          "BorrCity",
+          "BorrState",
+          "BorrZip",
+          "CDC_Name",
+          "CDC_Street",
+          "CDC_City",
+          "CDC_State",
+          "CDC_Zip",
+          "ThirdPartyLender_Name",
+          "ThirdPartyLender_City",
+          "ThirdPartyLender_State",
+          "ThirdPartyDollars",
+          "GrossApproval",
+          "ApprovalDate",
+          "ApprovalFY",
+          "FirstDisbursementDate",
+          "ProcessingMethod",
+          "TermInMonths",
+          "NaicsCode",
+          "NaicsDescription",
+          "FranchiseCode",
+          "FranchiseName",
+          "ProjectCounty",
+          "ProjectState",
+          "SBADistrictOffice",
+          "CongressionalDistrict",
+          "BusinessType",
+          "BusinessAge",
+          "LoanStatus",
+          "PaidInFullDate",
+          "ChargeOffDate",
+          "GrossChargeOffAmount",
+          "JobsSupported",
+          "CollateralInd"
+        ],
+        "sample_rows_read": 145,
+        "sample_statuses": [
+          "CANCLD",
+          "CHGOFF",
+          "CLOSED",
+          "PIF"
+        ],
+        "sample_missing_first_disbursement_by_status": {
+          "CANCLD": {
+            "n": 14,
+            "missing": 14
+          },
+          "CHGOFF": {
+            "n": 7,
+            "missing": 0
+          },
+          "CLOSED": {
+            "n": 4,
+            "missing": 0
+          },
+          "PIF": {
+            "n": 120,
+            "missing": 1
+          }
+        },
+        "http_last_modified": "Tue, 21 Jul 2026 17:27:22 GMT",
+        "etag": "\"3322104-6572255f253a8\""
+      },
+      {
+        "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_504_FY2010_Present_asof_260630.csv",
+        "bytes": 59412738,
+        "head_status": 200,
+        "range_status": 206,
+        "content_range": "bytes 0-65535/59412738",
+        "headers": [
+          "AsOfDate",
+          "Program",
+          "LocationID",
+          "BorrName",
+          "BorrStreet",
+          "BorrCity",
+          "BorrState",
+          "BorrZip",
+          "CDC_Name",
+          "CDC_Street",
+          "CDC_City",
+          "CDC_State",
+          "CDC_Zip",
+          "ThirdPartyLender_Name",
+          "ThirdPartyLender_City",
+          "ThirdPartyLender_State",
+          "ThirdPartyDollars",
+          "GrossApproval",
+          "ApprovalDate",
+          "ApprovalFY",
+          "FirstDisbursementDate",
+          "ProcessingMethod",
+          "TermInMonths",
+          "NaicsCode",
+          "NaicsDescription",
+          "FranchiseCode",
+          "FranchiseName",
+          "ProjectCounty",
+          "ProjectState",
+          "SBADistrictOffice",
+          "CongressionalDistrict",
+          "BusinessType",
+          "BusinessAge",
+          "LoanStatus",
+          "PaidInFullDate",
+          "ChargeOffDate",
+          "GrossChargeOffAmount",
+          "JobsSupported",
+          "CollateralInd"
+        ],
+        "sample_rows_read": 128,
+        "sample_statuses": [
+          "CANCLD",
+          "CHGOFF",
+          "EXEMPT",
+          "PIF"
+        ],
+        "sample_missing_first_disbursement_by_status": {
+          "CANCLD": {
+            "n": 20,
+            "missing": 20
+          },
+          "CHGOFF": {
+            "n": 5,
+            "missing": 0
+          },
+          "EXEMPT": {
+            "n": 26,
+            "missing": 0
+          },
+          "PIF": {
+            "n": 77,
+            "missing": 0
+          }
+        },
+        "http_last_modified": "Tue, 21 Jul 2026 17:27:50 GMT",
+        "etag": "\"38a9102-65722579cfa50\""
+      },
+      {
+        "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY1991_FY1999_asof_260630.csv",
+        "bytes": 146416885,
+        "head_status": 200,
+        "range_status": 206,
+        "content_range": "bytes 0-65535/146416885",
+        "headers": [
+          "AsOfDate",
+          "Program",
+          "LocationID",
+          "BorrName",
+          "BorrStreet",
+          "BorrCity",
+          "BorrState",
+          "BorrZip",
+          "BankName",
+          "BankFDICNumber",
+          "BankNCUANumber",
+          "BankStreet",
+          "BankCity",
+          "BankState",
+          "BankZip",
+          "GrossApproval",
+          "SBAGuaranteedApproval",
+          "ApprovalDate",
+          "ApprovalFY",
+          "FirstDisbursementDate",
+          "ProcessingMethod",
+          "InitialInterestRate",
+          "FixedorVariableInterestInd",
+          "TermInMonths",
+          "NaicsCode",
+          "NaicsDescription",
+          "FranchiseCode",
+          "FranchiseName",
+          "ProjectCounty",
+          "ProjectState",
+          "SBADistrictOffice",
+          "CongressionalDistrict",
+          "BusinessType",
+          "BusinessAge",
+          "LoanStatus",
+          "PaidInFullDate",
+          "ChargeOffDate",
+          "GrossChargeOffAmount",
+          "RevolverStatus",
+          "JobsSupported",
+          "CollateralInd",
+          "SoldSecMrktInd"
+        ],
+        "sample_rows_read": 152,
+        "sample_statuses": [
+          "CANCLD",
+          "CHGOFF",
+          "EXEMPT",
+          "P I F"
+        ],
+        "sample_missing_first_disbursement_by_status": {
+          "CANCLD": {
+            "n": 18,
+            "missing": 18
+          },
+          "CHGOFF": {
+            "n": 14,
+            "missing": 0
+          },
+          "EXEMPT": {
+            "n": 3,
+            "missing": 0
+          },
+          "P I F": {
+            "n": 117,
+            "missing": 0
+          }
+        },
+        "http_last_modified": "Tue, 21 Jul 2026 17:28:36 GMT",
+        "etag": "\"8ba24f5-657225a575b78\""
+      },
+      {
+        "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2000_FY2009_asof_260630.csv",
+        "bytes": 318425094,
+        "head_status": 200,
+        "range_status": 206,
+        "content_range": "bytes 0-65535/318425094",
+        "headers": [
+          "AsOfDate",
+          "Program",
+          "LocationID",
+          "BorrName",
+          "BorrStreet",
+          "BorrCity",
+          "BorrState",
+          "BorrZip",
+          "BankName",
+          "BankFDICNumber",
+          "BankNCUANumber",
+          "BankStreet",
+          "BankCity",
+          "BankState",
+          "BankZip",
+          "GrossApproval",
+          "SBAGuaranteedApproval",
+          "ApprovalDate",
+          "ApprovalFY",
+          "FirstDisbursementDate",
+          "ProcessingMethod",
+          "InitialInterestRate",
+          "FixedorVariableInterestInd",
+          "TermInMonths",
+          "NaicsCode",
+          "NaicsDescription",
+          "FranchiseCode",
+          "FranchiseName",
+          "ProjectCounty",
+          "ProjectState",
+          "SBADistrictOffice",
+          "CongressionalDistrict",
+          "BusinessType",
+          "BusinessAge",
+          "LoanStatus",
+          "PaidInFullDate",
+          "ChargeOffDate",
+          "GrossChargeOffAmount",
+          "RevolverStatus",
+          "JobsSupported",
+          "CollateralInd",
+          "SoldSecMrktInd"
+        ],
+        "sample_rows_read": 146,
+        "sample_statuses": [
+          "CANCLD",
+          "CHGOFF",
+          "P I F"
+        ],
+        "sample_missing_first_disbursement_by_status": {
+          "CANCLD": {
+            "n": 20,
+            "missing": 20
+          },
+          "CHGOFF": {
+            "n": 18,
+            "missing": 0
+          },
+          "P I F": {
+            "n": 108,
+            "missing": 0
+          }
+        },
+        "http_last_modified": "Tue, 21 Jul 2026 17:30:13 GMT",
+        "etag": "\"12fac806-65722601c8ba0\""
+      },
+      {
+        "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2010_FY2019_asof_260630.csv",
+        "bytes": 255101999,
+        "head_status": 200,
+        "range_status": 206,
+        "content_range": "bytes 0-65535/255101999",
+        "headers": [
+          "AsOfDate",
+          "Program",
+          "LocationID",
+          "BorrName",
+          "BorrStreet",
+          "BorrCity",
+          "BorrState",
+          "BorrZip",
+          "BankName",
+          "BankFDICNumber",
+          "BankNCUANumber",
+          "BankStreet",
+          "BankCity",
+          "BankState",
+          "BankZip",
+          "GrossApproval",
+          "SBAGuaranteedApproval",
+          "ApprovalDate",
+          "ApprovalFY",
+          "FirstDisbursementDate",
+          "ProcessingMethod",
+          "InitialInterestRate",
+          "FixedorVariableInterestInd",
+          "TermInMonths",
+          "NaicsCode",
+          "NaicsDescription",
+          "FranchiseCode",
+          "FranchiseName",
+          "ProjectCounty",
+          "ProjectState",
+          "SBADistrictOffice",
+          "CongressionalDistrict",
+          "BusinessType",
+          "BusinessAge",
+          "LoanStatus",
+          "PaidInFullDate",
+          "ChargeOffDate",
+          "GrossChargeOffAmount",
+          "RevolverStatus",
+          "JobsSupported",
+          "CollateralInd",
+          "SoldSecMrktInd"
+        ],
+        "sample_rows_read": 138,
+        "sample_statuses": [
+          "CANCLD",
+          "CHGOFF",
+          "EXEMPT",
+          "P I F"
+        ],
+        "sample_missing_first_disbursement_by_status": {
+          "CANCLD": {
+            "n": 12,
+            "missing": 12
+          },
+          "CHGOFF": {
+            "n": 11,
+            "missing": 0
+          },
+          "EXEMPT": {
+            "n": 2,
+            "missing": 0
+          },
+          "P I F": {
+            "n": 113,
+            "missing": 0
+          }
+        },
+        "http_last_modified": "Tue, 21 Jul 2026 17:31:15 GMT",
+        "etag": "\"f348c2f-6572263cbef70\""
+      },
+      {
+        "url": "https://data.sba.gov/sites/default/files/uploaded_resources/FOIA_7a_FY2020_Present_asof_260630.csv",
+        "bytes": 181130871,
+        "head_status": 200,
+        "range_status": 206,
+        "content_range": "bytes 0-65535/181130871",
+        "headers": [
+          "AsOfDate",
+          "Program",
+          "LocationID",
+          "BorrName",
+          "BorrStreet",
+          "BorrCity",
+          "BorrState",
+          "BorrZip",
+          "BankName",
+          "BankFDICNumber",
+          "BankNCUANumber",
+          "BankStreet",
+          "BankCity",
+          "BankState",
+          "BankZip",
+          "GrossApproval",
+          "SBAGuaranteedApproval",
+          "ApprovalDate",
+          "ApprovalFY",
+          "FirstDisbursementDate",
+          "ProcessingMethod",
+          "InitialInterestRate",
+          "FixedorVariableInterestInd",
+          "TermInMonths",
+          "NaicsCode",
+          "NaicsDescription",
+          "FranchiseCode",
+          "FranchiseName",
+          "ProjectCounty",
+          "ProjectState",
+          "SBADistrictOffice",
+          "CongressionalDistrict",
+          "BusinessType",
+          "BusinessAge",
+          "LoanStatus",
+          "PaidInFullDate",
+          "ChargeOffDate",
+          "GrossChargeOffAmount",
+          "RevolverStatus",
+          "JobsSupported",
+          "CollateralInd",
+          "SoldSecMrktInd"
+        ],
+        "sample_rows_read": 139,
+        "sample_statuses": [
+          "CANCLD",
+          "CHGOFF",
+          "EXEMPT",
+          "P I F"
+        ],
+        "sample_missing_first_disbursement_by_status": {
+          "CANCLD": {
+            "n": 19,
+            "missing": 19
+          },
+          "CHGOFF": {
+            "n": 10,
+            "missing": 0
+          },
+          "EXEMPT": {
+            "n": 37,
+            "missing": 0
+          },
+          "P I F": {
+            "n": 73,
+            "missing": 0
+          }
+        },
+        "http_last_modified": "Tue, 21 Jul 2026 17:32:02 GMT",
+        "etag": "\"acbd677-65722669b3440\""
+      }
+    ],
+    "dictionary": {
+      "url": "https://data.sba.gov/sites/default/files/uploaded_resources/7a_504_foia_data_dictionary.xlsx",
+      "bytes": 24529,
+      "sha256": "777ba97a6f92e325f79905610816cb59d41f1971cd964c54dc30ef02730a3941"
+    }
+  },
+  "download_manifest": "g1_foia_manifest_2026-06-30.json",
+  "full_7a_source_qa": {
+    "review_date": "2026-10-08",
+    "snapshot_date": "2026-06-30",
+    "scope": "Source coverage/status/date completeness only; no models, default rates by policy date, or fitted results",
+    "elapsed_seconds": 11.265,
+    "files": [
+      {
+        "filename": "FOIA_7a_FY1991_FY1999_asof_260630.csv",
+        "rows": 337033,
+        "canonical_status_counts": {
+          "PIF": 256216,
+          "CANCLD": 43666,
+          "CHGOFF": 35291,
+          "EXEMPT": 1860
+        },
+        "program_values": {
+          "7A": 337033
+        },
+        "business_age_values": {
+          "Less than 4 years old but at least 3": 236653,
+          "New, Less than 1 Year old": 99867,
+          "Existing, 5 or more years": 488,
+          "Startup, Loan Funds will Open Business": 17,
+          "": 7,
+          "Existing or more than 2 years old": 1
+        },
+        "revolver_values": {
+          "N": 335630,
+          "Y": 1403
+        },
+        "date_ranges": {
+          "AsOfDate": [
+            "2026-06-30",
+            "2026-06-30"
+          ],
+          "ApprovalDate": [
+            "1990-10-01",
+            "1999-09-30"
+          ],
+          "FirstDisbursementDate": [
+            "1987-04-01",
+            "2007-01-31"
+          ],
+          "ChargeOffDate": [
+            "1991-10-08",
+            "2026-10-22"
+          ],
+          "PaidInFullDate": [
+            "2005-05-31",
+            "2026-05-31"
+          ]
+        },
+        "missing_dates_by_status": {
+          "PIF": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 220,
+            "ChargeOffDate": 256216,
+            "PaidInFullDate": 0
+          },
+          "CANCLD": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 43666,
+            "ChargeOffDate": 43666,
+            "PaidInFullDate": 43666
+          },
+          "CHGOFF": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 28,
+            "ChargeOffDate": 38,
+            "PaidInFullDate": 35291
+          },
+          "EXEMPT": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 1,
+            "ChargeOffDate": 1860,
+            "PaidInFullDate": 1860
+          }
+        },
+        "source_quality_counts": {
+          "invalid_nonblank_AsOfDate": 0,
+          "invalid_nonblank_ApprovalDate": 0,
+          "invalid_nonblank_FirstDisbursementDate": 0,
+          "invalid_nonblank_ChargeOffDate": 0,
+          "invalid_nonblank_PaidInFullDate": 0,
+          "incomplete_36_month_window": 0,
+          "cancelled_or_undisbursed": 43666,
+          "noncancelled_with_missing_first_disbursement": 249,
+          "chargeoff_status_missing_date": 38,
+          "chargeoff_date_before_first_disbursement": 4,
+          "first_disbursement_before_approval": 507,
+          "dates_after_snapshot": 1,
+          "nonchargeoff_status_with_chargeoff_date": 0,
+          "non_pif_status_with_payoff_date": 0,
+          "payoff_date_before_first_disbursement": 0,
+          "unknown_status": 0,
+          "invalid_or_nonpositive_gross_approval": 3,
+          "guarantee_exceeds_gross_approval": 1,
+          "chargeoff_amount_exceeds_gross_approval": 758
+        },
+        "approval_year_counts": {
+          "1990": 4036,
+          "1991": 19148,
+          "1992": 23768,
+          "1993": 28214,
+          "1994": 43289,
+          "1995": 50564,
+          "1996": 47111,
+          "1997": 44870,
+          "1998": 41876,
+          "1999": 34157
+        },
+        "first_disbursement_year_counts": {
+          "1987": 1,
+          "1990": 275,
+          "1991": 14595,
+          "1992": 19892,
+          "1993": 22574,
+          "1994": 31575,
+          "1995": 47225,
+          "1996": 38270,
+          "1997": 41403,
+          "1998": 35311,
+          "1999": 35727,
+          "2000": 4740,
+          "2001": 882,
+          "2002": 505,
+          "2003": 92,
+          "2004": 33,
+          "2005": 16,
+          "2006": 1,
+          "2007": 1
+        },
+        "incomplete_window_counts_by_first_disbursement_year": {}
+      },
+      {
+        "filename": "FOIA_7a_FY2000_FY2009_asof_260630.csv",
+        "rows": 690333,
+        "canonical_status_counts": {
+          "PIF": 460222,
+          "CANCLD": 82276,
+          "CHGOFF": 144351,
+          "EXEMPT": 3484
+        },
+        "program_values": {
+          "7A": 690333
+        },
+        "business_age_values": {
+          "New, Less than 1 Year old": 156577,
+          "Less than 4 years old but at least 3": 334215,
+          "Existing, 5 or more years": 112363,
+          "Startup, Loan Funds will Open Business": 23720,
+          "": 76,
+          "Less than 5 years old but at least 4": 13828,
+          "Unanswered": 26227,
+          "Less than 3 years old but at least 2": 23320,
+          "Existing or more than 2 years old": 7
+        },
+        "revolver_values": {
+          "N": 487496,
+          "Y": 202837
+        },
+        "date_ranges": {
+          "AsOfDate": [
+            "2026-06-30",
+            "2026-06-30"
+          ],
+          "ApprovalDate": [
+            "1999-10-01",
+            "2009-09-30"
+          ],
+          "FirstDisbursementDate": [
+            "1999-10-31",
+            "2028-06-18"
+          ],
+          "ChargeOffDate": [
+            "2000-08-01",
+            "2026-06-05"
+          ],
+          "PaidInFullDate": [
+            "2005-05-31",
+            "2026-05-31"
+          ]
+        },
+        "missing_dates_by_status": {
+          "PIF": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 1176,
+            "ChargeOffDate": 460222,
+            "PaidInFullDate": 0
+          },
+          "CANCLD": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 82276,
+            "ChargeOffDate": 82276,
+            "PaidInFullDate": 82276
+          },
+          "CHGOFF": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 104,
+            "ChargeOffDate": 5,
+            "PaidInFullDate": 144351
+          },
+          "EXEMPT": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 0,
+            "ChargeOffDate": 3484,
+            "PaidInFullDate": 3484
+          }
+        },
+        "source_quality_counts": {
+          "invalid_nonblank_AsOfDate": 0,
+          "invalid_nonblank_ApprovalDate": 0,
+          "invalid_nonblank_FirstDisbursementDate": 0,
+          "invalid_nonblank_ChargeOffDate": 0,
+          "invalid_nonblank_PaidInFullDate": 0,
+          "incomplete_36_month_window": 2,
+          "cancelled_or_undisbursed": 82276,
+          "noncancelled_with_missing_first_disbursement": 1280,
+          "chargeoff_status_missing_date": 5,
+          "chargeoff_date_before_first_disbursement": 0,
+          "first_disbursement_before_approval": 13,
+          "dates_after_snapshot": 1,
+          "nonchargeoff_status_with_chargeoff_date": 0,
+          "non_pif_status_with_payoff_date": 0,
+          "payoff_date_before_first_disbursement": 611,
+          "unknown_status": 0,
+          "invalid_or_nonpositive_gross_approval": 0,
+          "guarantee_exceeds_gross_approval": 0,
+          "chargeoff_amount_exceeds_gross_approval": 3736
+        },
+        "approval_year_counts": {
+          "1999": 10005,
+          "2000": 42923,
+          "2001": 44102,
+          "2002": 55103,
+          "2003": 72367,
+          "2004": 85609,
+          "2005": 93605,
+          "2006": 99943,
+          "2007": 96813,
+          "2008": 57645,
+          "2009": 32218
+        },
+        "first_disbursement_year_counts": {
+          "1999": 4142,
+          "2000": 34963,
+          "2001": 36371,
+          "2002": 45377,
+          "2003": 60406,
+          "2004": 73466,
+          "2005": 82066,
+          "2006": 89970,
+          "2007": 86703,
+          "2008": 57138,
+          "2009": 33077,
+          "2010": 2210,
+          "2011": 365,
+          "2012": 310,
+          "2013": 125,
+          "2014": 39,
+          "2015": 14,
+          "2016": 19,
+          "2017": 5,
+          "2018": 3,
+          "2019": 2,
+          "2020": 1,
+          "2021": 2,
+          "2022": 1,
+          "2024": 1,
+          "2028": 1
+        },
+        "incomplete_window_counts_by_first_disbursement_year": {
+          "2024": 1,
+          "2028": 1
+        }
+      },
+      {
+        "filename": "FOIA_7a_FY2010_FY2019_asof_260630.csv",
+        "rows": 545751,
+        "canonical_status_counts": {
+          "PIF": 394721,
+          "CANCLD": 66744,
+          "EXEMPT": 50089,
+          "CHGOFF": 34153,
+          "COMMIT": 44
+        },
+        "program_values": {
+          "7A": 545751
+        },
+        "business_age_values": {
+          "Unanswered": 47964,
+          "Existing, 5 or more years": 216519,
+          "Less than 4 years old but at least 3": 33448,
+          "Startup, Loan Funds will Open Business": 81721,
+          "New, Less than 1 Year old": 52801,
+          "Less than 3 years old but at least 2": 28254,
+          "Less than 5 years old but at least 4": 20918,
+          "": 1824,
+          "Existing or more than 2 years old": 51889,
+          "Change of Ownership": 10387,
+          "New Business or 2 years or less": 26
+        },
+        "revolver_values": {
+          "N": 377557,
+          "Y": 168194
+        },
+        "date_ranges": {
+          "AsOfDate": [
+            "2026-06-30",
+            "2026-06-30"
+          ],
+          "ApprovalDate": [
+            "2009-10-01",
+            "2019-09-30"
+          ],
+          "FirstDisbursementDate": [
+            "2009-10-01",
+            "2026-04-29"
+          ],
+          "ChargeOffDate": [
+            "2010-06-15",
+            "2026-07-01"
+          ],
+          "PaidInFullDate": [
+            "2009-11-01",
+            "2026-05-31"
+          ]
+        },
+        "missing_dates_by_status": {
+          "PIF": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 252,
+            "ChargeOffDate": 394721,
+            "PaidInFullDate": 0
+          },
+          "CANCLD": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 66744,
+            "ChargeOffDate": 66744,
+            "PaidInFullDate": 66744
+          },
+          "EXEMPT": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 1,
+            "ChargeOffDate": 50089,
+            "PaidInFullDate": 50089
+          },
+          "CHGOFF": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 10,
+            "ChargeOffDate": 10,
+            "PaidInFullDate": 34153
+          },
+          "COMMIT": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 44,
+            "ChargeOffDate": 44,
+            "PaidInFullDate": 44
+          }
+        },
+        "source_quality_counts": {
+          "invalid_nonblank_AsOfDate": 0,
+          "invalid_nonblank_ApprovalDate": 0,
+          "invalid_nonblank_FirstDisbursementDate": 0,
+          "invalid_nonblank_ChargeOffDate": 0,
+          "invalid_nonblank_PaidInFullDate": 0,
+          "incomplete_36_month_window": 26,
+          "cancelled_or_undisbursed": 66788,
+          "noncancelled_with_missing_first_disbursement": 263,
+          "chargeoff_status_missing_date": 10,
+          "chargeoff_date_before_first_disbursement": 0,
+          "first_disbursement_before_approval": 421,
+          "dates_after_snapshot": 9,
+          "nonchargeoff_status_with_chargeoff_date": 0,
+          "non_pif_status_with_payoff_date": 0,
+          "payoff_date_before_first_disbursement": 5,
+          "unknown_status": 0,
+          "invalid_or_nonpositive_gross_approval": 0,
+          "guarantee_exceeds_gross_approval": 0,
+          "chargeoff_amount_exceeds_gross_approval": 1205
+        },
+        "approval_year_counts": {
+          "2009": 12393,
+          "2010": 54185,
+          "2011": 44560,
+          "2012": 44820,
+          "2013": 46063,
+          "2014": 55342,
+          "2015": 64375,
+          "2016": 63235,
+          "2017": 64474,
+          "2018": 57331,
+          "2019": 38973
+        },
+        "first_disbursement_year_counts": {
+          "2009": 6452,
+          "2010": 39673,
+          "2011": 42270,
+          "2012": 38127,
+          "2013": 40223,
+          "2014": 47791,
+          "2015": 54239,
+          "2016": 56356,
+          "2017": 58394,
+          "2018": 53533,
+          "2019": 38927,
+          "2020": 2135,
+          "2021": 461,
+          "2022": 76,
+          "2023": 27,
+          "2024": 10,
+          "2025": 5,
+          "2026": 1
+        },
+        "incomplete_window_counts_by_first_disbursement_year": {
+          "2023": 10,
+          "2024": 10,
+          "2025": 5,
+          "2026": 1
+        }
+      },
+      {
+        "filename": "FOIA_7a_FY2020_Present_asof_260630.csv",
+        "rows": 388338,
+        "canonical_status_counts": {
+          "PIF": 68201,
+          "EXEMPT": 242061,
+          "CANCLD": 50104,
+          "CHGOFF": 6893,
+          "COMMIT": 21079
+        },
+        "program_values": {
+          "7A": 388338
+        },
+        "business_age_values": {
+          "Unanswered": 4278,
+          "Existing or more than 2 years old": 216548,
+          "Startup, Loan Funds will Open Business": 62889,
+          "Change of Ownership": 40555,
+          "": 186,
+          "New Business or 2 years or less": 63882
+        },
+        "revolver_values": {
+          "Y": 103407,
+          "N": 284931
+        },
+        "date_ranges": {
+          "AsOfDate": [
+            "2026-06-30",
+            "2026-06-30"
+          ],
+          "ApprovalDate": [
+            "2019-10-01",
+            "2026-06-30"
+          ],
+          "FirstDisbursementDate": [
+            "2019-10-01",
+            "2026-06-30"
+          ],
+          "ChargeOffDate": [
+            "2020-07-06",
+            "2026-07-01"
+          ],
+          "PaidInFullDate": [
+            "2019-12-31",
+            "2026-05-31"
+          ]
+        },
+        "missing_dates_by_status": {
+          "PIF": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 3,
+            "ChargeOffDate": 68201,
+            "PaidInFullDate": 0
+          },
+          "EXEMPT": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 0,
+            "ChargeOffDate": 242061,
+            "PaidInFullDate": 242060
+          },
+          "CANCLD": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 50104,
+            "ChargeOffDate": 50104,
+            "PaidInFullDate": 50104
+          },
+          "CHGOFF": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 0,
+            "ChargeOffDate": 5,
+            "PaidInFullDate": 6893
+          },
+          "COMMIT": {
+            "AsOfDate": 0,
+            "ApprovalDate": 0,
+            "FirstDisbursementDate": 21079,
+            "ChargeOffDate": 21079,
+            "PaidInFullDate": 21079
+          }
+        },
+        "source_quality_counts": {
+          "invalid_nonblank_AsOfDate": 0,
+          "invalid_nonblank_ApprovalDate": 0,
+          "invalid_nonblank_FirstDisbursementDate": 0,
+          "invalid_nonblank_ChargeOffDate": 0,
+          "invalid_nonblank_PaidInFullDate": 0,
+          "incomplete_36_month_window": 160499,
+          "cancelled_or_undisbursed": 71183,
+          "noncancelled_with_missing_first_disbursement": 3,
+          "chargeoff_status_missing_date": 5,
+          "chargeoff_date_before_first_disbursement": 0,
+          "first_disbursement_before_approval": 0,
+          "dates_after_snapshot": 22,
+          "nonchargeoff_status_with_chargeoff_date": 0,
+          "non_pif_status_with_payoff_date": 1,
+          "payoff_date_before_first_disbursement": 21,
+          "unknown_status": 0,
+          "invalid_or_nonpositive_gross_approval": 0,
+          "guarantee_exceeds_gross_approval": 0,
+          "chargeoff_amount_exceeds_gross_approval": 326
+        },
+        "approval_year_counts": {
+          "2019": 11791,
+          "2020": 39121,
+          "2021": 52142,
+          "2022": 51752,
+          "2023": 58928,
+          "2024": 75697,
+          "2025": 68435,
+          "2026": 30472
+        },
+        "first_disbursement_year_counts": {
+          "2019": 7599,
+          "2020": 32993,
+          "2021": 46670,
+          "2022": 45215,
+          "2023": 50354,
+          "2024": 59910,
+          "2025": 54792,
+          "2026": 19619
+        },
+        "incomplete_window_counts_by_first_disbursement_year": {
+          "2023": 26178,
+          "2024": 59910,
+          "2025": 54792,
+          "2026": 19619
+        }
+      }
+    ]
+  },
+  "aggregate": {
+    "rows": 1961455,
+    "bytes": 901074849,
+    "statuses": {
+      "PIF": 1179360,
+      "CANCLD": 242790,
+      "CHGOFF": 220688,
+      "EXEMPT": 297494,
+      "COMMIT": 21123
+    },
+    "overlapping_quality_flag_counts": {
+      "invalid_nonblank_AsOfDate": 0,
+      "invalid_nonblank_ApprovalDate": 0,
+      "invalid_nonblank_FirstDisbursementDate": 0,
+      "invalid_nonblank_ChargeOffDate": 0,
+      "invalid_nonblank_PaidInFullDate": 0,
+      "incomplete_36_month_window": 160527,
+      "cancelled_or_undisbursed": 263913,
+      "noncancelled_with_missing_first_disbursement": 1795,
+      "chargeoff_status_missing_date": 58,
+      "chargeoff_date_before_first_disbursement": 4,
+      "first_disbursement_before_approval": 941,
+      "dates_after_snapshot": 33,
+      "nonchargeoff_status_with_chargeoff_date": 0,
+      "non_pif_status_with_payoff_date": 1,
+      "payoff_date_before_first_disbursement": 637,
+      "unknown_status": 0,
+      "invalid_or_nonpositive_gross_approval": 3,
+      "guarantee_exceeds_gross_approval": 1,
+      "chargeoff_amount_exceeds_gross_approval": 6025
+    },
+    "missing_dates_by_status": {
+      "PIF": {
+        "AsOfDate": 0,
+        "ApprovalDate": 0,
+        "FirstDisbursementDate": 1651,
+        "ChargeOffDate": 1179360,
+        "PaidInFullDate": 0
+      },
+      "CANCLD": {
+        "AsOfDate": 0,
+        "ApprovalDate": 0,
+        "FirstDisbursementDate": 242790,
+        "ChargeOffDate": 242790,
+        "PaidInFullDate": 242790
+      },
+      "CHGOFF": {
+        "AsOfDate": 0,
+        "ApprovalDate": 0,
+        "FirstDisbursementDate": 142,
+        "ChargeOffDate": 58,
+        "PaidInFullDate": 220688
+      },
+      "EXEMPT": {
+        "AsOfDate": 0,
+        "ApprovalDate": 0,
+        "FirstDisbursementDate": 2,
+        "ChargeOffDate": 297494,
+        "PaidInFullDate": 297493
+      },
+      "COMMIT": {
+        "AsOfDate": 0,
+        "ApprovalDate": 0,
+        "FirstDisbursementDate": 21123,
+        "ChargeOffDate": 21123,
+        "PaidInFullDate": 21123
+      }
+    }
+  },
+  "direct_macro_fetch": [
+    {
+      "name": "la.series",
+      "url": "https://download.bls.gov/pub/time.series/la/la.series",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "la.data.3.AllStatesS",
+      "url": "https://download.bls.gov/pub/time.series/la/la.data.3.AllStatesS",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "hpi_at_state.csv",
+      "url": "https://www.fhfa.gov/hpi/download/quarterly_datasets/hpi_at_state.csv",
+      "status": 200,
+      "bytes": 187977,
+      "sha256": "b6bf3687c230c2ad008657fdb0c2b7489b5f99b6d1193f72c46c68d88df83d90",
+      "last_modified": null,
+      "seconds": 0.996
+    },
+    {
+      "name": "fhfa_datasets.html",
+      "url": "https://www.fhfa.gov/data/hpi/datasets",
+      "status": 200,
+      "bytes": 551294,
+      "sha256": "fc85d37f2d56d32e624082c259561473af2ddda12f61552e878d6da2fbe74eae",
+      "last_modified": "Wed, 07 Oct 2026 18:53:30 GMT",
+      "seconds": 1.197
+    }
+  ],
+  "bls_series_metadata": {
+    "source": "https://download.bls.gov/pub/time.series/la/la.series",
+    "retrieval_method": "web text tool; direct bulk HTTP fetch returned 403",
+    "review_date": "2026-10-08",
+    "records": [
+      {
+        "series_id": "LASST010000000000003",
+        "state_name": "Alabama",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST020000000000003",
+        "state_name": "Alaska",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST040000000000003",
+        "state_name": "Arizona",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST050000000000003",
+        "state_name": "Arkansas",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST060000000000003",
+        "state_name": "California",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST080000000000003",
+        "state_name": "Colorado",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST090000000000003",
+        "state_name": "Connecticut",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST100000000000003",
+        "state_name": "Delaware",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST110000000000003",
+        "state_name": "District of Columbia",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST120000000000003",
+        "state_name": "Florida",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST130000000000003",
+        "state_name": "Georgia",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST150000000000003",
+        "state_name": "Hawaii",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST160000000000003",
+        "state_name": "Idaho",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST170000000000003",
+        "state_name": "Illinois",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST180000000000003",
+        "state_name": "Indiana",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST190000000000003",
+        "state_name": "Iowa",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST200000000000003",
+        "state_name": "Kansas",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST210000000000003",
+        "state_name": "Kentucky",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST220000000000003",
+        "state_name": "Louisiana",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST230000000000003",
+        "state_name": "Maine",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST240000000000003",
+        "state_name": "Maryland",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST300000000000003",
+        "state_name": "Montana",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST310000000000003",
+        "state_name": "Nebraska",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST320000000000003",
+        "state_name": "Nevada",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST330000000000003",
+        "state_name": "New Hampshire",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST340000000000003",
+        "state_name": "New Jersey",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST350000000000003",
+        "state_name": "New Mexico",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST360000000000003",
+        "state_name": "New York",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST370000000000003",
+        "state_name": "North Carolina",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST380000000000003",
+        "state_name": "North Dakota",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST390000000000003",
+        "state_name": "Ohio",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST400000000000003",
+        "state_name": "Oklahoma",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST410000000000003",
+        "state_name": "Oregon",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST420000000000003",
+        "state_name": "Pennsylvania",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST440000000000003",
+        "state_name": "Rhode Island",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST450000000000003",
+        "state_name": "South Carolina",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST460000000000003",
+        "state_name": "South Dakota",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST470000000000003",
+        "state_name": "Tennessee",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST480000000000003",
+        "state_name": "Texas",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST490000000000003",
+        "state_name": "Utah",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST500000000000003",
+        "state_name": "Vermont",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST510000000000003",
+        "state_name": "Virginia",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST530000000000003",
+        "state_name": "Washington",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST540000000000003",
+        "state_name": "West Virginia",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST550000000000003",
+        "state_name": "Wisconsin",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST560000000000003",
+        "state_name": "Wyoming",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST720000000000003",
+        "state_name": "Puerto Rico",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST250000000000003",
+        "state_name": "Massachusetts",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST260000000000003",
+        "state_name": "Michigan",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST270000000000003",
+        "state_name": "Minnesota",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST280000000000003",
+        "state_name": "Mississippi",
+        "begin": "1976-01",
+        "end": "2026-08"
+      },
+      {
+        "series_id": "LASST290000000000003",
+        "state_name": "Missouri",
+        "begin": "1976-01",
+        "end": "2026-08"
+      }
+    ]
+  },
+  "fred_reference_checks": {
+    "verified_metadata_ids": [
+      "CAUR",
+      "CASTHPI"
+    ],
+    "unemployment_pattern": "state_abbreviation + UR",
+    "hpi_pattern": "state_abbreviation + STHPI",
+    "other_fred_ids_individually_verified": false,
+    "observations_fetched": false,
+    "batch_head_attempt": "Stopped after prolonged requests; no success or equality claims derived"
+  },
+  "source_audit_script": "g1_source_audit.py",
+  "macro_series_crosswalk": [
+    {
+      "state": "AK",
+      "name": "Alaska",
+      "bls_id": "LASST020000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "AK"
+    },
+    {
+      "state": "AL",
+      "name": "Alabama",
+      "bls_id": "LASST010000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "AL"
+    },
+    {
+      "state": "AR",
+      "name": "Arkansas",
+      "bls_id": "LASST050000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "AR"
+    },
+    {
+      "state": "AZ",
+      "name": "Arizona",
+      "bls_id": "LASST040000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "AZ"
+    },
+    {
+      "state": "CA",
+      "name": "California",
+      "bls_id": "LASST060000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "CA"
+    },
+    {
+      "state": "CO",
+      "name": "Colorado",
+      "bls_id": "LASST080000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "CO"
+    },
+    {
+      "state": "CT",
+      "name": "Connecticut",
+      "bls_id": "LASST090000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "CT"
+    },
+    {
+      "state": "DC",
+      "name": "District of Columbia",
+      "bls_id": "LASST110000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "DC"
+    },
+    {
+      "state": "DE",
+      "name": "Delaware",
+      "bls_id": "LASST100000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "DE"
+    },
+    {
+      "state": "FL",
+      "name": "Florida",
+      "bls_id": "LASST120000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "FL"
+    },
+    {
+      "state": "GA",
+      "name": "Georgia",
+      "bls_id": "LASST130000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "GA"
+    },
+    {
+      "state": "HI",
+      "name": "Hawaii",
+      "bls_id": "LASST150000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "HI"
+    },
+    {
+      "state": "IA",
+      "name": "Iowa",
+      "bls_id": "LASST190000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "IA"
+    },
+    {
+      "state": "ID",
+      "name": "Idaho",
+      "bls_id": "LASST160000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "ID"
+    },
+    {
+      "state": "IL",
+      "name": "Illinois",
+      "bls_id": "LASST170000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "IL"
+    },
+    {
+      "state": "IN",
+      "name": "Indiana",
+      "bls_id": "LASST180000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "IN"
+    },
+    {
+      "state": "KS",
+      "name": "Kansas",
+      "bls_id": "LASST200000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "KS"
+    },
+    {
+      "state": "KY",
+      "name": "Kentucky",
+      "bls_id": "LASST210000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "KY"
+    },
+    {
+      "state": "LA",
+      "name": "Louisiana",
+      "bls_id": "LASST220000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "LA"
+    },
+    {
+      "state": "MA",
+      "name": "Massachusetts",
+      "bls_id": "LASST250000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "MA"
+    },
+    {
+      "state": "MD",
+      "name": "Maryland",
+      "bls_id": "LASST240000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "MD"
+    },
+    {
+      "state": "ME",
+      "name": "Maine",
+      "bls_id": "LASST230000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "ME"
+    },
+    {
+      "state": "MI",
+      "name": "Michigan",
+      "bls_id": "LASST260000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "MI"
+    },
+    {
+      "state": "MN",
+      "name": "Minnesota",
+      "bls_id": "LASST270000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "MN"
+    },
+    {
+      "state": "MO",
+      "name": "Missouri",
+      "bls_id": "LASST290000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "MO"
+    },
+    {
+      "state": "MS",
+      "name": "Mississippi",
+      "bls_id": "LASST280000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "MS"
+    },
+    {
+      "state": "MT",
+      "name": "Montana",
+      "bls_id": "LASST300000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "MT"
+    },
+    {
+      "state": "NC",
+      "name": "North Carolina",
+      "bls_id": "LASST370000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "NC"
+    },
+    {
+      "state": "ND",
+      "name": "North Dakota",
+      "bls_id": "LASST380000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "ND"
+    },
+    {
+      "state": "NE",
+      "name": "Nebraska",
+      "bls_id": "LASST310000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "NE"
+    },
+    {
+      "state": "NH",
+      "name": "New Hampshire",
+      "bls_id": "LASST330000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "NH"
+    },
+    {
+      "state": "NJ",
+      "name": "New Jersey",
+      "bls_id": "LASST340000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "NJ"
+    },
+    {
+      "state": "NM",
+      "name": "New Mexico",
+      "bls_id": "LASST350000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "NM"
+    },
+    {
+      "state": "NV",
+      "name": "Nevada",
+      "bls_id": "LASST320000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "NV"
+    },
+    {
+      "state": "NY",
+      "name": "New York",
+      "bls_id": "LASST360000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "NY"
+    },
+    {
+      "state": "OH",
+      "name": "Ohio",
+      "bls_id": "LASST390000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "OH"
+    },
+    {
+      "state": "OK",
+      "name": "Oklahoma",
+      "bls_id": "LASST400000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "OK"
+    },
+    {
+      "state": "OR",
+      "name": "Oregon",
+      "bls_id": "LASST410000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "OR"
+    },
+    {
+      "state": "PA",
+      "name": "Pennsylvania",
+      "bls_id": "LASST420000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "PA"
+    },
+    {
+      "state": "RI",
+      "name": "Rhode Island",
+      "bls_id": "LASST440000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "RI"
+    },
+    {
+      "state": "SC",
+      "name": "South Carolina",
+      "bls_id": "LASST450000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "SC"
+    },
+    {
+      "state": "SD",
+      "name": "South Dakota",
+      "bls_id": "LASST460000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "SD"
+    },
+    {
+      "state": "TN",
+      "name": "Tennessee",
+      "bls_id": "LASST470000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "TN"
+    },
+    {
+      "state": "TX",
+      "name": "Texas",
+      "bls_id": "LASST480000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "TX"
+    },
+    {
+      "state": "UT",
+      "name": "Utah",
+      "bls_id": "LASST490000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "UT"
+    },
+    {
+      "state": "VA",
+      "name": "Virginia",
+      "bls_id": "LASST510000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "VA"
+    },
+    {
+      "state": "VT",
+      "name": "Vermont",
+      "bls_id": "LASST500000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "VT"
+    },
+    {
+      "state": "WA",
+      "name": "Washington",
+      "bls_id": "LASST530000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "WA"
+    },
+    {
+      "state": "WI",
+      "name": "Wisconsin",
+      "bls_id": "LASST550000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "WI"
+    },
+    {
+      "state": "WV",
+      "name": "West Virginia",
+      "bls_id": "LASST540000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "WV"
+    },
+    {
+      "state": "WY",
+      "name": "Wyoming",
+      "bls_id": "LASST560000000000003",
+      "bls_begin": "1976-01",
+      "bls_end": "2026-08",
+      "fhfa_state_key": "WY"
+    }
+  ],
+  "bls_api_51_state_check": [
+    {
+      "status": "REQUEST_SUCCEEDED",
+      "message": [],
+      "sha256": "85d5d54d4e0ae27d8ec416f08aa7833ce667244b7137c0fe86ddcf16a5db5906",
+      "series": [
+        {
+          "id": "LASST020000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST010000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST050000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST040000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST060000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST080000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST090000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST110000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST100000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST120000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST130000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST150000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST190000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST160000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST170000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST180000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST200000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST210000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST220000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST250000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST240000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST230000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST260000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST270000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST290000000000003",
+          "observations": 8
+        }
+      ]
+    },
+    {
+      "status": "REQUEST_SUCCEEDED",
+      "message": [],
+      "sha256": "f12ae13fc591b855ad7ddd65c086483eaacdb9f26bc44f7d180a9956c62ba2ea",
+      "series": [
+        {
+          "id": "LASST280000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST300000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST370000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST380000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST310000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST330000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST340000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST350000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST320000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST360000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST390000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST400000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST410000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST420000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST440000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST450000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST460000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST470000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST480000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST490000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST510000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST500000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST530000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST550000000000003",
+          "observations": 8
+        },
+        {
+          "id": "LASST540000000000003",
+          "observations": 8
+        }
+      ]
+    },
+    {
+      "status": "REQUEST_SUCCEEDED",
+      "message": [],
+      "sha256": "c510375a30d313db80f5ff14acabb39120f8a16fbe9aed1c92b89c4739cda68d",
+      "series": [
+        {
+          "id": "LASST560000000000003",
+          "observations": 8
+        }
+      ]
+    }
+  ],
+  "protocol_validation": {
+    "source_sha256": "dd647321a9b22dce4740b75ba680a7ba3f2d8991bf898c48985056446396a265",
+    "page_proof_sha256": "159a5a538e1d38cf6856e2bd035a0f1812a68386a3db0da8f1cba001e4746fab",
+    "page_count": 3,
+    "layout": "A4, 10pt, 1.6cm margins; Pandoc/Typst, private QA proof",
+    "proof_path_private": "../.cache/credit-risk-gate1/protocol_page_proof.pdf",
+    "all_42_7a_fields_in_timing_table": true,
+    "no_models_run": true
+  }
+}

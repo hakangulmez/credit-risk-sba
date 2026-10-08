@@ -1,0 +1,9 @@
+Disbursement cohort / role,Loans,Events,Non-events,Macro exclusions
+layer1 estimation (1991-2002),"405,443","14,003","391,440",0
+layer1 crisis (2007-2009),"181,311","22,212","159,099",0
+layer1 additional check (2011-2013),"120,002","1,787","118,215",0
+layer2 estimation (1991-2009),"888,703","55,088","833,615",0
+layer2 tree calibration (2010-2010),"41,200",918,"40,282",0
+layer2 heldout check (2013-2014),"87,156","1,289","85,867",0
+scenario reference (2006-2006),"89,002","8,428","80,574",0
+layer1 benchmark calibration 2003H2 (2003H2),"31,955","1,426","30,529",0

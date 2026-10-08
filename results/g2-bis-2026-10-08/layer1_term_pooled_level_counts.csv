@@ -1,0 +1,98 @@
+feature,level,n,events,non_events
+ProcessingMethod,7a General,103716,2894,100822
+ProcessingMethod,7a with EWCP,1897,35,1862
+ProcessingMethod,Certified Lenders Program,44960,984,43976
+ProcessingMethod,Community Express,1311,117,1194
+ProcessingMethod,International Trade Loans,948,14,934
+ProcessingMethod,Low Documentation Program,102812,6044,96768
+ProcessingMethod,Other,1023,145,878
+ProcessingMethod,Preferred Lenders Program,98296,1982,96314
+ProcessingMethod,SBA Express Program,49883,1787,48096
+ProcessingMethod,Small Asset Base Line of Credit (CAPLine),597,1,596
+FixedorVariableInterestInd,__missing__,405443,14003,391440
+naics2,11,5271,53,5218
+naics2,21,866,26,840
+naics2,23,19975,575,19400
+naics2,31,4226,138,4088
+naics2,32,6711,177,6534
+naics2,33,15205,415,14790
+naics2,42,18009,553,17456
+naics2,44,29487,1122,28365
+naics2,45,18610,988,17622
+naics2,48,3525,135,3390
+naics2,49,465,11,454
+naics2,51,3299,121,3178
+naics2,52,1573,28,1545
+naics2,53,3047,121,2926
+naics2,54,19044,441,18603
+naics2,56,7807,265,7542
+naics2,61,1051,31,1020
+naics2,62,22521,380,22141
+naics2,71,5196,168,5028
+naics2,72,18226,542,17684
+naics2,81,28562,798,27764
+naics2,Other,572,15,557
+naics2,__missing__,172195,6900,165295
+BusinessType,CORPORATION,251646,7804,243842
+BusinessType,INDIVIDUAL,127098,5133,121965
+BusinessType,PARTNERSHIP,23025,617,22408
+BusinessType,__missing__,3674,449,3225
+BusinessAge,"Existing, 5 or more years",683,25,658
+BusinessAge,Less than 4 years old but at least 3,287216,8059,279157
+BusinessAge,"New, Less than 1 Year old",117501,5919,111582
+BusinessAge,Other,43,0,43
+franchise,missing,378267,12911,365356
+franchise,present,27176,1092,26084
+loan_type,revolving,11637,1082,10555
+loan_type,term,393806,12921,380885
+ProjectState,AK,1526,30,1496
+ProjectState,AL,4279,238,4041
+ProjectState,AR,4079,232,3847
+ProjectState,AZ,7446,171,7275
+ProjectState,CA,60207,1613,58594
+ProjectState,CO,9512,330,9182
+ProjectState,CT,6635,240,6395
+ProjectState,DC,560,28,532
+ProjectState,DE,985,26,959
+ProjectState,FL,15261,495,14766
+ProjectState,GA,9836,392,9444
+ProjectState,HI,1349,32,1317
+ProjectState,IA,6587,288,6299
+ProjectState,ID,4016,143,3873
+ProjectState,IL,11714,458,11256
+ProjectState,IN,4535,152,4383
+ProjectState,KS,6226,286,5940
+ProjectState,KY,3284,143,3141
+ProjectState,LA,4928,216,4712
+ProjectState,MA,10840,299,10541
+ProjectState,MD,5565,194,5371
+ProjectState,ME,3082,108,2974
+ProjectState,MI,6965,101,6864
+ProjectState,MN,10690,390,10300
+ProjectState,MO,9807,435,9372
+ProjectState,MS,4197,155,4042
+ProjectState,MT,5385,135,5250
+ProjectState,NC,5390,185,5205
+ProjectState,ND,2851,96,2755
+ProjectState,NE,3126,90,3036
+ProjectState,NH,5379,139,5240
+ProjectState,NJ,11481,295,11186
+ProjectState,NM,3484,156,3328
+ProjectState,NV,2941,155,2786
+ProjectState,NY,24784,930,23854
+ProjectState,OH,12149,273,11876
+ProjectState,OK,5292,329,4963
+ProjectState,OR,4733,123,4610
+ProjectState,PA,14971,339,14632
+ProjectState,RI,4785,121,4664
+ProjectState,SC,2499,60,2439
+ProjectState,SD,2603,108,2495
+ProjectState,TN,4384,218,4166
+ProjectState,TX,37751,1864,35887
+ProjectState,UT,5071,149,4922
+ProjectState,VA,5305,203,5102
+ProjectState,VT,3081,93,2988
+ProjectState,WA,10688,225,10463
+ProjectState,WI,9276,226,9050
+ProjectState,WV,2119,220,1899
+ProjectState,WY,1804,76,1728

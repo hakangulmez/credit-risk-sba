@@ -1,0 +1,35 @@
+{
+  "validation": "synthetic fractional case weights and rare zero-event category",
+  "independent_reference": "R brglm2 binomial AS_mean (Firth adjusted score)",
+  "R_result": "1.0.1 TRUE",
+  "reference_warnings": "Warning message:\npackage \u2018brglm2\u2019 was built under R version 4.4.3 \nWarning messages:\n1: In eval(family$initialize) : non-integer #successes in a binomial glm!\n2: In eval(family$initialize) : non-integer #successes in a binomial glm!",
+  "max_coefficient_difference": 1.2127580228948887e-07,
+  "Python_coefficients": [
+    -1.4199552284520318,
+    -0.0024989752481839917,
+    -2.050344089195138
+  ],
+  "reference_coefficients": [
+    -1.41995522858475,
+    -0.0024989751600042,
+    -2.05034421047094
+  ],
+  "Python_status": {
+    "converged": true,
+    "message": "all three numerical criteria satisfied",
+    "iterations": 8,
+    "score_max": 6.330595428948038e-08,
+    "coefficient_change": 2.194747351413895e-06,
+    "likelihood_change": 1.0373923942097463e-12,
+    "penalized_loglikelihood": -112.19279730190118,
+    "information_condition": 103.6056362929937,
+    "n": 180,
+    "columns": 3,
+    "seconds": 0.10578883392736316,
+    "weight_sum": 250.65911293526992,
+    "min_weight": 0.1695449138904476,
+    "max_weight": 2.4803092415513515
+  },
+  "passed": true,
+  "supplementary_tests": "analytic weighted intercept, finite-difference score, integer-weight replication, dense/sparse equivalence, exact separation, positive shared multipliers"
+}

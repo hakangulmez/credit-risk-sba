@@ -1,0 +1,13 @@
+loan_type,size_band,variant,cohorts,cell_recorded_charge_offs,valid_cell_n,excluded_severity_n,pool,pooled_n,lgd_proxy,ratios_above_one,ead_definition,lgd_definition
+term,<=150k,capped,1991-2002,10345,10345,0,cell,10345,0.7314207833809865,315,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD
+term,150k-350k,capped,1991-2002,1687,1687,0,cell,1687,0.6698404721406479,59,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD
+term,350k-1m,capped,1991-2002,808,808,0,cell,808,0.6177055736437946,24,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD
+term,>1m,capped,1991-2002,81,81,0,cell,81,0.5072331367403643,1,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD
+revolving,<=150k,capped,1991-2002,1059,1059,0,cell,1059,0.8858730522012622,31,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD
+revolving,150k-350k,capped,1991-2002,12,12,0,loan_type,1082,0.8271373450345152,31,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD
+revolving,350k-1m,capped,1991-2002,10,10,0,loan_type,1082,0.8271373450345152,31,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD
+revolving,>1m,capped,1991-2002,1,1,0,loan_type,1082,0.8271373450345152,31,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD
+unknown,<=150k,capped,1991-2002,0,0,0,overall_selected_training_cohorts,14003,0.6747137878201017,430,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD
+unknown,150k-350k,capped,1991-2002,0,0,0,overall_selected_training_cohorts,14003,0.6747137878201017,430,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD
+unknown,350k-1m,capped,1991-2002,0,0,0,overall_selected_training_cohorts,14003,0.6747137878201017,430,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD
+unknown,>1m,capped,1991-2002,0,0,0,overall_selected_training_cohorts,14003,0.6747137878201017,430,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD

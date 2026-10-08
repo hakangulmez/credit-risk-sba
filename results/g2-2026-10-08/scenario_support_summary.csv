@@ -1,0 +1,13 @@
+variant,scenario,scope,flagged_states,flagged_loan_n,reference_n,flagged_loan_fraction,flagged_approval_usd,reference_approval_usd,definition,ead_definition
+layer2,adverse,state,51,89002,89002,1.0,12873977932.0,12873977932.0,univariate training min/max; not joint-support proof,GrossApproval full-disbursement proxy; CCF=100%
+layer2,adverse,global,24,53406,89002,0.6000539313723288,8011722452.0,12873977932.0,univariate training min/max; not joint-support proof,GrossApproval full-disbursement proxy; CCF=100%
+layer2,baseline,state,32,54443,89002,0.6117053549358441,8105861278.0,12873977932.0,univariate training min/max; not joint-support proof,GrossApproval full-disbursement proxy; CCF=100%
+layer2,baseline,global,0,0,89002,0.0,0.0,12873977932.0,univariate training min/max; not joint-support proof,GrossApproval full-disbursement proxy; CCF=100%
+layer2_term,adverse,state,51,89002,89002,1.0,12873977932.0,12873977932.0,univariate training min/max; not joint-support proof,GrossApproval full-disbursement proxy; CCF=100%
+layer2_term,adverse,global,24,53406,89002,0.6000539313723288,8011722452.0,12873977932.0,univariate training min/max; not joint-support proof,GrossApproval full-disbursement proxy; CCF=100%
+layer2_term,baseline,state,32,54443,89002,0.6117053549358441,8105861278.0,12873977932.0,univariate training min/max; not joint-support proof,GrossApproval full-disbursement proxy; CCF=100%
+layer2_term,baseline,global,0,0,89002,0.0,0.0,12873977932.0,univariate training min/max; not joint-support proof,GrossApproval full-disbursement proxy; CCF=100%
+layer2_peak,adverse,state,51,89002,89002,1.0,12873977932.0,12873977932.0,univariate training min/max; not joint-support proof,GrossApproval full-disbursement proxy; CCF=100%
+layer2_peak,adverse,global,24,53406,89002,0.6000539313723288,8011722452.0,12873977932.0,univariate training min/max; not joint-support proof,GrossApproval full-disbursement proxy; CCF=100%
+layer2_peak,baseline,state,32,54443,89002,0.6117053549358441,8105861278.0,12873977932.0,univariate training min/max; not joint-support proof,GrossApproval full-disbursement proxy; CCF=100%
+layer2_peak,baseline,global,0,0,89002,0.0,0.0,12873977932.0,univariate training min/max; not joint-support proof,GrossApproval full-disbursement proxy; CCF=100%

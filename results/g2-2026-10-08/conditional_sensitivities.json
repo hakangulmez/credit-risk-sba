@@ -1,0 +1,14 @@
+{
+  "old_extract_ccf": {
+    "done": false,
+    "reason": "G1 licence and exact administrative cutoff unverified; maturity-qualified population cannot be established. No extract CSV acquired or substituted."
+  },
+  "urban_rural": {
+    "done": false,
+    "reason": "Not disclosed in primary source; no unverified geographic crosswalk"
+  },
+  "initial_interest_rate": {
+    "done": false,
+    "reason": "Entire frozen training cohort missing; coefficient is unidentified"
+  }
+}

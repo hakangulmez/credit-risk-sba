@@ -1,0 +1,8 @@
+{
+  "seconds": 879.7204342080513,
+  "peak_rss_GiB": 3.3603668212890625,
+  "config_sha256": "b1f2bec74490c63a05151a44fc1ee1d1310e0cb5b9d7f358c3e83fe2c8604b59",
+  "no_search_or_early_stopping": true,
+  "training_diagnostics_intervals": "point only",
+  "evaluation_intervals": "999 state-cluster draws conditional on frozen fitted models; distinct from 199 re-estimated Firth draws"
+}

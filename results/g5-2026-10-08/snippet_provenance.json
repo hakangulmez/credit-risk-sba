@@ -1,0 +1,131 @@
+{
+  "registry_sha256": "96b8a60299d886c5e8dcb87ee87c8919c12e252736bc4fec0b9f3a684a3048a0",
+  "latex_macros": {
+    "AucCrisis": {
+      "claim": "auc_crisis",
+      "scale": 1,
+      "digits": 3,
+      "interval": true
+    },
+    "AucLater": {
+      "claim": "auc_later",
+      "scale": 1,
+      "digits": 3,
+      "interval": true
+    },
+    "PdCrisis": {
+      "claim": "pd_crisis",
+      "scale": 100,
+      "digits": 2,
+      "interval": false
+    },
+    "RateCrisis": {
+      "claim": "rate_crisis",
+      "scale": 100,
+      "digits": 2,
+      "interval": false
+    },
+    "PdLater": {
+      "claim": "pd_later",
+      "scale": 100,
+      "digits": 2,
+      "interval": false
+    },
+    "RateLater": {
+      "claim": "rate_later",
+      "scale": 100,
+      "digits": 2,
+      "interval": false
+    },
+    "Endpoint": {
+      "claim": "endpoint",
+      "scale": 1,
+      "digits": 3,
+      "interval": true
+    },
+    "Peak": {
+      "claim": "peak",
+      "scale": 1,
+      "digits": 3,
+      "interval": true
+    },
+    "ElBase": {
+      "claim": "baseline_expected_loss_usd",
+      "scale": 1e-06,
+      "digits": 1,
+      "interval": true
+    },
+    "ElAdverse": {
+      "claim": "adverse_expected_loss_usd",
+      "scale": 1e-06,
+      "digits": 1,
+      "interval": true
+    },
+    "ElDiff": {
+      "claim": "adverse_minus_baseline_expected_loss_usd_change",
+      "scale": 1e-06,
+      "digits": 1,
+      "interval": true
+    },
+    "ElRatio": {
+      "claim": "el_ratio",
+      "scale": 1,
+      "digits": 2,
+      "interval": false
+    },
+    "ShareBase": {
+      "claim": "baseline_sba_share",
+      "scale": 100,
+      "digits": 2,
+      "interval": false
+    },
+    "ShareAdverse": {
+      "claim": "adverse_sba_share",
+      "scale": 100,
+      "digits": 2,
+      "interval": false
+    },
+    "LtwoFirth": {
+      "claim": "pd_l2_firth",
+      "scale": 100,
+      "digits": 2,
+      "interval": false
+    },
+    "LtwoTree": {
+      "claim": "pd_l2_tree",
+      "scale": 100,
+      "digits": 2,
+      "interval": false
+    },
+    "LtwoRate": {
+      "claim": "rate_l2_firth",
+      "scale": 100,
+      "digits": 2,
+      "interval": false
+    },
+    "TreeIntercept": {
+      "claim": "tree_calibration_intercept",
+      "scale": 1,
+      "digits": 3,
+      "interval": true
+    },
+    "TreeSlope": {
+      "claim": "tree_calibration_slope",
+      "scale": 1,
+      "digits": 3,
+      "interval": true
+    },
+    "SupportShare": {
+      "claim": "support_state_specific_flagged_fraction",
+      "scale": 100,
+      "digits": 2,
+      "interval": false
+    },
+    "TermMatch": {
+      "claim": "term_CHGOFF_match_abs_le_3_share",
+      "scale": 100,
+      "digits": 2,
+      "interval": false
+    }
+  }
+}

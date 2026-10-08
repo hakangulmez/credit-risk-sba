@@ -1,0 +1,96 @@
+variant,cohort,feature,psi,training_n,test_n,epsilon,layer_interpretation,specification_role
+layer1,crisis_2007_2009,log_approval,0.4518773600997664,405443,181311,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,crisis_2007_2009,guarantee_share,2.0215209811224852,405443,181311,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,crisis_2007_2009,log_jobs,1.9126721789040224,405443,181311,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,crisis_2007_2009,ProcessingMethod,3.985034269547669,405443,181311,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,crisis_2007_2009,FixedorVariableInterestInd,2.517448443292962,405443,181311,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,crisis_2007_2009,naics2,4.838988695831827,405443,181311,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,crisis_2007_2009,BusinessType,0.1499824214287491,405443,181311,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,crisis_2007_2009,BusinessAge,4.36371964655119,405443,181311,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,crisis_2007_2009,franchise,0.0095980578478518,405443,181311,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,crisis_2007_2009,loan_type,0.998903668547076,405443,181311,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,crisis_2007_2009,ProjectState,0.1063235337308297,405443,181311,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,additional_cohort_2011_2013,log_approval,0.1972205293535985,405443,120002,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,additional_cohort_2011_2013,guarantee_share,2.092707617064346,405443,120002,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,additional_cohort_2011_2013,log_jobs,1.507183912370998,405443,120002,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,additional_cohort_2011_2013,ProcessingMethod,4.450344155335975,405443,120002,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,additional_cohort_2011_2013,FixedorVariableInterestInd,19.361338168776836,405443,120002,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,additional_cohort_2011_2013,naics2,4.646012174670933,405443,120002,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,additional_cohort_2011_2013,BusinessType,0.3477168795450288,405443,120002,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,additional_cohort_2011_2013,BusinessAge,7.184872898368264,405443,120002,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,additional_cohort_2011_2013,franchise,0.0005699287712966,405443,120002,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,additional_cohort_2011_2013,loan_type,0.7384251259289888,405443,120002,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1,additional_cohort_2011_2013,ProjectState,0.1148879933641558,405443,120002,1e-06,Approval-descriptor prediction,Term-free primary specification
+layer1_term,crisis_2007_2009,log_approval,0.4518773600997664,405443,181311,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,crisis_2007_2009,guarantee_share,2.0215209811224852,405443,181311,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,crisis_2007_2009,log_jobs,1.9126721789040224,405443,181311,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,crisis_2007_2009,TermInMonths,0.2350076903604258,405443,181311,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,crisis_2007_2009,ProcessingMethod,3.985034269547669,405443,181311,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,crisis_2007_2009,FixedorVariableInterestInd,2.517448443292962,405443,181311,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,crisis_2007_2009,naics2,4.838988695831827,405443,181311,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,crisis_2007_2009,BusinessType,0.1499824214287491,405443,181311,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,crisis_2007_2009,BusinessAge,4.36371964655119,405443,181311,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,crisis_2007_2009,franchise,0.0095980578478518,405443,181311,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,crisis_2007_2009,loan_type,0.998903668547076,405443,181311,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,crisis_2007_2009,ProjectState,0.1063235337308297,405443,181311,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,additional_cohort_2011_2013,log_approval,0.1972205293535985,405443,120002,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,additional_cohort_2011_2013,guarantee_share,2.092707617064346,405443,120002,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,additional_cohort_2011_2013,log_jobs,1.507183912370998,405443,120002,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,additional_cohort_2011_2013,TermInMonths,0.088945789134716,405443,120002,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,additional_cohort_2011_2013,ProcessingMethod,4.450344155335975,405443,120002,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,additional_cohort_2011_2013,FixedorVariableInterestInd,19.361338168776836,405443,120002,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,additional_cohort_2011_2013,naics2,4.646012174670933,405443,120002,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,additional_cohort_2011_2013,BusinessType,0.3477168795450288,405443,120002,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,additional_cohort_2011_2013,BusinessAge,7.184872898368264,405443,120002,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,additional_cohort_2011_2013,franchise,0.0005699287712966,405443,120002,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,additional_cohort_2011_2013,loan_type,0.7384251259289888,405443,120002,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer1_term,additional_cohort_2011_2013,ProjectState,0.1148879933641558,405443,120002,1e-06,Approval-descriptor prediction,With-Term sensitivity; reported-term timing unverified
+layer2,post_amendment_validation_2013_2014,log_approval,0.1206397685960951,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,guarantee_share,0.9002565855679239,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,log_jobs,0.3529034709698955,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,u0,0.928310063001078,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,du,6.001355813001414,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,h0,1.366082815826948,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,dh,4.352439058368599,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,year_trend,12.294784846746968,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,ProcessingMethod,3.2251135336988663,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,FixedorVariableInterestInd,9.61273451515733,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,naics2,2.4538375886146886,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,BusinessType,0.2083462749044232,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,BusinessAge,2.2882578642044664,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,franchise,0.0107351197956511,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,loan_type,0.0520386967619207,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2,post_amendment_validation_2013_2014,ProjectState,0.0660210487233884,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free primary specification
+layer2_term,post_amendment_validation_2013_2014,log_approval,0.1206397685960951,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,guarantee_share,0.9002565855679239,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,log_jobs,0.3529034709698955,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,TermInMonths,0.1302384853178355,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,u0,0.928310063001078,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,du,6.001355813001414,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,h0,1.366082815826948,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,dh,4.352439058368599,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,year_trend,12.294784846746968,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,ProcessingMethod,3.2251135336988663,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,FixedorVariableInterestInd,9.61273451515733,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,naics2,2.4538375886146886,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,BusinessType,0.2083462749044232,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,BusinessAge,2.2882578642044664,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,franchise,0.0107351197956511,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,loan_type,0.0520386967619207,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_term,post_amendment_validation_2013_2014,ProjectState,0.0660210487233884,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,With-Term sensitivity; reported-term timing unverified
+layer2_peak,post_amendment_validation_2013_2014,log_approval,0.1206397685960951,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,guarantee_share,0.9002565855679239,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,log_jobs,0.3529034709698955,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,u0,0.928310063001078,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,peak_du,5.4450425196389665,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,h0,1.366082815826948,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,dh,4.352439058368599,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,year_trend,12.294784846746968,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,ProcessingMethod,3.2251135336988663,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,FixedorVariableInterestInd,9.61273451515733,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,naics2,2.4538375886146886,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,BusinessType,0.2083462749044232,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,BusinessAge,2.2882578642044664,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,franchise,0.0107351197956511,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,loan_type,0.0520386967619207,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity
+layer2_peak,post_amendment_validation_2013_2014,ProjectState,0.0660210487233884,888703,87156,1e-06,Retrospective conditional validation using realized macro paths.,Term-free peak-unemployment sensitivity

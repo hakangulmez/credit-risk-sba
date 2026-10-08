@@ -1,0 +1,11 @@
+Specification / estimator,Valid convergence,Iterations
+layer1 / Firth primary,True,8
+layer1 / unpenalized same-design comparator,False,442
+layer1_term / Firth with-Term sensitivity,True,8
+layer1_term / unpenalized same-design comparator,False,388
+layer2 / Firth primary,True,8
+layer2 / unpenalized same-design comparator,False,500
+layer2_term / Firth with-Term sensitivity,True,8
+layer2_term / unpenalized same-design comparator,False,500
+layer2_peak / Firth peak sensitivity,True,8
+layer2_peak / unpenalized same-design comparator,False,500

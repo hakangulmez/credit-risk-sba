@@ -1,0 +1,15 @@
+name: Public snapshot checks
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reporting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: uv sync --frozen --python 3.11
+      - run: make report-check report-test REPORT_PYTHON=.venv/bin/python
+# Manual results-only checks; no data acquisition, fitting or report compilation.

@@ -1,0 +1,119 @@
+feature,original_level,pooled_level,training_n,frequency,threshold,state_exempt,layer_interpretation
+ProcessingMethod,SBA Express Program,SBA Express Program,334922,0.3768660621152399,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Preferred Lenders Program,Preferred Lenders Program,193460,0.2176880240080206,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,7a General,7a General,135799,0.1528058305193073,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Low Documentation Program,Low Documentation Program,121762,0.1370109024049654,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Certified Lenders Program,Certified Lenders Program,47516,0.05346668121971,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Community Express,Community Express,38795,0.0436535040390321,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Patriot Express Loans,Patriot Express Loans,4450,0.0050072971510167,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,International Trade Loans,International Trade Loans,3320,0.0037357812452529,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,7a with EWCP,7a with EWCP,2488,0.00279958546331,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Gulf Opportunity Pilot Loan Program,Gulf Opportunity Pilot Loan Program,1371,0.001542697616639,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Export Express,Export Express,1130,0.0012715159057637,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Rural Loan Initiative,Rural Loan Initiative,1043,0.0011736204333731,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Small Asset Base Line of Credit (CAPLine),Other,706,0.0007944161322736,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Preferred Lenders with EWCP,Other,531,0.0005974999521774,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Contract CAPLine,Other,513,0.0005772457165104,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Builders CAPLine,Other,432,0.0004861016560088,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Seasonal CAPLine,Other,273,0.00030718924095,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Certified Lenders Program with EWCP,Other,94,0.0001057721195945,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Export Import Harmonization  (EXIM),Other,49,5.513653042692553e-05,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Working Capital CAPLine,Other,35,3.938323601923253e-05,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Dealer Floor Plan Loans,Other,13,1.4628059092857794e-05,0.001,False,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Domestic Revolving Line of Credit,Other,1,1.125235314835215e-06,0.001,False,Retrospective conditional validation using realized macro paths.
+FixedorVariableInterestInd,__missing__,__missing__,852022,0.9587252434165294,0.001,False,Retrospective conditional validation using realized macro paths.
+FixedorVariableInterestInd,V,V,32174,0.0362033210195082,0.001,False,Retrospective conditional validation using realized macro paths.
+FixedorVariableInterestInd,F,F,4507,0.0050714355639623,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,__missing__,__missing__,172361,0.1939466841003125,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,44,44,90205,0.1015018515747105,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,81,81,78012,0.0877818573809247,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,72,72,74823,0.0841934819619152,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,54,54,68276,0.0768265663556891,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,23,23,66661,0.0750093113222302,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,62,62,56857,0.0639775042955858,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,42,42,45957,0.0517124393638819,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,45,45,44910,0.0505343179892495,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,33,33,35998,0.040506220863438,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,56,56,34128,0.0384020308246962,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,48,48,20209,0.0227398804775048,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,32,32,16993,0.0191211237049948,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,71,71,15355,0.0172779882592947,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,53,53,14136,0.0159063264105106,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,31,31,11752,0.0132237654199434,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,51,51,11748,0.0132192644786841,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,52,52,9747,0.0109676686136988,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,11,11,8516,0.0095825039411366,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,61,61,6911,0.0077765012608261,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,49,49,2245,0.002526153281805,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,21,21,1737,0.0019545337418687,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,22,Other,679,0.0007640347787731,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,55,Other,254,0.0002858097699681,0.001,False,Retrospective conditional validation using realized macro paths.
+naics2,92,Other,233,0.0002621798283566,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessType,CORPORATION,CORPORATION,608513,0.6847203171363211,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessType,INDIVIDUAL,INDIVIDUAL,240918,0.2710894415794703,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessType,PARTNERSHIP,PARTNERSHIP,35439,0.0398772143224451,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessType,__missing__,__missing__,3833,0.0043130269617633,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessAge,Less than 4 years old but at least 3,Less than 4 years old but at least 3,492904,0.5546329876235367,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessAge,"New, Less than 1 Year old","New, Less than 1 Year old",218342,0.2456861291117505,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessAge,"Existing, 5 or more years","Existing, 5 or more years",99601,0.1120745625929022,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessAge,Unanswered,Unanswered,23195,0.0260998331276028,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessAge,Less than 3 years old but at least 2,Less than 3 years old but at least 2,21027,0.02366032296504,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessAge,"Startup, Loan Funds will Open Business","Startup, Loan Funds will Open Business",21007,0.0236378182587433,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessAge,Less than 5 years old but at least 4,Less than 5 years old but at least 4,12537,0.014107075142089,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessAge,__missing__,Other,83,9.339453113132284e-05,0.001,False,Retrospective conditional validation using realized macro paths.
+BusinessAge,Existing or more than 2 years old,Other,7,7.876647203846504e-06,0.001,False,Retrospective conditional validation using realized macro paths.
+franchise,missing,missing,836228,0.940953276854022,0.001,False,Retrospective conditional validation using realized macro paths.
+franchise,present,present,52475,0.0590467231459779,0.001,False,Retrospective conditional validation using realized macro paths.
+loan_type,term,term,713710,0.8030916965510413,0.001,False,Retrospective conditional validation using realized macro paths.
+loan_type,revolving,revolving,174993,0.1969083034489587,0.001,False,Retrospective conditional validation using realized macro paths.
+ProjectState,CA,CA,125996,0.1417751487279777,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,TX,TX,74409,0.0837276345415735,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,NY,NY,58716,0.0660693167458644,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,FL,FL,41602,0.0468120395677746,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,PA,PA,36985,0.0416168281191804,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,OH,OH,30901,0.0347708964637229,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,IL,IL,29066,0.0327060896610003,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,NJ,NJ,26457,0.0297703507245952,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,MA,MA,24594,0.0276740373330572,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,WA,WA,23028,0.0259119188300253,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,MN,MN,22564,0.0253898096439417,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,GA,GA,22479,0.0252941646421807,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,MI,MI,21121,0.0237660950846345,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,CO,CO,20310,0.0228535292443032,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,WI,WI,20145,0.0226678654173554,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,MO,MO,19040,0.0214244803944624,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,AZ,AZ,18264,0.0205512977901503,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,UT,UT,17477,0.019665737597375,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,NC,NC,13761,0.0154843631674473,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,MD,MD,13716,0.0154337275782798,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,IN,IN,13368,0.0150421456887171,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,CT,CT,13200,0.0148531061558248,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,VA,VA,12873,0.0144851542078737,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,NH,NH,11118,0.0125103662303379,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,IA,IA,10869,0.0122301826369439,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,OR,OR,10839,0.0121964255774988,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,KS,KS,10553,0.011874608277456,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,OK,OK,9878,0.0111150744399422,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,LA,LA,9738,0.0109575414958653,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,TN,TN,9601,0.0108033842577328,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,RI,RI,9272,0.0104331818391521,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,ID,ID,8979,0.0101034878919053,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,MT,MT,8081,0.0090930265791833,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,MS,MS,7797,0.0087734597497701,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,KY,KY,7411,0.0083391189182437,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,AL,AL,7371,0.0082941095056503,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,NV,NV,7244,0.0081512046206662,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,AR,AR,6628,0.0074580596667278,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,NE,NE,6042,0.0067986717722343,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,NM,NM,5939,0.0066827725348063,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,SC,SC,5824,0.0065533704736002,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,ME,ME,5819,0.0065477442970261,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,VT,VT,5077,0.0057128196934183,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,ND,ND,4648,0.005230093743354,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,SD,SD,3917,0.0044075467282095,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,WV,WV,3556,0.004001336779554,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,HI,HI,3471,0.003905691777793,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,WY,WY,2676,0.003011129702499,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,DE,DE,2325,0.0026161721069918,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,AK,AK,2268,0.0025520336940462,0.001,True,Retrospective conditional validation using realized macro paths.
+ProjectState,DC,DC,1690,0.0019016476820715,0.001,True,Retrospective conditional validation using realized macro paths.

@@ -1,0 +1,38 @@
+{
+  "input_allowlist": [
+    "Makefile",
+    "config/g2_bis_2026-10-08.yaml",
+    "docs/PROTOCOL.md",
+    "results/g2-bis-2026-10-08/benchmark_status.json",
+    "results/g2-bis-2026-10-08/bootstrap_summary.json",
+    "results/g2-bis-2026-10-08/calibration_deciles.csv",
+    "results/g2-bis-2026-10-08/calibration_means.csv",
+    "results/g2-bis-2026-10-08/design_rank_checks.csv",
+    "results/g2-bis-2026-10-08/evaluation_metrics.csv",
+    "results/g2-bis-2026-10-08/final_sample_waterfall_complete.csv",
+    "results/g2-bis-2026-10-08/firth_average_associations.csv",
+    "results/g2-bis-2026-10-08/firth_coefficients.csv",
+    "results/g2-bis-2026-10-08/firth_macro_associations.csv",
+    "results/g2-bis-2026-10-08/firth_stress.csv",
+    "results/g2-bis-2026-10-08/fit_status.csv",
+    "results/g2-bis-2026-10-08/initial_interest_rate_missingness.csv",
+    "results/g2-bis-2026-10-08/lgd_primary.csv",
+    "results/g2-bis-2026-10-08/post_pooling_separation_witnesses.csv",
+    "results/g2-bis-2026-10-08/scenario_support_summary.csv",
+    "results/g2-bis-2026-10-08/source_population_waterfall.csv",
+    "results/g2-bis-2026-10-08/term_audit_summary.csv",
+    "results/g5-2026-10-08/claims_registry.json"
+  ],
+  "private_data_present_before_build": false,
+  "model_files_present": false,
+  "credentials_present": false,
+  "command": [
+    "make",
+    "report",
+    "REPORT_PYTHON=/Users/hakanzekigulmez/portfolio/credit-risk-sba/.venv/bin/python"
+  ],
+  "success": true,
+  "policy_note_exists": true,
+  "technical_report_exists": true,
+  "new_estimation": false
+}

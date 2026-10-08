@@ -1,0 +1,10 @@
+step,excluded,remaining
+all_source_rows,0,1961455
+wrong_program,0,1961455
+cancelled_or_committed,263913,1697542
+unknown_status,0,1697542
+missing_disbursement,1795,1695747
+incomplete_window,160527,1535220
+invalid_approval_amount,1,1535219
+unmapped_state,18730,1516489
+date_or_status_contradiction,1637,1514852

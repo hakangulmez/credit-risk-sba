@@ -1,0 +1,11 @@
+{
+  "initial_controller_seconds": 4912.124420624983,
+  "initial_controller_qualification": "Term ElasticNet deferred to one concurrent fixed-grid worker; eleven model slots did not mean eleven completed fits",
+  "term_elasticnet_grid_seconds": 4474.897665125027,
+  "final_cached_status_refresh_seconds": 9.904613999999128,
+  "cached_refresh_is_not_fresh_fitting_runtime": true,
+  "independent_grids_overlapped": true,
+  "each_production_grid_run_once": true,
+  "fresh_make_all_under_two_hours_verified": false,
+  "original_production_optimizer_diagnostics_preserved": true
+}

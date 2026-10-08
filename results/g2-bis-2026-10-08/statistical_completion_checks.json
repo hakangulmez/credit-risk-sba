@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "variant": "layer1",
+      "attempts": 199,
+      "successful": 196,
+      "failed": 3,
+      "private_hashes_and_config_verified": true,
+      "finite_draw_statistics_and_interval_denominators_verified": true,
+      "paired_loss_and_allocation_verified": false
+    },
+    {
+      "variant": "layer1_term",
+      "attempts": 199,
+      "successful": 196,
+      "failed": 3,
+      "private_hashes_and_config_verified": true,
+      "finite_draw_statistics_and_interval_denominators_verified": true,
+      "paired_loss_and_allocation_verified": false
+    },
+    {
+      "variant": "layer2",
+      "attempts": 199,
+      "successful": 198,
+      "failed": 1,
+      "private_hashes_and_config_verified": true,
+      "finite_draw_statistics_and_interval_denominators_verified": true,
+      "paired_loss_and_allocation_verified": true
+    },
+    {
+      "variant": "layer2_term",
+      "attempts": 199,
+      "successful": 197,
+      "failed": 2,
+      "private_hashes_and_config_verified": true,
+      "finite_draw_statistics_and_interval_denominators_verified": true,
+      "paired_loss_and_allocation_verified": true
+    },
+    {
+      "variant": "layer2_peak",
+      "attempts": 199,
+      "successful": 198,
+      "failed": 1,
+      "private_hashes_and_config_verified": true,
+      "finite_draw_statistics_and_interval_denominators_verified": true,
+      "paired_loss_and_allocation_verified": true
+    }
+  ],
+  "same_state_weights_across_all_models": true,
+  "no_new_estimation": true,
+  "validator_sha256": "794875a6e75e6049300f4ad68f5181b7ebeb7c3e9d51ee185a3a2408d2b6add4"
+}

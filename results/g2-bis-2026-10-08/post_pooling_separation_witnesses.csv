@@ -1,0 +1,3 @@
+variant,feature,level,n,events,non_events,specification_role,layer_interpretation
+layer1,BusinessAge,Other,43,0,43,Term-free primary specification,Approval-descriptor prediction
+layer1_term,BusinessAge,Other,43,0,43,With-Term sensitivity; reported-term timing unverified,Approval-descriptor prediction

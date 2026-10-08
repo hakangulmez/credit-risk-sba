@@ -1,0 +1,28 @@
+{
+  "claims": {
+    "verified_cells": 4573,
+    "derived_cells": 5,
+    "source_files": 20
+  },
+  "preservation": {
+    "protected_tracked": 238,
+    "protected_private": 1170,
+    "archive_mappings": 21,
+    "authorized_surface_replacements": 2,
+    "append_only_decisions": 1
+  },
+  "scope": {
+    "isolated_reporting_modules": 4,
+    "language_surfaces": 5,
+    "scenario_captions": 3
+  },
+  "rendered": {
+    "rendered_snippets": 569,
+    "generated_tables": 18
+  },
+  "pages": {
+    "policy_note": 2,
+    "technical_report": 10
+  },
+  "new_empirical_runs": 0
+}

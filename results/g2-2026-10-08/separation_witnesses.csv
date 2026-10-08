@@ -1,0 +1,9 @@
+feature,category,n,recorded_charge_offs_36m,diagnosis,action
+ProcessingMethod,Domestic Revolving Line of Credit,1,0,one-category quasi-separation witness; finite unpenalized MLE does not exist,"No category pooling, dropping, penalty, or specification replacement"
+ProcessingMethod,Working Capital CAPLine,16,0,one-category quasi-separation witness; finite unpenalized MLE does not exist,"No category pooling, dropping, penalty, or specification replacement"
+BusinessAge,Existing or more than 2 years old,1,0,one-category quasi-separation witness; finite unpenalized MLE does not exist,"No category pooling, dropping, penalty, or specification replacement"
+BusinessAge,Less than 3 years old but at least 2,2,0,one-category quasi-separation witness; finite unpenalized MLE does not exist,"No category pooling, dropping, penalty, or specification replacement"
+BusinessAge,Less than 5 years old but at least 4,1,0,one-category quasi-separation witness; finite unpenalized MLE does not exist,"No category pooling, dropping, penalty, or specification replacement"
+BusinessAge,"Startup, Loan Funds will Open Business",27,0,one-category quasi-separation witness; finite unpenalized MLE does not exist,"No category pooling, dropping, penalty, or specification replacement"
+BusinessAge,Unanswered,1,0,one-category quasi-separation witness; finite unpenalized MLE does not exist,"No category pooling, dropping, penalty, or specification replacement"
+BusinessAge,__missing__,11,0,one-category quasi-separation witness; finite unpenalized MLE does not exist,"No category pooling, dropping, penalty, or specification replacement"

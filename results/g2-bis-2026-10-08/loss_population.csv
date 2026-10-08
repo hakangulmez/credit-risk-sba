@@ -1,0 +1,2 @@
+reference_n,valid_loss_n,excluded_invalid_share_n,loss_accounting,reference_role
+89002,89002,0,"EAD = GrossApproval, full-disbursement proxy, CCF = 100%; gross charge-off LGD proxy; assumption-based pro-rata guarantee allocation.","Fixed 2006 scenario portfolio; included in Layer 2 estimation, not OOS validation"

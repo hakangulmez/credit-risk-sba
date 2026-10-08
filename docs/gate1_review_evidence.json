@@ -1,0 +1,173 @@
+{
+  "review_date": "2026-10-08",
+  "scope": "Gate 1 static issues and source/licence review only; protocol held by user",
+  "brief_v2_archived_path": "../_archive/2026-10-08/CREDIT_RISK_REBUILD_BRIEF_2026-10-08.md",
+  "brief_v2_sha256": "684213410290777e4563e31b1a792fee3550f82d8af438f4c85674f302273c04",
+  "observed_v3_spec_path": "../CREDIT_RISK_SPEC_v3_2026-10-08.md",
+  "observed_v3_spec_sha256": "bc9c9f879f98d33e13075c9049147cb30dbd93beb55330775931cb56ea510123",
+  "observed_v3_spec_status": "Read fully; explicit user hold on PROTOCOL.md still applies",
+  "baseline_commit": "1a4e1aca4474778b43fdbfbbdccd8003eee4c70c",
+  "baseline_tag": "v1-original",
+  "history_commit_count": 26,
+  "shallow_clone": false,
+  "original_tracked_file_count": 37,
+  "original_tracked_file_sha256": {
+    ".gitignore": "8d10922defdfec81d28e54e26c4a2a6610eb4aecc5deff63f798e77cc6a8c84b",
+    "Credit_Scoring_1_Final_Project_Report.pdf": "cb881f722d91bc21c2c8cf3cc9ba4db119e9f43b87e8f0fdf3b2e344b5b23a93",
+    "README.md": "a7439d4ca71ea331f8fb93c3e6a9618cd7246019ebd35fed0892d8bb9e74171a",
+    "main.py": "0b9c40e43899309185f8d79766136fe9f0788d7baedf7321d6cccdfa7c0b4df3",
+    "models/encoders.json": "886a29e010ff6194e9d6baaabae85a23a6461f8a4eec50e8bcdac1c96e31e9a8",
+    "models/label_encoders.joblib": "b51cb442ef138edc46cbda092baa04543d26b94df16260cbef6efb5d7937a316",
+    "models/lightgbm_model.txt": "d57f0f5adf0aa9b5b6773a02ff64e6b854c1a35a484df81f7dce17fb2dd2d823",
+    "models/lightgbm_tuned.txt": "7495b730b3b07301c551a9a549c88faf0537863302f67670ecc2362f5629dd72",
+    "models/lr_coefficients.json": "e36e3d295ba90e4e3c79b5236f36a26e588dc3ca8b2f5f7a262bd0e8b0fac62f",
+    "models/lr_pipeline.joblib": "b42728c7c03e374384487964b2e1afe3acb87b4cb6f09d7ff482876a1710edb5",
+    "models/model_metadata.json": "e843bc55daf73d9626f11a8698990dd2c110e1ace865cecf8809b05cca62e768",
+    "models/optuna_best_params.json": "5561433567a5d64f2ca7d8f6e0f12c407501d3e2e5ff423e4e33ca1f970e6598",
+    "models/optuna_study.joblib": "c5957e1791e4475544f6b405a8994bb33dcd7f891fb786877caa20b5f1281860",
+    "models/xgboost_model.json": "071c5478aebaa68a9ad0c9e71bf6fb044e58b398ecda14b10dfc567e009565b7",
+    "notebooks/credit_scoring_analysis.ipynb": "708de31b5960e138c06faafe2c25f62bd942b20cacbebe45bb2c026fc4159d24",
+    "report/figures/fig_business_simulation.pdf": "d43d2c296c9ac116276c6054ab66470e902513c79faf8245a6cb4553e5b2b704",
+    "report/figures/fig_calibration_curves.pdf": "d9ad0f5e9ce04aabf4080db50380fdf0da7e54d800e8e1c9f632f76b047b9c98",
+    "report/figures/fig_correlation_bar.pdf": "7a021178ac83eb7375812d1064a746afeb29d882124e251acdd1dc5e9dd3430d",
+    "report/figures/fig_crisis_heatmap.pdf": "74151c886789857c6525adf17b7b8d0cd2aea445ca25e45a8709141bde1e3bb2",
+    "report/figures/fig_fairness_analysis.pdf": "a572e34cb6e63c953014e0e6b4f4ba90215dba3df51fca2b3b689a01585291ea",
+    "report/figures/fig_feature_distributions.pdf": "5c72c15b927d00ce919aeea6af79814256f589f41e3c8c7147a950e521bace06",
+    "report/figures/fig_geographic_analysis.pdf": "aeca924902360c4c86a1e2c906e944f1c9d611c25846a53a74dbdbf0fc19749c",
+    "report/figures/fig_industry_sector.pdf": "1039c90d82bc4c79ec195d444f6155eb813a822828755580b8ab394f18b1745a",
+    "report/figures/fig_loan_size_guarantee.pdf": "9c1d821188b4de8b828c3bc900da7ff959ae2191ebbfe927e93474e2eaac0944",
+    "report/figures/fig_lr_evaluation.pdf": "22ec73a749e3761d441abfe44589bbf0f166e9d6484f144cb3e6f22e08404780",
+    "report/figures/fig_optuna_tuning.pdf": "3fbe715818170ff4f66d8ebe8d942695c3238202c8701c5099d100946660a9b8",
+    "report/figures/fig_pdp_top3.pdf": "16e372ae392f0949b05364d81fe56bdfa5f852bd53265cb440865c3ec9dd2597",
+    "report/figures/fig_psi_drift.pdf": "8df151f599e5f6e0d69a634650fc0f263d9c654301f6a0449d3efe8e892adaf3",
+    "report/figures/fig_shap_summary.pdf": "75904b05fd47a597208a24248da3a3e5d41ef38c944885631f80df62790065f0",
+    "report/figures/fig_smote_comparison.pdf": "36ba335c89d2baad51c12952cbab0812dbb10648760e3e67928974b8bcce0bfd",
+    "report/figures/fig_temporal_default_rate.pdf": "3ead0cc9de459a13aed58edb9675eae88d530539d5946d32ba35bea4007cc9c4",
+    "report/main.tex": "decfc8219f916e0575f98da254c779560e34c0c2bc1fcb3b0c7441d018c3c5b1",
+    "requirements.txt": "e9a7116ca169bc6026f0f7ef058e6e642c96df8806376bf73a03f992041df45f",
+    "scripts/data_processing.py": "3f617c7a0666cc80dc55d059ed53d528593242f594b6284241f39f68d592df65",
+    "scripts/fetch_data.py": "d4389a00939dc8685797e36f580758cdd41223f94d327acd009862a25330b4a3",
+    "scripts/test_cleaned_data.py": "ba5bc8d217fbfdeb240961b9cffb4300c4cf58ad4cbb2f59256f7d5a68a5fc46",
+    "scripts/test_setup.py": "b0d9fa70efca00797a5b3ba4dc8eb749cfe99d37a89ecf3fa474c82945e4c1b9"
+  },
+  "reviewed_notebook_cells": [
+    {
+      "index_zero_based": 26,
+      "cell_id": "8db2fb7c",
+      "source_sha256": "3d2b17f0b5ca88c1746705299310a63b8dc697379db236f90b97a5c8de3763be"
+    },
+    {
+      "index_zero_based": 28,
+      "cell_id": "a9c25142",
+      "source_sha256": "0f6e8299ce3d1c3b821aedb2838f10c11b6ebdcde1453535b432f43fb9b54d20"
+    },
+    {
+      "index_zero_based": 30,
+      "cell_id": "15930308",
+      "source_sha256": "3c72eb77378df92dcd1f9524c9d44bbe188a2d969901ad15598a6e9b12780edb"
+    },
+    {
+      "index_zero_based": 34,
+      "cell_id": "e04fc5fd",
+      "source_sha256": "80db433f57dcb611388829902e2251b6386408d63cf0b2a4bdf084e927d32094"
+    },
+    {
+      "index_zero_based": 38,
+      "cell_id": "eb2fe5a2",
+      "source_sha256": "c39e4e5fb189fc71b3c3bd1692fc466f92d8c2c67878c28b9b3facad5dc11c55"
+    },
+    {
+      "index_zero_based": 45,
+      "cell_id": "ae3b4b8d",
+      "source_sha256": "9115ddbd3b746a6f27596c7a368db77af69185bb6b34d07d88d5b574ec566a59"
+    },
+    {
+      "index_zero_based": 48,
+      "cell_id": "b9ef55ee",
+      "source_sha256": "aa710bc0f6a1731549710a09e212d6f12ac03334e4b9f14c57dbf916af5f938a"
+    },
+    {
+      "index_zero_based": 52,
+      "cell_id": "0948ff10",
+      "source_sha256": "15994dc5f6c60a71c88c4058bd88257208f9019cbc7816db4e71045cde3373bd"
+    },
+    {
+      "index_zero_based": 56,
+      "cell_id": "625d03dd",
+      "source_sha256": "73ed2e1e13f0cb42fb78b5cb92ae729c4be280fdb74d3f07c4d41514fd8ac458"
+    }
+  ],
+  "source_copy": {
+    "access_date": "2026-10-08",
+    "archive_url": "https://syncandshare.lrz.de/dl/fi7RqQyyVyyUs1Gsvu7dHa/sba-loan-data.zip",
+    "archive_bytes": 45033868,
+    "inspection_method": "HTTP range requests; directory and dictionary only; CSV not downloaded",
+    "members": [
+      {
+        "name": "sba-loan-data/",
+        "compression": 0,
+        "crc32": 0,
+        "compressed_bytes": 0,
+        "uncompressed_bytes": 0,
+        "local_offset": 0
+      },
+      {
+        "name": "sba-loan-data/SBAnational.csv",
+        "compression": 8,
+        "crc32": 3193091652,
+        "compressed_bytes": 45017581,
+        "uncompressed_bytes": 179430516,
+        "local_offset": 44
+      },
+      {
+        "name": "sba-loan-data/SBA_Data_Documentation.docx",
+        "compression": 8,
+        "crc32": 3790436651,
+        "compressed_bytes": 15761,
+        "uncompressed_bytes": 18567,
+        "local_offset": 45017684
+      }
+    ],
+    "dictionary_sha256": "2425e0f035b9ef757eddbc0ec8275ae0f157d1eee4a26c722203dd30f3f356fd",
+    "full_archive_sha256": null,
+    "csv_sha256": null
+  },
+  "source_assertions": {
+    "documentation_observations": 899164,
+    "documentation_variables": 27,
+    "documentation_years": [
+      1987,
+      2014
+    ],
+    "counts_type": "dictionary-reported, not computed from CSV",
+    "resolved_outcome_selection": "confirmed by Li et al. 2018 section 3.3",
+    "precise_administrative_cutoff": null,
+    "mirror_csv_matches_publisher_bytes": null,
+    "article_license": "CC BY 4.0; verified publisher statement and Crossref vor record",
+    "mirror_dataset_license": null,
+    "lrz_terms_version": "1.7",
+    "lrz_terms_date": "2024-07-15",
+    "canonical_doi": "10.1080/10691898.2018.1434342",
+    "primary_sources": [
+      "https://doi.org/10.1080/10691898.2018.1434342",
+      "https://api.crossref.org/works/10.1080/10691898.2018.1434342",
+      "https://www.tandfonline.com/doi/pdf/10.1080/10691898.2018.1434342",
+      "https://www.tandfonline.com/doi/abs/10.1080/10691898.2018.1434342",
+      "https://syncandshare.lrz.de/tos"
+    ],
+    "supplement_page_fetch": "unavailable; no access restriction bypassed"
+  },
+  "execution": {
+    "csv_downloaded": false,
+    "full_archive_downloaded": false,
+    "existing_fetcher_executed": false,
+    "data_pipeline_executed": false,
+    "models_fitted": false,
+    "old_results_reproduced": false,
+    "protocol_written": false,
+    "gate2_started": false,
+    "paid_calls": 0,
+    "pushed": false,
+    "published": false
+  }
+}

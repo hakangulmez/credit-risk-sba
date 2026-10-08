@@ -1,0 +1,28 @@
+{
+  "operational_pilot_only": true,
+  "n_train": 10000,
+  "n_tune": 5000,
+  "total_seconds": 8.5543351250235,
+  "maximum_rss_bytes": 1618280448,
+  "mle": {
+    "converged": false,
+    "separation_flag": true,
+    "optimizer_success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "normalized_gradient": 1.1098095153167682e-07,
+    "iterations": 460,
+    "hessian_condition": 13409274162491.617,
+    "n": 10000,
+    "k": 104,
+    "clusters": 51,
+    "seconds": 0.22827708296244964
+  },
+  "elasticnet_seconds": [
+    0.006876542000100017,
+    7.723355541995261
+  ],
+  "lightgbm_seconds": [
+    0.38108808296965435
+  ],
+  "production_budgets_unchanged": true
+}

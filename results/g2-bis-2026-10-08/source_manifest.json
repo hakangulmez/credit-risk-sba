@@ -1,0 +1,114 @@
+{
+  "existing_macro_manifest_sha256": "27d9f60227724f70ce628b770f347bcd2af5f89cb3835d42d62743f9075dcd34",
+  "frozen_unemployment_sha256": "91ba39d36d80480afc3b0c1432013ec72eb1eee5a5233bc0d09f7d8de45a3f36",
+  "frozen_FHFA_sha256": "b6bf3687c230c2ad008657fdb0c2b7489b5f99b6d1193f72c46c68d88df83d90",
+  "added_BLS_2017_rows": 612,
+  "additions": [
+    {
+      "file": "data/g2-bis-2026-10-08/macro/bls_2017_0.json",
+      "request": {
+        "seriesid": [
+          "LASST020000000000003",
+          "LASST010000000000003",
+          "LASST050000000000003",
+          "LASST040000000000003",
+          "LASST060000000000003",
+          "LASST080000000000003",
+          "LASST090000000000003",
+          "LASST110000000000003",
+          "LASST100000000000003",
+          "LASST120000000000003",
+          "LASST130000000000003",
+          "LASST150000000000003",
+          "LASST190000000000003",
+          "LASST160000000000003",
+          "LASST170000000000003",
+          "LASST180000000000003",
+          "LASST200000000000003",
+          "LASST210000000000003",
+          "LASST220000000000003",
+          "LASST250000000000003",
+          "LASST240000000000003",
+          "LASST230000000000003",
+          "LASST260000000000003",
+          "LASST270000000000003",
+          "LASST290000000000003"
+        ],
+        "startyear": "2017",
+        "endyear": "2017"
+      },
+      "sha256": "60f43b7a402c60f16065a8f00ec9d85f3bd6cdd9de42641cacaec82af1034ca1",
+      "bytes": 26487,
+      "retrieval": {
+        "retrieved_at": "2026-10-08T11:16:44.363812+00:00",
+        "bytes": 26487,
+        "sha256": "60f43b7a402c60f16065a8f00ec9d85f3bd6cdd9de42641cacaec82af1034ca1"
+      },
+      "messages": []
+    },
+    {
+      "file": "data/g2-bis-2026-10-08/macro/bls_2017_1.json",
+      "request": {
+        "seriesid": [
+          "LASST280000000000003",
+          "LASST300000000000003",
+          "LASST370000000000003",
+          "LASST380000000000003",
+          "LASST310000000000003",
+          "LASST330000000000003",
+          "LASST340000000000003",
+          "LASST350000000000003",
+          "LASST320000000000003",
+          "LASST360000000000003",
+          "LASST390000000000003",
+          "LASST400000000000003",
+          "LASST410000000000003",
+          "LASST420000000000003",
+          "LASST440000000000003",
+          "LASST450000000000003",
+          "LASST460000000000003",
+          "LASST470000000000003",
+          "LASST480000000000003",
+          "LASST490000000000003",
+          "LASST510000000000003",
+          "LASST500000000000003",
+          "LASST530000000000003",
+          "LASST550000000000003",
+          "LASST540000000000003"
+        ],
+        "startyear": "2017",
+        "endyear": "2017"
+      },
+      "sha256": "39113075ba948ec83bb74aa4804dcc016832552fdc26878efb9def5a6b64b34c",
+      "bytes": 26487,
+      "retrieval": {
+        "retrieved_at": "2026-10-08T11:16:44.818677+00:00",
+        "bytes": 26487,
+        "sha256": "39113075ba948ec83bb74aa4804dcc016832552fdc26878efb9def5a6b64b34c"
+      },
+      "messages": []
+    },
+    {
+      "file": "data/g2-bis-2026-10-08/macro/bls_2017_2.json",
+      "request": {
+        "seriesid": [
+          "LASST560000000000003"
+        ],
+        "startyear": "2017",
+        "endyear": "2017"
+      },
+      "sha256": "7ea6f2106452ea8ae69063a008b1f7325f4f9737365cf94d0fc9937fc29dcbcb",
+      "bytes": 1142,
+      "retrieval": {
+        "retrieved_at": "2026-10-08T11:16:45.145609+00:00",
+        "bytes": 1142,
+        "sha256": "7ea6f2106452ea8ae69063a008b1f7325f4f9737365cf94d0fc9937fc29dcbcb"
+      },
+      "messages": []
+    }
+  ],
+  "frozen_observations_unchanged": true,
+  "revision_vintage_qualification": "2017 levels were retrieved separately on the stated dates from revised BLS data. Earlier frozen observations are never replaced; this is a mixed retrieval vintage, not a historical real-time vintage.",
+  "FHFA_refresh": false,
+  "FRED_acquisition": false
+}

@@ -1,0 +1,19 @@
+{
+  "tests_passed": 52,
+  "package_coverage_percent": 93.67521367521367,
+  "statistical_core_files": [
+    "data.py",
+    "features.py",
+    "losses.py",
+    "macro.py",
+    "metrics.py",
+    "models.py",
+    "stress.py"
+  ],
+  "statistical_core_coverage_percent": 96.57444005270092,
+  "lint": "passed",
+  "mypy": "passed",
+  "primary_fit_failures_are_statistical_not_ignored_test_failures": true,
+  "synthetic_only_ci": true,
+  "remote_ci_not_run_no_push": true
+}

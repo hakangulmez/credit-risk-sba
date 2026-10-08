@@ -1,0 +1,4554 @@
+[
+  {
+    "id": "N20853cf1dc5ab9",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "Nc8cfbf6e736a93",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,961,455"
+  },
+  {
+    "id": "Nbc49ed1db7579a",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "N2da3edaf5d49a3",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,961,455"
+  },
+  {
+    "id": "Naa71288fa733e4",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "263,913"
+  },
+  {
+    "id": "N5f6702ea0b9bea",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,697,542"
+  },
+  {
+    "id": "N42e63f269004bc",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "N748cb14713c41c",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,697,542"
+  },
+  {
+    "id": "N0fd894c9db220d",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,795"
+  },
+  {
+    "id": "N370cf2787bd592",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,695,747"
+  },
+  {
+    "id": "N47be2a3c3bfc9a",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "160,527"
+  },
+  {
+    "id": "Ndb2680239e30df",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,535,220"
+  },
+  {
+    "id": "N75bb44c8906709",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1"
+  },
+  {
+    "id": "N75c90dc2a3b0df",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,535,219"
+  },
+  {
+    "id": "N23c2e942c53cd7",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "18,730"
+  },
+  {
+    "id": "Ncdda7719e65979",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,516,489"
+  },
+  {
+    "id": "N1fd9b516a4ca5a",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,637"
+  },
+  {
+    "id": "N9b5379ed52e078",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,514,852"
+  },
+  {
+    "id": "N0981f840e411a7",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "405,443"
+  },
+  {
+    "id": "Na81336dd1f2927",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "14,003"
+  },
+  {
+    "id": "N1413c5ab247785",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "391,440"
+  },
+  {
+    "id": "N993bd56ded1a66",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "Nb111ece86550cc",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "181,311"
+  },
+  {
+    "id": "Nd63c9b8a0a0132",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "22,212"
+  },
+  {
+    "id": "Nedaa0543dec940",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "159,099"
+  },
+  {
+    "id": "Neb23c3d114f3ed",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "Ndceb595874da86",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "120,002"
+  },
+  {
+    "id": "N127fb6d91593d0",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,787"
+  },
+  {
+    "id": "N5da82be6fd7ae9",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "118,215"
+  },
+  {
+    "id": "N4dc53803e92ac4",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "N4120f01ae9fa0f",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "888,703"
+  },
+  {
+    "id": "N1e5932bf095d1c",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "55,088"
+  },
+  {
+    "id": "Nd21de500c299c6",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "833,615"
+  },
+  {
+    "id": "N0291bfef948bdd",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "N28ba12bde84907",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "41,200"
+  },
+  {
+    "id": "N65da9618199cb1",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "918"
+  },
+  {
+    "id": "N2f9c87ea839d8e",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "40,282"
+  },
+  {
+    "id": "N356cd7232d91af",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "Nd4b082837b88a4",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "87,156"
+  },
+  {
+    "id": "N34dc30d83de24c",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,289"
+  },
+  {
+    "id": "N007e5b1cb0f648",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "85,867"
+  },
+  {
+    "id": "Na08b3d53abd8b0",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "N89e60f19452d24",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "89,002"
+  },
+  {
+    "id": "N5a62991be045af",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "8,428"
+  },
+  {
+    "id": "N595c0f605a5448",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "80,574"
+  },
+  {
+    "id": "N0b0cb80fc51863",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "N24176f6c38cb31",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "31,955"
+  },
+  {
+    "id": "N5e82b6aae109c9",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,426"
+  },
+  {
+    "id": "N019e6f94a1bcae",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "30,529"
+  },
+  {
+    "id": "Naca4d8666731a6",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "N9f03a9b8e4b9e7",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.607 [0.587, 0.626]"
+  },
+  {
+    "id": "Nb404e7cb68f3ec",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.152 [0.124, 0.178]"
+  },
+  {
+    "id": "Nde2200c5b45dfd",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.113 [0.090, 0.134]"
+  },
+  {
+    "id": "N8d9852d435f5a3",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.73"
+  },
+  {
+    "id": "N5b982a8342fccf",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "12.25"
+  },
+  {
+    "id": "N807627241208aa",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.965 [-1.263, -0.688]"
+  },
+  {
+    "id": "N3e3a57a63c1964",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.314 [0.256, 0.368]"
+  },
+  {
+    "id": "Na4428ea2199ea6",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.618 [0.598, 0.635]"
+  },
+  {
+    "id": "N42643ba6ef5e92",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.153 [0.126, 0.178]"
+  },
+  {
+    "id": "Nb5d4f904f952ff",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.111 [0.089, 0.132]"
+  },
+  {
+    "id": "N05853fe8769281",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.70"
+  },
+  {
+    "id": "N2dbe25013dfb3d",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "12.25"
+  },
+  {
+    "id": "Ne340640eef267b",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.634 [-0.939, -0.335]"
+  },
+  {
+    "id": "Na3255642365af4",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.440 [0.372, 0.505]"
+  },
+  {
+    "id": "Neecf1864a9bbc6",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.618 [0.598, 0.635]"
+  },
+  {
+    "id": "N133022f3ddcd3a",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.153 [0.126, 0.178]"
+  },
+  {
+    "id": "Ne65b51a6514ac7",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.111 [0.088, 0.132]"
+  },
+  {
+    "id": "Nfe6e5362c0a179",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.53"
+  },
+  {
+    "id": "Na9f0a2f408c3a0",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "12.25"
+  },
+  {
+    "id": "Nb3afa3d59d6d7e",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.384 [-0.714, -0.059]"
+  },
+  {
+    "id": "N207f62c700c3c3",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.532 [0.450, 0.610]"
+  },
+  {
+    "id": "Nf414c9153ea78b",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.617 [0.599, 0.634]"
+  },
+  {
+    "id": "Nd14f8a013fa940",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.159 [0.132, 0.187]"
+  },
+  {
+    "id": "N5e38bf2d44e7a0",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.112 [0.089, 0.133]"
+  },
+  {
+    "id": "N579f6b0f8eac83",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.57"
+  },
+  {
+    "id": "N1df93fa690beb6",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "12.25"
+  },
+  {
+    "id": "Nea6e8bd463fa37",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.795 [-1.080, -0.474]"
+  },
+  {
+    "id": "Na6d7dd45d568d0",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.371 [0.311, 0.440]"
+  },
+  {
+    "id": "Ne62f7539eca388",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.617 [0.599, 0.634]"
+  },
+  {
+    "id": "N6f0434ee21563b",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.159 [0.132, 0.187]"
+  },
+  {
+    "id": "N13d14992cab946",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.111 [0.088, 0.132]"
+  },
+  {
+    "id": "N66a93f53c69c24",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.61"
+  },
+  {
+    "id": "N7b24192f126726",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "12.25"
+  },
+  {
+    "id": "N087f01e44784a3",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.481 [-0.796, -0.121]"
+  },
+  {
+    "id": "Nfe083e0ea36ac4",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.499 [0.419, 0.591]"
+  },
+  {
+    "id": "N6f79fba978c544",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.666 [0.638, 0.691]"
+  },
+  {
+    "id": "Nf919c4a2857381",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.027 [0.024, 0.031]"
+  },
+  {
+    "id": "Nbc9846522313d9",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.019 [0.017, 0.020]"
+  },
+  {
+    "id": "N49c537150442cb",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.50"
+  },
+  {
+    "id": "N22e2dd3c5958fe",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.49"
+  },
+  {
+    "id": "N83b85148959b35",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-2.666 [-2.918, -2.440]"
+  },
+  {
+    "id": "Na2a1b58ae01909",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.450 [0.377, 0.518]"
+  },
+  {
+    "id": "Ndd7126bc210ba3",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.689 [0.661, 0.714]"
+  },
+  {
+    "id": "N85727d6678ebb8",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.029 [0.025, 0.033]"
+  },
+  {
+    "id": "Nd180bbde71aee7",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.017 [0.015, 0.018]"
+  },
+  {
+    "id": "N30d4d7641be63d",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.49"
+  },
+  {
+    "id": "N31edc3013eb3a4",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.49"
+  },
+  {
+    "id": "Nc26e8c77ba46c2",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-2.096 [-2.396, -1.788]"
+  },
+  {
+    "id": "N01593c342aea16",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.660 [0.570, 0.755]"
+  },
+  {
+    "id": "Nc6cb29062f5e72",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.689 [0.661, 0.714]"
+  },
+  {
+    "id": "N5334379e0aa86c",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.029 [0.025, 0.033]"
+  },
+  {
+    "id": "Nf3d070cc3af3b6",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.016 [0.015, 0.017]"
+  },
+  {
+    "id": "N284e612f0e775d",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.49"
+  },
+  {
+    "id": "N78ac8f6a6527bf",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.49"
+  },
+  {
+    "id": "Nf11cf4d42ea54d",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-1.721 [-2.067, -1.358]"
+  },
+  {
+    "id": "N0365964cb2a33d",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.798 [0.688, 0.912]"
+  },
+  {
+    "id": "Nc0bae98fd3143e",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.694 [0.667, 0.720]"
+  },
+  {
+    "id": "N1fbc8dd262805f",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.028 [0.024, 0.033]"
+  },
+  {
+    "id": "Nab3a99a9d1403a",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.018 [0.016, 0.019]"
+  },
+  {
+    "id": "Nbd13ca756a471b",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.44"
+  },
+  {
+    "id": "Nfcc0c0e650255c",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.49"
+  },
+  {
+    "id": "N525c0091ebe2b0",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-2.349 [-2.635, -2.067]"
+  },
+  {
+    "id": "N0f304eebd61cdb",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.558 [0.478, 0.625]"
+  },
+  {
+    "id": "N72c0a734bd9f73",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.694 [0.667, 0.720]"
+  },
+  {
+    "id": "N3a9b00ca4a3cc6",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.028 [0.024, 0.033]"
+  },
+  {
+    "id": "Nc4e44f798a88fc",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.017 [0.015, 0.018]"
+  },
+  {
+    "id": "Nc098ae4bdfd3da",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.63"
+  },
+  {
+    "id": "Nb70feccfb8c275",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.49"
+  },
+  {
+    "id": "Ndb901ddb7ba07c",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-1.877 [-2.232, -1.539]"
+  },
+  {
+    "id": "N16d3725f741ed8",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.750 [0.643, 0.840]"
+  },
+  {
+    "id": "Nd706e2094c5e09",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.667 [0.635, 0.691]"
+  },
+  {
+    "id": "N41b5ef2066d1ee",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.027 [0.022, 0.031]"
+  },
+  {
+    "id": "N578202ccfe109a",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.015 [0.013, 0.016]"
+  },
+  {
+    "id": "N244e456120043a",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.80"
+  },
+  {
+    "id": "Nbc91e4ca98d236",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.48"
+  },
+  {
+    "id": "Nb06a7a1e59ab95",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-1.226 [-1.805, -0.772]"
+  },
+  {
+    "id": "N34f5519c69a13a",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.830 [0.681, 0.945]"
+  },
+  {
+    "id": "N56ff69eac76681",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.710 [0.679, 0.736]"
+  },
+  {
+    "id": "N13cd7152bd3cb0",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.031 [0.026, 0.036]"
+  },
+  {
+    "id": "Nb4813dd7c30226",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.015 [0.013, 0.016]"
+  },
+  {
+    "id": "N5561f23da555ad",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.64"
+  },
+  {
+    "id": "N6fd7435ad99f35",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.48"
+  },
+  {
+    "id": "N639cb2ad26a1f8",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.873 [-1.239, -0.587]"
+  },
+  {
+    "id": "Nddb51b4bd1188b",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.918 [0.833, 0.992]"
+  },
+  {
+    "id": "N147c37b71fd8ae",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.710 [0.679, 0.736]"
+  },
+  {
+    "id": "Nee94e89fcdd3ee",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.031 [0.026, 0.036]"
+  },
+  {
+    "id": "N463b0f5ca9a5a0",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.014 [0.013, 0.016]"
+  },
+  {
+    "id": "Ndc9a8338cfceaf",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.51"
+  },
+  {
+    "id": "Ne70caeacd606a8",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.48"
+  },
+  {
+    "id": "N9effc87e5151ba",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.431 [-0.835, -0.112]"
+  },
+  {
+    "id": "Ne0b15147e6a4b0",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.894 [0.812, 0.967]"
+  },
+  {
+    "id": "N8650138597f873",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "5.16 [4.61, 5.79]"
+  },
+  {
+    "id": "Ne2267a072204c1",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "215.58 [194.85, 234.99]"
+  },
+  {
+    "id": "N57a02a19520504",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "135.38 [123.96, 146.81]"
+  },
+  {
+    "id": "N88ef103fa3874d",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "80.20 [70.79, 88.69]"
+  },
+  {
+    "id": "Na71ec3da674c39",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.67 [1.51, 1.83]"
+  },
+  {
+    "id": "Nb4b1aa9f09e220",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "12.78 [12.46, 13.34]"
+  },
+  {
+    "id": "Nde151c730b3a97",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "572.87 [528.21, 620.28]"
+  },
+  {
+    "id": "N46cdc99b7dd6b9",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "360.71 [328.19, 393.90]"
+  },
+  {
+    "id": "N1bfe104484281e",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "212.16 [199.49, 227.03]"
+  },
+  {
+    "id": "N7fe1102688963a",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "4.45 [4.10, 4.82]"
+  },
+  {
+    "id": "Nf7dd6ccc2d5232",
+    "scale": 1,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "7.62 [6.77, 8.62]"
+  },
+  {
+    "id": "N02244f98698985",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "357.30 [304.86, 411.90]"
+  },
+  {
+    "id": "Nd4473b2ee7b4a4",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "225.33 [189.40, 261.74]"
+  },
+  {
+    "id": "N14ea5b5bec6e9f",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "131.96 [114.46, 151.14]"
+  },
+  {
+    "id": "Nccf90c54643a4c",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.535 [0.266, 0.772]"
+  },
+  {
+    "id": "N56fcbc9a1e699b",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.679 [0.439, 0.933]"
+  },
+  {
+    "id": "Nde151c730b3a97",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "572.9 [528.2, 620.3]"
+  },
+  {
+    "id": "Na1909bf4609938",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "568.4 [524.0, 615.6]"
+  },
+  {
+    "id": "Nddd6037fdc8feb",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "612.6 [561.1, 666.3]"
+  },
+  {
+    "id": "N4fd13dbad5abf9",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "555.4 [516.3, 603.1]"
+  },
+  {
+    "id": "Nd8d7bf4c57973d",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "550.8 [512.0, 598.2]"
+  },
+  {
+    "id": "N6e2cdac2498bd9",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "584.6 [541.7, 636.5]"
+  },
+  {
+    "id": "Nff1c46fbfa425a",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "576.0 [531.3, 622.3]"
+  },
+  {
+    "id": "N3f423f0ef8cc19",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "571.6 [527.2, 617.6]"
+  },
+  {
+    "id": "Nb26eb9546f3a16",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "616.1 [564.8, 668.8]"
+  },
+  {
+    "id": "N5c6fb7ec6b8b8d",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "N388dde68a8b87c",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.00"
+  },
+  {
+    "id": "Nc4773ddeaab334",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.00"
+  },
+  {
+    "id": "Nd01debe8eb033d",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "N9e9df51e6bbbfe",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.00"
+  },
+  {
+    "id": "Nc105dc22a56c73",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.00"
+  },
+  {
+    "id": "Nee3aaec7d017e1",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "990"
+  },
+  {
+    "id": "Nffd0062d202f48",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.11"
+  },
+  {
+    "id": "Nc3fdeaa66e8192",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "99.55"
+  },
+  {
+    "id": "N2be6949849b5f5",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "N3bd463d5ecfd07",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.00"
+  },
+  {
+    "id": "N31b90e2af722ae",
+    "scale": 1e-06,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.00"
+  },
+  {
+    "id": "N7a18024e7d5d1a",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "217,195"
+  },
+  {
+    "id": "Na3c0f1b49cccac",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "216,172"
+  },
+  {
+    "id": "N4a018ff4ba8b36",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "1,023"
+  },
+  {
+    "id": "Nd12a607c2ac701",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.66"
+  },
+  {
+    "id": "N97476df352cb5b",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "151,175"
+  },
+  {
+    "id": "N7151c27af58a1a",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "1,151,100"
+  },
+  {
+    "id": "N3f559c8036095e",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "1,150,806"
+  },
+  {
+    "id": "Nbbe08783ab11f5",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "294"
+  },
+  {
+    "id": "N7afcae84e5181e",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "14.45"
+  },
+  {
+    "id": "N8585d1295c8865",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "0"
+  },
+  {
+    "id": "N8073d25bc2a4a9",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "96"
+  },
+  {
+    "id": "N46898be1c50bcf",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "93"
+  },
+  {
+    "id": "N9179db3001a057",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "50"
+  },
+  {
+    "id": "N85aadc1d30f33c",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "98"
+  },
+  {
+    "id": "N18b229bf7c0ecb",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "94"
+  },
+  {
+    "id": "N68d336cffeb0ef",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "50"
+  },
+  {
+    "id": "Nf6e4417a21c29d",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "115"
+  },
+  {
+    "id": "N815f4e90639fac",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "107"
+  },
+  {
+    "id": "N18e84014532147",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "50"
+  },
+  {
+    "id": "Ndf1a56993c40b3",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "117"
+  },
+  {
+    "id": "Nf5edf92f45942d",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "108"
+  },
+  {
+    "id": "Nf67772c58ea0e2",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "50"
+  },
+  {
+    "id": "Nea1216d99ba699",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "115"
+  },
+  {
+    "id": "Naeaf13b03d0c11",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "107"
+  },
+  {
+    "id": "N3a145ef8bfb323",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "50"
+  },
+  {
+    "id": "N5f2957a687aab3",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.444 [-0.519, -0.392]"
+  },
+  {
+    "id": "Nd6859d9092223f",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.174 [-0.235, -0.127]"
+  },
+  {
+    "id": "N3127030b5ac1db",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.015 [-0.082, 0.047]"
+  },
+  {
+    "id": "N8c2ab28a0162a1",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.315 [-0.370, -0.248]"
+  },
+  {
+    "id": "Nf62ac55db90897",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.034 [-0.066, 0.157]"
+  },
+  {
+    "id": "N7bf1337cf5145f",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.069 [0.050, 0.086]"
+  },
+  {
+    "id": "Nd3331a184917c6",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.090 [-0.191, 0.006]"
+  },
+  {
+    "id": "Ne463269bd656cc",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.152 [0.078, 0.213]"
+  },
+  {
+    "id": "N91edee57ed05a9",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.157 [-0.180, -0.124]"
+  },
+  {
+    "id": "N6387bbb6166a89",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.213 [-0.291, -0.170]"
+  },
+  {
+    "id": "Nd0b1815f98dbc5",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.040 [-0.035, 0.110]"
+  },
+  {
+    "id": "N333c07f4033605",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.314 [-0.369, -0.247]"
+  },
+  {
+    "id": "N30f75d92fa17ed",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.028 [-0.070, 0.148]"
+  },
+  {
+    "id": "Nd415288cb7847d",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.068 [0.049, 0.086]"
+  },
+  {
+    "id": "Nff9b14d1eff867",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.162 [0.103, 0.218]"
+  },
+  {
+    "id": "N395b849aa6ecfe",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "31,377"
+  },
+  {
+    "id": "Nbbdc7b6e14ecd3",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "-inf"
+  },
+  {
+    "id": "N10c397fe335153",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.03"
+  },
+  {
+    "id": "N9044d0d913ef84",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.70"
+  },
+  {
+    "id": "N1d1baf054f7f2f",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "5.22 [4.22, 6.20]"
+  },
+  {
+    "id": "N0b7dc1df380ce4",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "16,171"
+  },
+  {
+    "id": "N1df67c6ddccd82",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.03"
+  },
+  {
+    "id": "N8fd5d5bcd56866",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.37"
+  },
+  {
+    "id": "N4ea5db4de25943",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.20"
+  },
+  {
+    "id": "N8bad9ece8bf4f6",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "8.60 [6.51, 10.37]"
+  },
+  {
+    "id": "N7634d2259b89ee",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "12,543"
+  },
+  {
+    "id": "N6d85aa8a03c726",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.37"
+  },
+  {
+    "id": "N230decc4f18ccb",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.70"
+  },
+  {
+    "id": "N5f7acd06342cc5",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.53"
+  },
+  {
+    "id": "Nedb356add2adb3",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "9.46 [6.95, 11.82]"
+  },
+  {
+    "id": "N171896c5c9c44c",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "10,090"
+  },
+  {
+    "id": "Nccbde37a80a826",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.70"
+  },
+  {
+    "id": "N6077e86f732c66",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.06"
+  },
+  {
+    "id": "N885739f2e5bb11",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.87"
+  },
+  {
+    "id": "Nc6bb07199a88a2",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "10.03 [7.30, 12.60]"
+  },
+  {
+    "id": "N8f0f33e043db19",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "8,824"
+  },
+  {
+    "id": "Nc9b315ca11f09d",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.06"
+  },
+  {
+    "id": "N1ea02df1382d56",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.48"
+  },
+  {
+    "id": "N7fc0ca91613a82",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.26"
+  },
+  {
+    "id": "N67f18e76a97f08",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "11.02 [8.40, 13.51]"
+  },
+  {
+    "id": "Ndae4068bd895a3",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "8,290"
+  },
+  {
+    "id": "N4aa6262746097e",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.48"
+  },
+  {
+    "id": "Nebdf2fc37e1920",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.03"
+  },
+  {
+    "id": "Nafd27e6eccf441",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.74"
+  },
+  {
+    "id": "N6ca378d34f5af1",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "11.59 [9.11, 14.12]"
+  },
+  {
+    "id": "N1acf700b24cf52",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "8,624"
+  },
+  {
+    "id": "N72831cb45e24f4",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.03"
+  },
+  {
+    "id": "N5ca27fea401117",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.81"
+  },
+  {
+    "id": "N1fd8ce2bf6719b",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.40"
+  },
+  {
+    "id": "N5b68dbcb65c772",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "13.18 [10.83, 15.56]"
+  },
+  {
+    "id": "N8bfacabe7c1628",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "11,130"
+  },
+  {
+    "id": "N3d1a0709f7b0bf",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.81"
+  },
+  {
+    "id": "N98e0917f6da70d",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.97"
+  },
+  {
+    "id": "Ndad52be658111c",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.39"
+  },
+  {
+    "id": "N247bc34f7e153b",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "14.94 [11.43, 18.32]"
+  },
+  {
+    "id": "N4733c37b4ade17",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "19,353"
+  },
+  {
+    "id": "N12ed13322c9a2d",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.97"
+  },
+  {
+    "id": "N31ab43c309d471",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "7.10"
+  },
+  {
+    "id": "Nfece26f5c2f5d2",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "6.02"
+  },
+  {
+    "id": "Naacd5357c61b4b",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "16.72 [13.08, 20.00]"
+  },
+  {
+    "id": "Nbe20c193a55b53",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "54,909"
+  },
+  {
+    "id": "N1f2332991be6d7",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "7.10"
+  },
+  {
+    "id": "N83771ae053d409",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "inf"
+  },
+  {
+    "id": "N5c4e9b68430987",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "13.16"
+  },
+  {
+    "id": "Nf23b0857a0e39d",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "16.42 [13.19, 19.34]"
+  },
+  {
+    "id": "N33956520cd176e",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "33,943"
+  },
+  {
+    "id": "Nb85737b5c077dc",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "-inf"
+  },
+  {
+    "id": "N679b7a52805c4b",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.03"
+  },
+  {
+    "id": "N477b2182df3ac2",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.66"
+  },
+  {
+    "id": "N5d43ec801491e0",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "0.59 [0.47, 0.72]"
+  },
+  {
+    "id": "N8028e31a0fde79",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "13,447"
+  },
+  {
+    "id": "N1fd88e0ad0ff6c",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.03"
+  },
+  {
+    "id": "Nd8c8abcb2ffa29",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.37"
+  },
+  {
+    "id": "N035dc329183b68",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.19"
+  },
+  {
+    "id": "N7e795622d3cf13",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "0.96 [0.77, 1.19]"
+  },
+  {
+    "id": "N9447b79331d342",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "9,097"
+  },
+  {
+    "id": "Necd0f635542a07",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.37"
+  },
+  {
+    "id": "N1741555e542ab3",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.70"
+  },
+  {
+    "id": "N11d123cf32d6cb",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.53"
+  },
+  {
+    "id": "N65c169df4955b0",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.14 [0.92, 1.37]"
+  },
+  {
+    "id": "N5bb84cc4f901c5",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "6,780"
+  },
+  {
+    "id": "N27f8e05cb3ea41",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.70"
+  },
+  {
+    "id": "N87a8bbdccb35ce",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.06"
+  },
+  {
+    "id": "Nc6d508ca8b3302",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.87"
+  },
+  {
+    "id": "N96ae4b63c09c46",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.15 [0.94, 1.42]"
+  },
+  {
+    "id": "N407e60571250cc",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "5,490"
+  },
+  {
+    "id": "N9a701b7ab7d505",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.06"
+  },
+  {
+    "id": "N505322720c2c9c",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.48"
+  },
+  {
+    "id": "Nf37ab1fc64eed6",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.25"
+  },
+  {
+    "id": "Nd114ef406bc845",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.38 [1.09, 1.71]"
+  },
+  {
+    "id": "N7cb4fdfa5aadf9",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "4,725"
+  },
+  {
+    "id": "N1f31f757eaae8f",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.48"
+  },
+  {
+    "id": "N0e9e385cc60197",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.03"
+  },
+  {
+    "id": "N92b84449839c1a",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.74"
+  },
+  {
+    "id": "N5c1901c89555ed",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.31 [1.00, 1.68]"
+  },
+  {
+    "id": "N6e9abafdbcb9ff",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "4,819"
+  },
+  {
+    "id": "Nff4e532dcafefe",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.03"
+  },
+  {
+    "id": "Nfe191519dff1dc",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.81"
+  },
+  {
+    "id": "N3d511bfe2fa2b0",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.40"
+  },
+  {
+    "id": "N1a276a378588c8",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.70 [1.31, 2.08]"
+  },
+  {
+    "id": "N13880b1b63ec9e",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "6,398"
+  },
+  {
+    "id": "N6a640b8283aef6",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.81"
+  },
+  {
+    "id": "N0d7f631275dbda",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.97"
+  },
+  {
+    "id": "N13e33a38e4bbe7",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.38"
+  },
+  {
+    "id": "Nf2fba8a5131b1d",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.73 [1.34, 2.10]"
+  },
+  {
+    "id": "N89ea8f920464be",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "10,525"
+  },
+  {
+    "id": "N8638796cccec2d",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.97"
+  },
+  {
+    "id": "Ndb98a87e09c253",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "7.10"
+  },
+  {
+    "id": "N52f112ff3db6d7",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "6.00"
+  },
+  {
+    "id": "Na95acbf2ff309d",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "2.05 [1.74, 2.36]"
+  },
+  {
+    "id": "N95e40c876185aa",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "24,778"
+  },
+  {
+    "id": "Nbe415a0e7194f6",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "7.10"
+  },
+  {
+    "id": "N0a048a714da965",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "inf"
+  },
+  {
+    "id": "N4ff5496be37362",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "13.82"
+  },
+  {
+    "id": "N690577e08fce54",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "2.94 [2.53, 3.34]"
+  },
+  {
+    "id": "N3fd47a78b140b7",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "24,535"
+  },
+  {
+    "id": "N26fd93c42b3484",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "-inf"
+  },
+  {
+    "id": "Nd195e15117cf8c",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.40"
+  },
+  {
+    "id": "N6c7c100cebb245",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.89"
+  },
+  {
+    "id": "N6ba9798a752579",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "0.53 [0.43, 0.67]"
+  },
+  {
+    "id": "N594d9bdcdb5874",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "12,067"
+  },
+  {
+    "id": "N8a6cf434e6a9bb",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.40"
+  },
+  {
+    "id": "Nfca091f985342b",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.95"
+  },
+  {
+    "id": "Nea7658cd362313",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.66"
+  },
+  {
+    "id": "N7545a7f00d6ad7",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.05 [0.86, 1.25]"
+  },
+  {
+    "id": "Nd700b4f038c954",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "10,790"
+  },
+  {
+    "id": "Nfe9ae6389bcb34",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.95"
+  },
+  {
+    "id": "Nc0a513c3ea681d",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.53"
+  },
+  {
+    "id": "N62a533ddd8a9c5",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.24"
+  },
+  {
+    "id": "N6cf5ae98b80ef7",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.28 [1.04, 1.50]"
+  },
+  {
+    "id": "N45a6f4b84b97d8",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "10,228"
+  },
+  {
+    "id": "N850c642014f034",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.53"
+  },
+  {
+    "id": "Neb8044a6010f52",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.22"
+  },
+  {
+    "id": "Ncdfc82ed79c73a",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.87"
+  },
+  {
+    "id": "N92ea496bbb9cbf",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.53 [1.28, 1.72]"
+  },
+  {
+    "id": "Na372f8d3bbaa1e",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "9,714"
+  },
+  {
+    "id": "N000b2372dddf8e",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.22"
+  },
+  {
+    "id": "Nd533ec2044f9f2",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.03"
+  },
+  {
+    "id": "Nc6fddca5cbb587",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.61"
+  },
+  {
+    "id": "N6b56a073090c83",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "2.07 [1.57, 2.48]"
+  },
+  {
+    "id": "N66cb6f33c32521",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "8,740"
+  },
+  {
+    "id": "N362c38e1fb7734",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.03"
+  },
+  {
+    "id": "N8278f681c70f2f",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.10"
+  },
+  {
+    "id": "Neadc42957e6be6",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.52"
+  },
+  {
+    "id": "N72474eba93655e",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "2.17 [1.69, 2.62]"
+  },
+  {
+    "id": "Nfc4b3e5a103a26",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "6,411"
+  },
+  {
+    "id": "N55e67832679b59",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.10"
+  },
+  {
+    "id": "N072e460caafc72",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "6.55"
+  },
+  {
+    "id": "Nbbe141dade32a5",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.73"
+  },
+  {
+    "id": "Nffe9a2d5304933",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "2.89 [2.19, 3.56]"
+  },
+  {
+    "id": "N777bd473498816",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "3,773"
+  },
+  {
+    "id": "Nd0ed9ad88f0c8d",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "6.55"
+  },
+  {
+    "id": "N4e647e8e421f41",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "8.85"
+  },
+  {
+    "id": "N36ec9577078c23",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "7.42"
+  },
+  {
+    "id": "N5b5034013b0c60",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "3.45 [2.81, 4.02]"
+  },
+  {
+    "id": "N95685d972dcbc8",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "876"
+  },
+  {
+    "id": "N73faeb769a578f",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "8.85"
+  },
+  {
+    "id": "N1699a252bfccc3",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "13.70"
+  },
+  {
+    "id": "N7fc75e557d3823",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "10.09"
+  },
+  {
+    "id": "Nf6beaa8838e9a2",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "3.54 [2.13, 4.60]"
+  },
+  {
+    "id": "Nafbaa4b716188f",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "22"
+  },
+  {
+    "id": "Ndd09a2ad74193e",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "13.70"
+  },
+  {
+    "id": "N3a797c3990ee4c",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "inf"
+  },
+  {
+    "id": "N163dd6340a24e9",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "15.76"
+  },
+  {
+    "id": "N2a6585389722b5",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "0.00 [0.00, 0.00]"
+  },
+  {
+    "id": "N9659cff4ed3db2",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "23,805"
+  },
+  {
+    "id": "N5aae12239455c9",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "-inf"
+  },
+  {
+    "id": "N424a016758b802",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.54"
+  },
+  {
+    "id": "Nbcae5418525e00",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.30"
+  },
+  {
+    "id": "Nfbe07b09f73e3b",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "0.32 [0.25, 0.41]"
+  },
+  {
+    "id": "N675b126f8d7789",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "10,188"
+  },
+  {
+    "id": "Nf930a55fe720d5",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.54"
+  },
+  {
+    "id": "N21ea100a9b3ef2",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.86"
+  },
+  {
+    "id": "N351bbaa8968226",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.69"
+  },
+  {
+    "id": "N0019ee78003e00",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "0.80 [0.60, 0.97]"
+  },
+  {
+    "id": "N509aa9bf5e0cd3",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "10,346"
+  },
+  {
+    "id": "Nfc850848fa045a",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.86"
+  },
+  {
+    "id": "N55b5fde99c1c98",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.23"
+  },
+  {
+    "id": "Nf703e92f50a562",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.04"
+  },
+  {
+    "id": "N453d01fe6ec6cc",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.08 [0.88, 1.28]"
+  },
+  {
+    "id": "Nac965dcd0506b2",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "10,867"
+  },
+  {
+    "id": "N3c6fb0cc56b759",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.23"
+  },
+  {
+    "id": "N498903cb1e66c5",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.67"
+  },
+  {
+    "id": "N3f743ada3fc552",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.44"
+  },
+  {
+    "id": "Ncf1daa760bb949",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.52 [1.28, 1.76]"
+  },
+  {
+    "id": "N11ad23b1bde408",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "11,818"
+  },
+  {
+    "id": "N0e36037bf350f6",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.67"
+  },
+  {
+    "id": "N7b145a70bdd66c",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.21"
+  },
+  {
+    "id": "N5b9914e8b969cc",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.92"
+  },
+  {
+    "id": "Nf3ee788c0b9dd8",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "1.94 [1.69, 2.18]"
+  },
+  {
+    "id": "N396db5ac7be942",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "8,848"
+  },
+  {
+    "id": "N0d0ebd87e01b0a",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.21"
+  },
+  {
+    "id": "Nd2a73b1f72fcd2",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.89"
+  },
+  {
+    "id": "N7b32efe9a25e8d",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.52"
+  },
+  {
+    "id": "N1dafe83bdf0c60",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "2.42 [1.90, 2.88]"
+  },
+  {
+    "id": "Na97d3ee0c3662a",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "6,532"
+  },
+  {
+    "id": "Nc14bb9ed2765d7",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.89"
+  },
+  {
+    "id": "Na03bb68b17f1f7",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.83"
+  },
+  {
+    "id": "Ne41d35496a0926",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.30"
+  },
+  {
+    "id": "Nf2948c9dd6c88e",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "3.28 [2.56, 3.85]"
+  },
+  {
+    "id": "N8b5e0bda9a1d4f",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "3,393"
+  },
+  {
+    "id": "Nd1f54c7afd67f9",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "3.83"
+  },
+  {
+    "id": "N2f3120704cc20c",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.33"
+  },
+  {
+    "id": "N603ea7ffafa2ad",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.39"
+  },
+  {
+    "id": "N138eac49305df0",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "4.30 [3.32, 5.03]"
+  },
+  {
+    "id": "Nb6badd1be5977c",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "1,204"
+  },
+  {
+    "id": "Nf0be63c9e4e36f",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.33"
+  },
+  {
+    "id": "N5aa000e14abf39",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "8.79"
+  },
+  {
+    "id": "N7431e90143bb60",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "6.42"
+  },
+  {
+    "id": "Nd9d972b86d8e80",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "3.49 [2.44, 4.43]"
+  },
+  {
+    "id": "Na0278d31b91525",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "155"
+  },
+  {
+    "id": "Nc28e2d6ed2e39e",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "8.79"
+  },
+  {
+    "id": "N74b7309e19219e",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "inf"
+  },
+  {
+    "id": "N08df4340e58445",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "10.17"
+  },
+  {
+    "id": "N972696014ba9f9",
+    "scale": 100,
+    "digits": 2,
+    "interval": true,
+    "integer": false,
+    "display": "5.81 [2.41, 11.87]"
+  },
+  {
+    "id": "Nd6bbeb4be5cb1c",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "405,443"
+  },
+  {
+    "id": "N6bf5e60e16238c",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "405,443"
+  },
+  {
+    "id": "Nb19fc643bba6a3",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "100.00"
+  },
+  {
+    "id": "Nc9099d711d8c1b",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "888,703"
+  },
+  {
+    "id": "Ne7ddaeef1370e8",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "852,023"
+  },
+  {
+    "id": "N0b08d166c75ca8",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "95.87"
+  },
+  {
+    "id": "Meaa2d48e53cd26",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "199"
+  },
+  {
+    "id": "Mf0afc651bf41d4",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "196"
+  },
+  {
+    "id": "M700c61c2c14a41",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "3"
+  },
+  {
+    "id": "Me4aa07498f6010",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "199"
+  },
+  {
+    "id": "Ma97c281c7dd76f",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "196"
+  },
+  {
+    "id": "M4e581464348ddd",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "3"
+  },
+  {
+    "id": "M207c831c99ed6e",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "199"
+  },
+  {
+    "id": "M197a7c05e41e02",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "198"
+  },
+  {
+    "id": "Mb591d361b50ea7",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "1"
+  },
+  {
+    "id": "M0c0584ba807968",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "199"
+  },
+  {
+    "id": "Ma46fc893dd9b8c",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "197"
+  },
+  {
+    "id": "M163ad33c027d85",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "2"
+  },
+  {
+    "id": "M8ceab76eab8ad0",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "199"
+  },
+  {
+    "id": "M4a3c4b3398c15f",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "198"
+  },
+  {
+    "id": "M513038a87b054e",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": true,
+    "display": "1"
+  },
+  {
+    "id": "N0758ae76485ebc",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": false,
+    "display": "True"
+  },
+  {
+    "id": "Nfde65b80562b8e",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "8"
+  },
+  {
+    "id": "Na0fbe57fe5a3bd",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": false,
+    "display": "False"
+  },
+  {
+    "id": "N0f221d992bf4f8",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "442"
+  },
+  {
+    "id": "Nfaf8dc66278b68",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": false,
+    "display": "True"
+  },
+  {
+    "id": "N6d8308ca8f76a9",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "8"
+  },
+  {
+    "id": "Nb7aa13d4d8d06d",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": false,
+    "display": "False"
+  },
+  {
+    "id": "N6e615094b43291",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "388"
+  },
+  {
+    "id": "N5ac793201ba179",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": false,
+    "display": "True"
+  },
+  {
+    "id": "N4ee0c07d9c0a09",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "8"
+  },
+  {
+    "id": "N6047a750df2804",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": false,
+    "display": "False"
+  },
+  {
+    "id": "Nd2a01fe34c1834",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "500"
+  },
+  {
+    "id": "N77dc00d381d19c",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": false,
+    "display": "True"
+  },
+  {
+    "id": "N3274f5c402e719",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "8"
+  },
+  {
+    "id": "Na7e33272d1121a",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": false,
+    "display": "False"
+  },
+  {
+    "id": "N250745ef44f298",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "500"
+  },
+  {
+    "id": "Ne11e3cc576c62b",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": false,
+    "display": "True"
+  },
+  {
+    "id": "N3b549009a4d1cc",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "8"
+  },
+  {
+    "id": "Na07bf11f9ddd98",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": false,
+    "display": "False"
+  },
+  {
+    "id": "Nd2f83eacfe6282",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": true,
+    "display": "500"
+  },
+  {
+    "id": "N9f03a9b8e4b9e7",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.61"
+  },
+  {
+    "id": "N8d9852d435f5a3",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.06"
+  },
+  {
+    "id": "N5b982a8342fccf",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.12"
+  },
+  {
+    "id": "N6f79fba978c544",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.67"
+  },
+  {
+    "id": "N49c537150442cb",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.05"
+  },
+  {
+    "id": "N22e2dd3c5958fe",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.01"
+  },
+  {
+    "id": "N244e456120043a",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.03"
+  },
+  {
+    "id": "Nbc91e4ca98d236",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.01"
+  },
+  {
+    "id": "Nb06a7a1e59ab95",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "-1.23"
+  },
+  {
+    "id": "N34f5519c69a13a",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.83"
+  },
+  {
+    "id": "Ndc9a8338cfceaf",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.02"
+  },
+  {
+    "id": "Ne70caeacd606a8",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.01"
+  },
+  {
+    "id": "N9effc87e5151ba",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "-0.43"
+  },
+  {
+    "id": "Ne0b15147e6a4b0",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.89"
+  },
+  {
+    "id": "Nccf90c54643a4c",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.53"
+  },
+  {
+    "id": "N56fcbc9a1e699b",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.68"
+  },
+  {
+    "id": "N8650138597f873",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.05"
+  },
+  {
+    "id": "Ne2267a072204c1",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "215576590.27"
+  },
+  {
+    "id": "N57a02a19520504",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "135376308.16"
+  },
+  {
+    "id": "N88ef103fa3874d",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "80200282.11"
+  },
+  {
+    "id": "Na71ec3da674c39",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.02"
+  },
+  {
+    "id": "Nb4b1aa9f09e220",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.13"
+  },
+  {
+    "id": "Nde151c730b3a97",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "572872825.89"
+  },
+  {
+    "id": "N46cdc99b7dd6b9",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "360710273.44"
+  },
+  {
+    "id": "N1bfe104484281e",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "212162552.45"
+  },
+  {
+    "id": "N7fe1102688963a",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.04"
+  },
+  {
+    "id": "Nf7dd6ccc2d5232",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "7.62"
+  },
+  {
+    "id": "N02244f98698985",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "357296235.62"
+  },
+  {
+    "id": "Nd4473b2ee7b4a4",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "225333965.28"
+  },
+  {
+    "id": "N14ea5b5bec6e9f",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "131962270.34"
+  },
+  {
+    "id": "el_ratio",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.66"
+  },
+  {
+    "id": "baseline_sba_share",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.63"
+  },
+  {
+    "id": "baseline_lender_share",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.37"
+  },
+  {
+    "id": "adverse_sba_share",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.63"
+  },
+  {
+    "id": "adverse_lender_share",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.37"
+  },
+  {
+    "id": "N7a18024e7d5d1a",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "217195.00"
+  },
+  {
+    "id": "Na3c0f1b49cccac",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "216172.00"
+  },
+  {
+    "id": "N4a018ff4ba8b36",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1023.00"
+  },
+  {
+    "id": "Nd12a607c2ac701",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.05"
+  },
+  {
+    "id": "N97476df352cb5b",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "151175.00"
+  },
+  {
+    "id": "N7151c27af58a1a",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1151100.00"
+  },
+  {
+    "id": "N3f559c8036095e",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1150806.00"
+  },
+  {
+    "id": "Nbbe08783ab11f5",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "294.00"
+  },
+  {
+    "id": "N7afcae84e5181e",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.14"
+  },
+  {
+    "id": "N8585d1295c8865",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.00"
+  },
+  {
+    "id": "Nee3aaec7d017e1",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "990.00"
+  },
+  {
+    "id": "Nffd0062d202f48",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.01"
+  },
+  {
+    "id": "Nc3fdeaa66e8192",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "99554858.00"
+  },
+  {
+    "id": "N7b1e90de7a774d",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "89002.00"
+  },
+  {
+    "id": "N2be6949849b5f5",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.00"
+  },
+  {
+    "id": "N3bd463d5ecfd07",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.00"
+  },
+  {
+    "id": "N31b90e2af722ae",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.00"
+  },
+  {
+    "id": "N21055d4a669e33",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "89002.00"
+  },
+  {
+    "id": "method_horizon_months",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "36.00"
+  },
+  {
+    "id": "method_pool_cutoff",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "0.00"
+  },
+  {
+    "id": "method_seed",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "20261008.00"
+  },
+  {
+    "id": "method_attempts",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "199.00"
+  },
+  {
+    "id": "method_evaluation_draws",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "999.00"
+  },
+  {
+    "id": "method_max_iterations",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "100.00"
+  },
+  {
+    "id": "method_state_count",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "51.00"
+  },
+  {
+    "id": "method_lgd_min_cell",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "50.00"
+  },
+  {
+    "id": "N9f03a9b8e4b9e7",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.607 [0.587, 0.626]"
+  },
+  {
+    "id": "N6f79fba978c544",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.666 [0.638, 0.691]"
+  },
+  {
+    "id": "N8d9852d435f5a3",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.73"
+  },
+  {
+    "id": "N5b982a8342fccf",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "12.25"
+  },
+  {
+    "id": "N49c537150442cb",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.50"
+  },
+  {
+    "id": "N22e2dd3c5958fe",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.49"
+  },
+  {
+    "id": "Nccf90c54643a4c",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.535 [0.266, 0.772]"
+  },
+  {
+    "id": "N56fcbc9a1e699b",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.679 [0.439, 0.933]"
+  },
+  {
+    "id": "Ne2267a072204c1",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "215.6 [194.9, 235.0]"
+  },
+  {
+    "id": "Nde151c730b3a97",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "572.9 [528.2, 620.3]"
+  },
+  {
+    "id": "N02244f98698985",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "357.3 [304.9, 411.9]"
+  },
+  {
+    "id": "el_ratio",
+    "scale": 1,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.66"
+  },
+  {
+    "id": "baseline_sba_share",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "62.80"
+  },
+  {
+    "id": "adverse_sba_share",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "62.97"
+  },
+  {
+    "id": "N244e456120043a",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "2.80"
+  },
+  {
+    "id": "Ndc9a8338cfceaf",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.51"
+  },
+  {
+    "id": "Nbc91e4ca98d236",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.48"
+  },
+  {
+    "id": "N9effc87e5151ba",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "-0.431 [-0.835, -0.112]"
+  },
+  {
+    "id": "Ne0b15147e6a4b0",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.894 [0.812, 0.967]"
+  },
+  {
+    "id": "Nffd0062d202f48",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.11"
+  },
+  {
+    "id": "Nd12a607c2ac701",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.66"
+  },
+  {
+    "id": "N02244f98698985",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "357.3 [304.9, 411.9]"
+  },
+  {
+    "id": "N8d9852d435f5a3",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.73"
+  },
+  {
+    "id": "N5b982a8342fccf",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "12.25"
+  },
+  {
+    "id": "Nccf90c54643a4c",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.535 [0.266, 0.772]"
+  },
+  {
+    "id": "Ne2267a072204c1",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": false,
+    "integer": false,
+    "display": "215.6"
+  },
+  {
+    "id": "Nde151c730b3a97",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": false,
+    "integer": false,
+    "display": "572.9"
+  },
+  {
+    "id": "N9f03a9b8e4b9e7",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.607 [0.587, 0.626]"
+  },
+  {
+    "id": "N6f79fba978c544",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.666 [0.638, 0.691]"
+  },
+  {
+    "id": "N8d9852d435f5a3",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.73"
+  },
+  {
+    "id": "N5b982a8342fccf",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "12.25"
+  },
+  {
+    "id": "N49c537150442cb",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "4.50"
+  },
+  {
+    "id": "N22e2dd3c5958fe",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "1.49"
+  },
+  {
+    "id": "Nccf90c54643a4c",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.535 [0.266, 0.772]"
+  },
+  {
+    "id": "N56fcbc9a1e699b",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.679 [0.439, 0.933]"
+  },
+  {
+    "id": "Ne2267a072204c1",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": false,
+    "integer": false,
+    "display": "215.6"
+  },
+  {
+    "id": "Nde151c730b3a97",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": false,
+    "integer": false,
+    "display": "572.9"
+  },
+  {
+    "id": "N02244f98698985",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": true,
+    "integer": false,
+    "display": "357.3 [304.9, 411.9]"
+  },
+  {
+    "id": "baseline_sba_share",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "62.80"
+  },
+  {
+    "id": "adverse_sba_share",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "62.97"
+  },
+  {
+    "id": "N9f03a9b8e4b9e7",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.607 [0.587, 0.626]"
+  },
+  {
+    "id": "Nccf90c54643a4c",
+    "scale": 1,
+    "digits": 3,
+    "interval": true,
+    "integer": false,
+    "display": "0.535 [0.266, 0.772]"
+  },
+  {
+    "id": "Ne2267a072204c1",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": false,
+    "integer": false,
+    "display": "215.6"
+  },
+  {
+    "id": "Nde151c730b3a97",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": false,
+    "integer": false,
+    "display": "572.9"
+  },
+  {
+    "id": "N9f03a9b8e4b9e7",
+    "scale": 1,
+    "digits": 3,
+    "interval": false,
+    "integer": false,
+    "display": "0.607"
+  },
+  {
+    "id": "N8d9852d435f5a3",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "5.73"
+  },
+  {
+    "id": "N5b982a8342fccf",
+    "scale": 100,
+    "digits": 2,
+    "interval": false,
+    "integer": false,
+    "display": "12.25"
+  },
+  {
+    "id": "Ne2267a072204c1",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": false,
+    "integer": false,
+    "display": "215.6"
+  },
+  {
+    "id": "Nde151c730b3a97",
+    "scale": 1e-06,
+    "digits": 1,
+    "interval": false,
+    "integer": false,
+    "display": "572.9"
+  }
+]

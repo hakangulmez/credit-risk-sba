@@ -1,0 +1,5 @@
+LoanStatus,date_status,term_status,n
+CHGOFF,valid,invalid,1023
+CHGOFF,valid,valid,216172
+PIF,valid,invalid,294
+PIF,valid,valid,1150806

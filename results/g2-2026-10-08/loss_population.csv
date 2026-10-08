@@ -1,0 +1,2 @@
+role,pd_eligible,valid_loss_n,invalid_guarantee_excluded_from_loss_only,ead_definition,lgd_definition,allocation
+reference,89002,89002,0,GrossApproval full-disbursement proxy; CCF=100%,gross charged-off balance / GrossApproval; not net-of-recovery LGD,pro-rata guarantee share; not observed payout or fiscal cost

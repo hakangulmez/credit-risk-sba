@@ -1,0 +1,40 @@
+version: G2-A2-2026-10-08
+seed: 20261008
+snapshot: '2026-06-30'
+outcome: recorded charge-off within 36 months
+title: Local economic conditions and public–lender loss sharing in SBA 7(a) lending
+training: [1991, 2002]
+tuning: 2003H1
+calibration: 2003H2
+crisis: [2007, 2009]
+oot: [2011, 2013]
+reference: 2006
+horizon_months: 36
+downturn_years: [1991, 2000, 2001]
+minimum_lgd_cell: 50
+size_cuts: [150000, 350000, 1000000]
+bootstrap_draws: 999
+shap_max_rows: 5000
+acceptance_fraction: 0.70
+elasticnet:
+  c_min: 0.0001
+  c_max: 100.0
+  c_count: 10
+  l1_ratios: [0, 0.25, 0.5, 0.75, 1]
+  max_iter: 1000
+  tolerance: 0.0001
+lightgbm:
+  trials: 50
+  max_rounds: 1500
+  early_stopping: 50
+  threads: 4
+  leaves: [15, 31, 63]
+  min_child: [50, 100, 200]
+  learning_rate: [0.02, 0.10]
+  fractions: [0.7, 1.0]
+  penalties: [0.0001, 10.0]
+logit:
+  max_iter: 500
+  tolerance: 0.00000001
+  normalized_gradient_limit: 0.00001
+  separation_coefficient_limit: 50

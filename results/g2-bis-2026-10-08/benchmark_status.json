@@ -1,0 +1,246 @@
+[
+  {
+    "variant": "layer1",
+    "family": "elasticnet",
+    "converged": true,
+    "n": 405443,
+    "events": 14003,
+    "calibration_n": 31955,
+    "calibration_start": "2003-07-02",
+    "calibration_end": "2003-12-31",
+    "calibration_failure": null,
+    "iterations_or_rounds": 457,
+    "settings": {
+      "source_checkpoint_sha256": "30a42f221856830a5963a6189fbefaf5365a727f89696b100e079ba6ee511e13",
+      "settings": {
+        "C": 0.01,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 1000,
+        "n_jobs": null,
+        "random_state": 20261008,
+        "solver": "saga",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "warnings": [],
+    "seconds": 79.96515874995384,
+    "calibration_intercept": -0.4697708353613137,
+    "calibration_slope": 0.82743730719673,
+    "layer_interpretation": "Approval-descriptor prediction"
+  },
+  {
+    "variant": "layer1",
+    "family": "lightgbm",
+    "converged": true,
+    "n": 405443,
+    "events": 14003,
+    "calibration_n": 31955,
+    "calibration_start": "2003-07-02",
+    "calibration_end": "2003-12-31",
+    "calibration_failure": null,
+    "iterations_or_rounds": 384,
+    "settings": {
+      "source_checkpoint_sha256": "ef21ea626e78a1e8ebe31fafa39e9af2fcef1da2036b8df52bb1663f9ed24bed",
+      "settings": {
+        "parameters": {
+          "objective": "binary",
+          "metric": "binary_logloss",
+          "verbosity": -1,
+          "num_threads": 4,
+          "deterministic": true,
+          "force_col_wise": true,
+          "seed": 20261008,
+          "bagging_seed": 20261008,
+          "feature_fraction_seed": 20261008,
+          "num_leaves": 15,
+          "min_data_in_leaf": 200,
+          "learning_rate": 0.04712099912795637,
+          "feature_fraction": 0.7064269444101164,
+          "bagging_fraction": 0.7942706074361503,
+          "bagging_freq": 1,
+          "feature_pre_filter": false,
+          "lambda_l1": 0.012130385555655225,
+          "lambda_l2": 3.6291001104590253
+        },
+        "num_boost_round": 384
+      }
+    },
+    "warnings": [],
+    "seconds": 5.159219000022858,
+    "calibration_intercept": -0.6306728154850354,
+    "calibration_slope": 0.7442354329876465,
+    "layer_interpretation": "Approval-descriptor prediction"
+  },
+  {
+    "variant": "layer1_term",
+    "family": "elasticnet",
+    "converged": false,
+    "n": 405443,
+    "events": 14003,
+    "calibration_n": 31955,
+    "calibration_start": "2003-07-02",
+    "calibration_end": "2003-12-31",
+    "calibration_failure": null,
+    "iterations_or_rounds": 1000,
+    "settings": {
+      "source_checkpoint_sha256": "1f73039b4b874ee29cbc2430ae9aff5a0e9e545950f09e18c9e60dfc285b3fff",
+      "settings": {
+        "C": 0.21544346900318823,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 1000,
+        "n_jobs": null,
+        "random_state": 20261008,
+        "solver": "saga",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "warnings": [
+      "The max_iter was reached which means the coef_ did not converge"
+    ],
+    "seconds": 177.0607679579407,
+    "calibration_intercept": null,
+    "calibration_slope": null,
+    "layer_interpretation": "Approval-descriptor prediction"
+  },
+  {
+    "variant": "layer1_term",
+    "family": "lightgbm",
+    "converged": true,
+    "n": 405443,
+    "events": 14003,
+    "calibration_n": 31955,
+    "calibration_start": "2003-07-02",
+    "calibration_end": "2003-12-31",
+    "calibration_failure": null,
+    "iterations_or_rounds": 1482,
+    "settings": {
+      "source_checkpoint_sha256": "453dd931a20a8c85df48972ec079b7fd625a89ad6a7364d776aba7c8394f0741",
+      "settings": {
+        "parameters": {
+          "objective": "binary",
+          "metric": "binary_logloss",
+          "verbosity": -1,
+          "num_threads": 4,
+          "deterministic": true,
+          "force_col_wise": true,
+          "seed": 20261008,
+          "bagging_seed": 20261008,
+          "feature_fraction_seed": 20261008,
+          "num_leaves": 63,
+          "min_data_in_leaf": 200,
+          "learning_rate": 0.023827157791160646,
+          "feature_fraction": 0.7012866346371467,
+          "bagging_fraction": 0.9451927962584119,
+          "bagging_freq": 1,
+          "feature_pre_filter": false,
+          "lambda_l1": 0.00018301290999369013,
+          "lambda_l2": 0.005112642119673125
+        },
+        "num_boost_round": 1482
+      }
+    },
+    "warnings": [],
+    "seconds": 30.149852250004187,
+    "calibration_intercept": 0.44363551298739307,
+    "calibration_slope": 1.0970205972547278,
+    "layer_interpretation": "Approval-descriptor prediction"
+  },
+  {
+    "variant": "layer2",
+    "family": "lightgbm",
+    "converged": true,
+    "n": 888703,
+    "events": 55088,
+    "calibration_n": 41200,
+    "calibration_start": "2010-01-01",
+    "calibration_end": "2010-12-31",
+    "calibration_failure": null,
+    "iterations_or_rounds": 384,
+    "settings": {
+      "source_checkpoint_sha256": "ef21ea626e78a1e8ebe31fafa39e9af2fcef1da2036b8df52bb1663f9ed24bed",
+      "settings": {
+        "parameters": {
+          "objective": "binary",
+          "metric": "binary_logloss",
+          "verbosity": -1,
+          "num_threads": 4,
+          "deterministic": true,
+          "force_col_wise": true,
+          "seed": 20261008,
+          "bagging_seed": 20261008,
+          "feature_fraction_seed": 20261008,
+          "num_leaves": 15,
+          "min_data_in_leaf": 200,
+          "learning_rate": 0.04712099912795637,
+          "feature_fraction": 0.7064269444101164,
+          "bagging_fraction": 0.7942706074361503,
+          "bagging_freq": 1,
+          "feature_pre_filter": false,
+          "lambda_l1": 0.012130385555655225,
+          "lambda_l2": 3.6291001104590253
+        },
+        "num_boost_round": 384
+      }
+    },
+    "warnings": [],
+    "seconds": 13.2767468750244,
+    "calibration_intercept": -0.4935450600814621,
+    "calibration_slope": 1.026487804929987,
+    "layer_interpretation": "Retrospective conditional validation using realized macro paths."
+  },
+  {
+    "variant": "layer2_term",
+    "family": "lightgbm",
+    "converged": true,
+    "n": 888703,
+    "events": 55088,
+    "calibration_n": 41200,
+    "calibration_start": "2010-01-01",
+    "calibration_end": "2010-12-31",
+    "calibration_failure": null,
+    "iterations_or_rounds": 1482,
+    "settings": {
+      "source_checkpoint_sha256": "453dd931a20a8c85df48972ec079b7fd625a89ad6a7364d776aba7c8394f0741",
+      "settings": {
+        "parameters": {
+          "objective": "binary",
+          "metric": "binary_logloss",
+          "verbosity": -1,
+          "num_threads": 4,
+          "deterministic": true,
+          "force_col_wise": true,
+          "seed": 20261008,
+          "bagging_seed": 20261008,
+          "feature_fraction_seed": 20261008,
+          "num_leaves": 63,
+          "min_data_in_leaf": 200,
+          "learning_rate": 0.023827157791160646,
+          "feature_fraction": 0.7012866346371467,
+          "bagging_fraction": 0.9451927962584119,
+          "bagging_freq": 1,
+          "feature_pre_filter": false,
+          "lambda_l1": 0.00018301290999369013,
+          "lambda_l2": 0.005112642119673125
+        },
+        "num_boost_round": 1482
+      }
+    },
+    "warnings": [],
+    "seconds": 59.974506583064795,
+    "calibration_intercept": -0.2591183005156702,
+    "calibration_slope": 1.0076349678612506,
+    "layer_interpretation": "Retrospective conditional validation using realized macro paths."
+  }
+]

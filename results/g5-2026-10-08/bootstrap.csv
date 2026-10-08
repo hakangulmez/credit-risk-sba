@@ -1,0 +1,6 @@
+Specification,Attempted,Successful,Failed,Failure reason
+layer1,199,196,3,iteration limit
+layer1_term,199,196,3,iteration limit
+layer2,199,198,1,iteration limit
+layer2_term,199,197,2,iteration limit
+layer2_peak,199,198,1,iteration limit

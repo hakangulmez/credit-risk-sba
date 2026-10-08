@@ -1,0 +1,4 @@
+variant,supported,reason
+layer2,False,Frozen unpenalized fit failed; no substituted stress estimate
+layer2_term,False,Frozen unpenalized fit failed; no substituted stress estimate
+layer2_peak,False,Frozen unpenalized fit failed; no substituted stress estimate

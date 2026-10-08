@@ -1,0 +1,6 @@
+Specification,Original columns,Rank,State dummies
+layer1,96,93,50
+layer1_term,98,94,50
+layer2,115,107,50
+layer2_term,117,108,50
+layer2_peak,115,107,50

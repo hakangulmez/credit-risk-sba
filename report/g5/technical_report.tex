@@ -1,0 +1,146 @@
+\input{preamble.tex}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Local economic conditions and public--lender loss sharing in SBA 7(a) lending}\par\vspace{6pt}
+Hakan Zeki Gülmez\par
+M.Sc. Management \& Technology (Economics \& Econometrics), Technical University of Munich\par
+October 2026\par\small Repository history: \url{https://github.com/hakangulmez/Credit-Scoring-EDA}; current write-up is a local review draft
+\end{center}
+\begin{abstract}
+We examine out-of-time charge-off discrimination, calibration and conditional loss-sharing scenarios in approved and disbursed SBA lending. Term-free Firth logistic models separate reconstructed approval descriptors from future state macroeconomic paths. Crisis AUC is \AucCrisis, but predicted and recorded rates differ materially (\PdCrisis\% versus \RateCrisis\%). A conditional endpoint unemployment increase is associated with \Endpoint\ probability percentage points on the fixed reference portfolio. Baseline and adverse gross expected-loss proxies are \ElBase\ and \ElAdverse\ million dollars, with assumption-based public/lender allocation. Administrative measurement, unverified feature vintages, calibration failure, revised data and a post-results protocol amendment limit inference; these are neither causal effects nor measured fiscal costs.
+\end{abstract}
+\section{Introduction and contribution}
+The empirical question is how recorded charge-off risk and assumption-based loss sharing change across disbursement cohorts and fixed macroeconomic scenarios. Public guarantees split credit exposure between an agency and lenders, but loan-level administrative records do not reveal actual guarantee payouts, recoveries or counterfactual lending decisions. We therefore separate four questions: out-of-time ranking, cohort calibration, conditional macro associations, and scenario accounting. None substitutes for the others.
+
+Our contribution is a traceable illustration using the official SBA FOIA status universe, complete fixed-horizon windows, explicit temporal roles and side-by-side calibration evidence. Layer 1 reconstructs approval descriptors from a current administrative snapshot; Layer 2 conditions on macroeconomic paths extending beyond disbursement. It is not a real-time underwriting exercise. We preserve rather than conceal model failures, data limitations and reporting histories.
+
+The logistic estimator follows the bias-reduction approach of \citet{firth1993}. The Jeffreys-prior penalty and its finiteness properties are examined by \citet{kosmidis2021}. Finiteness addresses an estimation problem, not calibration or transportability. The earlier resolved-loan teaching extract discussed by Li, Mickel and Taylor (2018; DOI recorded in DATA.md) selects on terminal status. Our official-source analysis retains unresolved records with sufficient follow-up, while recognizing that this does not resolve all administrative measurement problems.
+
+\textbf{Design history.} The G2-bis protocol was frozen after the G2 results had been seen and before any G2-bis model was estimated. Deviations are logged in DECISIONS.md. Ordinary-logit fits and calibration results had already been inspected. Training-frequency pooling, Firth estimation and the expanded Layer 2 chronology were then documented before any G2-bis refit. The amendment is not a confirmatory replication; joint changes cannot identify which isolated change improved or worsened performance. The present write-up uses saved aggregate outputs only.
+
+\section{Data, target and sample}
+\subsection{Official sources and administrative measurement}
+The official SBA 7(a) FOIA snapshot is dated 30 June 2026. Fiscal-year resource names refer to approval, whereas estimation roles use first disbursement. The dictionary includes payoff and charge-off dates, approval and guaranteed amounts, status, jobs reported on application, business age/type, industry, project state and reported maturity. Current lender assignment and borrower identifiers are not predictors. Source terms designate U.S. Government Works; no borrower-level data are distributed. BLS unemployment is monthly seasonally adjusted, in percent; FHFA HPI is the quarterly, non-seasonally-adjusted all-transactions state index. FRED identifiers are references, not acquired observations.
+
+FHFA observations and previously retrieved BLS observations are unchanged. Only missing unemployment observations needed through the end of the later validation horizon were added in the accepted research run. This creates a mixed retrieval vintage of revised agency histories, not historical release information. Retrieval dates and source hashes are in the frozen source manifest. This product uses FHFA data but is neither endorsed nor certified by FHFA.
+
+For disbursement date $d_i$, define $w_i=d_i+36$ calendar months, with month-end clamping. We retain a complete observation window through the snapshot and define
+\[Y_i=\mathbf{1}\{\text{valid ChargeOffDate}_i\in[d_i,w_i]\}.\]
+The outcome is \emph{recorded charge-off within 36 months}. Mature PIF and EXEMPT observations without such a charge-off receive zero. EXEMPT means unresolved status withheld under the statutory exemption; it is not certified performing or free of delinquency. Late charge-offs are outside the horizon rather than removed from the administrative population. Amount anomalies affect severity checks separately from PD eligibility.
+
+\tbl{waterfall}{Sequential source-population eligibility accounting; overlapping source flags are not substituted for this waterfall. Counts are saved research aggregates.}
+\tbl{samples}{Layer-specific disbursement roles, events/non-events and complete macro coverage. The fixed scenario portfolio is included in expanded Layer 2 estimation. Event counts use the administrative fixed-horizon definition.}
+
+\subsection{Feature timing and comparability}
+Approval/application amounts and jobs are treated as reported descriptors, with jobs reflecting lender estimates rather than realized employment. We use log approval, guarantee share, log-one-plus jobs and categorical processing, rate type, sector, franchise presence, business age/type, loan type and project state. Historic vintages of several descriptors remain unverified. The initial interest rate is excluded from shared specifications for comparability because missingness is extensive; we do not estimate a historical interest-rate association. Reported Term is excluded from every primary model, regardless of the audit verdict.
+
+\tbl{rate_missingness}{InitialInterestRate missingness; excluded from all shared specifications for comparability, not silently imputed as an observed interest rate.}
+
+Numeric medians, missing flags and standardization use only the corresponding estimation sample. Within each nonstate categorical variable, levels whose training count share is strictly below the frozen threshold are pooled to Other. No outcome counts choose the maps; states are never pooled with divisions or each other. Unseen levels use a fitted Other category where supported; otherwise no unsupported dummy is introduced. Native tree categories use their documented missing fallback. Constant or exactly redundant columns are omitted without outcome selection. Maps, reference categories, rank/separation checks and application counts remain available in the frozen outputs.
+
+\section{Chronology, models and inference}
+\subsection{Different information sets and temporal roles}
+Layer 1 estimates on 1991--2002, with G2 benchmark tuning on 2003H1 and benchmark calibration on 2003H2. ElasticNet and LightGBM hyperparameters and selected boosting rounds were inherited unchanged by G2-bis: no new search or early stopping occurred. The crisis test is 2007--2009; the additional cohort is 2011--2013. Calibration diagnostics for Firth do not modify its raw probabilities.
+
+Layer 2 estimates on 1991--2009. The LightGBM robustness uses the corresponding frozen Layer 1 G2 parameters/rounds, and its probability calibrator is fitted on 2010 only. Validation is 2013--2014: \textbf{Retrospective conditional validation using realized macro paths.} Estimation labels mature by end-2012; calibration labels extend through end-2013 and overlap the calendar period of the 2013 validation cohort. That cohort was already included in G2 evaluation. This is post-amendment validation, not a previously untouched confirmatory test. No held-out result changes the specification or threshold.
+
+\subsection{Firth and ordinary-logit comparison}
+For $p_i=\Lambda(x_i'\beta)$, $\eta_i=x_i'\beta$ and $\Lambda(z)=1/(1+e^{-z})$, the primary estimate maximizes
+\begin{align*}
+\ell^*(\beta;w)&=\sum_iw_i\{Y_i\eta_i-\log(1+e^{\eta_i})\}+\tfrac12\log\det I_w(\beta),\\
+I_w(\beta)&=X'\operatorname{diag}\{w_ip_i(1-p_i)\}X.
+\end{align*}
+The point fit uses unit weights, without oversampling, class balancing or intercept adjustment. Adjusted-score iteration uses the frozen convergence/conditioning criteria. Layer 1 contains state effects among origination categories. Layer 2 adds macro inputs and a linear disbursement-year trend centred on 2000, rather than unidentified future-year dummy coefficients. Corresponding ordinary-logit comparators use identical rows and reduced columns; invalid fits do not provide valid coefficients or predictions.
+
+The accepted run converged for each Firth point fit. Layer 1 ordinary MLE has an outcome-pure pooled category even though numerical optimization reports success; Layer 2 reaches the fixed iteration limit, which alone does not prove separation. The with-Term ElasticNet benchmark also fails at its frozen limit. These failures remain visible; no alternative favourable specification replaces them. Complete fit diagnostics and implementation validation are linked in the appendix.
+
+\tbl{convergence}{Saved Firth and same-design ordinary-logit status; numerical optimizer success is not a valid-estimate guarantee.}
+
+\subsection{Two uncertainty procedures}
+Stored evaluation intervals use state-cluster resampling conditional on a fitted model; these include discrimination, calibration intercept/slope and group-rate bands. They do not include coefficient estimation uncertainty. Training-score decile boundaries are frozen from the fit sample, not chosen from evaluation scores. We reuse saved edges, unequal counts, empty bins and undefined values without new binning or binomial intervals.
+
+Firth training-refit inference instead uses positive state-weighted multiplier attempts. Each scheduled draw assigns independent Exponential(1) weights to states, copies them to their loans and normalizes within the estimation sample to its original loan count. Every state remains present; underlying weights are shared across specifications and paired scenarios. The weighted likelihood and Firth penalty are re-estimated in the accepted research run, not at reporting time. Linear percentile bounds use only successful fully defined draws and report their effective denominators. No failed attempt is redrawn.
+
+\tbl{bootstrap}{Scheduled training-state multiplier refits: all attempts retained, no redrawing. Evaluation bands separately use 999 state-cluster draws conditional on fitted models.}
+
+State independence and conditioning on successful fits are assumptions. Preprocessing, portfolio, LGD, exposures, allocation shares and paths remain fixed. Source-vintage, calibration-model and scenario-construction uncertainty are excluded. Calibration error can alter nonlinear PD levels, differences and ratios, so inference does not validate the probability scale.
+
+\section{Discrimination and calibration results}
+\tbl{performance}{All valid Term-free primary/benchmark models in the selected evaluation cohorts. AP denotes average precision, not a different risk population. Saved 95\% intervals condition on each fitted model; no model is selected for reporting because it scores highest.}
+\tbl{calibration}{Mean predicted/recorded rates and diagnostic calibration intercept/slope, with stored 95\% intervals. Ideal diagnostic values are zero/one; Firth predictions stay raw. Layer 2 is retrospective conditioning on future realized paths.}
+
+Layer 1 crisis AUC is \AucCrisis\ and additional-cohort AUC \AucLater. The ranking evidence is above chance but modest; it is not strong or stable transportability. Mean Firth risk is \PdCrisis\% against \RateCrisis\% recorded in the crisis and \PdLater\% against \RateLater\% later. Conditions, composition and programme or underwriting changes are possible explanations, not identified mechanisms. The earlier G2 later-cohort macro-tree calibration failure remains documented in its unchanged gate report; new chronology cannot erase it.
+
+For Layer 2, raw Firth predicts \LtwoFirth\% against \LtwoRate\% recorded. Calibrated LightGBM predicts \LtwoTree\%, closer in average, but its diagnostic intercept \TreeIntercept\ and slope \TreeSlope\ exclude their respective ideal values. We therefore describe average agreement as positive descriptive evidence, not calibration solved. Figure~\ref{fig:cal} and the saved group tables show the distinction.
+
+\begin{figure}[htbp]\centering\includegraphics[width=\linewidth]{../../figures/g5/calibration_groups.pdf}\caption{Saved training-score decile diagnostics. Original bin numbers/counts/edges and empty bins are retained in the accompanying tables. Stored rate bands are state-cluster bootstrap intervals conditional on fitted models, not independent-loan binomial CIs. Layer 2 uses future realized paths.}\label{fig:cal}\end{figure}
+
+\section{Conditional macro associations}
+For origin month $m(d_i)$ and containing quarter $q(d_i)$, define
+\begin{align*}
+u_0&=u_{m(d_i)},&\Delta u&=u_{m(w_i)}-u_{m(d_i)},\\
+h_0&=100\log(H_{q(d_i)}/H_{q(d_i)-4}),&\Delta h&=100\log(H_{q(d_i)+12}/H_{q(d_i)}).
+\end{align*}
+Unemployment changes are in percentage points. Quarterly HPI is not interpolated; containing-period alignment is an approximation to exact-day windows. The separately estimated sensitivity replaces only $\Delta u$ by $\text{peak\_du}=\max_{m=m(d_i),\ldots,m(w_i)}(u_m-u_0)$, including origin and endpoint.
+
+We evaluate the finite change
+\[\frac{100}{N_R}\sum_{i\in R}\{\Lambda(\eta_i+\beta_{\Delta u}^{\rm native})-\Lambda(\eta_i)\},\]
+on the fixed observed 2006 reference portfolio, holding every other covariate constant. The native coefficient removes train-standardization scaling. This is a +1 pp contrast, not an infinitesimal derivative or an intervention on unemployment. The endpoint result \Endpoint\ and peak sensitivity \Peak\ are presented together. A rise that later reverses can vanish from endpoint change; this motivates the predeclared sensitivity rather than post-results selection.
+\tbl{macro}{Fixed observed portfolio, conditional +1 pp finite-change associations. Probability percentage points; training-refit state-multiplier intervals conditional on fixed inputs. Peak is a separately estimated sensitivity, not a replacement.}
+
+\section{Scenario projections and loss accounting}
+\scenario\ The fixed 2006 loans also enter expanded Layer 2 estimation. Baseline uses fixed state-specific pre-crisis means, flat unemployment and the stipulated HPI growth convention. Adverse uses fixed January 2007--January 2010 unemployment and 2007Q1--2010Q1 housing paths, without choosing a worst date. Full scenario vectors remain in the frozen path table. These paths are conditions; support checks do not establish economic plausibility.
+
+For segment severity $L_{s(i)}$, approved exposure $A_i$ and guarantee share $g_i$,
+\[EL_i=p_i L_{s(i)} A_i,\qquad g_i=\frac{\text{SBAGuaranteedApproval}_i}{A_i},\]
+\[EL^{SBA}=\sum_i g_i EL_i,\qquad EL^{lender}=\sum_i(1-g_i)EL_i.\]
+\losslabel\ We estimate segment LGD as the ratio of training gross charge-off sums to approval sums, using loan type and fixed approval-size cells with the retained sparse-cell pooling: insufficient cells fall back to loan-type severity, then the overall training severity, rather than an outcome-selected new segmentation. Primary severity is uncapped; recovery amounts and amortization are absent. Full utilization is not measured exposure and does not imply that the combined EL estimate is necessarily conservative. Neither allocation represents observed payouts, measured public spending or lender behaviour.
+
+\tbl{stress}{\scenario\ PD and loss rates are percentages, changes in PD are percentage points, and amounts are USD millions. Difference bounds come from paired draws, never subtraction of marginal interval endpoints. \losslabel}
+
+Baseline/adverse loss proxies are \ElBase\ and \ElAdverse\ million dollars; the arithmetic ratio is \ElRatio. The stored paired change is \ElDiff\ million. SBA allocation shares are \ShareBase\% and \ShareAdverse\%; lender shares are their complements. Different scenario PDs reweight loans, so these aggregate shares need not be fixed. No share or ratio interval is invented.
+
+\section{Sensitivities and support}
+\tbl{sensitivities}{Stored adverse-path sensitivities. With-Term is timing-unverified; peak substitutes for endpoint change. Capped LGD caps each training severity amount at its own approval before unchanged pooling; downturn LGD uses only the original designated recession-exposed cohorts. \scenario\ \losslabel}
+Downturn severity uses 1991, 2000 and 2001 training cohorts only, without enlarging the window. The old-extract utilization/CCF sensitivity remains unavailable because licence, cutoff and population admissibility were not established. Urban/rural classification is absent, and missing historical rates preclude comparable rate associations. These unavailable items are not replaced by new calculations. Full with-Term results remain accessible as qualified sensitivities rather than headline validation evidence.
+
+\tbl{support}{State-specific versus pooled-global univariate training-range checks on primary inputs. Loan and approval exposures are union counts, not sums of repeated feature flags. \scenario\ Exposure is an approval-dollar count, not an estimated loss.}
+The state-specific adverse flagged share is \SupportShare\%; global flags are zero. This can reflect broad pooled ranges even where state-specific values extrapolate. Neither univariate scope establishes joint support or hybrid-path plausibility. Complete feature-level flags are linked to the frozen support output.
+
+\section{Limitations and future work}
+Measurement is administrative rather than economic delinquency. Mature EXEMPT loans are unresolved, not certified performing. Only approved/disbursed loans enter the universe. Jobs are lender-reported application estimates; several descriptor vintages and reported Term remain unverified. Initial rates are missing over much of the estimation period. Current data revisions and containing-period macro alignment cannot reconstruct origination information sets.
+
+Layer 2 sees future realized paths in cohort checks, with post-results amendments, a previously inspected cohort and calibration-calendar overlap. Raw Firth calibration fails, and average agreement for a calibrated tree cannot establish group calibration. Gross approval, full utilization and gross severity omit recovery/amortization information; pro-rata guarantees are assumed. Independent state clusters, successful-draw conditioning, fixed loss assumptions and univariate support checks limit interval interpretation.
+
+\textbf{Discussion-only extensions.} Rolling-origin recalibration would separate recalibration from refitting, use only outcomes whose windows had matured at each origin, and predeclare methods/dates after disclosing inspected cohorts. Two-block Shapley accounting would compare unemployment and housing blocks including initial levels/changes, averaging both orders across four fixed coefficient/scenario combinations; it would not be causal attribution and would require hybrid-path support checks. Competing risks could distinguish charge-off and payoff, using existing payoff dates after assessing date meaning and follow-up; PIF need not be early repayment, and Term vintage remains unresolved. Additional local-sector/lender information and nonlinear/hierarchical PD or severity models would require separate timing/value assessments, not automatic market expansion.
+
+Layer 3 is deferred to separately authorized design review. A policy design would need verified facts, prior-outcome-exposure disclosure and credible comparison. DML, doubly robust DiD or causal forests cannot supply absent identification; a documented rejected design is acceptable. No such analysis is performed here.
+
+\section{Conclusion}
+The approval-descriptor scorecard retains modest ranking but fails probability calibration across cohorts. Conditional macro associations depend on path definition and future information. The loss-sharing exercise converts those probabilities and frozen severity/exposure assumptions into scenario accounting rather than fiscal measurement. The appropriate conclusion is evidence with explicit boundaries, not a successful deployed scorecard or a causal public-guarantee evaluation.
+
+\begin{thebibliography}{9}
+\bibitem[BLS(2026)]{bls} Bureau of Labor Statistics. Local Area Unemployment Statistics: official API and metadata. \url{https://www.bls.gov/lau/data.htm}. Frozen retrieval details: source manifests; revised agency history.
+\bibitem[FHFA(2026)]{fhfa} Federal Housing Finance Agency. All-Transactions House Price Index, states, not seasonally adjusted. \url{https://www.fhfa.gov/data/hpi/datasets}. Required attribution notice appears above.
+\bibitem[Firth(1993)]{firth1993} Firth, D. Bias reduction of maximum likelihood estimates. \emph{Biometrika}, 80(1), 27--38. \url{https://doi.org/10.1093/biomet/80.1.27}.
+\bibitem[Kosmidis and Firth(2021)]{kosmidis2021} Kosmidis, I. and Firth, D. Jeffreys-prior penalty, finiteness and shrinkage in binomial-response generalized linear models. \emph{Biometrika}, 108(1), 71--82. \url{https://doi.org/10.1093/biomet/asaa052}.
+\bibitem[Li et al.(2018)]{li} Li, M., Mickel, A. and Taylor, S. Should this loan be approved or denied? A large dataset with class assignment guidelines. \emph{Journal of Statistics Education}. \url{https://doi.org/10.1080/10691898.2018.1434342}. Bibliographic/source rights verified in retained DATA.md; dataset mirror admissibility remains unresolved.
+\bibitem[SBA(2026)]{sba} U.S. Small Business Administration. 7(a) \& 504 FOIA dataset, snapshot 30 June 2026. \url{https://data.sba.gov/dataset/7a-504-foia}. Original source-file hashes retained; 7(a) only.
+\end{thebibliography}
+
+\appendix
+\section{Saved estimation and Term diagnostics}
+\tbl{rank}{Outcome-independent rank reduction and retained state effects. A reference state is represented by the intercept. Complete column maps and coefficients remain in saved outputs.}
+\tbl{coefficients}{Selected coefficients from the primary/sensitivity specifications. Numeric columns use training standardization; associations are not causal. The original full coefficient table is linked below. Stored training-refit intervals hold other uncertainty components fixed.}
+\tbl{term}{All applicable eligible date-valid charge-offs/PIF, including charge-offs after the label window. Matching is reported Term minus elapsed months within three months; elapsed months are actual days divided by the average calendar-month length $365.25/12$ days fixed in the protocol. Invalid reported Term does not establish its vintage.}
+Verdict: \emph{Timing unverifiable.} Low charge-off date matching (\TermMatch\%) cannot verify approval-time measurement; supporting metadata or an original vintage is absent. PIF coincidence also does not prove updating. Every primary specification remains Term-free. Missing/invalid counts and approval-year/loan-type distributions are available in the complete frozen audit.
+
+\section{Calibration-group detail and reproducibility}
+The following tables preserve training-score cutoffs, unequal group counts and empty/unavailable values. Rate bands use stored conditional state-cluster evaluation inference, not independent-loan binomial CIs. Intercepts/slopes in the main table include stored intervals; fitted-cohort diagnostics are not substituted for these evaluation checks.
+\tbl{bins_1}{Layer 1 raw Firth crisis cohort. Training-score edges in probability percent; recorded-rate bands condition on the fitted model.}
+\tbl{bins_2}{Layer 1 raw Firth additional cohort. Same saved training-score grouping convention.}
+\tbl{bins_3}{Layer 2 raw Firth validation cohort; future realized macro paths, not real-time prediction.}
+\tbl{bins_4}{Layer 2 calibrated LightGBM validation cohort. Original training-score groups; average agreement does not establish risk-group calibration.}
+
+\textbf{Complete audit links.} \href{../results/g2-bis-2026-10-08/term_audit_summary.csv}{Term distributions}, \href{../results/g2-bis-2026-10-08/term_audit_status_counts.csv}{status counts}, \href{../results/g2-bis-2026-10-08/fit_status.csv}{fit diagnostics}, \href{../results/g2-bis-2026-10-08/firth_coefficients.csv}{full coefficients}, and \href{../results/g2-bis-2026-10-08/scenario_support_by_feature.csv}{feature support flags}.\par\textbf{Local evidence links.} Full aggregates: \nolinkurl{results/g2-bis-2026-10-08/}. Audit: \nolinkurl{term_audit_summary.csv}, \nolinkurl{term_audit_status_counts.csv}, \nolinkurl{term_audit_evidence.json}. Methods: \nolinkurl{docs/PROTOCOL_v2_2026-10-08.md}, \nolinkurl{config/g2_bis_2026-10-08.yaml}, \nolinkurl{bootstrap_summary.json}, \nolinkurl{fit_status.csv}, \nolinkurl{firth_coefficients.csv}, \nolinkurl{scenario_support_by_feature.csv}. Exact unique selectors/hashes and display conversions: \nolinkurl{CLAIMS.md} and \nolinkurl{results/g5-2026-10-08/claims_registry.json}. Saved values and bands are unchanged; a results-only build works without private loans/models/predictions. The historical full test run is retained evidence, distinct from new G5 reporting checks.
+\end{document}

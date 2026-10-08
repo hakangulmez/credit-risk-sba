@@ -1,0 +1,129 @@
+{
+  "tests_passed": 78,
+  "test_seconds": 153.44,
+  "package_coverage_percent": 89.41684665226782,
+  "statistical_core_coverage_percent": 95.90697674418605,
+  "statistical_core_modules": [
+    "features",
+    "models",
+    "metrics",
+    "macro",
+    "losses",
+    "stress",
+    "bis_firth",
+    "bis_design",
+    "bis_analysis",
+    "bis_finalize"
+  ],
+  "core_module_coverage": {
+    "src/credit_risk_sba/bis_analysis.py": {
+      "covered_lines": 108,
+      "num_statements": 109,
+      "percent_covered": 99.08256880733946,
+      "percent_covered_display": "99",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 99.08256880733946,
+      "percent_statements_covered_display": "99"
+    },
+    "src/credit_risk_sba/bis_design.py": {
+      "covered_lines": 81,
+      "num_statements": 82,
+      "percent_covered": 98.78048780487805,
+      "percent_covered_display": "99",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 98.78048780487805,
+      "percent_statements_covered_display": "99"
+    },
+    "src/credit_risk_sba/bis_finalize.py": {
+      "covered_lines": 122,
+      "num_statements": 132,
+      "percent_covered": 92.42424242424242,
+      "percent_covered_display": "92",
+      "missing_lines": 10,
+      "excluded_lines": 0,
+      "percent_statements_covered": 92.42424242424242,
+      "percent_statements_covered_display": "92"
+    },
+    "src/credit_risk_sba/bis_firth.py": {
+      "covered_lines": 105,
+      "num_statements": 113,
+      "percent_covered": 92.92035398230088,
+      "percent_covered_display": "93",
+      "missing_lines": 8,
+      "excluded_lines": 0,
+      "percent_statements_covered": 92.92035398230088,
+      "percent_statements_covered_display": "93"
+    },
+    "src/credit_risk_sba/features.py": {
+      "covered_lines": 63,
+      "num_statements": 63,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "src/credit_risk_sba/losses.py": {
+      "covered_lines": 51,
+      "num_statements": 51,
+      "percent_covered": 100.0,
+      "percent_covered_display": "100",
+      "missing_lines": 0,
+      "excluded_lines": 0,
+      "percent_statements_covered": 100.0,
+      "percent_statements_covered_display": "100"
+    },
+    "src/credit_risk_sba/macro.py": {
+      "covered_lines": 104,
+      "num_statements": 118,
+      "percent_covered": 88.13559322033899,
+      "percent_covered_display": "88",
+      "missing_lines": 14,
+      "excluded_lines": 0,
+      "percent_statements_covered": 88.13559322033899,
+      "percent_statements_covered_display": "88"
+    },
+    "src/credit_risk_sba/metrics.py": {
+      "covered_lines": 119,
+      "num_statements": 120,
+      "percent_covered": 99.16666666666667,
+      "percent_covered_display": "99",
+      "missing_lines": 1,
+      "excluded_lines": 0,
+      "percent_statements_covered": 99.16666666666667,
+      "percent_statements_covered_display": "99"
+    },
+    "src/credit_risk_sba/models.py": {
+      "covered_lines": 113,
+      "num_statements": 116,
+      "percent_covered": 97.41379310344827,
+      "percent_covered_display": "97",
+      "missing_lines": 3,
+      "excluded_lines": 0,
+      "percent_statements_covered": 97.41379310344827,
+      "percent_statements_covered_display": "97"
+    },
+    "src/credit_risk_sba/stress.py": {
+      "covered_lines": 165,
+      "num_statements": 171,
+      "percent_covered": 96.49122807017544,
+      "percent_covered_display": "96",
+      "missing_lines": 6,
+      "excluded_lines": 0,
+      "percent_statements_covered": 96.49122807017544,
+      "percent_statements_covered_display": "96"
+    }
+  },
+  "test_log_sha256": "bf389428403fd91d9e56503e79e812c7726258f872d3abc0c2cf8748a8646f32",
+  "coverage_json_sha256": "cd2a14efd1323327f36ea8c2357c54bd20e758437c87fe5e8333c77a51e6f595",
+  "lint": "passed",
+  "mypy": "passed",
+  "preservation_entries": 223,
+  "preservation_passed": true,
+  "repo_disk_GiB": 2.0557212829589844,
+  "portfolio_disk_GiB": 16.794612884521484,
+  "no_push_publication_paid_calls_G3_G5": true
+}

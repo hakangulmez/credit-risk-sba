@@ -1,0 +1,340 @@
+{
+  "gate": "G5 only",
+  "brief_version": "v2.1",
+  "accepted_research_release": "8f7343584d55a14f8cae47c3e9fded3ed56503d4",
+  "claims_first_commit": "c65c3267bf08f8ab66a66dbe40448646446a7777",
+  "reporting_implementation_commit": "6ebf57914ff42910a36f6e641c15b75a10594f9a",
+  "files": {
+    "CLAIMS.md": "6714658d5fa465cbc1f7c5942eb9b725a557a14961ef2cc412f82f0798d649a7",
+    "CV_BULLET_DRAFT.md": "7ab444dcf63153e42cf70c01ae6202e6dd5b199f84d10cf46af9a033727a7ff8",
+    "DECISIONS.md": "7647efba69e74fcac4d90cea9d056a2b0ee06706de2ddbc67b08f14f29e3773b",
+    "Makefile": "02f7794ba301d2cb111e68138e365d3d5cb6955962f6992d68ca0ab50d1a6f4b",
+    "README.md": "fa24ff5d95b7cb780f1544006c65450de877e5439259111ee3c0472299bad8e7",
+    "docs/G5_REPORT_2026-10-08.md": "92784e8a456ce0f75745a8fccf17aeed28e40bf23e3f8de86af1cb9ce6156538",
+    "docs/G5_REPRODUCTION.md": "d9ab83e8a61d00213f6d7f90365bf9cc6080dffb1e41841a25cf66b9dcf79768",
+    "figures/g5/calibration_caption.txt": "18a08db11c3099aff60b3e56e36f59379cec7c27a0a90f93a5f27277bcd2dff7",
+    "figures/g5/calibration_groups.pdf": "c6827c89556bb298a5c40ca829ef0843567770edf9d15f9f868289ca35a0f87e",
+    "figures/g5/calibration_groups.png": "10676d808ff4dae414346847109e0db9bee7a8a64987e5c6fe5c37124ea5050e",
+    "figures/g5/headline.pdf": "ca4d0169ac451b71b15c0761c40152cc8b91596554efc76fbc2c4c132bdd6d65",
+    "figures/g5/headline.png": "472d63f4e6286864f43c0db59e54f6b99e0f42e4f5cfca9a090231e54e3042e4",
+    "figures/g5/headline_caption.txt": "c8e07750d919d371d22393fbd18e65a9ce1cc3566a8e710367284f20b11617ac",
+    "figures/linkedin/g5/LINKEDIN_DRAFT.md": "f9767df9ea891ec9ad2b1912c9e987b6acdc4302deebef9eb6da9a3a682aec91",
+    "figures/linkedin/g5/linkedin_draft.png": "41fef9b882274a5146d7880c7d1302634ab8812d904dc6a6a9733fb442f83491",
+    "report/g5/generated/bins_1.tex": "67a81344714369c3c6579c230587a97b4e968366bbea095f7d8619b0e275738f",
+    "report/g5/generated/bins_2.tex": "bff2c13b135730ac2da8071fd3b17bb1152f9cbf84eb8881e4b5ce7e6a15b667",
+    "report/g5/generated/bins_3.tex": "7b9eff48239aace0997ab4b7c666bf1f153bb84baf5fdedcb4aecbd5a5ca053e",
+    "report/g5/generated/bins_4.tex": "e6bdc66f617b5dec839458e0cbbdd92ad2759b69688942ecd1dfbab38d1e5465",
+    "report/g5/generated/bootstrap.tex": "1325ea7ded23df03cf2351cf65caee02abd711e49891ccf52a193edbe0a26eb8",
+    "report/g5/generated/calibration.tex": "d14ab152049de730d42e105302f94e490230299872a4d712e47e380c05351a18",
+    "report/g5/generated/coefficients.tex": "0edb00a3ea5e7ad9d0894bc2de12251734b508072d43f7cc87de7d64969f7a76",
+    "report/g5/generated/convergence.tex": "666361f08184b49ff19f5ce08bc46758b9592cc78abcddc74f2dc03430f95c95",
+    "report/g5/generated/macro.tex": "f86b50d07b0e60581c5334b1044ac470b81cf19740a1b6ab9fd9f5e51c753bf1",
+    "report/g5/generated/numbers.tex": "4610b496159a1d8f9ae4b858234e589842940789b127ced26cd5872e5bebd1c9",
+    "report/g5/generated/performance.tex": "85d0d66c6369474dfc367a756fccec41e026c6d7affcb91d02683b4392415525",
+    "report/g5/generated/rank.tex": "ac13ab2a7500793ee84e64ce258e98aa0106e6d00ec9247b6ba2df1e786a79d3",
+    "report/g5/generated/rate_missingness.tex": "00acded325600213a8249a11867a481c7be85205ef5e41d2c923937019936197",
+    "report/g5/generated/samples.tex": "23569d97b5a528b335cab5a79fef3e3b8b290bdb111b9e5cbc371bb3c38761e8",
+    "report/g5/generated/sensitivities.tex": "e84bfcdbb6004dcfca4b9944decd0ba350c3527196d0d474cba6b15300cc2c43",
+    "report/g5/generated/stress.tex": "68bf19bd35304b20b54829a958f7cad9f7190b83226690dcba0b6093fe3463aa",
+    "report/g5/generated/support.tex": "dcfe9d6027b27aec7f33da2b8e222761bea3289bc71053671316db565b3764b9",
+    "report/g5/generated/term.tex": "105c2448f03b58352f9f880bb651d88e62e1d9a70b4832f24e2fded1a2834b07",
+    "report/g5/generated/waterfall.tex": "87fa9055d8a396d0c822b976c710bff06cb0a2c60313a0fd1a507edc719f70e3",
+    "report/g5/policy_note.tex": "5cf2493ad2610e83f712537b1bc385a11ba5945e2f3296fd5abec1f0dffad3b3",
+    "report/g5/preamble.tex": "5d59a143bea3128487287ace7b4412613a1d61e96097d30ee94ca7b52649d178",
+    "report/g5/technical_report.tex": "6725d18c1aaf369f41c424aeb6abaa3e4bd82db543fcd02e010822151e6cfa40",
+    "report/policy_note.pdf": "742d9377b6e4bed14188d9b67f58b0189d866a98e445c24435c42b3cba9c162f",
+    "report/technical_report.pdf": "bfa6f907f578ed4f4566c8b18a86b60ec2eece2e02a86a82ec410a642e861428",
+    "reporting/__init__.py": "66a985cfb383d31353f3fac9f93f3e646dc7dd05b1b488edfec93a97526efe4c",
+    "reporting/checks.py": "f343fca7ca2823ce0346e922552cac4e054756a13bcc61426e6633b83e8dbaea",
+    "reporting/create_claims.py": "9170d0e7d7e251c493707b391ca8de5c073c81c8554e846c85b1ff9241e55410",
+    "reporting/g5.py": "6eb53a0c1e92e9d3d45000c2f1dbeff7738deaefa9f82a16419946985f84be15",
+    "reporting/registry.py": "04c12e2cda7ce2bc14cf417f6e0eb9a4004259966c84b565b62065491b3e0c19",
+    "results/g5-2026-10-08/bins_1.csv": "721b44c15177082b9f3467887d8ae70dc047ccc14cc3516f7b7b5d26763fb4fc",
+    "results/g5-2026-10-08/bins_1_provenance.json": "172984b6d876fb24ce9e646c58e2c202ec8861a854f0cc4d2509e14956aefb46",
+    "results/g5-2026-10-08/bins_2.csv": "e3eb2b11e616702e6781605a162d3147072f1cfaf1a4c84b0c938517a6b171d5",
+    "results/g5-2026-10-08/bins_2_provenance.json": "5d870db1bcd390d7a6003eef269273b07e922c497fc4f1455ebc80c780fe0da8",
+    "results/g5-2026-10-08/bins_3.csv": "6ae699a73d8795a82c9ce268e0ec387e757395030ba58ea35237eb1758f51021",
+    "results/g5-2026-10-08/bins_3_provenance.json": "292cd3742b392bb188d615ac2644015d9b1854bb7c8adee381a24a5822b47d14",
+    "results/g5-2026-10-08/bins_4.csv": "a23be3fd21c8994dfa4e29f04641217bab253338b29dd44145f14848b0a63a4d",
+    "results/g5-2026-10-08/bins_4_provenance.json": "ea945b929fdb4a34c8d5593796b0a1f9acc79b9489810e2781572a2be18c23fb",
+    "results/g5-2026-10-08/bootstrap.csv": "7c16e68053656a00fdb793de04fa5b866de1afc5f9c889d54df0ced6d4b1a6de",
+    "results/g5-2026-10-08/bootstrap_provenance.json": "e654547d8a157ea286ef40e5431772898238b8bc0373339979e95c8a30712c99",
+    "results/g5-2026-10-08/calibration.csv": "b5cd4b6b6d8856494748727505f9bd40844dc769f3f1dc56d5d9b0a626873af0",
+    "results/g5-2026-10-08/calibration_provenance.json": "f3f948508bb4c66bb8259bbbb44c04a07bd05f083aabebc74ae524821962c411",
+    "results/g5-2026-10-08/claims_registry.json": "96b8a60299d886c5e8dcb87ee87c8919c12e252736bc4fec0b9f3a684a3048a0",
+    "results/g5-2026-10-08/coefficients.csv": "eeb2321214f749f617a0dae13b98b8fcb236b420fc7dcccf733c6e4279007573",
+    "results/g5-2026-10-08/coefficients_provenance.json": "426857e7424b8ff5447070304a168dcda80ccc9e797039f6099ce05872efe98b",
+    "results/g5-2026-10-08/convergence.csv": "b02358f31a286add04efbc36fe3d520a74444edcc43867d669d32b75103d94e1",
+    "results/g5-2026-10-08/convergence_provenance.json": "e3596b75142ed71806b12685c991380f72988d0062fa374811b73142e109f258",
+    "results/g5-2026-10-08/display_values.json": "c6f9d3ac5bfc1b3ec78118e7cf831413f738fef85df56549c7e649547b5f3a11",
+    "results/g5-2026-10-08/macro.csv": "0a0c818e94c9fcc31721149719e7bac10e9b40a506dba46216f0c9b0ed79ac47",
+    "results/g5-2026-10-08/macro_provenance.json": "3793868350e9c989dc918314c45c2096787440d44ea160f94fee401bbcb9f1d0",
+    "results/g5-2026-10-08/method_constants.json": "129878f114479a7dde7edfaad97dbf3ebe9a6dd6fb963a4084b319014032f1cc",
+    "results/g5-2026-10-08/performance.csv": "a41990bbaf0898cb139555d12991f8c08b5d77d55bd785d4303ec7d88628888b",
+    "results/g5-2026-10-08/performance_provenance.json": "9aed2ec2a2cdfbb4dab9ab751f9dea101f8bee7195c19a68ddd0a6fe28c41c72",
+    "results/g5-2026-10-08/preservation_inventory.json": "3eb4fcae97a70cfe62c5375fb8c6cfc90a00d035d37a6317b146ba9608eac1b2",
+    "results/g5-2026-10-08/private_free_rehearsal.json": "0e1f78157821f569789ed4ea9fc35905e97529d5e3103743b6ab99f0340a5e1a",
+    "results/g5-2026-10-08/rank.csv": "2a1a2446e09c5197400659331e49f503d2ba46a775a6093633bfe832a83c7c6d",
+    "results/g5-2026-10-08/rank_provenance.json": "293cfe0fae5f6f11bf4a86a8fe005e3672bf29f5145c0c95b738aaf33a088d56",
+    "results/g5-2026-10-08/rate_missingness.csv": "66828252c5e11d8a1b373893f509be8ee4014dec74f038763077018605c1f1a4",
+    "results/g5-2026-10-08/rate_missingness_provenance.json": "7680f10dbfdb836e8a33cb9ea9301b194eaa09b958ce77d3bd942b67a110ad67",
+    "results/g5-2026-10-08/references_verified.json": "cfb85a6a096aa3770407cb4983bef8f1dc9fcc326fa1c1bfc8629530734f0225",
+    "results/g5-2026-10-08/rendered_claims.json": "cc23d8376ce264542ea120905b297feb62ae632ab0aa110290f031df9c795351",
+    "results/g5-2026-10-08/reporting_coverage.json": "8ee8fb1e4ece8aa0270e46f9799429c8f2a9aaa72d2cdf009a19394b3d32591d",
+    "results/g5-2026-10-08/samples.csv": "a81e726f36b2dab882beaf0cdabf384471ac74356a3df99b00c66a2372502ea4",
+    "results/g5-2026-10-08/samples_provenance.json": "3ad6b44b13a07874e95d0f90b6b5273ea2e4b007a523d4a6d39827f450a3297a",
+    "results/g5-2026-10-08/sensitivities.csv": "14d961276c4dd675746fb20bad6877e6589fd47be4b215557a1be64328b49211",
+    "results/g5-2026-10-08/sensitivities_provenance.json": "09f9667d066d7169d852291a0ad79489ef03d25991b5eb9136be84a9e229c3d1",
+    "results/g5-2026-10-08/snippet_provenance.json": "3b0cbbd3b4151cea3aba57ff74830651432fa9bdd215a728c837ee9d4ce1f693",
+    "results/g5-2026-10-08/stress.csv": "56ef70b374aa6b30cf54aa54aebfa8cff5970417ed7e87a5fac25cf0cc4d2f29",
+    "results/g5-2026-10-08/stress_provenance.json": "4ac0991948360727fa5cbe484505881393292c5dba467f342ba747a36cdb9d65",
+    "results/g5-2026-10-08/support.csv": "e4032d2cd75a4cb3a8812383438b730bafdf9bd33a91c5465fdbbf0e70e57099",
+    "results/g5-2026-10-08/support_provenance.json": "6b05d4025011222c8ea96a76b740ba8295d600efb39970453c280b43453c0ce5",
+    "results/g5-2026-10-08/term.csv": "cd1348146c960cf12b28c76c2dd706b957a47be62315ae8f3a33d7d009dd2cb9",
+    "results/g5-2026-10-08/term_provenance.json": "ba2dae438f00358f423e4b62b4c5d78567ccb4d0e330bb7de69180f47388c681",
+    "results/g5-2026-10-08/validation_checks.json": "775fe79d9cf9cef8ab2b0509504f60b5687e575a8682f4d818ac1e15083b9352",
+    "results/g5-2026-10-08/validation_summary.json": "c1cbc49e1360eb56dd7006ba99472ee6f87b4c02e34d78db7d4f6f686906218b",
+    "results/g5-2026-10-08/visual_checks.json": "8ed930b84d3550dce86a63372f0f2e8d3e67657ee7257b16210835f4c91001e9",
+    "results/g5-2026-10-08/waterfall.csv": "ffff7d41bdeccf3b55ff4cc615783f60571f06c73688572e4772800dc3625cb8",
+    "results/g5-2026-10-08/waterfall_provenance.json": "28719aea38dfecd4a052c1e39fe8c9a44ccdae92d8177eace5c1a3f68722614e",
+    "tests/test_g5_reporting.py": "0035af02ee10ca5fe1a2189b11356a25920ef677865051f34445179f86081b79",
+    "results/g5-2026-10-08/correction_2026-10-08.json": "2cc6d62d52a98b5352fdedb8301a755fb146ee00ba772acafd8c15ee65e7d06e",
+    "versions/pre-g5-correction-2026-10-08/ARCHIVE_MANIFEST.json": "777b0c769544eb3e56e9f8a2f68944194837ef7e90ee7ec7b4c4abd0cafab45f"
+  },
+  "validation": {
+    "claims": {
+      "verified_cells": 4573,
+      "derived_cells": 5,
+      "source_files": 20
+    },
+    "preservation": {
+      "protected_tracked": 238,
+      "protected_private": 1170,
+      "archive_mappings": 21,
+      "authorized_surface_replacements": 2,
+      "append_only_decisions": 1
+    },
+    "scope": {
+      "isolated_reporting_modules": 4,
+      "language_surfaces": 5,
+      "scenario_captions": 3
+    },
+    "rendered": {
+      "rendered_snippets": 569,
+      "generated_tables": 18
+    },
+    "pages": {
+      "policy_note": 2,
+      "technical_report": 10
+    },
+    "new_empirical_runs": 0
+  },
+  "new_tests": {
+    "reporting_tests": {
+      "passed": 39,
+      "runtime_seconds": 65.66,
+      "coverage_percent": 98.81481481481481,
+      "coverage_scope": "reporting package only",
+      "log_sha256": "01dcd00c620c7600e76cad31fdfd4120084a6d402ed869a0a7d90a2d53229d1c"
+    },
+    "compatible_existing_tests": {
+      "passed": 36,
+      "deselected": 6,
+      "runtime_seconds": 3.54,
+      "scope": "administrative labels/cohorts/deterministic accounting; no fitting, prediction, recalibration or bootstrap",
+      "log_sha256": "ff91e1d6edb858dd723b4cfd781f183da270aeab44bccf9393d5640f30786371"
+    },
+    "lint": "passed: reporting, new tests and unchanged src",
+    "format": "passed: reporting and new tests",
+    "typing": "passed: 29 reporting/research source files; source code unchanged",
+    "private_data_free_build": "passed; two PDFs built from allowlisted aggregates and metadata",
+    "retained_statistical_evidence": {
+      "source_path": "docs/G2_BIS_REPORT_2026-10-08.md",
+      "source_sha256": "a59175101d5b690d0cf5467952866e68f8fbd6af462e22be6316ed958e577077",
+      "passed": 78,
+      "runtime_seconds": 153.44,
+      "package_coverage_percent": 89.41684665226782,
+      "statistical_core_coverage_percent": 95.90697674418605,
+      "newly_executed_in_G5": false
+    }
+  },
+  "preservation": {
+    "protected_tracked": 238,
+    "protected_private": 1170,
+    "archive_mappings": 21,
+    "authorized_surface_replacements": 2,
+    "append_only_decisions": 1
+  },
+  "archive_mappings": [
+    {
+      "original_path": "README.md",
+      "archive_path": "versions/pre-g5-2026-10-08/README.md",
+      "sha256": "a7439d4ca71ea331f8fb93c3e6a9618cd7246019ebd35fed0892d8bb9e74171a",
+      "replacement_authorized": true,
+      "original_retained": false
+    },
+    {
+      "original_path": "Makefile",
+      "archive_path": "versions/pre-g5-2026-10-08/Makefile",
+      "sha256": "55d3232953c569e8001f2bb6310b4b93f84a540dd95ddcdfff2719bfbb098437",
+      "replacement_authorized": true,
+      "original_retained": false
+    },
+    {
+      "original_path": "DECISIONS.md",
+      "archive_path": "versions/pre-g5-2026-10-08/DECISIONS.md",
+      "sha256": "80a101242f4f34f3192b95a4ca16a904ac0d364029c8ea4349af0eb74c6c460a",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "Credit_Scoring_1_Final_Project_Report.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/Credit_Scoring_1_Final_Project_Report.pdf",
+      "sha256": "cb881f722d91bc21c2c8cf3cc9ba4db119e9f43b87e8f0fdf3b2e344b5b23a93",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/main.tex",
+      "archive_path": "versions/pre-g5-2026-10-08/report/main.tex",
+      "sha256": "decfc8219f916e0575f98da254c779560e34c0c2bc1fcb3b0c7441d018c3c5b1",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_feature_distributions.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_feature_distributions.pdf",
+      "sha256": "5c72c15b927d00ce919aeea6af79814256f589f41e3c8c7147a950e521bace06",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_crisis_heatmap.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_crisis_heatmap.pdf",
+      "sha256": "74151c886789857c6525adf17b7b8d0cd2aea445ca25e45a8709141bde1e3bb2",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_geographic_analysis.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_geographic_analysis.pdf",
+      "sha256": "aeca924902360c4c86a1e2c906e944f1c9d611c25846a53a74dbdbf0fc19749c",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_psi_drift.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_psi_drift.pdf",
+      "sha256": "8df151f599e5f6e0d69a634650fc0f263d9c654301f6a0449d3efe8e892adaf3",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_lr_evaluation.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_lr_evaluation.pdf",
+      "sha256": "22ec73a749e3761d441abfe44589bbf0f166e9d6484f144cb3e6f22e08404780",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_shap_summary.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_shap_summary.pdf",
+      "sha256": "75904b05fd47a597208a24248da3a3e5d41ef38c944885631f80df62790065f0",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_calibration_curves.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_calibration_curves.pdf",
+      "sha256": "d9ad0f5e9ce04aabf4080db50380fdf0da7e54d800e8e1c9f632f76b047b9c98",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_fairness_analysis.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_fairness_analysis.pdf",
+      "sha256": "a572e34cb6e63c953014e0e6b4f4ba90215dba3df51fca2b3b689a01585291ea",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_industry_sector.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_industry_sector.pdf",
+      "sha256": "1039c90d82bc4c79ec195d444f6155eb813a822828755580b8ab394f18b1745a",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_smote_comparison.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_smote_comparison.pdf",
+      "sha256": "36ba335c89d2baad51c12952cbab0812dbb10648760e3e67928974b8bcce0bfd",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_business_simulation.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_business_simulation.pdf",
+      "sha256": "d43d2c296c9ac116276c6054ab66470e902513c79faf8245a6cb4553e5b2b704",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_pdp_top3.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_pdp_top3.pdf",
+      "sha256": "16e372ae392f0949b05364d81fe56bdfa5f852bd53265cb440865c3ec9dd2597",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_correlation_bar.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_correlation_bar.pdf",
+      "sha256": "7a021178ac83eb7375812d1064a746afeb29d882124e251acdd1dc5e9dd3430d",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_loan_size_guarantee.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_loan_size_guarantee.pdf",
+      "sha256": "9c1d821188b4de8b828c3bc900da7ff959ae2191ebbfe927e93474e2eaac0944",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_temporal_default_rate.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_temporal_default_rate.pdf",
+      "sha256": "3ead0cc9de459a13aed58edb9675eae88d530539d5946d32ba35bea4007cc9c4",
+      "replacement_authorized": false,
+      "original_retained": true
+    },
+    {
+      "original_path": "report/figures/fig_optuna_tuning.pdf",
+      "archive_path": "versions/pre-g5-2026-10-08/report/figures/fig_optuna_tuning.pdf",
+      "sha256": "3fbe715818170ff4f66d8ebe8d942695c3238202c8701c5099d100946660a9b8",
+      "replacement_authorized": false,
+      "original_retained": true
+    }
+  ],
+  "portfolio_log_append": {
+    "path": "/Users/hakanzekigulmez/portfolio/PORTFOLIO_LOG.md",
+    "before_sha256": "770587c67b9196482f9ecc2f78b1015c3e07bd5ab5e42ba78b6885621e2d402f",
+    "after_sha256": "b054f1b521725ec3235f311ec3bc5489b4c70de9a9259b7ccc514cef1ef4f983",
+    "append_only": true,
+    "outside_repo": true
+  },
+  "source_results_unchanged": true,
+  "new_empirical_runs": 0,
+  "paid_calls": 0,
+  "publication": false,
+  "cv_files_edited": false,
+  "manifest_self_hash_omitted": true,
+  "reporting_correction": {
+    "date": "2026-10-08",
+    "parent_delivery_commit": "abfbb240c6dc41012ac8e01425bfdfab02d45dfe",
+    "metadata_path": "results/g5-2026-10-08/correction_2026-10-08.json",
+    "metadata_sha256": "2cc6d62d52a98b5352fdedb8301a755fb146ee00ba772acafd8c15ee65e7d06e",
+    "archive_manifest_path": "versions/pre-g5-correction-2026-10-08/ARCHIVE_MANIFEST.json",
+    "new_reporting_tests": 50,
+    "coverage_percent": 98.8620199146515,
+    "new_empirical_runs": 0
+  }
+}

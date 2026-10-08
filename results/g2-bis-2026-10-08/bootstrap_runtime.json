@@ -1,0 +1,48 @@
+{
+  "complete": true,
+  "seconds_this_execution": 8471.564099667012,
+  "peak_rss_GiB": 2.846343994140625,
+  "pid": 74319,
+  "caffeinate": true,
+  "attempts_per_model": 199,
+  "models": [
+    {
+      "variant": "layer1",
+      "attempts_completed": 199,
+      "unit_fit_seconds": 2.384874250041321,
+      "mean_draw_total_seconds": 3.946787583720098,
+      "projected_remaining_draw_seconds": 0.0
+    },
+    {
+      "variant": "layer1_term",
+      "attempts_completed": 199,
+      "unit_fit_seconds": 2.3682138338917866,
+      "mean_draw_total_seconds": 4.707540756324891,
+      "projected_remaining_draw_seconds": 0.0
+    },
+    {
+      "variant": "layer2",
+      "attempts_completed": 199,
+      "unit_fit_seconds": 9.22603220900055,
+      "mean_draw_total_seconds": 10.86432722487356,
+      "projected_remaining_draw_seconds": 0.0
+    },
+    {
+      "variant": "layer2_term",
+      "attempts_completed": 199,
+      "unit_fit_seconds": 10.13849108305294,
+      "mean_draw_total_seconds": 12.599766069282566,
+      "projected_remaining_draw_seconds": 0.0
+    },
+    {
+      "variant": "layer2_peak",
+      "attempts_completed": 199,
+      "unit_fit_seconds": 9.294482000055723,
+      "mean_draw_total_seconds": 11.093935029322033,
+      "projected_remaining_draw_seconds": 0.0
+    }
+  ],
+  "projected_remaining_seconds": 0.0,
+  "draws_remain_part_of_199": true,
+  "source_protocol_commit": "1d39a458ee1bbd0e1604a5b78a2e6f8372fb1c53"
+}

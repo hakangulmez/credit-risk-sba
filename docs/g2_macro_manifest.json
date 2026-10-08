@@ -1,0 +1,279 @@
+{
+  "access_date": "2026-10-08",
+  "bls_source": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+  "bls_files": [
+    {
+      "file": "bls_1990_1999_0.json",
+      "request": {
+        "seriesid": [
+          "LASST020000000000003",
+          "LASST010000000000003",
+          "LASST050000000000003",
+          "LASST040000000000003",
+          "LASST060000000000003",
+          "LASST080000000000003",
+          "LASST090000000000003",
+          "LASST110000000000003",
+          "LASST100000000000003",
+          "LASST120000000000003",
+          "LASST130000000000003",
+          "LASST150000000000003",
+          "LASST190000000000003",
+          "LASST160000000000003",
+          "LASST170000000000003",
+          "LASST180000000000003",
+          "LASST200000000000003",
+          "LASST210000000000003",
+          "LASST220000000000003",
+          "LASST250000000000003",
+          "LASST240000000000003",
+          "LASST230000000000003",
+          "LASST260000000000003",
+          "LASST270000000000003",
+          "LASST290000000000003"
+        ],
+        "startyear": "1990",
+        "endyear": "1999"
+      },
+      "sha256": "d54b5bdad31b3c20771e0a9b26c3a6dc07326f6a49875b73af5443c4d9be29b7",
+      "bytes": 253737,
+      "messages": []
+    },
+    {
+      "file": "bls_1990_1999_1.json",
+      "request": {
+        "seriesid": [
+          "LASST280000000000003",
+          "LASST300000000000003",
+          "LASST370000000000003",
+          "LASST380000000000003",
+          "LASST310000000000003",
+          "LASST330000000000003",
+          "LASST340000000000003",
+          "LASST350000000000003",
+          "LASST320000000000003",
+          "LASST360000000000003",
+          "LASST390000000000003",
+          "LASST400000000000003",
+          "LASST410000000000003",
+          "LASST420000000000003",
+          "LASST440000000000003",
+          "LASST450000000000003",
+          "LASST460000000000003",
+          "LASST470000000000003",
+          "LASST480000000000003",
+          "LASST490000000000003",
+          "LASST510000000000003",
+          "LASST500000000000003",
+          "LASST530000000000003",
+          "LASST550000000000003",
+          "LASST540000000000003"
+        ],
+        "startyear": "1990",
+        "endyear": "1999"
+      },
+      "sha256": "8a9ddf51b56f88848c6e8571ecba7f7f9e04af4d505ec8aae2c1372f05d5c6f2",
+      "bytes": 253770,
+      "messages": []
+    },
+    {
+      "file": "bls_1990_1999_2.json",
+      "request": {
+        "seriesid": [
+          "LASST560000000000003"
+        ],
+        "startyear": "1990",
+        "endyear": "1999"
+      },
+      "sha256": "2677cadf527ea2efcead367091a32906b9839ba266ed0b58fc6ad5c13890f73f",
+      "bytes": 10232,
+      "messages": []
+    },
+    {
+      "file": "bls_2000_2009_0.json",
+      "request": {
+        "seriesid": [
+          "LASST020000000000003",
+          "LASST010000000000003",
+          "LASST050000000000003",
+          "LASST040000000000003",
+          "LASST060000000000003",
+          "LASST080000000000003",
+          "LASST090000000000003",
+          "LASST110000000000003",
+          "LASST100000000000003",
+          "LASST120000000000003",
+          "LASST130000000000003",
+          "LASST150000000000003",
+          "LASST190000000000003",
+          "LASST160000000000003",
+          "LASST170000000000003",
+          "LASST180000000000003",
+          "LASST200000000000003",
+          "LASST210000000000003",
+          "LASST220000000000003",
+          "LASST250000000000003",
+          "LASST240000000000003",
+          "LASST230000000000003",
+          "LASST260000000000003",
+          "LASST270000000000003",
+          "LASST290000000000003"
+        ],
+        "startyear": "2000",
+        "endyear": "2009"
+      },
+      "sha256": "72db80be2b7cfcc5b74201aa06485ab1ba26e3d832b7533066e2147cfad4b84e",
+      "bytes": 253822,
+      "messages": []
+    },
+    {
+      "file": "bls_2000_2009_1.json",
+      "request": {
+        "seriesid": [
+          "LASST280000000000003",
+          "LASST300000000000003",
+          "LASST370000000000003",
+          "LASST380000000000003",
+          "LASST310000000000003",
+          "LASST330000000000003",
+          "LASST340000000000003",
+          "LASST350000000000003",
+          "LASST320000000000003",
+          "LASST360000000000003",
+          "LASST390000000000003",
+          "LASST400000000000003",
+          "LASST410000000000003",
+          "LASST420000000000003",
+          "LASST440000000000003",
+          "LASST450000000000003",
+          "LASST460000000000003",
+          "LASST470000000000003",
+          "LASST480000000000003",
+          "LASST490000000000003",
+          "LASST510000000000003",
+          "LASST500000000000003",
+          "LASST530000000000003",
+          "LASST550000000000003",
+          "LASST540000000000003"
+        ],
+        "startyear": "2000",
+        "endyear": "2009"
+      },
+      "sha256": "0accf0a6d9608a6528d7884b98cefc43d1414b3978f1ac79ffd659db6606989d",
+      "bytes": 253819,
+      "messages": []
+    },
+    {
+      "file": "bls_2000_2009_2.json",
+      "request": {
+        "seriesid": [
+          "LASST560000000000003"
+        ],
+        "startyear": "2000",
+        "endyear": "2009"
+      },
+      "sha256": "45c3bd6f785649b6e0ec8a111c8bf06148f54648efd6fd38dcfde6b2e4acb207",
+      "bytes": 10232,
+      "messages": []
+    },
+    {
+      "file": "bls_2010_2016_0.json",
+      "request": {
+        "seriesid": [
+          "LASST020000000000003",
+          "LASST010000000000003",
+          "LASST050000000000003",
+          "LASST040000000000003",
+          "LASST060000000000003",
+          "LASST080000000000003",
+          "LASST090000000000003",
+          "LASST110000000000003",
+          "LASST100000000000003",
+          "LASST120000000000003",
+          "LASST130000000000003",
+          "LASST150000000000003",
+          "LASST190000000000003",
+          "LASST160000000000003",
+          "LASST170000000000003",
+          "LASST180000000000003",
+          "LASST200000000000003",
+          "LASST210000000000003",
+          "LASST220000000000003",
+          "LASST250000000000003",
+          "LASST240000000000003",
+          "LASST230000000000003",
+          "LASST260000000000003",
+          "LASST270000000000003",
+          "LASST290000000000003"
+        ],
+        "startyear": "2010",
+        "endyear": "2016"
+      },
+      "sha256": "b4b9ae5a3d6a2298d5431d5a1c0544b30e8acfffce30ccb8f07222db5539ca32",
+      "bytes": 178147,
+      "messages": []
+    },
+    {
+      "file": "bls_2010_2016_1.json",
+      "request": {
+        "seriesid": [
+          "LASST280000000000003",
+          "LASST300000000000003",
+          "LASST370000000000003",
+          "LASST380000000000003",
+          "LASST310000000000003",
+          "LASST330000000000003",
+          "LASST340000000000003",
+          "LASST350000000000003",
+          "LASST320000000000003",
+          "LASST360000000000003",
+          "LASST390000000000003",
+          "LASST400000000000003",
+          "LASST410000000000003",
+          "LASST420000000000003",
+          "LASST440000000000003",
+          "LASST450000000000003",
+          "LASST460000000000003",
+          "LASST470000000000003",
+          "LASST480000000000003",
+          "LASST490000000000003",
+          "LASST510000000000003",
+          "LASST500000000000003",
+          "LASST530000000000003",
+          "LASST550000000000003",
+          "LASST540000000000003"
+        ],
+        "startyear": "2010",
+        "endyear": "2016"
+      },
+      "sha256": "153e52ea9e039010e7c75f74a99f91be8bf029348067395ee3d1eb126ec3147a",
+      "bytes": 178143,
+      "messages": []
+    },
+    {
+      "file": "bls_2010_2016_2.json",
+      "request": {
+        "seriesid": [
+          "LASST560000000000003"
+        ],
+        "startyear": "2010",
+        "endyear": "2016"
+      },
+      "sha256": "4ab52c21af89caffd250fc631bdc86bac1e81bbefaf8a0ebff0eb414ec5e4ee0",
+      "bytes": 7202,
+      "messages": []
+    }
+  ],
+  "bls_rows": 16524,
+  "years": [
+    1990,
+    2016
+  ],
+  "bls_observation_sha256": "d1cc7cefe671a8df9895c120a291cf4de5b671b2a6c7e67efe4f828ccef69706",
+  "states": 51,
+  "macros_are_revised_not_real_time": true,
+  "fhfa_source": "https://www.fhfa.gov/hpi/download/quarterly_datasets/hpi_at_state.csv",
+  "fhfa_sha256": "b6bf3687c230c2ad008657fdb0c2b7489b5f99b6d1193f72c46c68d88df83d90",
+  "fhfa_frozen_at_g1": true,
+  "notice": "This product uses FHFA data but is neither endorsed nor certified by FHFA."
+}

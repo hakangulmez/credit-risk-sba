@@ -1,0 +1,9 @@
+check,passed,n
+window_complete,True,855354
+origin_observed,True,855354
+positive_approval,True,855354
+all_positive_labels_in_window,True,855354
+all_non_events_outside_window_or_missing,True,855354
+fit_tune_calibrate_labels_mature_before_crisis,True,855354
+full_macro_path_matched,True,855354
+peak_not_below_endpoint_or_zero,True,855354

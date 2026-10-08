@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-08",
+  "scope": "Bibliographic metadata only; no empirical acquisition",
+  "references": [
+    {
+      "citation": "Firth (1993), Biometrika 80(1), 27\u201338",
+      "doi": "10.1093/biomet/80.1.27",
+      "verified_against": "Official OUP journal metadata"
+    },
+    {
+      "citation": "Kosmidis and Firth (2021), Biometrika 108(1), 71\u201382",
+      "doi": "10.1093/biomet/asaa052",
+      "verified_against": "https://academic.oup.com/biomet/article/108/1/71/5880219"
+    },
+    {
+      "citation": "Li, Mickel and Taylor (2018)",
+      "doi": "10.1080/10691898.2018.1434342",
+      "verified_against": "Retained DATA.md/source-rights verification; no unresolved mirror acquired"
+    },
+    {
+      "citation": "SBA / BLS / FHFA source metadata",
+      "verified_against": "Unchanged DATA.md and frozen source manifests"
+    }
+  ]
+}

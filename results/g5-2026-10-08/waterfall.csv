@@ -1,0 +1,10 @@
+Eligibility step,Excluded,Remaining
+all source rows,0,"1,961,455"
+wrong program,0,"1,961,455"
+cancelled or committed,"263,913","1,697,542"
+unknown status,0,"1,697,542"
+missing disbursement,"1,795","1,695,747"
+incomplete window,"160,527","1,535,220"
+invalid approval amount,1,"1,535,219"
+unmapped state,"18,730","1,516,489"
+date or status contradiction,"1,637","1,514,852"

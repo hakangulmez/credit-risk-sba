@@ -1,0 +1,107 @@
+feature,level,n,events,non_events,layer_interpretation
+ProcessingMethod,7a General,135799,3843,131956,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,7a with EWCP,2488,42,2446,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Certified Lenders Program,47516,1026,46490,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Community Express,38795,8133,30662,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Export Express,1130,90,1040,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Gulf Opportunity Pilot Loan Program,1371,71,1300,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,International Trade Loans,3320,72,3248,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Low Documentation Program,121762,6753,115009,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Other,2647,158,2489,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Patriot Express Loans,4450,575,3875,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Preferred Lenders Program,193460,4896,188564,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,Rural Loan Initiative,1043,23,1020,Retrospective conditional validation using realized macro paths.
+ProcessingMethod,SBA Express Program,334922,29406,305516,Retrospective conditional validation using realized macro paths.
+FixedorVariableInterestInd,F,4507,113,4394,Retrospective conditional validation using realized macro paths.
+FixedorVariableInterestInd,V,32174,1897,30277,Retrospective conditional validation using realized macro paths.
+FixedorVariableInterestInd,__missing__,852022,53078,798944,Retrospective conditional validation using realized macro paths.
+naics2,11,8516,130,8386,Retrospective conditional validation using realized macro paths.
+naics2,21,1737,63,1674,Retrospective conditional validation using realized macro paths.
+naics2,23,66661,4889,61772,Retrospective conditional validation using realized macro paths.
+naics2,31,11752,777,10975,Retrospective conditional validation using realized macro paths.
+naics2,32,16993,811,16182,Retrospective conditional validation using realized macro paths.
+naics2,33,35998,1638,34360,Retrospective conditional validation using realized macro paths.
+naics2,42,45957,3525,42432,Retrospective conditional validation using realized macro paths.
+naics2,44,90205,6592,83613,Retrospective conditional validation using realized macro paths.
+naics2,45,44910,3717,41193,Retrospective conditional validation using realized macro paths.
+naics2,48,20209,2036,18173,Retrospective conditional validation using realized macro paths.
+naics2,49,2245,176,2069,Retrospective conditional validation using realized macro paths.
+naics2,51,11748,1059,10689,Retrospective conditional validation using realized macro paths.
+naics2,52,9747,915,8832,Retrospective conditional validation using realized macro paths.
+naics2,53,14136,1485,12651,Retrospective conditional validation using realized macro paths.
+naics2,54,68276,4591,63685,Retrospective conditional validation using realized macro paths.
+naics2,56,34128,2683,31445,Retrospective conditional validation using realized macro paths.
+naics2,61,6911,552,6359,Retrospective conditional validation using realized macro paths.
+naics2,62,56857,1772,55085,Retrospective conditional validation using realized macro paths.
+naics2,71,15355,1137,14218,Retrospective conditional validation using realized macro paths.
+naics2,72,74823,4850,69973,Retrospective conditional validation using realized macro paths.
+naics2,81,78012,4724,73288,Retrospective conditional validation using realized macro paths.
+naics2,Other,1166,57,1109,Retrospective conditional validation using realized macro paths.
+naics2,__missing__,172361,6909,165452,Retrospective conditional validation using realized macro paths.
+BusinessType,CORPORATION,608513,35714,572799,Retrospective conditional validation using realized macro paths.
+BusinessType,INDIVIDUAL,240918,17630,223288,Retrospective conditional validation using realized macro paths.
+BusinessType,PARTNERSHIP,35439,1281,34158,Retrospective conditional validation using realized macro paths.
+BusinessType,__missing__,3833,463,3370,Retrospective conditional validation using realized macro paths.
+BusinessAge,"Existing, 5 or more years",99601,10581,89020,Retrospective conditional validation using realized macro paths.
+BusinessAge,Less than 3 years old but at least 2,21027,3462,17565,Retrospective conditional validation using realized macro paths.
+BusinessAge,Less than 4 years old but at least 3,492904,20974,471930,Retrospective conditional validation using realized macro paths.
+BusinessAge,Less than 5 years old but at least 4,12537,2019,10518,Retrospective conditional validation using realized macro paths.
+BusinessAge,"New, Less than 1 Year old",218342,13495,204847,Retrospective conditional validation using realized macro paths.
+BusinessAge,Other,90,1,89,Retrospective conditional validation using realized macro paths.
+BusinessAge,"Startup, Loan Funds will Open Business",21007,1781,19226,Retrospective conditional validation using realized macro paths.
+BusinessAge,Unanswered,23195,2775,20420,Retrospective conditional validation using realized macro paths.
+franchise,missing,836228,52578,783650,Retrospective conditional validation using realized macro paths.
+franchise,present,52475,2510,49965,Retrospective conditional validation using realized macro paths.
+loan_type,revolving,174993,17052,157941,Retrospective conditional validation using realized macro paths.
+loan_type,term,713710,38036,675674,Retrospective conditional validation using realized macro paths.
+ProjectState,AK,2268,43,2225,Retrospective conditional validation using realized macro paths.
+ProjectState,AL,7371,585,6786,Retrospective conditional validation using realized macro paths.
+ProjectState,AR,6628,396,6232,Retrospective conditional validation using realized macro paths.
+ProjectState,AZ,18264,1065,17199,Retrospective conditional validation using realized macro paths.
+ProjectState,CA,125996,9616,116380,Retrospective conditional validation using realized macro paths.
+ProjectState,CO,20310,1173,19137,Retrospective conditional validation using realized macro paths.
+ProjectState,CT,13200,587,12613,Retrospective conditional validation using realized macro paths.
+ProjectState,DC,1690,166,1524,Retrospective conditional validation using realized macro paths.
+ProjectState,DE,2325,121,2204,Retrospective conditional validation using realized macro paths.
+ProjectState,FL,41602,4219,37383,Retrospective conditional validation using realized macro paths.
+ProjectState,GA,22479,2097,20382,Retrospective conditional validation using realized macro paths.
+ProjectState,HI,3471,196,3275,Retrospective conditional validation using realized macro paths.
+ProjectState,IA,10869,513,10356,Retrospective conditional validation using realized macro paths.
+ProjectState,ID,8979,436,8543,Retrospective conditional validation using realized macro paths.
+ProjectState,IL,29066,2366,26700,Retrospective conditional validation using realized macro paths.
+ProjectState,IN,13368,703,12665,Retrospective conditional validation using realized macro paths.
+ProjectState,KS,10553,525,10028,Retrospective conditional validation using realized macro paths.
+ProjectState,KY,7411,449,6962,Retrospective conditional validation using realized macro paths.
+ProjectState,LA,9738,530,9208,Retrospective conditional validation using realized macro paths.
+ProjectState,MA,24594,981,23613,Retrospective conditional validation using realized macro paths.
+ProjectState,MD,13716,891,12825,Retrospective conditional validation using realized macro paths.
+ProjectState,ME,5819,206,5613,Retrospective conditional validation using realized macro paths.
+ProjectState,MI,21121,1220,19901,Retrospective conditional validation using realized macro paths.
+ProjectState,MN,22564,950,21614,Retrospective conditional validation using realized macro paths.
+ProjectState,MO,19040,1066,17974,Retrospective conditional validation using realized macro paths.
+ProjectState,MS,7797,410,7387,Retrospective conditional validation using realized macro paths.
+ProjectState,MT,8081,206,7875,Retrospective conditional validation using realized macro paths.
+ProjectState,NC,13761,923,12838,Retrospective conditional validation using realized macro paths.
+ProjectState,ND,4648,137,4511,Retrospective conditional validation using realized macro paths.
+ProjectState,NE,6042,249,5793,Retrospective conditional validation using realized macro paths.
+ProjectState,NH,11118,367,10751,Retrospective conditional validation using realized macro paths.
+ProjectState,NJ,26457,1696,24761,Retrospective conditional validation using realized macro paths.
+ProjectState,NM,5939,251,5688,Retrospective conditional validation using realized macro paths.
+ProjectState,NV,7244,726,6518,Retrospective conditional validation using realized macro paths.
+ProjectState,NY,58716,4323,54393,Retrospective conditional validation using realized macro paths.
+ProjectState,OH,30901,1339,29562,Retrospective conditional validation using realized macro paths.
+ProjectState,OK,9878,680,9198,Retrospective conditional validation using realized macro paths.
+ProjectState,OR,10839,475,10364,Retrospective conditional validation using realized macro paths.
+ProjectState,PA,36985,1427,35558,Retrospective conditional validation using realized macro paths.
+ProjectState,RI,9272,306,8966,Retrospective conditional validation using realized macro paths.
+ProjectState,SC,5824,300,5524,Retrospective conditional validation using realized macro paths.
+ProjectState,SD,3917,188,3729,Retrospective conditional validation using realized macro paths.
+ProjectState,TN,9601,755,8846,Retrospective conditional validation using realized macro paths.
+ProjectState,TX,74409,4913,69496,Retrospective conditional validation using realized macro paths.
+ProjectState,UT,17477,1144,16333,Retrospective conditional validation using realized macro paths.
+ProjectState,VA,12873,939,11934,Retrospective conditional validation using realized macro paths.
+ProjectState,VT,5077,137,4940,Retrospective conditional validation using realized macro paths.
+ProjectState,WA,23028,1011,22017,Retrospective conditional validation using realized macro paths.
+ProjectState,WI,20145,670,19475,Retrospective conditional validation using realized macro paths.
+ProjectState,WV,3556,316,3240,Retrospective conditional validation using realized macro paths.
+ProjectState,WY,2676,100,2576,Retrospective conditional validation using realized macro paths.

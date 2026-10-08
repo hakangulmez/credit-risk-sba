@@ -1,0 +1,2 @@
+raw_rows,eligible_rows,unique_file_row_ids,indistinguishable_disclosed_nonidentifier_rows,action
+1961455,1514852,1514852,1460,No deduplication: source lacks a stable loan ID; these fields cannot prove identity

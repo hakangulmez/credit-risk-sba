@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "credit-risk-sba"
+version = "0.2.0"
+description = "Local economic conditions and public–lender loss sharing in SBA 7(a) lending"
+requires-python = ">=3.11,<3.12"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "statsmodels", "lightgbm", "optuna", "shap", "matplotlib", "pyarrow", "PyYAML", "requests", "joblib", "threadpoolctl", "numba"]
+
+[dependency-groups]
+dev = ["pytest", "pytest-cov", "ruff", "mypy", "pandas-stubs", "types-PyYAML", "types-requests"]
+
+[project.scripts]
+sba-g2 = "credit_risk_sba.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/credit_risk_sba"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+cache_dir = "data/.pytest_cache"
+
+[tool.coverage.run]
+data_file = "data/.coverage"
+source = ["credit_risk_sba"]
+
+[tool.coverage.report]
+show_missing = true

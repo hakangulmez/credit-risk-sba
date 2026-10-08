@@ -1,0 +1,13 @@
+feature,n,missing,outside_train_range,unseen_category,variant,role
+log_approval,181311,0,0,0,layer1,crisis
+guarantee_share,181311,0,0,0,layer1,crisis
+InitialInterestRate,181311,144631,0,0,layer1,crisis
+log_jobs,181311,0,0,0,layer1,crisis
+ProcessingMethod,181311,0,0,6572,layer1,crisis
+FixedorVariableInterestInd,181311,0,0,36681,layer1,crisis
+naics2,181311,0,0,0,layer1,crisis
+BusinessType,181311,0,0,0,layer1,crisis
+BusinessAge,181311,0,0,0,layer1,crisis
+franchise,181311,0,0,0,layer1,crisis
+loan_type,181311,0,0,0,layer1,crisis
+ProjectState,181311,0,0,0,layer1,crisis
