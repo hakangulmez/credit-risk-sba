@@ -5,7 +5,7 @@
   "previous_distribution_manifest_retained": "PUBLIC_RELEASE_MANIFEST.json",
   "public_repository": "https://github.com/hakangulmez/credit-risk-sba",
   "empirical_release": "8f7343584d55a14f8cae47c3e9fded3ed56503d4",
-  "approval_status": "local_revision_prepared_publication_pending",
+  "approval_status": "presentation_publication_authorized_2026-10-09",
   "new_empirical_runs": 0,
   "private_data_distributed": false,
   "files": {
@@ -75,8 +75,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "docs/DATA_SOURCE_CHECK.md": {
-      "sha256": "e9c8019ba47863d7632a4689a8138cb9bc57fc4596b463063cf32d1b2affbe28",
-      "bytes": 7472,
+      "sha256": "bafe86f8f0035b0b24dbf31d5a70975c3df9c213df41f8bcff844614eb18a7b0",
+      "bytes": 7452,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "docs/EDITORIAL_REPORT_2026-10-09.md": {
@@ -685,8 +685,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "reporting/editorial.py": {
-      "sha256": "131455471db108a11f94af8ae85d2451a5b1484f140552ade0e0daede70f9e3a",
-      "bytes": 16446,
+      "sha256": "bbe5aa9bdbe6601420eb7a83b4f6d1bcebaf2cca4c0c3aac7e86be606446b2ce",
+      "bytes": 16913,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "reporting/g5.py": {

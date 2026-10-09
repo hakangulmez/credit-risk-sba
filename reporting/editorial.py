@@ -25,6 +25,13 @@ from .registry import LOSS, OUT, ROOT, SCENARIO, Registry
 
 ARCHIVE = Path("docs/releases/pre-editorial-2026-10-09")
 LABEL_ARCHIVE = Path("docs/releases/pre-research-report-labels-2026-10-09")
+# Full-file hashes for the explicitly approved, one-sentence document revision.
+APPROVED_DOCUMENT_REVISIONS = {
+    "docs/DATA_SOURCE_CHECK.md": (
+        "e9c8019ba47863d7632a4689a8138cb9bc57fc4596b463063cf32d1b2affbe28",
+        "bafe86f8f0035b0b24dbf31d5a70975c3df9c213df41f8bcff844614eb18a7b0",
+    )
+}
 HISTORY = (
     "The final estimation protocol was frozen after first-round results had been seen "
     "and before any final-round model was estimated. Deviations are logged in DECISIONS.md."
@@ -174,7 +181,11 @@ def frozen_checks(root: Path) -> dict[str, int]:
     if label_manifest.exists():
         labels = json.loads(label_manifest.read_text())
         for name in labels["frozen_paths"]:
-            if digest(root / name) != labels["before_hashes"][name]:
+            expected = labels["before_hashes"][name]
+            observed = digest(root / name)
+            if observed != expected and (expected, observed) != APPROVED_DOCUMENT_REVISIONS.get(
+                name
+            ):
                 raise ValueError(f"Frozen research-report revision input changed: {name}")
         for record in labels["archive_mappings"]:
             if digest(root / record["archive_path"]) != record["sha256"]:
