@@ -1,7 +1,5 @@
 # Local economic conditions and public–lender loss sharing in SBA 7(a) lending
 
-**Applied research project** · October 2026
-
 How do recorded charge-off risk and assumption-based loss sharing vary across cohorts and fixed macroeconomic scenarios in SBA 7(a) lending?
 
 ![Discrimination, calibration and conditional scenarios](figures/g5/headline.png)
@@ -45,15 +43,15 @@ make notebook-check REPORT_PYTHON=.venv/bin/python
 
 ## Read and reproduce
 
-[Research report](report/research_report.pdf) · [Two-page policy note](report/policy_note.pdf) · [Technical report](report/technical_report.pdf) · [Claims/provenance](CLAIMS.md)
+[Working paper](report/working_paper.pdf) · [Two-page policy note](report/policy_note.pdf) · [Technical report](report/technical_report.pdf) · [Claims/provenance](CLAIMS.md)
 
-The research report develops the economic motivation, related literature and interpretation of the reviewed results. It uses the same frozen estimates as the technical report, with no new fitting or specification search. [Manuscript, references and reproduction](docs/RESEARCH_REPORT_2026-10-09.md) document its scope; the current policy note and technical report use the same estimates with the editorial corrections described in the local delivery notes.
+The working paper develops the economic motivation, related literature and interpretation of the reviewed results. It uses the same frozen estimates as the technical report, with no new fitting or specification search. [Manuscript, references and reproduction](docs/WORKING_PAPER_2026-10-08.md) document its scope; the current policy note and technical report use the same estimates with the editorial corrections described in the local delivery notes.
 
 ```sh
 make report        # rebuild in an isolated directory; no fitting
 make report-test   # reporting tests; no fitting
 make report-check  # public-file hashes, claims and report checks
-make paper        # rebuild the research report in an isolated directory; no fitting
+make paper        # rebuild the working paper in an isolated directory; no fitting
 make paper-check  # check manuscript inputs and interpretation
 ```
 

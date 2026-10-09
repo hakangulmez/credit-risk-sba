@@ -20,7 +20,7 @@ The README now introduces the accepted study directly; its previous source/desig
 
 ## Reproduce presentation from frozen aggregates
 
-The separate [research report](report/research_report.pdf) expands the economic motivation, literature and discussion using the same frozen estimates. Its [scope and reproduction notes](docs/RESEARCH_REPORT_2026-10-09.md) distinguish editorial additions from empirical evidence. `make paper` compiles offline under ignored `data/working-paper-build/`; `make paper-check` verifies its fixed inputs and page limit. The original policy, technical and working-paper PDFs are retained in the dated pre-editorial archive; current versions include the editorial corrections below. The notebook-stage distribution manifest and its README/Makefile are retained under `docs/releases/`.
+The separate [working paper](report/working_paper.pdf) expands the economic motivation, literature and discussion using the same frozen estimates. Its [scope and reproduction notes](docs/WORKING_PAPER_2026-10-08.md) distinguish editorial additions from empirical evidence. `make paper` compiles offline under ignored `data/working-paper-build/`; `make paper-check` verifies its fixed inputs and page limit. The original policy, technical and working-paper PDFs are retained in the dated pre-editorial archive; current versions include the editorial corrections below. The notebook-stage distribution manifest and its README/Makefile are retained under `docs/releases/`.
 
 Use Python 3.11 and `uv sync --frozen --python 3.11`. Then run:
 

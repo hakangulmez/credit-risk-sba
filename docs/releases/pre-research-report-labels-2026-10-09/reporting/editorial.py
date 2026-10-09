@@ -24,7 +24,6 @@ from .g5 import COLORS, load
 from .registry import LOSS, OUT, ROOT, SCENARIO, Registry
 
 ARCHIVE = Path("docs/releases/pre-editorial-2026-10-09")
-LABEL_ARCHIVE = Path("docs/releases/pre-research-report-labels-2026-10-09")
 HISTORY = (
     "The final estimation protocol was frozen after first-round results had been seen "
     "and before any final-round model was estimated. Deviations are logged in DECISIONS.md."
@@ -41,15 +40,14 @@ def original_input(root: Path, name: str, expected: str) -> Path:
     current = root / name
     if current.exists() and digest(current) == expected:
         return current
-    for directory in [ARCHIVE, LABEL_ARCHIVE]:
-        archive = root / directory / "ARCHIVE_MANIFEST.json"
-        if archive.exists():
-            payload = json.loads(archive.read_text())
-            for record in payload["archive_mappings"]:
-                if record["original_path"] == name and record["sha256"] == expected:
-                    saved = root / record["archive_path"]
-                    if saved.exists() and digest(saved) == expected:
-                        return saved
+    archive = root / ARCHIVE / "ARCHIVE_MANIFEST.json"
+    if archive.exists():
+        payload = json.loads(archive.read_text())
+        for record in payload["archive_mappings"]:
+            if record["original_path"] == name and record["sha256"] == expected:
+                saved = root / record["archive_path"]
+                if saved.exists() and digest(saved) == expected:
+                    return saved
     raise ValueError(f"Working-paper input changed: {name}")
 
 
@@ -166,22 +164,10 @@ def frozen_checks(root: Path) -> dict[str, int]:
         new_code = [c for c in current["cells"] if c["cell_type"] == "code"]
         if old_code != new_code:
             raise ValueError("Notebook code and saved outputs changed")
-    result = {
+    return {
         "frozen_files": len(payload["frozen_paths"]),
         "archived_originals": len(payload["archive_mappings"]),
     }
-    label_manifest = root / LABEL_ARCHIVE / "ARCHIVE_MANIFEST.json"
-    if label_manifest.exists():
-        labels = json.loads(label_manifest.read_text())
-        for name in labels["frozen_paths"]:
-            if digest(root / name) != labels["before_hashes"][name]:
-                raise ValueError(f"Frozen research-report revision input changed: {name}")
-        for record in labels["archive_mappings"]:
-            if digest(root / record["archive_path"]) != record["sha256"]:
-                raise ValueError(f"Archived presentation changed: {record['original_path']}")
-        result["label_revision_frozen_files"] = len(labels["frozen_paths"])
-        result["label_revision_archived_originals"] = len(labels["archive_mappings"])
-    return result
 
 
 def normalized(text: str) -> str:
@@ -190,23 +176,12 @@ def normalized(text: str) -> str:
 
 def pdf_checks(root: Path) -> dict[str, int]:
     pages = {}
-    for name, limit in [
-        ("policy_note", 2),
-        ("technical_report", 15),
-        ("working_paper", 14),
-        ("research_report", 14),
-    ]:
+    for name, limit in [("policy_note", 2), ("technical_report", 15), ("working_paper", 14)]:
         path = root / "report" / (name + ".pdf")
         if not path.exists():
             continue
         text = subprocess.check_output(["pdftotext", "-layout", str(path), "-"], text=True)
         reject_reader_labels(text)
-        if name in {"working_paper", "research_report"} and (
-            "Research report" not in text or "Working paper" in text
-        ):
-            raise ValueError(f"Incorrect research-report presentation label: {name}")
-        if name == "policy_note" and "Policy note" not in text:
-            raise ValueError("Policy note must carry its document label")
         if normalized(text).count(normalized(LOSS)) != 1:
             raise ValueError(f"Full assumption statement must appear once in PDF: {name}")
         if normalized(HISTORY) not in normalized(text):
@@ -361,7 +336,6 @@ def build(root: Path = ROOT) -> Path:
             ],
             check=True,
         )
-        shutil.copyfile(output / "working_paper.pdf", output / "research_report.pdf")
     return output
 
 

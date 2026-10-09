@@ -1,11 +1,11 @@
 {
   "date": "2026-10-09",
-  "revision": "applied-research-project-and-research-report-labels",
-  "previous_public_commit": "6e3716bf27e1f4e10fbb2ec05fd705b022ee6058",
+  "revision": "status-stage-calibration-prose-editorial",
+  "previous_public_commit": "57f2b2cfc8038aadfa1cdde988336587548b8e55",
   "previous_distribution_manifest_retained": "PUBLIC_RELEASE_MANIFEST.json",
   "public_repository": "https://github.com/hakangulmez/credit-risk-sba",
   "empirical_release": "8f7343584d55a14f8cae47c3e9fded3ed56503d4",
-  "approval_status": "local_revision_prepared_publication_pending",
+  "approval_status": "publication_and_drive_upload_authorized_2026-10-09",
   "new_empirical_runs": 0,
   "private_data_distributed": false,
   "files": {
@@ -40,8 +40,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "DECISIONS.md": {
-      "sha256": "889f12955acce397e75474f1815ec32651917c8705f51ea96ec5b7a0eabad60d",
-      "bytes": 22716,
+      "sha256": "8d947523d8d23033202dae8b56fe3272000fce70980923e4cd44ffc09c9ad1ee",
+      "bytes": 21621,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "Makefile": {
@@ -50,8 +50,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "PUBLIC_RELEASE.md": {
-      "sha256": "54a37f095cc9e10ebbd31e7a84cf120204ffc9d26d638c0b7095c7170321582c",
-      "bytes": 8826,
+      "sha256": "2796c98c22757b8c2b2974a2f60ddaf80fe26c3e06005caa0d2fb232cd1f1aa6",
+      "bytes": 8820,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "PUBLIC_RELEASE_MANIFEST.json": {
@@ -60,8 +60,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "README.md": {
-      "sha256": "348173039f75e475adf4eada7119f9865869b7c41079a8747bde2029b4ddbc28",
-      "bytes": 7357,
+      "sha256": "88eb2d42ce1c78df236215819b3053fd432a919f2c7ac11d4633d98c64145ee4",
+      "bytes": 7301,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "config/g2.yaml": {
@@ -138,11 +138,6 @@
       "sha256": "b5cf5144734dc8cfe14cf6fc128cb0ac28823c5d727bba8c5855c7f6387549a4",
       "bytes": 9058,
       "role": "current editorial snapshot or preserved public evidence"
-    },
-    "docs/RESEARCH_REPORT_2026-10-09.md": {
-      "sha256": "85e467e8a3c57f1bb38535f545fdf626e964ce137a7283ea086e063e1c9ffb38",
-      "bytes": 2100,
-      "role": "presentation revision or archived pre-revision evidence"
     },
     "docs/TECHNICAL_REPORT_EDITORIAL_2026-10-09.md": {
       "sha256": "f9f9513dcef8ee81310a5dd593b7a50c4372625b3678b73145a93bb804967b48",
@@ -333,71 +328,6 @@
       "sha256": "9c408bbd048cddde958a667083a798a9d579883a951889f5490a8c56b69fa3a0",
       "bytes": 6567,
       "role": "current editorial snapshot or preserved public evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/ARCHIVE_MANIFEST.json": {
-      "sha256": "cbec75f6cd1d9a1c136358a092aaf53e65fefc1bfd88b1161fd18886011680da",
-      "bytes": 63184,
-      "role": "presentation revision or archived pre-revision evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/DECISIONS.md": {
-      "sha256": "8d947523d8d23033202dae8b56fe3272000fce70980923e4cd44ffc09c9ad1ee",
-      "bytes": 21621,
-      "role": "presentation revision or archived pre-revision evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/Makefile": {
-      "sha256": "511a7d0648ca6580d264af63b0c423dd2c529f52de70ef5cf96e016435c7b27c",
-      "bytes": 948,
-      "role": "presentation revision or archived pre-revision evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/PUBLIC_EDITORIAL_MANIFEST_2026-10-09.json": {
-      "sha256": "ae50c54fa078bafd35edf18de3d5b4fa12b527d5b4a65e868ebab9998944a7f2",
-      "bytes": 84930,
-      "role": "presentation revision or archived pre-revision evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/PUBLIC_RELEASE.md": {
-      "sha256": "2796c98c22757b8c2b2974a2f60ddaf80fe26c3e06005caa0d2fb232cd1f1aa6",
-      "bytes": 8820,
-      "role": "presentation revision or archived pre-revision evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/README.md": {
-      "sha256": "88eb2d42ce1c78df236215819b3053fd432a919f2c7ac11d4633d98c64145ee4",
-      "bytes": 7301,
-      "role": "presentation revision or archived pre-revision evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/report/g5/policy_note.tex": {
-      "sha256": "0131c1b2eddc73964b2d90c117d6922ae1ca5753e45afb266aeba2145c9377b0",
-      "bytes": 5921,
-      "role": "presentation revision or archived pre-revision evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/report/paper/preamble.tex": {
-      "sha256": "3caad0739f1946e0499b21ca3f3cce4efbda5ac3a4d9af43c63475cc55f3b2ad",
-      "bytes": 2161,
-      "role": "presentation revision or archived pre-revision evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/report/paper/working_paper.tex": {
-      "sha256": "7632695336ba98d7d1614f44c73064900878822a5d9de168d351606cd1a13a8a",
-      "bytes": 40866,
-      "role": "presentation revision or archived pre-revision evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/report/policy_note.pdf": {
-      "sha256": "5a0d84c8177b40eb766942cc13efc5a6e469554006d6a2d93e7ff885f2b4af48",
-      "bytes": 49110,
-      "role": "presentation revision or archived pre-revision evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/report/working_paper.pdf": {
-      "sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
-      "bytes": 137626,
-      "role": "presentation revision or archived pre-revision evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/reporting/editorial.py": {
-      "sha256": "10ed415507aa77ada91d8d8df11cb094b075a67005dfea819156e3877d992c3f",
-      "bytes": 15013,
-      "role": "presentation revision or archived pre-revision evidence"
-    },
-    "docs/releases/pre-research-report-labels-2026-10-09/scripts/working_paper.py": {
-      "sha256": "ac0653b46bc731c0f0cdcb3a1fae82e3cab874a1526ac4f4afd8e8e5a0da5045",
-      "bytes": 4440,
-      "role": "presentation revision or archived pre-revision evidence"
     },
     "docs/releases/public_snapshot_2026-10-08_manifest.json": {
       "sha256": "46caf8f5c8ea1f233a341d31c689880dcbbc58aac49605414f3179d2c1592779",
@@ -610,8 +540,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/g5/policy_note.tex": {
-      "sha256": "23fe69bd9db75d309b29f4775313149f2723f8950e1b760c07c380481e7a98ec",
-      "bytes": 5919,
+      "sha256": "0131c1b2eddc73964b2d90c117d6922ae1ca5753e45afb266aeba2145c9377b0",
+      "bytes": 5921,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/g5/preamble.tex": {
@@ -625,8 +555,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/paper/preamble.tex": {
-      "sha256": "169012b1451ea395539c952a786cfdc4430fbca9549f9d78d286ee3ae4347683",
-      "bytes": 2165,
+      "sha256": "3caad0739f1946e0499b21ca3f3cce4efbda5ac3a4d9af43c63475cc55f3b2ad",
+      "bytes": 2161,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/paper/provenance.json": {
@@ -645,19 +575,14 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/paper/working_paper.tex": {
-      "sha256": "3f3ae83a975fa284e9a521caab2ebe674fb15525027ea11e9fe8e09000a494fe",
-      "bytes": 40870,
+      "sha256": "7632695336ba98d7d1614f44c73064900878822a5d9de168d351606cd1a13a8a",
+      "bytes": 40866,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/policy_note.pdf": {
-      "sha256": "a1e545b086424b095ed55487ab916c47e562fc6072ea2b0c9bb1e56b3fda6f8e",
-      "bytes": 49104,
+      "sha256": "5a0d84c8177b40eb766942cc13efc5a6e469554006d6a2d93e7ff885f2b4af48",
+      "bytes": 49110,
       "role": "current editorial snapshot or preserved public evidence"
-    },
-    "report/research_report.pdf": {
-      "sha256": "440ff09d87cf8e7eda1bc7d345246df5e14af3147c5dc4fe40c7f5eef83116c4",
-      "bytes": 137632,
-      "role": "presentation revision or archived pre-revision evidence"
     },
     "report/technical_report.pdf": {
       "sha256": "cd225827408acc2ad4a412f2e6f707be68bb9fce6f31cc18a93f2b081248cf83",
@@ -665,8 +590,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "report/working_paper.pdf": {
-      "sha256": "440ff09d87cf8e7eda1bc7d345246df5e14af3147c5dc4fe40c7f5eef83116c4",
-      "bytes": 137632,
+      "sha256": "94ca73f4bd3fe0110a64ef14de1792838d301a1dd6a60d20f7f0b18cd0748351",
+      "bytes": 137626,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "reporting/__init__.py": {
@@ -685,8 +610,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "reporting/editorial.py": {
-      "sha256": "131455471db108a11f94af8ae85d2451a5b1484f140552ade0e0daede70f9e3a",
-      "bytes": 16446,
+      "sha256": "10ed415507aa77ada91d8d8df11cb094b075a67005dfea819156e3877d992c3f",
+      "bytes": 15013,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "reporting/g5.py": {
@@ -1675,8 +1600,8 @@
       "role": "current editorial snapshot or preserved public evidence"
     },
     "scripts/working_paper.py": {
-      "sha256": "29c0252fab9bf7591fda85a80705416294ae99542062289919b5819e9b16daa9",
-      "bytes": 4629,
+      "sha256": "ac0653b46bc731c0f0cdcb3a1fae82e3cab874a1526ac4f4afd8e8e5a0da5045",
+      "bytes": 4440,
       "role": "current editorial snapshot or preserved public evidence"
     },
     "src/credit_risk_sba/__init__.py": {
@@ -1870,8 +1795,5 @@
       "role": "current editorial snapshot or preserved public evidence"
     }
   },
-  "publication_grammar_fix": "already included in the first-round evaluation; no empirical change",
-  "previous_presentation_manifest_retained": "docs/releases/pre-research-report-labels-2026-10-09/PUBLIC_EDITORIAL_MANIFEST_2026-10-09.json",
-  "canonical_research_report": "report/research_report.pdf",
-  "legacy_report_url": "report/working_paper.pdf"
+  "publication_grammar_fix": "already included in the first-round evaluation; no empirical change"
 }

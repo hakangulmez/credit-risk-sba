@@ -34,7 +34,6 @@ def check(root: Path = ROOT) -> dict:
     if citations - references:
         raise ValueError(f"Missing references: {sorted(citations - references)}")
     required = [
-        "Research report",
         "recorded charge-off within 36 months",
         "after first-round results had been seen",
         "before any final-round model was estimated",
@@ -62,9 +61,7 @@ def check(root: Path = ROOT) -> dict:
         "new_empirical_runs": 0,
         "original_working_paper_basis_verified": True,
     }
-    pdf = root / "report/research_report.pdf"
-    if not pdf.exists():
-        pdf = root / "report/working_paper.pdf"
+    pdf = root / "report/working_paper.pdf"
     if pdf.exists():
         info = subprocess.check_output(["pdfinfo", str(pdf)], text=True)
         match = re.search(r"Pages:\s+(\d+)", info)
@@ -105,8 +102,7 @@ def build() -> None:
         cwd=stage,
         check=True,
     )
-    shutil.copyfile(output / "working_paper.pdf", output / "research_report.pdf")
-    print(f"Research-report rebuild saved under {output}; distributed files unchanged.")
+    print(f"Working-paper rebuild saved under {output}; accepted files unchanged.")
 
 
 if __name__ == "__main__":
